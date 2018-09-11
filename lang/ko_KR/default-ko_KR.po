@@ -1,0 +1,2679 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-23 15:52+0900\n"
+"PO-Revision-Date: 2018-08-23 15:53+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: bbs\n"
+"X-Poedit-SearchPath-1: extend\n"
+"X-Poedit-SearchPath-2: lib\n"
+"X-Poedit-SearchPath-3: plugin\n"
+"X-Poedit-SearchPathExcluded-0: plugin/social\n"
+"X-Poedit-SearchPathExcluded-1: plugin/debugbar\n"
+
+#: bbs/ajax.mb_recommend.php:8
+msgid "Please enter only letters, numbers, and _. for the Recommend-ID"
+msgstr "추천인의 아이디는 영문자, 숫자, _ 만 입력하세요"
+
+#: bbs/ajax.mb_recommend.php:11
+msgid "The recommender you entered does not exist."
+msgstr "입력하신 추천인은 존재하지 않는 아이디 입니다."
+
+#: bbs/ajax.notice_preview.php:30
+msgid "No new notices found"
+msgstr "새로운 알림이 없습니다"
+
+#: bbs/alert.php:8
+msgid "Error notification page"
+msgstr "오류안내 페이지"
+
+#: bbs/alert.php:10
+msgid "Result information page"
+msgstr "결과안내 페이지"
+
+#: bbs/alert.php:26 bbs/alert_close.php:10
+msgid "The following items have errors :"
+msgstr "다음 항목에 오류가 있습니다 :"
+
+#: bbs/alert.php:28
+msgid "Please check the following information."
+msgstr "다음 내용을 확인해 주세요."
+
+#: bbs/alert.php:63 bbs/alert.php:67 bbs/confirm.php:38 bbs/move_update.php:212
+#: bbs/scrap_popin.php:54 bbs/scrap_popin_update.php:34 lib/common.lib.php:3283
+msgid "Back"
+msgstr "돌아가기"
+
+#: bbs/alert_close.php:11
+msgid "Please close the new window and retry the previous operation."
+msgstr "새창을 닫으시고 이전 작업을 다시 시도해 주세요."
+
+#: bbs/board.php:5 bbs/translate.php:6 bbs/write.php:7
+msgid "This bulletin board does not exist."
+msgstr "존재하지 않는 게시판입니다."
+
+#: bbs/board.php:15
+msgid "Parameter bo_table is empty."
+msgstr "파라미터 bo_table 값이 없습니다."
+
+#: bbs/board.php:27 bbs/translate.php:16 bbs/write.php:30
+#: bbs/write_comment_update.php:50
+msgid "The post does not exist."
+msgstr "글이 존재하지 않습니다."
+
+#: bbs/board.php:27 bbs/translate.php:16 bbs/write.php:30
+#: bbs/write_comment_update.php:50
+msgid "The post has been deleted or moved."
+msgstr "글이 삭제되었거나 이동된 경우입니다."
+
+#: bbs/board.php:34
+msgid "No non-members have access to this bulletin board."
+msgstr "비회원은 이 게시판에 접근할 권한이 없습니다."
+
+#: bbs/board.php:34 bbs/board.php:56 bbs/board.php:63 bbs/board.php:148
+#: bbs/board.php:155 bbs/download.php:18 bbs/download.php:42
+#: bbs/qadownload.php:20 bbs/qalist.php:5 bbs/qaview.php:7 bbs/qawrite.php:10
+#: bbs/write.php:45 bbs/write.php:65 bbs/write.php:98 bbs/write.php:168
+msgid "If you are a member, log in and try it."
+msgstr "회원이시면 로그인 후 이용해 보십시오."
+
+#: bbs/board.php:46
+msgid "You do not have access, so you can not read the post."
+msgstr "접근 권한이 없으므로 글읽기가 불가합니다."
+
+#: bbs/board.php:46
+msgid "If you have any questions, please contact the administrator."
+msgstr "궁금하신 사항은 관리자에게 문의 바랍니다."
+
+#: bbs/board.php:54 bbs/board.php:56
+msgid "You do not have permission to read."
+msgstr "글을 읽을 권한이 없습니다."
+
+#: bbs/board.php:63 bbs/board.php:67 bbs/board.php:155 bbs/board.php:159
+msgid ""
+"This bulletin board can only be read by the member who has confirmed self-"
+"Authentication."
+msgstr "이 게시판은 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#: bbs/board.php:67 bbs/board.php:159
+msgid "Please confirm your Authentication in the member profile edit."
+msgstr "회원정보 수정에서 본인확인을 해주시기 바랍니다."
+
+#: bbs/board.php:71 bbs/board.php:163
+msgid ""
+"This bulletin board can only be read by a member certified as an adult by "
+"self-Authentication."
+msgstr "이 게시판은 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#: bbs/board.php:71 bbs/board.php:163
+msgid ""
+"If you are an adult and can not read the post, please confirm your "
+"Authentication in the member profile edit."
+msgstr ""
+"현재 성인인데 글읽기가 안된다면 회원정보 수정에서 본인확인을 다시 해주시기 바"
+"랍니다."
+
+#: bbs/board.php:75 bbs/board.php:167
+msgid ""
+"This bulletin board can only be read by a member who has confirmed Phone-"
+"Authentication."
+msgstr "이 게시판은 휴대폰 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#: bbs/board.php:75 bbs/board.php:167
+msgid ""
+"Please check the identity of the Phone-Authentication in the member profile "
+"edit."
+msgstr "회원정보 수정에서 휴대폰 본인확인을 해주시기 바랍니다."
+
+#: bbs/board.php:79 bbs/board.php:171
+msgid ""
+"This bulletin board can only be read by a member certified as an adult by "
+"Phone-Authentication."
+msgstr ""
+"이 게시판은 휴대폰 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#: bbs/board.php:79 bbs/board.php:171
+msgid ""
+"If you are an adult and can not read the post, please confirm your Phone-"
+"Authentication in the member profile edit."
+msgstr ""
+"현재 성인인데 글읽기가 안된다면 회원정보 수정에서 휴대폰 본인확인을 다시 해주"
+"시기 바랍니다."
+
+#: bbs/board.php:134
+#, php-format
+msgid "Your point (%s) is missing or enough points, so you can not read (%s)."
+msgstr "보유하신 포인트(%s)가 없거나 모자라서 글읽기(%s)가 불가합니다."
+
+#: bbs/board.php:134
+msgid "Collect points and read again."
+msgstr "포인트를 모으신 후 다시 글읽기 해 주십시오."
+
+#: bbs/board.php:136
+msgid "Read post"
+msgstr "글읽기"
+
+#: bbs/board.php:146 bbs/board.php:148
+msgid "You do not have permission to view the list."
+msgstr "목록을 볼 권한이 없습니다."
+
+#: bbs/board.php:177 lib/common.lib.php:212 lib/common.lib.php:214
+msgid "Page"
+msgstr "페이지"
+
+#: bbs/board.php:242
+msgid "Skin used"
+msgstr "사용스킨"
+
+#: bbs/board_list_update.php:7 bbs/notice_list_update.php:6
+#: lib/language.lib.php:230
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr "%s 하실 항목을 하나 이상 선택하세요."
+
+#: bbs/board_list_update.php:19 bbs/delete_all.php:24
+#: bbs/notice_list_update.php:24 bbs/qawrite.php:6 bbs/qawrite.php:43
+#: bbs/qawrite_update.php:102 bbs/register_email.php:21
+#: bbs/register_email_update.php:10 bbs/register_form_update.php:32
+#: bbs/register_form_update.php:122 bbs/write_comment_update.php:10
+#: bbs/write_update.php:317 lib/common.lib.php:367 lib/common.lib.php:401
+#: lib/common.lib.php:3547 lib/common.lib.php:3553
+msgid "Please use the correct method."
+msgstr "올바른 방법으로 이용해 주세요."
+
+#: bbs/confirm.php:29
+msgid "Please confirm the following contents."
+msgstr "아래 내용을 확인해 주세요."
+
+#: bbs/confirm.php:36
+msgid "Confirm"
+msgstr "확인"
+
+#: bbs/confirm.php:37 bbs/register_email.php:45
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:48
+msgid "Cancel"
+msgstr "취소"
+
+#: bbs/content.php:9 bbs/faq.php:24
+msgid "No content registered."
+msgstr "등록된 내용이 없습니다."
+
+#: bbs/content.php:73
+msgid "Edit Content"
+msgstr "내용수정"
+
+#: bbs/content.php:92 bbs/download.php:48 bbs/faq.php:133 bbs/qadownload.php:26
+#: bbs/qalist.php:126 bbs/qaview.php:181 bbs/qawrite.php:142
+#: bbs/view_image.php:36
+msgid "File does not exist."
+msgstr "파일이 존재하지 않습니다."
+
+#: bbs/current_connect.php:4
+msgid "Current Users"
+msgstr "현재접속자"
+
+#: bbs/delete.php:8 bbs/delete_comment.php:11 bbs/memo_delete.php:11
+#: bbs/qadelete.php:12
+msgid "Unable to delete due to token error."
+msgstr "토큰 에러로 삭제 불가합니다."
+
+#: bbs/delete.php:22
+msgid ""
+"You can not delete it because it is not a bulletin board for the group you "
+"manage."
+msgstr "자신이 관리하는 그룹의 게시판이 아니므로 삭제할 수 없습니다."
+
+#: bbs/delete.php:24 bbs/delete.php:30
+msgid ""
+"You can not delete an post written by a member with a privilege higher than "
+"own writer."
+msgstr "자신의 권한보다 높은 권한의 회원이 작성한 글은 삭제할 수 없습니다."
+
+#: bbs/delete.php:28
+msgid "You can not delete a bulletin because it is not your managed."
+msgstr "자신이 관리하는 게시판이 아니므로 삭제할 수 없습니다."
+
+#: bbs/delete.php:33 bbs/delete_comment.php:44
+msgid "Can not delete because it is not your own post."
+msgstr "자신의 글이 아니므로 삭제할 수 없습니다."
+
+#: bbs/delete.php:36
+msgid "Please login and delete it."
+msgstr "로그인 후 삭제하세요."
+
+#: bbs/delete.php:38
+msgid "Password is incorrect and can not be deleted."
+msgstr "비밀번호가 틀리므로 삭제할 수 없습니다."
+
+#: bbs/delete.php:53
+msgid "The answer to this post exists and can not be deleted."
+msgstr "이 글과 관련된 답변글이 존재하므로 삭제 할 수 없습니다."
+
+#: bbs/delete.php:53
+msgid "Please delete the answer first."
+msgstr "우선 답변글부터 삭제하여 주십시오."
+
+#: bbs/delete.php:62
+msgid ""
+"You can not delete any comments related to this post because they exist."
+msgstr "이 글과 관련된 코멘트가 존재하므로 삭제 할 수 없습니다."
+
+#: bbs/delete.php:62
+#, php-format
+msgid "You can not delete a post with %s or more comments."
+msgstr "%s 건 이상 달린 원글은 삭제할 수 없습니다."
+
+#: bbs/delete.php:78 bbs/delete_all.php:94 bbs/new_delete.php:46
+msgid "Delete Post"
+msgstr "글삭제"
+
+#: bbs/delete.php:103 bbs/delete_all.php:131 bbs/delete_comment.php:66
+#: bbs/new_delete.php:63 bbs/new_delete.php:119
+msgid "Delete Comment"
+msgstr "댓글삭제"
+
+#: bbs/delete_all.php:5 bbs/write.php:168
+msgid "You do not have access."
+msgstr "접근 권한이 없습니다."
+
+#: bbs/delete_comment.php:20
+msgid "No comments have been registered or this is not a comment."
+msgstr "등록된 코멘트가 없거나 코멘트 글이 아닙니다."
+
+#: bbs/delete_comment.php:30
+msgid ""
+"Can not delete as this is a comment from the member above the group admin "
+"authority."
+msgstr "그룹관리자의 권한보다 높은 회원의 코멘트이므로 삭제할 수 없습니다."
+
+#: bbs/delete_comment.php:32
+msgid ""
+"You can not delete a comment because it is not a bulletin board for the "
+"group you manage."
+msgstr "자신이 관리하는 그룹의 게시판이 아니므로 코멘트를 삭제할 수 없습니다."
+
+#: bbs/delete_comment.php:39
+msgid ""
+"This is a comment made by a member above the board admin authority and can "
+"not be deleted."
+msgstr "게시판관리자의 권한보다 높은 회원의 코멘트이므로 삭제할 수 없습니다."
+
+#: bbs/delete_comment.php:41
+msgid ""
+"You can not delete comments because they are not your own bulletin board."
+msgstr "자신이 관리하는 게시판이 아니므로 코멘트를 삭제할 수 없습니다."
+
+#: bbs/delete_comment.php:47
+msgid "The password is incorrect."
+msgstr "비밀번호가 틀립니다."
+
+#: bbs/delete_comment.php:62
+msgid ""
+"You can not delete an answer comment associated with this comment because it "
+"exists."
+msgstr "이 코멘트와 관련된 답변코멘트가 존재하므로 삭제 할 수 없습니다."
+
+#: bbs/download.php:14 bbs/qadownload.php:12
+msgid "Its a wrong access."
+msgstr "잘못된 접근입니다."
+
+#: bbs/download.php:18 bbs/download.php:38
+msgid "You do not have download level."
+msgstr "다운로드 권한이 없습니다."
+
+#: bbs/download.php:23 bbs/qadownload.php:17
+msgid "File information does not exist."
+msgstr "파일 정보가 존재하지 않습니다."
+
+#: bbs/download.php:27
+#, php-format
+msgid "Download the %s file and the point will be deducted (%s points)."
+msgstr "%s 파일을 다운로드 하시면 포인트가 차감( %s 점)됩니다."
+
+#: bbs/download.php:27
+msgid ""
+"Points will be deducted only once per post and will not be deducted from the "
+"next download."
+msgstr ""
+"포인트는 게시물당 한번만 차감되며 다음에 다시 다운로드 하셔도 중복하여 차감하"
+"지 않습니다."
+
+#: bbs/download.php:27
+msgid "Do you still want to download?"
+msgstr "그래도 다운로드 하시겠습니까?"
+
+#: bbs/download.php:65
+#, php-format
+msgid ""
+"You dont have any points (%s) or you dont have enough to download (%s) them."
+msgstr "보유하신 포인트(%s)가 없거나 모자라서 다운로드(%s)가 불가합니다."
+
+#: bbs/download.php:65
+msgid "Please accumulate points and download again."
+msgstr "포인트를 적립하신 후 다시 다운로드 해 주십시오."
+
+#: bbs/download.php:68
+msgid "Download File"
+msgstr "파일 다운로드"
+
+#: bbs/download.php:85 bbs/qadownload.php:28
+msgid "Download"
+msgstr "다운로드"
+
+#: bbs/email_certify.php:10 bbs/email_stop.php:7 bbs/password_lost2.php:27
+msgid "This member does not exist."
+msgstr "존재하는 회원이 아닙니다."
+
+#: bbs/email_certify.php:21
+msgid "Your mail authentication has been successfully processed."
+msgstr "메일인증 처리를 완료 하였습니다."
+
+#: bbs/email_certify.php:21
+#, php-format
+msgid "You can log in with an %s ID from now on."
+msgstr "지금부터 %s 아이디로 로그인 할수 있습니다."
+
+#: bbs/email_certify.php:25
+msgid "Invalid mail authentication request information."
+msgstr "메일인증 요청 정보가 올바르지 않습니다."
+
+#: bbs/email_certify.php:29 bbs/email_stop.php:18
+msgid "A valid value has not crossed."
+msgstr "제대로 된 값이 넘어오지 않았습니다."
+
+#: bbs/email_stop.php:14
+msgid "You have declined to receive an information mail."
+msgstr "정보메일을 보내지 않도록 수신거부 하였습니다."
+
+#: bbs/faq.php:106 bbs/list.php:24 bbs/qalist.php:31
+msgid "Current Category"
+msgstr "열린 분류"
+
+#: bbs/faq.php:120 lib/latest.lib.php:170 plugin/syndi/ping.php:5
+msgid "No post found."
+msgstr "게시물이 없습니다."
+
+#: bbs/faq.php:122
+msgid "No FAQ is registered."
+msgstr "등록된 FAQ가 없습니다."
+
+#: bbs/faq.php:124
+msgid "To register a new FAQ, use the FAQ Admin menu."
+msgstr "FAQ를 새로 등록하시려면 FAQ관리 메뉴를 이용하십시오."
+
+#: bbs/formmail.php:6 bbs/formmail_send.php:7
+msgid "Admin must check \"Enable mail sending\" in Preferences to send mail."
+msgstr "환경설정에서 \"메일발송 사용\"에 체크하셔야 메일을 발송할 수 있습니다."
+
+#: bbs/formmail.php:6 bbs/formmail_send.php:7
+msgid "Please contact your administrator."
+msgstr "관리자에게 문의하시기 바랍니다."
+
+#: bbs/formmail.php:9 bbs/formmail_send.php:10 bbs/memo.php:5
+msgid "Only members can use it."
+msgstr "회원만 이용하실 수 있습니다."
+
+#: bbs/formmail.php:17
+msgid "You cant send an email to someone else unless you open your profile."
+msgstr "자신의 정보를 공개하지 않으면 다른분에게 메일을 보낼 수 없습니다."
+
+#: bbs/formmail.php:17
+msgid "Profile Open settings can be made in Modify Member Edit."
+msgstr "정보공개 설정은 회원정보수정에서 하실 수 있습니다."
+
+#: bbs/formmail.php:23 bbs/memo_form.php:26 bbs/profile.php:16
+msgid "Member information does not exist."
+msgstr "회원정보가 존재하지 않습니다."
+
+#: bbs/formmail.php:23 bbs/memo_form.php:26 bbs/profile.php:16
+msgid "This member may have left."
+msgstr "탈퇴한 회원일 수 있습니다."
+
+#: bbs/formmail.php:26 bbs/memo_form.php:29 bbs/profile.php:19
+msgid "This member has not Open Profile"
+msgstr "정보공개를 하지 않았습니다"
+
+#: bbs/formmail.php:31
+msgid "You can only send a certain number of emails after a single connection."
+msgstr "한번 접속후 일정수의 메일만 발송할 수 있습니다."
+
+#: bbs/formmail.php:31
+msgid "Please login or log in again to continue sending mail."
+msgstr "계속해서 메일을 보내시려면 다시 로그인 또는 접속하여 주십시오."
+
+#: bbs/formmail.php:33
+msgid "Writing mail"
+msgstr "메일 쓰기"
+
+#: bbs/formmail.php:40
+msgid "The email is not valid."
+msgstr "이메일이 올바르지 않습니다."
+
+#: bbs/formmail_send.php:16 bbs/memo_form_update.php:9
+#: bbs/password_lost2.php:11 bbs/register_email_update.php:19
+#: bbs/register_form_update.php:21 bbs/write_comment_update.php:31
+#: bbs/write_update.php:208
+msgid "The Captcha certification is invalid."
+msgstr "캡챠인증이 유효하지 않습니다."
+
+#: bbs/formmail_send.php:38 lib/common.lib.php:1563
+msgid "Send Mail"
+msgstr "메일보내기"
+
+#: bbs/formmail_send.php:52
+msgid "Sending mail"
+msgstr "메일 발송중"
+
+#: bbs/formmail_send.php:55
+msgid "Mail has been sent successfully."
+msgstr "메일을 정상적으로 발송하였습니다."
+
+#: bbs/good.php:19 bbs/good.php:98
+msgid "Only members are allowed."
+msgstr "회원만 가능합니다."
+
+#: bbs/good.php:24 bbs/good.php:102 bbs/link.php:7
+msgid "The parameters is wrong."
+msgstr "파라미터에 문제가 있습니다."
+
+#: bbs/good.php:30 bbs/good.php:106
+msgid "You can only Good or Bad from the corresponding posts."
+msgstr "해당 게시물에서만 좋아요 또는 싫어요 하실 수 있습니다."
+
+#: bbs/good.php:36 bbs/good.php:110 bbs/link.php:12
+msgid "This Board does not exist."
+msgstr "존재하는 게시판이 아닙니다."
+
+#: bbs/good.php:43 bbs/good.php:115
+msgid "You can not Good or Bad in your own post."
+msgstr "자신의 글에는 좋아요 또는 싫어요 하실 수 없습니다."
+
+#: bbs/good.php:48 bbs/good.php:118
+msgid "This Board does not use the Good feature."
+msgstr "이 게시판은 좋아요 기능을 사용하지 않습니다."
+
+#: bbs/good.php:53 bbs/good.php:121
+msgid "This Board does not use the Bad feature."
+msgstr "이 게시판은 싫어요 기능을 사용하지 않습니다."
+
+#: bbs/good.php:66 bbs/good.php:132 bbs/good.php:149 lib/common.lib.php:116
+msgid "Good"
+msgstr "좋아요"
+
+#: bbs/good.php:68 bbs/good.php:134 bbs/good.php:151 lib/common.lib.php:116
+msgid "Bad"
+msgstr "싫어요"
+
+#: bbs/good.php:70 bbs/good.php:136
+#, php-format
+msgid "This post already %s."
+msgstr "이미 %s 하신 글 입니다."
+
+#: bbs/good.php:155
+#, php-format
+msgid "This post has %s"
+msgstr "이 글을 %s 하셨습니다"
+
+#: bbs/group.php:19
+msgid "Groups are accessible only from Mobile"
+msgstr "그룹은 모바일에서만 접근할 수 있습니다"
+
+#: bbs/link.php:4
+msgid "Link"
+msgstr "링크"
+
+#: bbs/link.php:15
+msgid "No link found."
+msgstr "링크가 없습니다."
+
+#: bbs/list.php:14 bbs/qalist.php:21
+msgid "All"
+msgstr "전체"
+
+#: bbs/list.php:216
+msgid "Search Prev"
+msgstr "이전검색"
+
+#: bbs/list.php:223
+msgid "Search Next"
+msgstr "다음검색"
+
+#: bbs/login.php:8 bbs/register_form_update_mail3.php:34 bbs/scrap_popin.php:18
+msgid "Login"
+msgstr "로그인"
+
+#: bbs/login_check.php:4
+msgid "Check Login"
+msgstr "로그인 검사"
+
+#: bbs/login_check.php:10
+msgid "The member ID or password must not be blank."
+msgstr "회원아이디나 비밀번호가 공백이면 안됩니다."
+
+#: bbs/login_check.php:33
+msgid "The member ID is not registered or the password is incorrect."
+msgstr "가입된 회원아이디가 아니거나 비밀번호가 틀립니다."
+
+#: bbs/login_check.php:33
+msgid "Passwords are case-sensitive."
+msgstr "비밀번호는 대소문자를 구분합니다."
+
+#: bbs/login_check.php:39
+msgid "Your ID is not allowed to access."
+msgstr "회원님의 아이디는 접근이 금지되어 있습니다."
+
+#: bbs/login_check.php:39
+msgid "Processing date :"
+msgstr "처리일 :"
+
+#: bbs/login_check.php:45
+msgid "You can not access this ID because it has leave."
+msgstr "탈퇴한 아이디이므로 접근하실 수 없습니다."
+
+#: bbs/login_check.php:45
+msgid "Date of withdrawal :"
+msgstr "탈퇴일 :"
+
+#: bbs/login_check.php:51
+#, php-format
+msgid "You can log in only if you have received %s email verification."
+msgstr "%s 메일로 메일인증을 받으셔야 로그인 가능합니다."
+
+#: bbs/login_check.php:51
+msgid ""
+"Please click Cancel to change to another e-mail address to authenticate."
+msgstr "다른 메일주소로 변경하여 인증하시려면 취소를 클릭하시기 바랍니다."
+
+#: bbs/logout.php:27
+msgid "Unable to specify domain at url."
+msgstr "URL 에 도메인을 지정할 수 없습니다."
+
+#: bbs/member_confirm.php:5
+msgid "Once logged in, you can access it."
+msgstr "로그인 한 회원만 접근하실 수 있습니다."
+
+#: bbs/member_confirm.php:19
+msgid "Confirm member password"
+msgstr "회원 비밀번호 확인"
+
+#: bbs/member_leave.php:5 bbs/memo_delete.php:5 bbs/memo_form.php:6
+#: bbs/memo_form_update.php:6 bbs/memo_view.php:5 bbs/point.php:5
+#: bbs/profile.php:5 bbs/scrap.php:5 bbs/scrap_delete.php:5
+#: bbs/scrap_popin.php:12 bbs/scrap_popin.php:17 bbs/scrap_popin_update.php:9
+msgid "Only members can access it."
+msgstr "회원만 접근하실 수 있습니다."
+
+#: bbs/member_leave.php:8
+msgid "The Super Admin can not leave"
+msgstr "최고 관리자는 탈퇴할 수 없습니다"
+
+#: bbs/member_leave.php:11 bbs/password_check.php:10 bbs/password_check.php:24
+#: bbs/register_form.php:79 bbs/write.php:289
+msgid "Incorrect password."
+msgstr "비밀번호가 틀립니다."
+
+#: bbs/member_leave.php:29
+#, php-format
+msgid "%s has leave membership at %s"
+msgstr "%s 님께서는 %s 에 회원에서 탈퇴 하셨습니다"
+
+#: bbs/memo.php:9
+msgid "My Memo"
+msgstr "내 쪽지함"
+
+#: bbs/memo.php:19 bbs/memo_view.php:32
+#, php-format
+msgid "%s value is wrong"
+msgstr "%s 값이 올바르지 않습니다"
+
+#: bbs/memo.php:32 bbs/memo_view.php:11
+msgid "Received"
+msgstr "받은"
+
+#: bbs/memo.php:38 bbs/memo_view.php:27
+msgid "Sent"
+msgstr "보낸"
+
+#: bbs/memo.php:60
+msgid "Unknown"
+msgstr "정보없음"
+
+#: bbs/memo.php:65
+msgid "Not yet read"
+msgstr "아직 읽지 않음"
+
+#: bbs/memo_form.php:9
+msgid ""
+"You cant send a note to someone else unless you open your profile. Profile "
+"open settings can be made in Edit Member profile."
+msgstr ""
+"자신의 정보를 공개하지 않으면 다른분에게 쪽지를 보낼 수 없습니다. 정보공개 설"
+"정은 회원정보수정에서 하실 수 있습니다."
+
+#: bbs/memo_form.php:44 lib/common.lib.php:1561
+msgid "Send Memo"
+msgstr "쪽지 보내기"
+
+#: bbs/memo_form_update.php:51
+#, php-format
+msgid ""
+"Member Nickname \"%s\" is a member that does not exist (or is not opened), "
+"is a member Nickname that has been excluded, or has been blocked from access."
+msgstr ""
+"회원닉네임 \"%s\" 은(는) 존재(또는 정보공개)하지 않는 회원 이거나 탈퇴, 접근"
+"차단된 회원 입니다."
+
+#: bbs/memo_form_update.php:51
+msgid "Did not send your Memo."
+msgstr "쪽지를 발송하지 않았습니다."
+
+#: bbs/memo_form_update.php:58
+#, php-format
+msgid "Your point ( %s points) is not enough to send a Memo."
+msgstr "보유하신 포인트 ( %s 점)가 모자라서 쪽지를 보낼 수 없습니다."
+
+#: bbs/memo_form_update.php:91
+#, php-format
+msgid "Send a memo to %s"
+msgstr "%s 님께 쪽지 발송"
+
+#: bbs/memo_form_update.php:103
+#, php-format
+msgid "You have sent a Memo to %s."
+msgstr "%s 님께 쪽지를 전달하였습니다."
+
+#: bbs/memo_form_update.php:110
+msgid "The member did not exist, so did not send a Memo."
+msgstr "회원이 존재하지 않아서, 쪽지를 보내지 못했습니다."
+
+#: bbs/memo_view.php:35
+msgid "View Memo"
+msgstr "쪽지 보기"
+
+#: bbs/memo_view.php:44
+msgid "This Memo has been deleted or does not exist."
+msgstr "쪽지가 삭제되었거나 또는 존재하지 않습니다."
+
+#: bbs/move.php:5
+msgid "Move"
+msgstr "이동"
+
+#: bbs/move.php:7
+msgid "Copy"
+msgstr "복사"
+
+#: bbs/move.php:9 bbs/move_update.php:9 bbs/password.php:41
+#: bbs/password_check.php:32 bbs/poll_etc_update.php:13 bbs/poll_update.php:6
+#: bbs/register_form.php:108 bbs/register_form_update.php:12
+#: bbs/register_form_update.php:32 bbs/translate.php:10 bbs/write.php:11
+#: bbs/write.php:19 bbs/write_comment_update.php:39 bbs/write_update.php:202
+#, php-format
+msgid "%s parameter is wrong"
+msgstr "파라미터 %s 가 올바르지 않습니다"
+
+#: bbs/move.php:13
+msgid "Board admin or higher access is available."
+msgstr "게시판 관리자 이상 접근이 가능합니다."
+
+#: bbs/move.php:15
+msgid "Post"
+msgstr "글"
+
+#: bbs/move.php:61
+#, php-format
+msgid "Please select at least one bulletin board to %s."
+msgstr "%s 할 게시판을 한개 이상 선택하여 주십시오."
+
+#: bbs/move.php:65
+msgid "All current page Boards"
+msgstr "현재 페이지 게시판 전체"
+
+#: bbs/move.php:68 bbs/move.php:76
+msgid "Board"
+msgstr "게시판"
+
+#: bbs/move.php:76 lib/common.lib.php:214
+msgid "Current"
+msgstr "현재"
+
+#: bbs/move.php:111
+msgid "Close Window"
+msgstr "창 닫기"
+
+#: bbs/move.php:112 bbs/move_update.php:12
+#, php-format
+msgid "Please select at least one bulletin board for %s."
+msgstr "%s 할 게시판을 한개 이상 선택해 주십시오."
+
+#: bbs/move_update.php:6
+msgid "Board Admin or higher access is available."
+msgstr "게시판 관리자 이상 접근이 가능합니다."
+
+#: bbs/move_update.php:63
+#, php-format
+msgid "This post was %s from %s by %s"
+msgstr "이 게시물은 %s 되었습니다, %s by %s"
+
+#: bbs/move_update.php:63
+msgid "copied"
+msgstr "복사"
+
+#: bbs/move_update.php:63
+msgid "moved"
+msgstr "이동"
+
+#: bbs/move_update.php:209
+#, php-format
+msgid "Has %s this post to the selected bulletin board."
+msgstr "해당 게시물을 선택한 게시판으로 %s 하였습니다."
+
+#: bbs/new.php:4
+msgid "New Post"
+msgstr "새글"
+
+#: bbs/new.php:62
+msgid "All Group"
+msgstr "전체그룹"
+
+#: bbs/new.php:97
+msgctxt "IS Comment"
+msgid "[C]"
+msgstr "[코]"
+
+#: bbs/new_delete.php:7
+msgid "Access is only available to Super Admin"
+msgstr "최고관리자만 접근이 가능합니다"
+
+#: bbs/new_delete.php:71
+msgid "Delete to the request of the own User ☆"
+msgstr "본인 요청으로 인한 삭제"
+
+#: bbs/new_delete.php:71
+msgid "Delete own User request ☆"
+msgstr "본인요청삭제☆"
+
+#: bbs/newwin.inc.php:13
+msgid "Popup Layer Notification"
+msgstr "팝업레이어 알림"
+
+#: bbs/newwin.inc.php:28
+#, php-format
+msgid "Not see it agagin for <strong>%s</strong> hours"
+msgstr "<strong>%s</strong> 시간 동안 다시 열람하지 않습니다"
+
+#: bbs/newwin.inc.php:29
+msgid "Close"
+msgstr "닫기"
+
+#: bbs/newwin.inc.php:33
+msgid "No pop-up layer notifications."
+msgstr "팝업레이어 알림이 없습니다."
+
+#: bbs/no_install.php:12
+msgid "Error!"
+msgstr "에러!"
+
+#: bbs/no_install.php:12 bbs/no_install.php:35
+msgid "Install"
+msgstr "설치"
+
+#: bbs/no_install.php:23
+msgid "Install GNUBOARD M first."
+msgstr "그누보드 M을 먼저 설치해주십시오."
+
+#: bbs/no_install.php:25
+msgid "The following files could not be found."
+msgstr "다음 파일을 찾을 수 없습니다."
+
+#: bbs/no_install.php:29
+msgid "Please install the GNUBOARD and run again."
+msgstr "그누보드 설치 후 다시 실행하시기 바랍니다."
+
+#: bbs/no_install.php:31
+msgid "Select Language"
+msgstr "언어를 선택해 주세요"
+
+#: bbs/no_install.php:39
+msgid "GNUBOARD M"
+msgstr "그누보드 M"
+
+#: bbs/notice.php:39
+msgid "Alarm"
+msgstr "알림"
+
+#: bbs/notice.php:76
+msgid "Read"
+msgstr "읽음"
+
+#: bbs/notice.php:79
+msgid "Unread"
+msgstr "읽지않음"
+
+#: bbs/password.php:4
+msgid "Enter Password"
+msgstr "비밀번호 입력"
+
+#: bbs/password_lost.php:6 bbs/password_lost2.php:7
+msgid "You are already logged in."
+msgstr "이미 로그인중입니다."
+
+#: bbs/password_lost.php:9
+msgid "Find Account information"
+msgstr "회원정보 찾기"
+
+#: bbs/password_lost2.php:17
+msgid "Email address is empty."
+msgstr "메일주소가 비어 있습니다."
+
+#: bbs/password_lost2.php:22
+msgid "More than one identical email address exists."
+msgstr "동일한 메일주소가 2개 이상 존재합니다."
+
+#: bbs/password_lost2.php:22
+msgid "Please contact your admin."
+msgstr "관리자에게 문의하여 주십시오."
+
+#: bbs/password_lost2.php:29
+msgid "You can not access administrator ID."
+msgstr "관리자 아이디는 접근 불가합니다."
+
+#: bbs/password_lost2.php:45
+msgid "This is the information for the requested member."
+msgstr "요청하신 회원정보 찾기 안내 메일입니다."
+
+#: bbs/password_lost2.php:52
+msgid "Information about members"
+msgstr "회원정보 찾기 안내"
+
+#: bbs/password_lost2.php:58
+#, php-format
+msgid "%s member requested to find member information in %s."
+msgstr "%s 회원님은 %s 에 회원정보 찾기 요청을 하셨습니다."
+
+#: bbs/password_lost2.php:59
+msgid ""
+"Since our site does not even have an admin knowledge of your password, we "
+"will inform you by creating a new password instead of giving you your "
+"password."
+msgstr ""
+"저희 사이트는 관리자라도 회원님의 비밀번호를 알 수 없기 때문에, 비밀번호를 알"
+"려드리는 대신 새로운 비밀번호를 생성하여 안내 해드리고 있습니다."
+
+#: bbs/password_lost2.php:60
+msgid ""
+"Please check the password below and <span style=\"color:#ff3061\">click the "
+"<strong>Change Password</strong> link</span>."
+msgstr ""
+"아래에서 변경될 비밀번호를 확인하신 후, <span style=\"color:"
+"#ff3061\"><strong>비밀번호 변경</strong> 링크를 클릭 하십시오."
+
+#: bbs/password_lost2.php:61
+msgid ""
+"When the authentication message that the password has been changed is "
+"displayed, enter the member ID and changed password on the website and log "
+"in."
+msgstr ""
+"비밀번호가 변경되었다는 인증 메세지가 출력되면, 홈페이지에서 회원아이디와 변"
+"경된 비밀번호를 입력하시고 로그인 하십시오."
+
+#: bbs/password_lost2.php:62
+msgid ""
+"Please change the password from the Modify Information menu after login."
+msgstr "로그인 후에는 정보수정 메뉴에서 새로운 비밀번호로 변경해 주십시오."
+
+#: bbs/password_lost2.php:65 bbs/register_form_update.php:163
+#: bbs/register_form_update_mail2.php:25 lib/get_data.lib.php:534
+msgid "Member ID"
+msgstr "회원아이디"
+
+#: bbs/password_lost2.php:66
+msgid "Password to be changed"
+msgstr "변경될 비밀번호"
+
+#: bbs/password_lost2.php:68
+msgid "Change Password"
+msgstr "비밀번호 변경"
+
+#: bbs/password_lost2.php:74
+msgid "mail address has been sent to authenticate the member ID and password."
+msgstr "메일로 회원아이디와 비밀번호를 인증할 수 있는 메일이 발송 되었습니다."
+
+#: bbs/password_lost2.php:74
+msgid "Please check your mail."
+msgstr "메일을 확인하여 주십시오."
+
+#: bbs/password_lost_certify.php:22
+msgid "Your password has been changed."
+msgstr "비밀번호가 변경됐습니다."
+
+#: bbs/password_lost_certify.php:22
+msgid "Please login with your member ID and changed password."
+msgstr "회원아이디와 변경된 비밀번호로 로그인 하시기 바랍니다."
+
+#: bbs/point.php:7
+#, php-format
+msgid "Point History for %s"
+msgstr "%s 님의 포인트 내역"
+
+#: bbs/point.php:46
+msgid "Expiry"
+msgstr "만료"
+
+#: bbs/point.php:58
+msgid "No Data"
+msgstr "자료가 없습니다"
+
+#: bbs/poll_etc_update.php:44 bbs/poll_etc_update_mail.php:10
+msgid "Other opinions from Poll"
+msgstr "설문조사 기타의견"
+
+#: bbs/poll_etc_update_mail.php:21 bbs/write_update_mail.php:20
+#: lib/get_data.lib.php:537
+msgid "Writer"
+msgstr "작성자"
+
+#: bbs/poll_result.php:7
+msgid "No poll found."
+msgstr "설문조사가 없습니다."
+
+#: bbs/poll_result.php:10 bbs/poll_update.php:9
+#, php-format
+msgid "Only members with Level %s or higher can view the result."
+msgstr "권한 %s 이상의 회원만 결과를 보실 수 있습니다."
+
+#: bbs/poll_result.php:12
+msgid "Poll Results"
+msgstr "설문조사 결과"
+
+#: bbs/poll_update.php:13
+msgid "Please select an item."
+msgstr "항목을 선택하세요."
+
+#: bbs/poll_update.php:53
+#, php-format
+msgid "You have already voted on %s."
+msgstr "%s 에 이미 투표 하셨습니다."
+
+#: bbs/poll_update.php:57
+msgid "Participation in voting"
+msgstr "투표 참여"
+
+#: bbs/profile.php:8
+msgid "If you dont open your profile, you cant look up other member profile."
+msgstr "자신의 정보를 공개하지 않으면 다른분의 정보를 조회할 수 없습니다."
+
+#: bbs/profile.php:8
+msgid "Profile open settings can be made in Edit Member Profile."
+msgstr "정보공개 설정은 회원정보수정에서 하실 수 있습니다."
+
+#: bbs/profile.php:21
+#, php-format
+msgid "Introduction of %s"
+msgstr "%s 님의 자기소개"
+
+#: bbs/profile.php:32
+msgid "There is no introduction."
+msgstr "소개 내용이 없습니다."
+
+#: bbs/qadelete.php:5 bbs/qawrite_update.php:11
+msgid "If you are a member, please Log in and use it."
+msgstr "회원이시라면 로그인 후 이용해 주십시오."
+
+#: bbs/qadelete.php:22
+msgid "Please select at least one post to delete."
+msgstr "삭제할 게시글을 하나이상 선택해 주십시오."
+
+#: bbs/qadownload.php:20
+msgid "You do not have download privileges."
+msgstr "다운로드 권한이 없습니다."
+
+#: bbs/qaview.php:25 bbs/qawrite.php:36 bbs/qawrite_update.php:95
+#: bbs/translate_update.php:61 bbs/write_update.php:90
+msgid "Post does not exist."
+msgstr "게시글이 존재하지 않습니다."
+
+#: bbs/qaview.php:25 bbs/qawrite.php:36
+msgid "It has been deleted or is not your own"
+msgstr "삭제되었거나 자신의 글이 아닌 경우입니다"
+
+#: bbs/qawrite.php:40 bbs/qawrite_update.php:99
+msgid "You can not modify an inquiry with a registered answer."
+msgstr "답변이 등록된 문의글은 수정할 수 없습니다."
+
+#: bbs/qawrite.php:43 bbs/qawrite_update.php:102 bbs/write.php:63
+#: bbs/write.php:65
+msgid "You do not have permission to modify the posts."
+msgstr "게시글을 수정할 권한이 없습니다."
+
+#: bbs/qawrite.php:56
+msgid "Please set the Category in 1:1 Inquiry settings"
+msgstr "1:1문의 설정에서 분류를 설정해 주십시오"
+
+#: bbs/qawrite.php:78 bbs/qawrite.php:80
+msgid "Previous Answers"
+msgstr "이전 답변내용"
+
+#: bbs/qawrite.php:95 bbs/write.php:355
+msgid "Bytes"
+msgstr "바이트"
+
+#: bbs/qawrite_update.php:22
+msgid "Please specify a valid Category."
+msgstr "분류를 올바르게 지정해 주십시오."
+
+#: bbs/qawrite_update.php:25
+msgid "Please set the Category in 1:1 statement settings"
+msgstr "1:1문의 설정에서 분류를 설정해 주십시오"
+
+#: bbs/qawrite_update.php:34
+msgid "Please enter your email."
+msgstr "이메일을 입력하세요."
+
+#: bbs/qawrite_update.php:42 bbs/translate_update.php:29
+#: bbs/write_update.php:42
+msgid "Please enter a <strong>Subject</strong>."
+msgstr "<strong>제목</strong>을 입력하세요."
+
+#: bbs/qawrite_update.php:51 bbs/translate_update.php:38
+#: bbs/write_update.php:51
+msgid "Please enter a <strong>Content</strong>."
+msgstr "<strong>내용</strong>을 입력하세요."
+
+#: bbs/qawrite_update.php:64 bbs/translate_update.php:48
+#: bbs/write_comment_update.php:14 bbs/write_update.php:75
+msgid "Content contains many invalid codes."
+msgstr "내용에 올바르지 않은 코드가 다수 포함되어 있습니다."
+
+#: bbs/qawrite_update.php:71 bbs/translate_update.php:56
+#: bbs/write_update.php:82
+msgid ""
+"An error occurred because the size of the file or post content exceeds the "
+"value set by the server."
+msgstr ""
+"파일 또는 글내용의 크기가 서버에서 설정한 값을 넘어 오류가 발생하였습니다."
+
+#: bbs/qawrite_update.php:71 bbs/translate_update.php:56
+#: bbs/write_update.php:82
+msgid "Please contact your Board administrator or server administrator."
+msgstr "게시판관리자 또는 서버관리자에게 문의 바랍니다."
+
+#: bbs/qawrite_update.php:84
+msgid "The answer can only be registered by an administrator."
+msgstr "답변은 관리자만 등록할 수 있습니다."
+
+#: bbs/qawrite_update.php:95
+msgid "This is either deleted or not your own."
+msgstr "삭제되었거나 자신의 글이 아닌 경우입니다."
+
+#: bbs/qawrite_update.php:108
+msgid "The answer can not be registered because it does not exist."
+msgstr "문의글이 존재하지 않아 답변글을 등록할 수 없습니다."
+
+#: bbs/qawrite_update.php:111
+msgid "You can not reregister an answer in an answer article."
+msgstr "답변글에는 다시 답변을 등록할 수 없습니다."
+
+#: bbs/qawrite_update.php:125
+msgid "Please upload no more than 2 attachments."
+msgstr "첨부파일을 2개 이하로 업로드 해주십시오."
+
+#: bbs/qawrite_update.php:159
+#, php-format
+msgid ""
+"The file \" %s \" can not be uploaded because its size is greater than the "
+"value set on the server (%s)."
+msgstr ""
+"\" %s \"파일의 용량이 서버에 설정(%s)된 값보다 크므로 업로드 할 수 없습니다."
+
+#: bbs/qawrite_update.php:163
+#, php-format
+msgid "The file \" %s \" has not been successfully uploaded."
+msgstr "\" %s \" 파일이 정상적으로 업로드 되지 않았습니다."
+
+#: bbs/qawrite_update.php:171
+#, php-format
+msgid ""
+"The \" %s \" file will not be uploaded because its capacity ( %s bytes) is "
+"greater than the value set ( %s bytes) on the bulletin board."
+msgstr ""
+"\" %s \" 파일의 용량( %s 바이트)이 게시판에 설정( %s 바이트)된 값보다 크므로 "
+"업로드 하지 않습니다."
+
+#: bbs/qawrite_update.php:341
+msgid "Reply notification mail"
+msgstr "답변 알림 메일"
+
+#: bbs/qawrite_update.php:351
+msgid "Question notification mail"
+msgstr "질문 알림 메일"
+
+#: bbs/register.php:14
+msgid "Terms and conditions of Register"
+msgstr "회원가입약관"
+
+#: bbs/register_email.php:7
+msgid "Mail authentication mail address change"
+msgstr "메일인증 메일주소 변경"
+
+#: bbs/register_email.php:14 bbs/register_email_update.php:15
+msgid "This is a member who has already signed up to mail."
+msgstr "이미 메일인증 하신 회원입니다."
+
+#: bbs/register_email.php:24
+msgid ""
+"You can change the mail address of the member information if you do not have "
+"a mail authentication."
+msgstr "메일인증을 받지 못한 경우 회원정보의 메일주소를 변경 할 수 있습니다."
+
+#: bbs/register_email.php:31
+msgid "Enter site information"
+msgstr "사이트 이용정보 입력"
+
+#: bbs/register_email.php:33
+msgid "E-mail"
+msgstr "E-mail"
+
+#: bbs/register_email.php:33 lib/get_data.lib.php:573 lib/get_data.lib.php:589
+msgid "Required"
+msgstr "필수"
+
+#: bbs/register_email.php:37 plugin/kcaptcha/kcaptcha.lib.php:247
+msgid "Captcha"
+msgstr "Captcha"
+
+#: bbs/register_email.php:44
+msgid "Change authentication mail"
+msgstr "인증메일변경"
+
+#: bbs/register_email_update.php:25
+#, php-format
+msgid "Mail address %s already exists."
+msgstr "%s 메일은 이미 존재하는 메일주소 입니다."
+
+#: bbs/register_email_update.php:25
+msgid "Please enter other e-mail address."
+msgstr "다른 메일주소를 입력해 주십시오."
+
+#: bbs/register_email_update.php:29 bbs/register_form_update.php:478
+#, php-format
+msgid "This is the %s authentication email."
+msgstr "%s 인증확인 메일입니다."
+
+#: bbs/register_email_update.php:50
+#, php-format
+msgid "Send you the authentication email again in %s mail."
+msgstr "인증메일을 %s 메일로 다시 보내 드렸습니다."
+
+#: bbs/register_email_update.php:50
+#, php-format
+msgid "Please check the %s mail."
+msgstr "잠시후 %s 메일을 확인하여 주십시오."
+
+#: bbs/register_form.php:35
+msgid ""
+"You must agree to the terms and conditions of your membership before you can "
+"sign up."
+msgstr "회원가입약관의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#: bbs/register_form.php:39
+msgid ""
+"You must agree to the information handling policy guidelines before you can "
+"sign up."
+msgstr "개인정보처리방침안내의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#: bbs/register_form.php:58
+msgid "Register"
+msgstr "회원 가입"
+
+#: bbs/register_form.php:63
+msgid "Please modify admin profile on the admin screen."
+msgstr "관리자의 회원정보는 관리자 화면에서 수정해 주십시오."
+
+#: bbs/register_form.php:66
+msgid "Please log in and use."
+msgstr "로그인 후 이용하여 주십시오."
+
+#: bbs/register_form.php:69
+msgid "The logged in member and the passed in information are different."
+msgstr "로그인된 회원과 넘어온 정보가 서로 다릅니다."
+
+#: bbs/register_form.php:82
+msgid "Edit profile"
+msgstr "프로필 수정"
+
+#: bbs/register_form_update.php:17
+msgid "You can not do this on the demo screen."
+msgstr "데모 화면에서는 할수 없는 작업입니다."
+
+#: bbs/register_form_update.php:29
+msgid "Its a wrong approach."
+msgstr "잘못된 접근입니다."
+
+#: bbs/register_form_update.php:86
+msgid "Please enter a valid name."
+msgstr "이름을 올바르게 입력해 주십시오."
+
+#: bbs/register_form_update.php:90
+msgid "Please enter a valid nickname."
+msgstr "닉네임을 올바르게 입력해 주십시오."
+
+#: bbs/register_form_update.php:94
+msgid "Password value is empty."
+msgstr "비밀번호가 비어 있습니다."
+
+#: bbs/register_form_update.php:96
+msgid "The passwords do not match."
+msgstr "비밀번호가 일치하지 않습니다."
+
+#: bbs/register_form_update.php:127
+msgid "Recommendation does not exist."
+msgstr "추천인이 존재하지 않습니다."
+
+#: bbs/register_form_update.php:131
+msgid "You can not recommend yourself."
+msgstr "본인을 추천할 수 없습니다."
+
+#: bbs/register_form_update.php:163
+msgid ""
+"The details registered with the identification information you entered exist."
+msgstr "입력하신 본인확인 정보로 가입된 내역이 존재합니다."
+
+#: bbs/register_form_update.php:244
+msgid "Congratulations on Register"
+msgstr "회원가입 축하"
+
+#: bbs/register_form_update.php:248
+#, php-format
+msgid "Recommendation for %s"
+msgstr "%s 의 추천인"
+
+#: bbs/register_form_update.php:252 bbs/register_form_update_mail1.php:18
+msgid "Congratulations on your membership."
+msgstr "회원가입을 축하드립니다."
+
+#: bbs/register_form_update.php:279
+#, php-format
+msgid "%s has been registered as a member."
+msgstr "%s 님께서 회원으로 가입하셨습니다."
+
+#: bbs/register_form_update.php:301
+msgid "You are not logged in."
+msgstr "로그인 되어 있지 않습니다."
+
+#: bbs/register_form_update.php:304
+msgid ""
+"You can not modify the logged in information because the information you are "
+"trying to modify is not correct."
+msgstr "로그인된 정보와 수정하려는 정보가 틀리므로 수정할 수 없습니다."
+
+#: bbs/register_form_update.php:304
+msgid "Stop immediately if incorrect method is used."
+msgstr "만약 올바르지 않은 방법을 사용하신다면 바로 중지하여 주십시오."
+
+#: bbs/register_form_update.php:409
+#, php-format
+msgid "Upload member icon to %s bytes or less."
+msgstr "회원아이콘을 %s 바이트 이하로 업로드 해주십시오."
+
+#: bbs/register_form_update.php:413
+msgid "% is not an image file."
+msgstr "%s 은(는) 이미지 파일이 아닙니다."
+
+#: bbs/register_form_update.php:467
+#, php-format
+msgid "Upload member image to %s bytes or less."
+msgstr "회원이미지을 %s 바이트 이하로 업로드 해주십시오."
+
+#: bbs/register_form_update.php:471
+#, php-format
+msgid "%s is not an gif/jpg file."
+msgstr "%s 은(는) gif/jpg 파일이 아닙니다."
+
+#: bbs/register_form_update.php:521 bbs/register_form_update.php:537
+msgid "Member profile has been modified."
+msgstr "회원 정보가 수정 되었습니다."
+
+#: bbs/register_form_update.php:521
+msgid "E-mail address has been changed, so you need to authenticate again."
+msgstr "E-mail 주소가 변경되었으므로 다시 인증하셔야 합니다."
+
+#: bbs/register_form_update.php:528
+msgid "Edit Member Profile"
+msgstr "회원정보수정"
+
+#: bbs/register_form_update_mail1.php:10
+msgid "Email to congratulate you on Sign up"
+msgstr "회원가입 축하 메일"
+
+#: bbs/register_form_update_mail1.php:24
+#, php-format
+msgid "Congratulations on your membership in %s."
+msgstr "%s 님의 회원가입을 진심으로 축하합니다."
+
+#: bbs/register_form_update_mail1.php:25 bbs/register_form_update_mail3.php:31
+msgid "We will do our best to repay your support."
+msgstr "회원님의 성원에 보답하고자 더욱 더 열심히 하겠습니다."
+
+#: bbs/register_form_update_mail1.php:26
+msgid ""
+"Click on the <strong>mail authentication</strong> below to complete your "
+"membership."
+msgstr "아래의 <strong>메일인증</strong>을 클릭하시면 회원가입이 완료됩니다."
+
+#: bbs/register_form_update_mail1.php:27 bbs/register_form_update_mail3.php:32
+msgid "Thank you."
+msgstr "감사합니다."
+
+#: bbs/register_form_update_mail1.php:31
+msgid "Mail authentication"
+msgstr "메일인증"
+
+#: bbs/register_form_update_mail1.php:33
+msgid "Go to Web site"
+msgstr "사이트바로가기"
+
+#: bbs/register_form_update_mail2.php:10 bbs/register_form_update_mail2.php:18
+msgid "Register Notification Email"
+msgstr "회원가입 알림 메일"
+
+#: bbs/register_form_update_mail2.php:24
+#, php-format
+msgid "%s has registered."
+msgstr "%s 님께서 회원가입 하셨습니다."
+
+#: bbs/register_form_update_mail2.php:26
+msgid "Member Name"
+msgstr "회원 이름"
+
+#: bbs/register_form_update_mail2.php:27
+msgid "Member Nickname"
+msgstr "회원 닉네임"
+
+#: bbs/register_form_update_mail2.php:28
+msgid "Recommendation ID"
+msgstr "추천인아이디"
+
+#: bbs/register_form_update_mail2.php:30
+msgid "Confirm membership information in Admin"
+msgstr "관리자에서 회원정보 확인하기"
+
+#: bbs/register_form_update_mail3.php:10
+msgid "Member authentication mail"
+msgstr "회원 인증 메일"
+
+#: bbs/register_form_update_mail3.php:18
+msgid "This is your membership email."
+msgstr "회원 인증 메일입니다."
+
+#: bbs/register_form_update_mail3.php:25
+#, php-format
+msgid "The e-mail address of %s has been changed."
+msgstr "%s 님의 E-mail 주소가 변경되었습니다."
+
+#: bbs/register_form_update_mail3.php:28
+msgid "Click on the address below to complete your certification."
+msgstr "아래의 주소를 클릭하시면 인증이 완료됩니다."
+
+#: bbs/register_result.php:13
+msgid "Membership complete"
+msgstr "회원가입 완료"
+
+#: bbs/rss.php:28
+msgid "Only Boards that can read non-members support RSS."
+msgstr "비회원 읽기가 가능한 게시판만 RSS 지원합니다."
+
+#: bbs/rss.php:34
+msgid "The RSS view is disable."
+msgstr "RSS 보기가 비활성화 되어 있습니다."
+
+#: bbs/scrap.php:7
+#, php-format
+msgid "%s Scrap"
+msgstr "%s 님의 스크랩"
+
+#: bbs/scrap.php:39
+msgid "[No board]"
+msgstr "[게시판 없음]"
+
+#: bbs/scrap.php:47
+msgid "[No post]"
+msgstr "[글 없음]"
+
+#: bbs/scrap_popin.php:27
+msgid "Please use it in the correct way."
+msgstr "올바른 방법으로 사용해 주십시오."
+
+#: bbs/scrap_popin.php:34
+msgid "Comments can not be Scrap."
+msgstr "코멘트는 스크랩 할 수 없습니다."
+
+#: bbs/scrap_popin.php:46 bbs/scrap_popin.php:52 bbs/scrap_popin_update.php:26
+#: bbs/scrap_popin_update.php:32
+msgid "You already been Scrap."
+msgstr "이미 스크랩하신 글 입니다."
+
+#: bbs/scrap_popin.php:46 bbs/scrap_popin_update.php:26
+#: bbs/scrap_popin_update.php:111
+msgid "Do you want to confirm the scrap now?"
+msgstr "지금 스크랩을 확인하시겠습니까?"
+
+#: bbs/scrap_popin.php:53 bbs/scrap_popin_update.php:33
+#: bbs/scrap_popin_update.php:118
+msgid "Confirm Scrap"
+msgstr "스크랩 확인하기"
+
+#: bbs/scrap_popin_update.php:15
+msgid "The post you are trying to scrap does not exist."
+msgstr "스크랩하시려는 게시글이 존재하지 않습니다."
+
+#: bbs/scrap_popin_update.php:52 bbs/write_comment_update.php:44
+#: bbs/write_update.php:214
+msgid "The post can not be writed in succession too soon."
+msgstr "너무 빠른 시간내에 게시물을 연속해서 올릴 수 없습니다."
+
+#: bbs/scrap_popin_update.php:97
+msgid "Comment with Scrap"
+msgstr "댓글쓰기(스크랩)"
+
+#: bbs/scrap_popin_update.php:111 bbs/scrap_popin_update.php:117
+msgid "Scraped this post."
+msgstr "이 글을 스크랩 하였습니다."
+
+#: bbs/search.php:4
+msgid "All Search Results"
+msgstr "전체검색 결과"
+
+#: bbs/search.php:187
+msgid "[This is Secret Post.]"
+msgstr "[비밀글 입니다.]"
+
+#: bbs/search.php:227
+msgid "Select Board Group"
+msgstr "게시판 그룹선택"
+
+#: bbs/search.php:227
+msgid "All Category"
+msgstr "전체 분류"
+
+#: bbs/translate.php:20 bbs/translate_update.php:6
+msgid "You can not translate this."
+msgstr "이 글을 번역할 수 없습니다."
+
+#: bbs/translate.php:36
+msgid "Translate"
+msgstr "번역하기"
+
+#: bbs/translate_update.php:12
+msgid "Save Translated Post"
+msgstr "번역된 글 저장"
+
+#: bbs/translate_update.php:53 bbs/write_update.php:221
+msgid "Please enter a Subject."
+msgstr "제목을 입력하여 주십시오."
+
+#: bbs/translate_update.php:61 bbs/write_update.php:90
+msgid "The post may have been deleted or moved."
+msgstr "글이 삭제되었거나 이동하였을 수 있습니다."
+
+#: bbs/view_comment.php:40
+msgid "This is a secret Comment."
+msgstr "비밀 댓글 입니다."
+
+#: bbs/view_comment.php:52
+msgid "Confirm comments"
+msgstr "댓글 확인"
+
+#: bbs/view_comment.php:158
+msgid "No comments"
+msgstr "댓글이 없습니다"
+
+#: bbs/view_image.php:4
+msgid "Large image view"
+msgstr "이미지 크게보기"
+
+#: bbs/view_image.php:24
+msgid "Not an image file."
+msgstr "이미지 파일이 아닙니다."
+
+#: bbs/write.php:38
+msgid "wr_id values are not used for writing."
+msgstr "글쓰기에는 wr_id 값을 사용하지 않습니다."
+
+#: bbs/write.php:43 bbs/write.php:45 bbs/write_update.php:155
+msgid "You do not have permission to write."
+msgstr "글을 쓸 권한이 없습니다."
+
+#: bbs/write.php:52
+#, php-format
+msgid "Your point (%s) is missing or enough points, so you can not write (%s)."
+msgstr "보유하신 포인트(%s)가 없거나 모자라서 글쓰기(%s)가 불가합니다."
+
+#: bbs/write.php:52
+msgid "Collect points and write again."
+msgstr "포인트를 적립하신 후 다시 글쓰기 해 주십시오."
+
+#: bbs/write.php:56 bbs/write_update.php:309
+msgid "Write"
+msgstr "글쓰기"
+
+#: bbs/write.php:81
+msgid "The Reply to this post exists and can not be modified."
+msgstr "이 글과 관련된 답변글이 존재하므로 수정 할 수 없습니다."
+
+#: bbs/write.php:81
+msgid "You can not modify a post with an Reply."
+msgstr "답변글이 있는 원글은 수정할 수 없습니다."
+
+#: bbs/write.php:90
+msgid "The comment associated with this post exists and can not be modified."
+msgstr "이 글과 관련된 댓글이 존재하므로 수정 할 수 없습니다."
+
+#: bbs/write.php:90
+#, php-format
+msgid "The original post with %s or more comments can not be modified."
+msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#: bbs/write.php:92
+msgid "Edit Post"
+msgstr "글수정"
+
+#: bbs/write.php:96 bbs/write_update.php:165
+msgid "You do not have permission to reply."
+msgstr "글을 답변할 권한이 없습니다."
+
+#: bbs/write.php:98
+msgid "You do not have permission to create an Reply."
+msgstr "답변글을 작성할 권한이 없습니다."
+
+#: bbs/write.php:103
+#, php-format
+msgid "Your point (%s) is missing or enough points, so you can not reply (%s)."
+msgstr "보유하신 포인트(%s)가 없거나 모자라서 글답변(%s)가 불가합니다."
+
+#: bbs/write.php:103
+msgid "Collect points and reply again."
+msgstr "포인트를 적립하신 후 다시 글답변 해 주십시오."
+
+#: bbs/write.php:107
+msgid "Can not comment to the notice."
+msgstr "공지에는 답변 할 수 없습니다."
+
+#: bbs/write.php:113
+msgid "This is not a normal access."
+msgstr "정상적인 접근이 아닙니다."
+
+#: bbs/write.php:120
+msgid ""
+"The secret post can only be answered by own member or by an administrator."
+msgstr "비밀글에는 자신 또는 관리자만 답변이 가능합니다."
+
+#: bbs/write.php:124
+msgid "Can not comment to secret writings of non-members."
+msgstr "비회원의 비밀글에는 답변이 불가합니다."
+
+#: bbs/write.php:134
+msgid "You cant reply any more."
+msgstr "더 이상 답변하실 수 없습니다."
+
+#: bbs/write.php:134
+msgid "You can reply only up to 10 steps."
+msgstr "답변은 10단계 까지만 가능합니다."
+
+#: bbs/write.php:154
+msgid "Cant reply any more."
+msgstr "더 이상 답변하실 수 없습니다."
+
+#: bbs/write.php:154
+msgid "You can reply only up to 26 writes."
+msgstr "답변은 26개 까지만 가능합니다."
+
+#: bbs/write.php:160
+msgid "Reply Post"
+msgstr "글답변"
+
+#: bbs/write.php:178
+msgid "You don't have access, so can't write."
+msgstr "접근 권한이 없으므로 글쓰기가 불가합니다."
+
+#: bbs/write.php:178
+msgid "Please contact your administrator for questions."
+msgstr "궁금하신 사항은 관리자에게 문의 바랍니다."
+
+#: bbs/write.php:416
+msgid "NOTICE"
+msgstr "공지"
+
+#: bbs/write.php:429
+msgid "Secret"
+msgstr "비밀"
+
+#: bbs/write.php:436
+msgid "Receive response mail"
+msgstr "답변메일받기"
+
+#: bbs/write_comment_update.php:29 bbs/write_update.php:236
+#: bbs/write_update.php:369
+msgid "You must enter a name."
+msgstr "이름은 필히 입력하셔야 합니다."
+
+#: bbs/write_comment_update.php:36
+msgid "You do not have permission to write comments."
+msgstr "댓글을 쓸 권한이 없습니다."
+
+#: bbs/write_comment_update.php:81
+#, php-format
+msgid ""
+"Your point (%s) is missing or enough points, so you can not comment (%s)."
+msgstr "보유하신 포인트(%s)가 없거나 모자라서 댓글쓰기(%s)가 불가합니다."
+
+#: bbs/write_comment_update.php:81
+msgid "Collect points and comment again."
+msgstr "포인트를 적립하신 후 다시 댓글을 써 주십시오."
+
+#: bbs/write_comment_update.php:90
+msgid "There are no comments to answer."
+msgstr "답변할 댓글이 없습니다."
+
+#: bbs/write_comment_update.php:90
+msgid "The comment might have been deleted while replying."
+msgstr "답변하는 동안 댓글이 삭제되었을 수 있습니다."
+
+#: bbs/write_comment_update.php:93
+msgid "Unable to register comments."
+msgstr "댓글을 등록할 수 없습니다."
+
+#: bbs/write_comment_update.php:98 bbs/write_comment_update.php:129
+#: bbs/write_update.php:173 bbs/write_update.php:194
+msgid "You can't answer any more."
+msgstr "더 이상 답변하실 수 없습니다."
+
+#: bbs/write_comment_update.php:98
+msgid "You can answer only in five stages."
+msgstr "답변은 5단계 까지만 가능합니다."
+
+#: bbs/write_comment_update.php:129
+msgid "You can answer only in 26 questions."
+msgstr "답변은 26개 까지만 가능합니다."
+
+#: bbs/write_comment_update.php:191
+msgid "Write Comment"
+msgstr "댓글쓰기"
+
+#: bbs/write_comment_update.php:221
+msgid "Original writing"
+msgstr "원글"
+
+#: bbs/write_comment_update.php:221 bbs/write_comment_update.php:223
+#: bbs/write_update.php:672
+msgid "Comment"
+msgstr "댓글"
+
+#: bbs/write_comment_update.php:223 bbs/write_update.php:672
+#: lib/language.lib.php:259
+msgid "Enter"
+msgstr "입력"
+
+#: bbs/write_comment_update.php:223 bbs/write_update.php:672
+#: lib/language.lib.php:228
+msgid "Edit"
+msgstr "수정"
+
+#: bbs/write_comment_update.php:223 bbs/write_update.php:313
+#: bbs/write_update.php:672
+msgid "Reply"
+msgstr "답변"
+
+#: bbs/write_comment_update.php:223 bbs/write_update.php:672
+msgid "Edit Comment"
+msgstr "댓글수정"
+
+#: bbs/write_comment_update.php:226 bbs/write_update.php:675
+#, php-format
+msgid "Board, %s message posts."
+msgstr "게시판에, %s 글이 올라왔습니다."
+
+#: bbs/write_comment_update.php:296
+msgid ""
+"This comment is higher than the group admin authority and can not be "
+"modified."
+msgstr "그룹관리자의 권한보다 높은 회원의 댓글이므로 수정할 수 없습니다."
+
+#: bbs/write_comment_update.php:298
+msgid ""
+"You can not modify the comment because it is not a bulletin board for the "
+"group you manage."
+msgstr "자신이 관리하는 그룹의 게시판이 아니므로 댓글을 수정할 수 없습니다."
+
+#: bbs/write_comment_update.php:305
+msgid ""
+"You can not modify this comment because it is a comment from a member who is "
+"above the board manager's authority."
+msgstr "게시판관리자의 권한보다 높은 회원의 댓글이므로 수정할 수 없습니다."
+
+#: bbs/write_comment_update.php:307
+msgid "You can not modify the comment because it is not a bulletin you manage."
+msgstr "자신이 관리하는 게시판이 아니므로 댓글을 수정할 수 없습니다."
+
+#: bbs/write_comment_update.php:310
+msgid "Can not modify because it is not your own post."
+msgstr "자신의 글이 아니므로 수정할 수 없습니다."
+
+#: bbs/write_comment_update.php:313
+msgid "You do not have permission to modify comments."
+msgstr "댓글을 수정할 권한이 없습니다."
+
+#: bbs/write_comment_update.php:324
+msgid ""
+"This comment can not be modified because there is an answer comment "
+"associated with it."
+msgstr "이 댓글와 관련된 답변댓글이 존재하므로 수정 할 수 없습니다."
+
+#: bbs/write_token.php:6
+msgid "The bulletin board information is not valid."
+msgstr "게시판 정보가 올바르지 않습니다."
+
+#: bbs/write_update.php:9
+msgid "Save post"
+msgstr "게시글 저장"
+
+#: bbs/write_update.php:16
+msgid "Please select a <strong>Category</strong>."
+msgstr "<strong>분류</strong>를 선택하세요."
+
+#: bbs/write_update.php:18 lib/common.lib.php:1099 lib/get_data.lib.php:498
+msgid "Notice"
+msgstr "공지"
+
+#: bbs/write_update.php:20
+msgid "Select Category correctly"
+msgstr "분류를 올바르게 선택하세요"
+
+#: bbs/write_update.php:96
+msgid ""
+"You can not register as a secret message because it is a non-secrete "
+"bulletin board."
+msgstr "비밀글 미사용 게시판 이므로 비밀글로 등록할 수 없습니다."
+
+#: bbs/write_update.php:143
+msgid "Only administrators can publish."
+msgstr "관리자만 공지할 수 있습니다."
+
+#: bbs/write_update.php:161
+msgid "You can not reply to the notice."
+msgstr "공지에는 답변 할 수 없습니다."
+
+#: bbs/write_update.php:173
+msgid "You can answer only up to 10 steps."
+msgstr "답변은 10단계 까지만 가능합니다."
+
+#: bbs/write_update.php:194
+msgid "You can reply only up to 26 questions."
+msgstr "답변은 26개 까지만 가능합니다."
+
+#: bbs/write_update.php:327
+msgid ""
+"Can not delete as this is a comment because it is not a bulletin board for "
+"the group you manage."
+msgstr "자신이 관리하는 그룹의 게시판이 아니므로 수정할 수 없습니다."
+
+#: bbs/write_update.php:329 bbs/write_update.php:335
+msgid ""
+"You can not edit an post written by a member with a privilege higher than "
+"own writer."
+msgstr "자신의 권한보다 높은 권한의 회원이 작성한 글은 수정할 수 없습니다."
+
+#: bbs/write_update.php:333
+msgid "You can not edit a bulletin because it is not your managed."
+msgstr "자신이 관리하는 게시판이 아니므로 수정할 수 없습니다."
+
+#: bbs/write_update.php:338
+msgid "Can not edit because it is not your own post."
+msgstr "자신의 글이 아니므로 수정할 수 없습니다."
+
+#: bbs/write_update.php:341
+msgid "Please login and edit it."
+msgstr "로그인 후 수정하세요."
+
+#: bbs/write_update.php:450
+#, php-format
+msgid "Please delete existing file and upload %s or fewer attachments."
+msgstr "기존 파일을 삭제하신 후 첨부파일을 %s 개 이하로 업로드 해주십시오."
+
+#: bbs/write_update.php:453
+#, php-format
+msgid "Please upload no more than %s attachments."
+msgstr "첨부파일을 %s 개 이하로 업로드 해주십시오."
+
+#: bbs/write_update.php:496
+#, php-format
+msgid ""
+"The file \\\" %s \\\" can not be uploaded because its size is greater than "
+"the value set on the server (%s)."
+msgstr ""
+"\\\" %s \\\" 파일의 용량이 서버에 설정(%s)된 값보다 크므로 업로드 할 수 없습"
+"니다."
+
+#: bbs/write_update.php:500
+#, php-format
+msgid "The file \\\" %s \\\" has not been successfully uploaded."
+msgstr "\\\" %s \\\" 파일이 정상적으로 업로드 되지 않았습니다."
+
+#: bbs/write_update.php:508
+#, php-format
+msgid ""
+"The \\\" %s \\\" file will not be uploaded because its capacity ( %s bytes) "
+"is greater than the value set ( %s bytes) on the bulletin board."
+msgstr ""
+"\\\" %s \\\" 파일의 용량( %s 바이트)이 게시판에 설정( %s 바이트)된 값보다 크"
+"므로 업로드 하지 않습니다."
+
+#: bbs/write_update_mail.php:9
+msgid "Mail"
+msgstr "메일"
+
+#: bbs/write_update_mail.php:25
+msgid "Confirm for post on a site"
+msgstr "사이트에서 게시물 확인하기"
+
+#: lib/common.lib.php:80
+#, php-format
+msgid "%s replied to [%s]."
+msgstr "%s 님이 [%s] 글에 답글을 남기셨습니다."
+
+#: lib/common.lib.php:89
+#, php-format
+msgid "%s commented on my comment."
+msgstr "%s 님이 내 댓글에 댓글을 남기셨습니다."
+
+#: lib/common.lib.php:107
+#, php-format
+msgid "%s commented on [%s]."
+msgstr "%s 님이 [%s] 글에 댓글을 남기셨습니다."
+
+#: lib/common.lib.php:118
+#, php-format
+msgid "%s pressed [%s] in [%s]."
+msgstr "%s 님이 [%s] 글을 '%s' 하셨습니다."
+
+#: lib/common.lib.php:132
+#, php-format
+msgid "%s asked [%s] question."
+msgstr "%s 님이 [%s] 질문을 남기셨습니다."
+
+#: lib/common.lib.php:144
+#, php-format
+msgid "%s has answered [%s] question."
+msgstr "%s 님이 [%s] 질문에 대한 답변을 남기셨습니다."
+
+#: lib/common.lib.php:150
+#, php-format
+msgid "%s has sent you a message."
+msgstr "%s 님이 쪽지를 보내셨습니다."
+
+#: lib/common.lib.php:170
+msgid "now"
+msgstr "방금"
+
+#: lib/common.lib.php:174
+msgid "just now"
+msgstr "조금 전"
+
+#: lib/common.lib.php:175
+msgid "1 minute ago"
+msgstr "1분 전"
+
+#: lib/common.lib.php:176
+msgid " minutes ago"
+msgstr "분 전"
+
+#: lib/common.lib.php:177
+msgid "1 hour ago"
+msgstr "1시간 전"
+
+#: lib/common.lib.php:178
+msgid " hours ago"
+msgstr "시간 전"
+
+#: lib/common.lib.php:180
+msgid "yesterday"
+msgstr "어제"
+
+#: lib/common.lib.php:181
+msgid " days ago"
+msgstr "일 전"
+
+#: lib/common.lib.php:182
+msgid " weeks ago"
+msgstr "주 전"
+
+#: lib/common.lib.php:183
+msgid "last month"
+msgstr "저번 달"
+
+#: lib/common.lib.php:184
+msgid " months ago"
+msgstr "달 전"
+
+#: lib/common.lib.php:199
+msgid "First"
+msgstr "처음"
+
+#: lib/common.lib.php:207
+msgid "Prev"
+msgstr "이전"
+
+#: lib/common.lib.php:218
+msgid "Next"
+msgstr "다음"
+
+#: lib/common.lib.php:221
+msgid "Last"
+msgstr "맨끝"
+
+#: lib/common.lib.php:406
+#, php-format
+msgid "Please specify %s and %s"
+msgstr "%s 과 %s 를 지정해 주세요"
+
+#: lib/common.lib.php:1131
+msgid "Select"
+msgstr "선택"
+
+#: lib/common.lib.php:1154 lib/common.lib.php:1157
+msgid "Yes"
+msgstr "예"
+
+#: lib/common.lib.php:1155 lib/common.lib.php:1158
+msgid "No"
+msgstr "아니오"
+
+#: lib/common.lib.php:1521
+msgid "Profile"
+msgstr "프로필"
+
+#: lib/common.lib.php:1553 lib/common.lib.php:1576
+msgid "Search by name"
+msgstr "이름으로 검색"
+
+#: lib/common.lib.php:1565
+msgid "Homepage"
+msgstr "홈페이지"
+
+#: lib/common.lib.php:1567
+msgid "profile"
+msgstr "프로필"
+
+#: lib/common.lib.php:1571 lib/common.lib.php:1573
+msgid "Search by ID"
+msgstr "아이디로 검색"
+
+#: lib/common.lib.php:1580
+msgid "Full post"
+msgstr "전체게시물"
+
+#: lib/common.lib.php:1582
+msgid "Edit Profile"
+msgstr "프로필 수정"
+
+#: lib/common.lib.php:1583
+msgid "Point History"
+msgstr "포인트내역"
+
+#: lib/common.lib.php:2112
+msgid "You can't do this on the demo screen."
+msgstr "데모 화면에서는 하실(보실) 수 없는 작업입니다."
+
+#: lib/common.lib.php:2210
+msgid ""
+"Can not view embedded or object tags with administrator ID due to security "
+"issues. To check, log on with another ID that does not have administrative "
+"rights."
+msgstr ""
+"보안문제로 인하여 관리자 아이디로는 embed 또는 object 태그를 볼 수 없습니다. "
+"확인하시려면 관리권한이 없는 다른 아이디로 접속하세요."
+
+#: lib/common.lib.php:2422
+msgid "PC view only bulletin board."
+msgstr "PC 전용 게시판입니다."
+
+#: lib/common.lib.php:2424
+msgid "Mobile view only bulletin board."
+msgstr "모바일 전용 게시판입니다."
+
+#: lib/common.lib.php:2958
+msgid "Phone"
+msgstr "휴대폰"
+
+#: lib/common.lib.php:2961
+msgid "I-PIN"
+msgstr "아이핀"
+
+#: lib/common.lib.php:2968
+#, php-format
+msgid ""
+"Your %s identification has been used %s times today, so it's no longer "
+"available."
+msgstr "오늘 %s 본인확인을 %s 회 이용하셔서 더 이상 이용할 수 없습니다."
+
+#: lib/common.lib.php:3049
+msgid ""
+"The number of variables sent on the form is greater than the max_input_vars "
+"value."
+msgstr "폼에서 전송된 변수의 개수가 max_input_vars 값보다 큽니다."
+
+#: lib/common.lib.php:3049
+msgid "Some of the transfer points may be lost and recorded in the DB."
+msgstr "전송된 값중 일부는 유실되어 DB에 기록될 수 있습니다."
+
+#: lib/common.lib.php:3049
+msgid ""
+"To resolve the problem, change the max_input_vars value in server php.ini"
+msgstr ""
+"문제를 해결하기 위해서는 서버 php.ini의 max_input_vars 값을 변경하십시오"
+
+#: lib/common.lib.php:3126
+#, php-format
+msgid "Return of recommendation point due to %s member data deletion"
+msgstr "%s 님의 회원자료 삭제로 인한 추천인 포인트 반환"
+
+#: lib/common.lib.php:3126
+#, php-format
+msgid "Delete %s recommendation"
+msgstr "%s 추천인 삭제"
+
+#: lib/common.lib.php:3130
+msgid "Deleted"
+msgstr "삭제함"
+
+#: lib/common.lib.php:3230 lib/common.lib.php:3278
+msgid "Can not specify another domain at url."
+msgstr "URL 에 타 도메인을 지정할 수 없습니다."
+
+#: lib/common.lib.php:3254
+msgid "Invalid url information."
+msgstr "URL 정보가 올바르지 않습니다."
+
+#: lib/editor.lib.php:25 plugin/editor/ckeditor4/editor.lib.php:117
+#: plugin/editor/ckeditor4/editor.lib.php:124
+#: plugin/editor/smarteditor2/editor.lib.php:74
+#: plugin/editor/smarteditor2/editor.lib.php:76
+msgid "Enter contents."
+msgstr "내용을 입력하세요."
+
+#: lib/get_data.lib.php:499
+msgid "Questions Answer"
+msgstr "질문답변"
+
+#: lib/get_data.lib.php:500
+msgid "Free Board"
+msgstr "자유게시판"
+
+#: lib/get_data.lib.php:501
+msgid "Gallery"
+msgstr "갤러리"
+
+#: lib/get_data.lib.php:530
+msgid "Subject"
+msgstr "제목"
+
+#: lib/get_data.lib.php:531
+msgid "Content"
+msgstr "내용"
+
+#: lib/get_data.lib.php:532
+msgid "Subject+Content"
+msgstr "제목+내용"
+
+#: lib/get_data.lib.php:535
+msgctxt "Search comments using member ID"
+msgid "Member ID(C)"
+msgstr "회원아이디(코)"
+
+#: lib/get_data.lib.php:538
+msgid "Commenter"
+msgstr "글쓴이(코)"
+
+#: lib/get_data.lib.php:571 lib/get_data.lib.php:576 lib/get_data.lib.php:587
+#: lib/get_data.lib.php:592
+msgid "Postcode"
+msgstr "우편번호"
+
+#: lib/get_data.lib.php:577
+msgid "Search"
+msgstr "검색"
+
+#: lib/get_data.lib.php:579 lib/get_data.lib.php:580 lib/get_data.lib.php:601
+#: lib/get_data.lib.php:602
+msgid "Street address 1"
+msgstr "주소 1"
+
+#: lib/get_data.lib.php:581 lib/get_data.lib.php:582 lib/get_data.lib.php:603
+#: lib/get_data.lib.php:604
+msgid "Street address 2"
+msgstr "주소 2"
+
+#: lib/get_data.lib.php:593
+msgid "Country"
+msgstr "국가"
+
+#: lib/get_data.lib.php:595
+msgid "Select a country."
+msgstr "국가를 선택하세요."
+
+#: lib/get_data.lib.php:605 lib/get_data.lib.php:606
+msgid "Town / City"
+msgstr "시/도"
+
+#: lib/language.lib.php:11
+msgid "English"
+msgstr "영어"
+
+#: lib/language.lib.php:12
+msgid "Korean"
+msgstr "한국어"
+
+#: lib/language.lib.php:13
+msgid "Japanese"
+msgstr "일본어"
+
+#: lib/language.lib.php:14
+msgid "Chinese"
+msgstr "중국어"
+
+#: lib/language.lib.php:229
+msgid "Delete"
+msgstr "삭제"
+
+#: lib/language.lib.php:231 lib/language.lib.php:240 lib/language.lib.php:249
+msgid "Are you sure you want to delete it?"
+msgstr "정말 삭제하시겠습니까?"
+
+#: lib/language.lib.php:232 lib/language.lib.php:241
+msgid "Token information is invalid."
+msgstr "토큰정보가 올바르지 않습니다."
+
+#: lib/language.lib.php:257
+#, php-format
+msgid "This is a required %s"
+msgstr "필수 %s 입니다"
+
+#: lib/language.lib.php:258
+msgid "Selection"
+msgstr "선택"
+
+#: lib/language.lib.php:260
+msgid "The phone number is not in the correct format."
+msgstr "전화번호 형식이 올바르지 않습니다."
+
+#: lib/language.lib.php:261
+msgid "Enter including hyphen (-)."
+msgstr "하이픈(-)을 포함하여 입력하세요."
+
+#: lib/language.lib.php:262
+msgid "Not in email address format."
+msgstr "이메일주소 형식이 아닙니다."
+
+#: lib/language.lib.php:263
+msgid "(consonants and vowels are allowed only)"
+msgstr "(자음, 모음 조합된 한글만 가능)"
+
+#: lib/language.lib.php:264
+msgid "It's not Hangeul."
+msgstr "한글이 아닙니다."
+
+#: lib/language.lib.php:265
+msgid "It is not Korean, English or number."
+msgstr "한글, 영문, 숫자가 아닙니다."
+
+#: lib/language.lib.php:266
+msgid "It is not Korean or English."
+msgstr "한글, 영문이 아닙니다."
+
+#: lib/language.lib.php:267
+msgid "It's not number."
+msgstr "숫자가 아닙니다."
+
+#: lib/language.lib.php:268
+msgid "It's not English."
+msgstr "영문이 아닙니다."
+
+#: lib/language.lib.php:269
+msgid "It's not English or Number."
+msgstr "영문 또는 숫자가 아닙니다."
+
+#: lib/language.lib.php:270
+msgid "It's not English, Number or hyphen (-)."
+msgstr "영문, 숫자, _ 가 아닙니다."
+
+#: lib/language.lib.php:271
+#, php-format
+msgid "Please enter at least %s characters."
+msgstr "최소 %s 글자 이상 입력하세요."
+
+#: lib/language.lib.php:272
+msgid "It's not image file."
+msgstr "이미지 파일이 아닙니다."
+
+#: lib/language.lib.php:273
+msgid "Only .gif .jpg .png files are allowed."
+msgstr ".gif .jpg .png 파일만 가능합니다."
+
+#: lib/language.lib.php:274
+#, php-format
+msgid "Only files with extension .%s are allowed."
+msgstr "확장자가 .%s 파일만 가능합니다."
+
+#: lib/language.lib.php:275
+msgid "There should be no spaces."
+msgstr "공백이 없어야 합니다."
+
+#: lib/register.lib.php:7
+msgid "Enter member ID."
+msgstr "회원아이디를 입력해 주십시오."
+
+#: lib/register.lib.php:15
+msgid "Enter only alphabetic, numeric, and _ for member ID."
+msgstr "회원아이디는 영문자, 숫자, _ 만 입력하세요."
+
+#: lib/register.lib.php:23
+msgid "Please enter at least 3 characters for member ID."
+msgstr "회원아이디는 최소 3글자 이상 입력하세요."
+
+#: lib/register.lib.php:38
+msgid "Duplicate ID already exists."
+msgstr "이미 존재하는 중복된 아이디입니다."
+
+#: lib/register.lib.php:47
+msgid "This member ID can not be used as a word already reserved."
+msgstr "이미 예약된 단어로 사용할 수 없는 회원아이디 입니다."
+
+#: lib/register.lib.php:55
+msgid "Please enter a nickname."
+msgstr "닉네임을 입력해 주십시오."
+
+#: lib/register.lib.php:63
+msgid "You can enter character, and numbers without spaces for nicknames."
+msgstr "닉네임은 공백없이 한글, 영문, 숫자만 입력 가능합니다."
+
+#: lib/register.lib.php:71
+msgid "You can enter your nickname in more than 2 characters."
+msgstr "닉네임을 2 글자 이상 입력해 주세요."
+
+#: lib/register.lib.php:81
+msgid "The nickname already exists."
+msgstr "이미 존재하는 닉네임입니다."
+
+#: lib/register.lib.php:90
+msgid "Nickname can not be used as a word already reserved."
+msgstr "이미 예약된 단어로 사용할 수 없는 닉네임 입니다."
+
+#: lib/register.lib.php:98
+msgid "Please enter your email address."
+msgstr "E-mail 주소를 입력해 주십시오."
+
+#: lib/register.lib.php:106
+msgid "E-mail address is out of format."
+msgstr "E-mail 주소가 형식에 맞지 않습니다."
+
+#: lib/register.lib.php:123
+#, php-format
+msgid "Mail %s is not available."
+msgstr "%s 메일은 사용할 수 없습니다."
+
+#: lib/register.lib.php:133
+msgid "This email address is already in use."
+msgstr "이미 사용중인 E-mail 주소입니다."
+
+#: lib/register.lib.php:141
+msgid "Please enter a name."
+msgstr "이름을 입력해 주십시오."
+
+#: lib/register.lib.php:149
+msgid "You can enter Korean characters only without spaces."
+msgstr "이름은 공백없이 한글만 입력 가능합니다."
+
+#: lib/register.lib.php:158
+msgid "Please enter your mobile phone number."
+msgstr "휴대폰번호를 입력해 주십시오."
+
+#: lib/register.lib.php:163
+msgid "Please enter a valid mobile phone number."
+msgstr "휴대폰번호를 올바르게 입력해 주십시오."
+
+#: lib/register.lib.php:179
+msgid "Duplicate phone number already exists."
+msgstr "이미 존재하는 핸드폰번호로 중복되었습니다."
+
+#: lib/visit.lib.php:58 lib/visit.lib.php:88
+msgid "etc"
+msgstr "기타"
+
+#: plugin/editor/ckeditor4/editor.lib.php:25
+#: plugin/editor/smarteditor2/editor.lib.php:24
+msgid "Start Web editor"
+msgstr "웹 에디터 시작"
+
+#: plugin/editor/ckeditor4/editor.lib.php:27
+#: plugin/editor/ckeditor4/editor.lib.php:49
+#: plugin/editor/smarteditor2/editor.lib.php:26
+#: plugin/editor/smarteditor2/editor.lib.php:38
+msgid "View Shortcut"
+msgstr "단축키 보기"
+
+#: plugin/editor/ckeditor4/editor.lib.php:52
+#: plugin/editor/smarteditor2/editor.lib.php:41
+msgid "Hide Shortcut"
+msgstr "단축키 닫기"
+
+#: plugin/editor/ckeditor4/editor.lib.php:90
+#: plugin/editor/smarteditor2/editor.lib.php:54
+msgid "End Web editor"
+msgstr "웹에디터 끝"
+
+#: plugin/editor/ckeditor4/editor.lib.php:126
+msgid "Please wait, images uploading."
+msgstr "이미지 업로드 중 입니다."
+
+#: plugin/editor/ckeditor4/upload.php:30
+msgid "No files"
+msgstr "파일이 없습니다."
+
+#: plugin/editor/ckeditor4/upload.php:40
+msgid "Only 'jpg, gif, png' file"
+msgstr "'jpg, gif, png' 파일만 가능합니다."
+
+#: plugin/editor/ckeditor4/upload.php:81
+msgid "Upload failure."
+msgstr "업로드 실패."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:9
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:20
+msgid "Attach Photos"
+msgstr "사진 첨부"
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:25
+msgid "Change the order by dragging with the mouse."
+msgstr "마우스로 드래그하여 순서를 바꿀수 있습니다."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:28
+msgid "Select File"
+msgstr "파일선택"
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:33
+msgid "Delete All"
+msgstr "전체삭제"
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:40
+msgid "Add images by dragging with the mouse."
+msgstr "마우스로 드래그해서 이미지를 추가해주세요."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:42
+msgid "Up to 10 images can be selected at a time."
+msgstr "이미지는 한번에 10개까지 선택할수 있습니다."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:45
+msgid "Add"
+msgstr "추가"
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:57
+msgid "Allow images only."
+msgstr "이미지만 허용합니다."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:58
+#, php-format
+msgid "Please select no more than %s files."
+msgstr "파일을 %s 개 이하로 선택해주세요."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:59
+msgid "Browser does not support drag and drop."
+msgstr "브라우저가 드래그 앤 드랍을 지원하지 않습니다."
+
+#: plugin/editor/smarteditor2/photo_uploader/popup/index.php:60
+msgid "An image has been added. Are you sure you want to delete it?"
+msgstr "추가한 이미지가 있습니다.정말 삭제 하시겠습니까?"
+
+#: plugin/kcaptcha/kcaptcha.lib.php:252
+msgid "Listen to numeric voices"
+msgstr "숫자음성듣기"
+
+#: plugin/kcaptcha/kcaptcha.lib.php:253
+msgid "Refresh"
+msgstr "새로고침"
+
+#: plugin/kcaptcha/kcaptcha.lib.php:254
+msgid "Please enter captcha numbers in order."
+msgstr "자동등록방지 숫자를 순서대로 입력하세요."
+
+#: plugin/sns/view.sns.skin.php:35 plugin/sns/view.sns.skin.php:37
+msgid "SNS sharing"
+msgstr "SNS 공유"
+
+#: plugin/sns/view.sns.skin.php:39
+msgid "Send to Twitter"
+msgstr "트위터로 보내기"
+
+#: plugin/sns/view.sns.skin.php:40
+msgid "Send to Facebook"
+msgstr "페이스북으로 보내기"
+
+#: plugin/sns/view.sns.skin.php:41
+msgid "Send to Google+"
+msgstr "구글플러스로 보내기"
+
+#: plugin/sns/view.sns.skin.php:43
+msgid "Send to KakaoTalk"
+msgstr "카카오톡으로 보내기"
+
+#: plugin/sns/view_comment_list.sns.skin.php:11
+#: plugin/sns/view_comment_write.sns.skin.php:55
+#: plugin/sns/view_comment_write.sns.skin.php:58
+msgid "Add with Twitter"
+msgstr "트위터 동시 등록"
+
+#: plugin/syndi/ping.php:8
+msgid "Please disable access in bulletin board group."
+msgstr "게시판그룹에서 접근사용을 해제하여 주십시오."
+
+#: plugin/syndi/ping.php:11
+msgid "Only bulletins that can be read by non-members support syndication."
+msgstr "비회원 읽기가 가능한 게시판만 신디케이션을 지원합니다."
+
+#: plugin/syndi/ping.php:14
+msgid "The secret text does not support syndication."
+msgstr "비밀글은 신디케이션을 지원하지 않습니다."
+
+#: plugin/syndi/ping.php:17
+msgid "Bulletins excluded from syndication."
+msgstr "신디케이션에서 제외된 게시판입니다."
+
+#~ msgid "Today"
+#~ msgstr "오늘"
+
+#~ msgid "Yesterday"
+#~ msgstr "어제"
+
+#~ msgid "Maximum"
+#~ msgstr "최대"
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "Self-Authentication."
+#~ msgstr "이 게시판은 본인확인 하신 회원님만 글쓰기가 가능합니다."
+
+#~ msgid "Please confirm Self-Authentication in the member profile edit."
+#~ msgstr "회원 프로필 수정에서 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "adult-Authentication."
+#~ msgstr "이 게시판은 본인확인으로 성인인증 된 회원님만 글쓰기가 가능합니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "phone-Authentication."
+#~ msgstr "이 게시판은 휴대폰 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#~ msgid "Please confirm phone-Authentication in the member profile edit."
+#~ msgstr "회원 프로필 수정에서 휴대폰 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "adult by phone-Authentication."
+#~ msgstr ""
+#~ "이 게시판은 휴대폰 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#~ msgid "notice"
+#~ msgstr "공지"
+
+#~ msgid "You can mail only one person at a time."
+#~ msgstr "한번에 한사람에게만 메일을 발송할 수 있습니다."
+
+#~ msgid "Send as Google+"
+#~ msgstr "구글플러스로 보내기"
+
+#~ msgid ""
+#~ "You need to confirm your Self-Authentication to sign up for membership."
+#~ msgstr "회원가입을 위해서는 본인확인을 해주셔야 합니다."
+
+#~ msgid "The file %s does not exist."
+#~ msgstr "%s 파일이 존재하지 않습니다."
+
+#~ msgid "Do not have permission to execute the file."
+#~ msgstr "파일의 실행권한이 없습니다."
+
+#~ msgid "Please grant permission to execute as %s."
+#~ msgstr "%s 과 같이 실행권한을 부여해 주십시오."
+
+#~ msgid "Please grant %s file execute privileges."
+#~ msgstr "%s 파일에 실행권한을 부여해 주십시오."
+
+#~ msgid "Please upload the file with binary type again."
+#~ msgstr "파일을 바이너리 타입으로 다시 업로드하여 주십시오."
+
+#~ msgid ""
+#~ "Member ID \"%s\" is a member ID that does not exist (or is not opened), "
+#~ "is a member ID that has been excluded, or has been blocked from access."
+#~ msgstr ""
+#~ "회원아이디 \"%s\" 은(는) 존재(또는 정보공개)하지 않는 회원아이디 이거나 탈"
+#~ "퇴, 접근차단된 회원아이디 입니다."
+
+#~ msgid "Member ID error."
+#~ msgstr "회원아이디 오류 입니다."
+
+#~ msgid "Guest"
+#~ msgstr "손님"
+
+#~ msgid "Send Message"
+#~ msgstr "쪽지보내기"
+
+#~ msgid "Do not have permission to execute the file "
+#~ msgstr "파일의 실행권한이 없습니다."
+
+#~ msgid "Search by Name"
+#~ msgstr "이름으로 검색"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "This member ID is already in use."
+#~ msgstr "이미 사용중인 회원아이디 입니다."
+
+#~ msgid "The mobile phone number is already in use."
+#~ msgstr "이미 사용 중인 휴대폰번호입니다."
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "You can not edit a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 수정할 수 없습니다."
+
+#~ msgid "The original text with %s or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "The original text with three or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "Check comments"
+#~ msgstr "댓글내용 확인"
+
+#~ msgid "% is not an gif/jpg file."
+#~ msgstr "%s 은(는) gif/jpg 파일이 아닙니다."
+
+#~ msgid "You cant do this on the demo screen."
+#~ msgstr "데모 화면에서는 할수 없는 작업입니다."
+
+#~ msgid "Open Category"
+#~ msgstr "열린 분류"
+
+#~ msgid "You can not delete a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 삭제할 수 없습니다."
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 20:17+0900\n"
+"PO-Revision-Date: 2018-06-25 20:17+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: list.skin.php:9 rel_list.skin.php:8
+msgid "Answer completed"
+msgstr ""
+
+#: list.skin.php:9 rel_list.skin.php:9
+msgid "Answer waiting"
+msgstr ""
+
+#: list.skin.php:13
+msgid "No Qa posts found."
+msgstr ""
+
+#: list.skin.php:24
+#, php-format
+msgid "%s total"
+msgid_plural "%s totals"
+msgstr[0] ""
+
+#: list.skin.php:25
+#, php-format
+msgid "%s page"
+msgid_plural "%s pages"
+msgstr[0] ""
+
+#: list.skin.php:30
+msgid "Admin"
+msgstr ""
+
+#: list.skin.php:31 list.skin.php:111 view.answerform.skin.php:50
+#: view.skin.php:84 write.skin.php:103
+msgid "Write"
+msgstr ""
+
+#: list.skin.php:40 write.skin.php:34
+msgid "Category"
+msgstr ""
+
+#: list.skin.php:55 list.skin.php:110 view.skin.php:83 write.skin.php:102
+msgid "List"
+msgstr ""
+
+#: list.skin.php:60
+msgid "All current page posts"
+msgstr ""
+
+#: list.skin.php:64
+msgctxt "Number"
+msgid "Num"
+msgstr ""
+
+#: list.skin.php:65 rel_list.skin.php:19 view.answerform.skin.php:37
+#: view.answerform.skin.php:38 write.skin.php:63 write.skin.php:64
+msgid "Subject"
+msgstr ""
+
+#: list.skin.php:66 view.skin.php:21
+msgid "Writer"
+msgstr ""
+
+#: list.skin.php:67 rel_list.skin.php:20 view.skin.php:22
+msgid "Date"
+msgstr ""
+
+#: list.skin.php:68 rel_list.skin.php:21
+msgid "State"
+msgstr ""
+
+#: list.skin.php:108
+msgid "Delete Selection"
+msgstr ""
+
+#: list.skin.php:119
+msgid "Search Posts"
+msgstr ""
+
+#: list.skin.php:123 list.skin.php:125
+msgid "Search"
+msgstr ""
+
+#: list.skin.php:123 view.answerform.skin.php:41 write.skin.php:34
+#: write.skin.php:63 write.skin.php:68
+msgid "Required"
+msgstr ""
+
+#: list.skin.php:133
+msgid ""
+"If you are not using JavaScript, please be careful because you can delete "
+"the selection immediately without a separate verification process."
+msgstr ""
+
+#: rel_list.skin.php:13 view.skin.php:49
+msgid "Other QA"
+msgstr ""
+
+#: view.answer.skin.php:6
+msgid "Reply"
+msgstr ""
+
+#: view.answer.skin.php:7
+msgid "Additional QA"
+msgstr ""
+
+#: view.answer.skin.php:19 view.skin.php:81
+msgid "Edit"
+msgstr ""
+
+#: view.answer.skin.php:22 view.skin.php:82
+msgid "Delete"
+msgstr ""
+
+#: view.answerform.skin.php:18
+msgid "Write Answer"
+msgstr ""
+
+#: view.answerform.skin.php:32 write.skin.php:74
+msgid "Option"
+msgstr ""
+
+#: view.answerform.skin.php:41 view.skin.php:36 write.skin.php:68
+msgid "Content"
+msgstr ""
+
+#: view.answerform.skin.php:58
+msgid "We are preparing an answer to your inquiry."
+msgstr ""
+
+#: view.skin.php:20
+msgid "Page info"
+msgstr ""
+
+#: view.skin.php:25
+msgid "E-mail"
+msgstr ""
+
+#: view.skin.php:29 write.skin.php:54
+msgid "Mobile phone"
+msgstr ""
+
+#: view.skin.php:55
+msgid "Attached file"
+msgstr ""
+
+#: view.skin.php:75
+msgid "Prev"
+msgstr ""
+
+#: view.skin.php:76
+msgid "Next"
+msgstr ""
+
+#: write.skin.php:20
+msgid "Write 1:1 Contact"
+msgstr ""
+
+#: write.skin.php:36
+msgid "Select a Category"
+msgstr ""
+
+#: write.skin.php:45
+msgid "Email"
+msgstr ""
+
+#: write.skin.php:46
+msgid "email"
+msgstr ""
+
+#: write.skin.php:48
+msgid "Receive by email"
+msgstr ""
+
+#: write.skin.php:57
+msgid "Receive by SMS"
+msgstr ""
+
+#: write.skin.php:81
+msgid "File #1"
+msgstr ""
+
+#: write.skin.php:82 write.skin.php:92
+#, php-format
+msgid "File Attachment %s : Upload capacity less than %s"
+msgstr ""
+
+#: write.skin.php:84 write.skin.php:94
+msgid "Delete File"
+msgstr ""
+
+#: write.skin.php:91
+msgid "File #2"
+msgstr ""
+
+#: write.skin.php:103
+msgid "Save"
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "找不到任何帖子。"

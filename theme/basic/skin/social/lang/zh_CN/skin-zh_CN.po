@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 20:28+0900\n"
+"PO-Revision-Date: 2018-06-25 20:28+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: social_login.skin.php:24 social_login.skin.php:26
+#: social_outlogin.skin.1.php:24 social_outlogin.skin.1.php:26
+#: social_register.skin.php:26
+msgid "Naver"
+msgstr ""
+
+#: social_login.skin.php:26 social_login.skin.php:32 social_login.skin.php:38
+#: social_login.skin.php:44 social_login.skin.php:50 social_login.skin.php:56
+#: social_outlogin.skin.1.php:26 social_outlogin.skin.1.php:32
+#: social_outlogin.skin.1.php:38 social_outlogin.skin.1.php:44
+#: social_outlogin.skin.1.php:50 social_outlogin.skin.1.php:56
+#: social_u_register_form.skin.php:43
+msgid "Login"
+msgstr ""
+
+#: social_login.skin.php:30 social_login.skin.php:32
+#: social_outlogin.skin.1.php:30 social_outlogin.skin.1.php:32
+msgid "Kakao"
+msgstr ""
+
+#: social_login.skin.php:36 social_login.skin.php:38
+#: social_outlogin.skin.1.php:36 social_outlogin.skin.1.php:38
+#: social_register.skin.php:38
+msgid "Facebook"
+msgstr ""
+
+#: social_login.skin.php:42 social_login.skin.php:44
+#: social_outlogin.skin.1.php:42 social_outlogin.skin.1.php:44
+#: social_register.skin.php:44
+msgid "Google"
+msgstr ""
+
+#: social_login.skin.php:48 social_login.skin.php:50
+#: social_outlogin.skin.1.php:48 social_outlogin.skin.1.php:50
+#: social_register.skin.php:50
+msgid "Twitter"
+msgstr ""
+
+#: social_login.skin.php:54 social_login.skin.php:56
+#: social_outlogin.skin.1.php:54 social_outlogin.skin.1.php:56
+#: social_register.skin.php:56
+msgid "Payco"
+msgstr ""
+
+#: social_login.skin.php:65 social_outlogin.skin.1.php:65
+#: social_register.skin.php:67 social_u_register_form.skin.php:59
+msgid ""
+"Pop-up Blocker is blocked in your browser. Please activate pop-up and try "
+"again."
+msgstr ""
+
+#: social_outlogin.skin.1.php:21
+msgid "Log in as a social account"
+msgstr ""
+
+#: social_register.skin.php:23
+msgid "Sign up for SNS account"
+msgstr ""
+
+#: social_register.skin.php:28
+msgid "Sign up by Naver social"
+msgstr ""
+
+#: social_register.skin.php:32
+msgid "KaKao"
+msgstr ""
+
+#: social_register.skin.php:34
+msgid "Sign up by KaKao social"
+msgstr ""
+
+#: social_register.skin.php:40
+msgid "Sign up by Facebook social"
+msgstr ""
+
+#: social_register.skin.php:46
+msgid "Sign up by Google social"
+msgstr ""
+
+#: social_register.skin.php:52
+msgid "Sign up by Twitter social"
+msgstr ""
+
+#: social_register.skin.php:58
+msgid "Sign up by Payco social"
+msgstr ""
+
+#: social_register_member.skin.php:14
+msgid "Duplicate email to register.Please enter another e-mail."
+msgstr ""
+
+#: social_register_member.skin.php:36 social_register_member.skin.php:45
+msgid "Learn more"
+msgstr ""
+
+#: social_register_member.skin.php:37
+msgid "Terms and conditions of membership"
+msgstr ""
+
+#: social_register_member.skin.php:46
+msgid "Privacy Policy Guide"
+msgstr ""
+
+#: social_register_member.skin.php:53
+msgid "I accept the terms and conditions."
+msgstr ""
+
+#: social_register_member.skin.php:58
+msgid "Entering member profile"
+msgstr ""
+
+#: social_register_member.skin.php:61 social_register_member.skin.php:108
+#: social_register_member.skin.php:110
+msgid "Required"
+msgstr ""
+
+#: social_register_member.skin.php:63
+msgid "Enter your email."
+msgstr ""
+
+#: social_register_member.skin.php:73
+msgid "Register"
+msgstr ""
+
+#: social_register_member.skin.php:74
+msgid "Cancel"
+msgstr ""
+
+#: social_register_member.skin.php:82
+msgid "Are you an existing member?"
+msgstr ""
+
+#: social_register_member.skin.php:84 social_register_member.skin.php:100
+msgid "Link to an existing account"
+msgstr ""
+
+#: social_register_member.skin.php:92
+msgid "Close"
+msgstr ""
+
+#: social_register_member.skin.php:103
+msgid "Link SNS ID to existing ID."
+msgstr ""
+
+#: social_register_member.skin.php:104
+msgid "Then, log in with your SNS ID and you can log in with your existing ID."
+msgstr ""
+
+#: social_register_member.skin.php:108
+msgid "ID"
+msgstr ""
+
+#: social_register_member.skin.php:110
+msgid "Password"
+msgstr ""
+
+#: social_register_member.skin.php:113
+msgid "Link Account"
+msgstr ""
+
+#: social_register_member.skin.php:123
+msgid ""
+"You must agree to the terms and conditions of your membership before you can "
+"sign up."
+msgstr ""
+
+#: social_register_member.skin.php:124
+msgid ""
+"You must agree to the information handling policy guidelines before you can "
+"sign up."
+msgstr ""
+
+#: social_u_register_form.skin.php:16
+msgid "Manage SNS login"
+msgstr ""
+
+#: social_u_register_form.skin.php:33 social_u_register_form.skin.php:54
+#, php-format
+msgid "%s Disconnect."
+msgstr ""
+
+#: social_u_register_form.skin.php:39 social_u_register_form.skin.php:58
+#, php-format
+msgid "Link %s account."
+msgstr ""
+
+#: social_u_register_form.skin.php:55
+msgid "Linked Account."
+msgstr ""
+
+#: social_u_register_form.skin.php:56
+msgid "Are you sure you want to disconnect this account?"
+msgstr ""
+
+#: social_u_register_form.skin.php:57
+msgid "Invalid request! provider value not found."
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "找不到任何帖子。"

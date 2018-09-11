@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 아웃로그인 스킨 */
+.ol {position:relative}
+.ol h2 {margin:0;padding:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
+
+.ol a.btn_admin {display:inline-block;padding:0 5px;height:25px;text-decoration:none;line-height:23px;border-radius:3px;vertical-align:middle} /* 관리자 전용 버튼 */
+.ol a.btn_admin:focus, .ol a.btn_admin:hover {text-decoration:none}
+
+#ol_before {margin-bottom:10px;padding:15px;background:#fff;border:1px solid #d9dee9}
+#ol_before:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_before .ol_wr {position:relative;margin-bottom:5px;border:1px solid #d0d4df}
+#ol_id {display:block;width:190px;height:32px;padding:0 10px;border:0;background:#f8f9fb}
+#ol_pw {display:block;width:190px;height:32px;padding:0 10px;border:0;background:#f8f9fb;border-top:1px solid #ededed}
+#ol_submit {position:absolute;top:-1px;right:-1px;width:78px;height:66px;font-weight:bold;font-size:1.167em;background:#3598dc;color:#fff}
+#ol_svc {float:right;line-height:20px;margin-top:3px}
+#ol_svc a {display:inline-block;color:#999}
+#ol_svc a.border-right {padding-right:5px;background:url('img/division-border.gif') right 5px no-repeat}
+#ol_auto {float:left;margin-top:3px;height:18.5px;overflow:hidden}
+#ol_auto label {color:#555}
+#ol_auto .agree_ck {display:inline-block;float:left;margin-right:5px;width:19px;height:19px;background:url('img/input_chk.png') no-repeat 0 -19px;vertical-align:top}
+#ol_auto .agree_ck.click_on {background:url('img/input_chk.png') no-repeat 0 0}
+#auto_login {position:absolute;top:0;left:0;width:1px;height:1px;opacity:0;outline:0;z-index:9}
+.ol_auto_wr:after {display:block;visibility:hidden;clear:both;content:""}
+
+#ol_after {background:#fff;border:1px solid #d2d9e6}
+#ol_after_hd:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_hd {padding:10px;text-align:left}
+#ol_after_hd img {display:inline-block;float:left;border-radius:50%;margin:0 10px}
+#ol_after_hd .ol_btn {display:inline-block;float:left}
+#ol_after_hd .ol_btn strong {display:block;margin:7px 0}
+#ol_after_hd .btn_b04 {padding:0 5px;line-height:25px;border-radius:3px}
+#ol_after_private {border-top:1px solid #e8e8e8}
+#ol_after_private:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li {position:relative;float:left;width:50%;text-align:left}
+#ol_after_private li:nth-child(1), #ol_after_private li:nth-child(2) {border-bottom:1px solid #e8e8e8}
+#ol_after_private li:first-child a, #ol_after_private li:nth-child(3) a {border-left:0}
+#ol_after_private li .mm_value {display:inline-block;float:right;padding:1px 3px;border-radius:10px;font-weight:bold;background:#d5f2f0;color:#007d73}
+
+#ol_after_private a {display:block;border-left:1px solid #e8e8e8;padding:10px;color:#0b0b0b}
+#ol_after_private a:hover {background:#fafbfc}
+#ol_after_private a i {display:inline-block;margin-right:5px;color:#a5a5a5}
+#ol_after_private .li_alarm button {width:100%;text-align:left;background:#fff;display:inline-block;border:0;border-left:1px solid #e8e8e8;padding:10px;color:#0b0b0b}
+#ol_after_private .li_alarm i {display:inline-block;margin-right:5px;color:#a5a5a5}
+
+#ol_after_memo {margin-right:1px}
+#ol_after_pt {margin-right:1px}
+
+#my_alarm_list {display:none;position:relative;margin-top:-1px;border:1px solid #d2d9e6;background:#fff;-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.1);box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+#my_alarm_list:after {content: "";position:absolute;top:-6px;right:100px;width:10px;height:10px;background:url('img/ico_arrow.png') no-repeat}
+#my_alarm_list h3 {display:inline-block;float:left;padding:12px}
+#my_alarm_list .all_arm {display:inline-block;float:right;margin:7px 7px 0 0;padding:4px 5px;border:1px solid #17bb9c;color:#17bb9c;border-radius:3px}
+#my_alarm_list .all_arm:hover {background:#17bb9c;color:#fff}
+#my_alarm_list ul {clear:both;max-height:190px;overflow-y:scroll;border-top:1px solid #f1f1f1}
+#my_alarm_list ul:after {display:block;visibility:hidden;clear:both;content:""}
+#my_alarm_list li {position:relative;padding:10px 15px;line-height:1.6;border-bottom:1px solid #f1f1f1}
+#my_alarm_list li.last-child {border-bottom:0}
+#my_alarm_list b {color:#5488e8}
+#my_alarm_list .list_time {display:block;color:#a7a6a6}
+#my_alarm_list .list_del {position:absolute;bottom:10px;right:10px;padding:2px 3px;line-height:10px;border:1px solid #b9bbbe;color:#b9bbbe;background:#fff;border-radius:3px}

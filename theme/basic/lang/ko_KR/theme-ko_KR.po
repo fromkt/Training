@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-29 10:37+0900\n"
+"PO-Revision-Date: 2018-08-29 10:37+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: mobile/skin\n"
+"X-Poedit-SearchPathExcluded-1: skin\n"
+
+#: group.php:10
+#, php-format
+msgid "Group %s can only be accessed by MOBILE."
+msgstr "%s 그룹은 모바일 에서만 접근할 수 있습니다."
+
+#: head.php:25 mobile/head.php:16
+msgid "Go to Body"
+msgstr "본문 바로가기"
+
+#: head.php:41
+msgctxt "Edit My Profile"
+msgid "Profile"
+msgstr "프로필"
+
+#: head.php:42 head.sub.php:110
+msgid "Logout"
+msgstr "로그아웃"
+
+#: head.php:44
+msgid "Register"
+msgstr "회원가입"
+
+#: head.php:45 mobile/head.php:134
+msgid "Login"
+msgstr "로그인"
+
+#: head.php:49
+msgid "Admin"
+msgstr "관리자"
+
+#: head.php:56 mobile/head.php:141
+msgid "All Search in Site"
+msgstr "사이트 내 전체검색"
+
+#: head.php:60
+msgid "Search term required"
+msgstr "검색어 필수"
+
+#: head.php:61 mobile/head.php:145
+msgid "Enter search term"
+msgstr "검색어를 입력해주세요"
+
+#: head.php:62 mobile/head.php:146
+msgid "Search"
+msgstr "검색"
+
+#: head.php:68 mobile/head.php:152
+msgid "Please enter at least two characters for search term."
+msgstr "검색어는 두글자 이상 입력하십시오."
+
+#: head.php:69 mobile/head.php:153
+msgid "For quick searching, you can only enter one space in the search term."
+msgstr "빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다."
+
+#: head.php:104
+msgid "Main menu"
+msgstr "메인메뉴"
+
+#: head.php:107 mobile/head.php:32
+msgid "Open the all menu"
+msgstr "전체메뉴열기"
+
+#: head.php:147 mobile/head.php:60
+msgid "Subcategory"
+msgstr "하위분류"
+
+#: head.php:163 head.php:202 mobile/head.php:74 mobile/head.php:117
+msgid "Preparing menu."
+msgstr "메뉴 준비 중입니다."
+
+#: head.php:165 head.php:204 mobile/head.php:75 mobile/head.php:119
+#, php-format
+msgid "You can set it in %s"
+msgstr "%s 에서 설정하실 수 있습니다"
+
+#: head.php:165 head.php:204 mobile/head.php:75 mobile/head.php:119
+msgid "Admin mode &gt; Configuration &gt; Menu settings"
+msgstr "관리자모드 &gt; 환경설정 &gt; 메뉴설정"
+
+#: head.php:172
+msgid "All menu"
+msgstr "전체메뉴"
+
+#: head.php:210 mobile/head.php:94 mobile/head.php:147
+msgid "close"
+msgstr "닫기"
+
+#: head.php:239 mobile/head.php:82
+msgctxt "1:1 inquiry"
+msgid "1:1"
+msgstr "1:1 문의"
+
+#: head.php:240 mobile/head.php:83
+msgid "Visitor"
+msgstr "방문자"
+
+#: head.php:241 mobile/head.php:84
+msgctxt "New posts"
+msgid "New"
+msgstr "새글"
+
+#: head.sub.php:105
+msgid "Super administrator"
+msgstr "최고관리자"
+
+#: head.sub.php:106
+msgid "Group administrator"
+msgstr "그룹관리자"
+
+#: head.sub.php:107
+msgid "Board administrator"
+msgstr "게시판관리자"
+
+#: head.sub.php:109
+#, php-format
+msgid "Logging in to %s"
+msgstr "%s 님 로그인 중"
+
+#: index.php:17
+msgid "Latest articles"
+msgstr "최신글"
+
+#: index.php:80 index.php:81
+msgid "More"
+msgstr "더보기"
+
+#: js/list_js.php:6
+msgid "Copy Selection"
+msgstr "선택복사"
+
+#: js/list_js.php:7
+msgid "Move Selection"
+msgstr "선택이동"
+
+#: js/list_js.php:8 js/qa_list_js.php:6
+msgid "Delete Selection"
+msgstr "선택삭제"
+
+#: js/list_js.php:9
+msgid "Copy"
+msgstr "복사"
+
+#: js/list_js.php:10
+msgid "Move"
+msgstr "이동"
+
+#: js/list_js.php:11 js/qa_list_js.php:7
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr "%s 할 게시물을 하나 이상 선택하세요."
+
+#: js/list_js.php:12 js/qa_list_js.php:8 js/view_comment_js.php:6
+msgid "Are you sure you want to delete it?"
+msgstr "정말 삭제하시겠습니까?"
+
+#: js/list_js.php:13
+msgid ""
+"If you selected a post with a reply, you must also select the reply post to "
+"delete the post."
+msgstr ""
+"답변글이 있는 게시글을 선택하신 경우, 답변글도 선택하셔야 게시글이 삭제됩니"
+"다."
+
+#: js/qa_write_js.php:6 js/write_js.php:6
+msgid "Do you want to wrap up the wrap?"
+msgstr "자동 줄바꿈을 하시겠습니까?"
+
+#: js/qa_write_js.php:7 js/write_js.php:7
+msgid ""
+"Word wrap is a function to convert a line from a post to a tag called <br>."
+msgstr "자동 줄바꿈은 게시물 내용중 줄바뀐 곳을<br>태그로 변환하는 기능입니다."
+
+#: js/qa_write_js.php:8 js/write_js.php:8
+#, php-format
+msgid "The subject contains the forbidden word (%s)"
+msgstr "제목에 금지단어 (%s) 가 포함되어있습니다"
+
+#: js/qa_write_js.php:9 js/view_comment_js.php:8 js/write_js.php:9
+#, php-format
+msgid "The content contains the forbidden word (%s)"
+msgstr "내용에 금지단어 (%s) 가 포함되어있습니다"
+
+#: js/view_comment_js.php:7
+msgid "Comment Url Copied."
+msgstr "댓글 주소를 복사하였습니다."
+
+#: js/view_comment_js.php:9
+#, php-format
+msgid "Comment must be at least %s characters long."
+msgstr "댓글은 %s 글자 이상 쓰셔야 합니다."
+
+#: js/view_comment_js.php:10
+#, php-format
+msgid "Comment must be written in not more than %s characters."
+msgstr "댓글은 %s 글자 이하로 쓰셔야 합니다."
+
+#: js/view_comment_js.php:11
+msgid "Please enter a comment."
+msgstr "댓글을 입력하여 주십시오."
+
+#: js/view_comment_js.php:12
+msgid "Please enter your name."
+msgstr "이름을 입력해 주세요."
+
+#: js/view_comment_js.php:13
+msgid "Please enter your password."
+msgstr "비밀번호를 입력해 주세요."
+
+#: js/view_js.php:6
+msgid "You copied the post!"
+msgstr "글을 복사하였습니다."
+
+#: js/view_js.php:7
+msgid "You do not have download privileges."
+msgstr "다운로드 권한이 없습니다."
+
+#: js/view_js.php:8
+msgid "If you are a member, please Log in and use it."
+msgstr "회원이시라면 로그인 후 이용해 보십시오."
+
+#: js/view_js.php:9
+#, php-format
+msgid "Download the file and the point will be deducted (%s points)."
+msgstr "파일을 다운로드 하시면 포인트 (%s) 가 차감됩니다."
+
+#: js/view_js.php:10
+msgid ""
+"Points will be deducted only once per post and will not be deducted from the "
+"next download."
+msgstr ""
+"포인트는 게시물당 한번만 차감되며 다음에 다시 다운로드 하셔도 중복하여 차감하"
+"지 않습니다."
+
+#: js/view_js.php:11
+msgid "Do you still want to download?"
+msgstr "그래도 다운로드 하시겠습니까?"
+
+#: js/view_js.php:12
+msgid "This post has Good."
+msgstr "이 글을 좋아요 하셨습니다."
+
+#: js/view_js.php:13
+msgid "This post has Bad."
+msgstr "이 글을 싫어요 하셨습니다."
+
+#: js/write_js.php:10
+#, php-format
+msgid "content must be at least %s characters long."
+msgstr "내용은 %s 글자 이상 쓰셔야 합니다."
+
+#: js/write_js.php:11
+#, php-format
+msgid "content must be written in not more than %s characters."
+msgstr "내용은 %s 글자 이하로 쓰셔야 합니다."
+
+#: mobile/group.php:5
+#, php-format
+msgid "Group %s can only be accessed by PC."
+msgstr "%s 그룹은 PC에서만 접근할 수 있습니다."
+
+#: mobile/head.php:89
+msgid "default"
+msgstr "기본"
+
+#: mobile/head.php:90
+msgid "large"
+msgstr "크게"
+
+#: mobile/head.php:91
+msgid "x-large"
+msgstr "더크게"
+
+#: mobile/head.php:94 mobile/head.php:138 mobile/head.php:147
+msgid "Menu"
+msgstr "메뉴"
+
+#: mobile/head.php:154
+msgid "Open"
+msgstr "열기"
+
+#: mobile/head.php:155
+msgid "Close"
+msgstr "닫기"
+
+#: mobile/head.php:254
+msgid "Previous"
+msgstr "이전으로"
+
+#: mobile/tail.php:15 tail.php:26
+msgid "About Company"
+msgstr "회사소개"
+
+#: mobile/tail.php:16 tail.php:27
+msgid "Privacy Policy"
+msgstr "개인정보처리방침"
+
+#: mobile/tail.php:17 tail.php:28
+msgid "Terms of service"
+msgstr "서비스이용약관"
+
+#: mobile/tail.php:19 tail.php:40
+msgid "Your domain."
+msgstr "소유하신 도메인."
+
+#: mobile/tail.php:22 tail.php:32
+msgid "Select Site Language"
+msgstr "사이트 언어 선택"
+
+#: mobile/tail.php:26 tail.php:42
+msgid "Top"
+msgstr "상단"
+
+#: mobile/tail.php:29
+msgid "View PC"
+msgstr "PC 보기"
+
+#: tail.php:29
+msgid "View Mobile"
+msgstr "모바일보기"
+
+#: theme.config.php:38
+msgid "Gnuboard M Basic theme"
+msgstr "그누보드 M 기본테마"
+
+#: theme.config.php:39
+msgid ""
+"Basic theme is the Grunboard M theme provided by SIR. Basic themes comply "
+"with Web standards and accessibility."
+msgstr ""
+"베이직 테마는 SIR에서 제공하는 그누보드 M 테마입니다. 베이직 테마는 웹표준 "
+"및 접근성을 준수합니다."

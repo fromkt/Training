@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+
+.pic_tab {width:100%;min-height:270px;padding:17px 22px;background:#fff;border:1px solid #d9dee9}
+.pic_tab:after {display:block;visibility:hidden;clear:both;content:""}
+.pic_tab ul:after {display:block;visibility:hidden;clear:both;content:""}
+.pic_tab li:first-child {float:left;width:37.4%;margin:0 2% 0 0;padding:0 2% 0 0;border-right:1px dotted #d6d7d6}
+.pic_tab li:first-child .lt_tit {font-size:1.2em;max-width:100%;text-overflow:ellipsis;overflow:hidden;margin:0;vertical-align:bottom}
+.pic_tab li:first-child .lt_img {display:block;width:100%;height:auto;margin-bottom:5px;overflow:hidden}
+.pic_tab li:first-child .lt_img img {width:100%;height:auto}
+.pic_tab li:first-child .new_icon {margin:0 0 0 5px}
+.pic_tab li:first-child .lct_info {display:none}
+.pic_tab li {display:block;float:left;width:60.6%;padding:0 0 2%}
+	
+.pic_tab:after {display:block;visibility:hidden;clear:both;content:""}
+.pic_tab li:last-child {padding-bottom:0}
+.pic_tab li .lt_img {display:block;float:left;width:18%;margin-right:2%;overflow:hidden}
+.pic_tab li .lt_img img {width:100%;height:auto}
+.pic_tab li .lt_tit {display:inline-block;font-size:1.2em;max-width:80%;margin:0 0 5px}
+
+.pic_tab li a:hover {color:#3598dc}
+.pic_tab li .fa-heart {color:#ff0000}
+.pic_tab li .fa-lock {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#262b88;text-align:center;border-radius:2px;font-size:12px;border:1px solid #262b88}
+.pic_tab li .new_icon {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#3fd49e;border:1px solid #32c791;text-align:center;border-radius:2px;margin:5px 0 5px 3px}
+.pic_tab li .hot_icon {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#ff7261;border:1px solid #e75341;text-align:center;border-radius:2px;margin:5px 0 5px 3px}
+.pic_tab li .fa-caret-right {color:#bbb}
+
+.empty_li {float:none !important;width:100% !important;line-height:160px;margin:0 !important;padding:0 !important;border-right:0 !important;text-align:center}
+
+.lct_info {margin:0;padding:0;font-size:1em}
+.lct_info:after {display:block;visibility:hidden;clear:both;content:""}
+.lt_nick {color:#999}
+.lt_date {color:#999}
+.lt_comnt {color:#396dbb}
+.lt_comnt i {color:#197bff}
+.sv_member {color:#999}

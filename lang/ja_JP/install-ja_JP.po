@@ -1,0 +1,438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-06 09:48+0900\n"
+"PO-Revision-Date: 2018-08-06 09:48+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../../install\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:6
+msgid "Verify Licenses"
+msgstr ""
+
+#: index.php:29 index.php:45 index.php:52 install_config.php:100
+msgid "License"
+msgstr ""
+
+#: index.php:36
+msgid "I agree"
+msgstr ""
+
+#: index.php:40 install_config.php:87
+msgid "Next"
+msgstr ""
+
+#: index.php:47
+msgid "Be sure to check the License details."
+msgstr ""
+
+#: index.php:50 install_config.php:98
+msgid "Installation order"
+msgstr ""
+
+#: index.php:53 install_config.php:92 install_config.php:101
+msgid "Entering Information"
+msgstr ""
+
+#: index.php:54 install_config.php:102
+msgid "Install"
+msgstr ""
+
+#: index.php:65
+msgid "You must accept the license to install it."
+msgstr ""
+
+#: install.inc.php:5
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: install.inc.php:28
+#, php-format
+msgid "The program %s is already installed."
+msgstr ""
+
+#: install.inc.php:31
+msgid "The program is already installed."
+msgstr ""
+
+#: install.inc.php:31
+msgid ""
+"To perform a new installation, please delete and refresh the DB config file."
+msgstr ""
+
+#: install.inc.php:44
+#, php-format
+msgid "Please check the information below to install %s."
+msgstr ""
+
+#: install.inc.php:48
+#, php-format
+msgid "Please create the %s directory down in the root directory."
+msgstr ""
+
+#: install.inc.php:49
+msgid "The root directory is where the \"common.php\" file resides."
+msgstr ""
+
+#: install.inc.php:51
+msgid "IF Window OS, please create a \"data\" folder."
+msgstr ""
+
+#: install.inc.php:52 install.inc.php:73 install.inc.php:87
+msgid "Please refresh your browser after executing the above command."
+msgstr ""
+
+#: install.inc.php:71 install.inc.php:85
+#, php-format
+msgid "Please change the %s directory permission to %s."
+msgstr ""
+
+#: install.inc.php:72 install.inc.php:86
+msgid "OR"
+msgstr ""
+
+#: install.inc2.php:2
+msgid "GNUBOARD M"
+msgstr ""
+
+#: install_config.php:11
+msgid "Initial Preferences"
+msgstr ""
+
+#: install_config.php:18
+#, php-format
+msgid ""
+"Requires php ( %s ) version or higher to install. Can not install the "
+"Current php ( %s ) version because it is low."
+msgstr ""
+
+#: install_config.php:22
+msgid "You must accept the license to continue with the installation."
+msgstr ""
+
+#: install_config.php:31 install_db.php:51 install_db.php:65
+msgid "Back"
+msgstr ""
+
+#: install_config.php:42
+#, php-format
+msgid "Enter %s information"
+msgstr ""
+
+#: install_config.php:60 install_config.php:119
+msgid "Table name prefix"
+msgstr ""
+
+#: install_config.php:62
+msgid "Do not make any possible changes."
+msgstr ""
+
+#: install_config.php:67
+msgid "Enter Super administrator information"
+msgstr ""
+
+#: install_config.php:69
+msgid "Member ID"
+msgstr ""
+
+#: install_config.php:73
+msgid "Password"
+msgstr ""
+
+#: install_config.php:77
+msgid "Name"
+msgstr ""
+
+#: install_config.php:78
+msgid "Super_Admin"
+msgstr ""
+
+#: install_config.php:81
+msgid "E-mail"
+msgstr ""
+
+#: install_config.php:94
+#, php-format
+msgid "WARNING! If %s already exists, DB data will be lost, so be careful."
+msgstr ""
+
+#: install_config.php:95
+msgid ""
+"You understand the precautions, and click Next to proceed with the "
+"installation of the GNUBOARD."
+msgstr ""
+
+#: install_config.php:113
+#, php-format
+msgid "Enter %s."
+msgstr ""
+
+#: install_config.php:114
+msgid "Admin ID"
+msgstr ""
+
+#: install_config.php:115
+msgid "Admin Password"
+msgstr ""
+
+#: install_config.php:116
+msgid "Admin Name"
+msgstr ""
+
+#: install_config.php:117
+msgid "Admin E-mail"
+msgstr ""
+
+#: install_config.php:118
+#, php-format
+msgid ""
+"The %s contains invalid characters. Please replace it with another letter."
+msgstr ""
+
+#: install_config.php:120
+msgid ""
+"You must create a super administrator member ID with the first character "
+"only in alphabetic and alphabetic and numeric characters."
+msgstr ""
+
+#: install_db.php:25
+msgid "The value entered contains unsafe characters. Stop the installation."
+msgstr ""
+
+#: install_db.php:32
+msgid "Installation complete"
+msgstr ""
+
+#: install_db.php:50 install_db.php:64
+#, php-format
+msgid "Please check %s."
+msgstr ""
+
+#: install_db.php:86
+#, php-format
+msgid "Installation of %s has started."
+msgstr ""
+
+#: install_db.php:108
+msgid "Complete table creation"
+msgstr ""
+
+#: install_db.php:184
+msgid "Enter the appropriate membership terms and conditions for the website."
+msgstr ""
+
+#: install_db.php:185
+msgid "Enter the privacy policy that corresponds to the website."
+msgstr ""
+
+#: install_db.php:193
+msgid "1:1 inquiry"
+msgstr ""
+
+#: install_db.php:193
+msgid "Member|Point"
+msgstr ""
+
+#: install_db.php:213
+msgid "About Company"
+msgstr ""
+
+#: install_db.php:213
+msgid "Please enter the information about your About Company."
+msgstr ""
+
+#: install_db.php:214
+msgid "Privacy Policy"
+msgstr ""
+
+#: install_db.php:214
+msgid "Please enter your Privacy Policy."
+msgstr ""
+
+#: install_db.php:215
+msgid "Terms of service"
+msgstr ""
+
+#: install_db.php:215
+msgid "Please enter the service terms and conditions."
+msgstr ""
+
+#: install_db.php:218
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: install_db.php:221
+msgid "Shoppingmall"
+msgstr ""
+
+#: install_db.php:221
+msgid "Community"
+msgstr ""
+
+#: install_db.php:316
+msgid "DB settings complete"
+msgstr ""
+
+#: install_db.php:341
+msgid "Data directory creation completed"
+msgstr ""
+
+#: install_db.php:397
+msgid "DB settings file creation complete"
+msgstr ""
+
+#: install_db.php:414
+#, php-format
+msgid "Congratulations!. Installation of %s is complete."
+msgstr ""
+
+#: install_db.php:420
+msgid "Follow these steps to change preferences."
+msgstr ""
+
+#: install_db.php:423
+msgid "Go to Main Screen"
+msgstr ""
+
+#: install_db.php:424
+msgid "Administrator login"
+msgstr ""
+
+#: install_db.php:425
+msgid "Go to Administrator Page"
+msgstr ""
+
+#: install_db.php:426
+msgid "Go to the Preferences page in the Preferences menu"
+msgstr ""
+
+#: install_db.php:430
+msgid "Go to the new GnuBoard M"
+msgstr ""
+
+#: library.check.php:6
+#, php-format
+msgid "GD library is required for normal use of %s."
+msgstr ""
+
+#: library.check.php:6
+msgid ""
+"Without the GD library, Captcha and thumbnail functionality will not work."
+msgstr ""
+
+#: license.php:4
+msgid ""
+"Software products are protected by copyright laws and international "
+"copyright conventions as well as other intellectual property laws and "
+"conventions."
+msgstr ""
+
+#: license.php:7
+msgid "Software name : Gnuboard M ( GNU Board Multilingual Version )"
+msgstr ""
+
+#: license.php:10
+msgid "Author :"
+msgstr ""
+
+#: license.php:12
+msgid "License :"
+msgstr ""
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "You can not edit a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 수정할 수 없습니다."
+
+#~ msgid "The original text with %s or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "The original text with three or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "Check comments"
+#~ msgstr "댓글내용 확인"
+
+#~ msgid "% is not an gif/jpg file."
+#~ msgstr "%s 은(는) gif/jpg 파일이 아닙니다."
+
+#~ msgid "You cant do this on the demo screen."
+#~ msgstr "데모 화면에서는 할수 없는 작업입니다."
+
+#~ msgid "Open Category"
+#~ msgstr "열린 분류"
+
+#~ msgid "You can not delete a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 삭제할 수 없습니다."
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

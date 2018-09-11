@@ -1,0 +1,448 @@
+<?php
+if (!defined('_GNUBOARD_')) exit; // Unable to access direct pages
+
+$have_to_keep_nickname = isset($member['mb_nick_date']) && $member['mb_nick_date'] > date("Y-m-d", GML_SERVER_TIME - ($config['cf_nick_modify'] * 86400));
+$mb_open_date_editable = isset($member['mb_open_date']) && $member['mb_open_date'] <= date("Y-m-d", GML_SERVER_TIME - ($config['cf_open_modify'] * 86400)) || empty($member['mb_open_date']);
+$mb_open_date_fix_deadline = date("Y-m-d", isset($member['mb_open_date']) ? strtotime("{$member['mb_open_date']} 00:00:00")+$config['cf_open_modify']*86400:GML_SERVER_TIME+$config['cf_open_modify']*86400);
+$member_icon_usable = $config['cf_use_member_icon'] && $member['mb_level'] >= $config['cf_icon_level'];
+$exist_member_icon_path = ($w == 'u') && file_exists($mb_icon_path);
+$member_image_usable = ($member['mb_level'] >= $config['cf_icon_level']) && $config['cf_member_img_size'] && $config['cf_member_img_width'] && $config['cf_member_img_height'];
+$exist_member_image_path = ($w == 'u') && file_exists($mb_img_path);
+$use_cert = $config['cf_cert_use'] && ($config['cf_cert_ipin'] || $config['cf_cert_hp']);
+
+$config['cf_nick_modify'] = (int)$config['cf_nick_modify'];
+$config['cf_open_modify'] = (int)$config['cf_open_modify'];
+
+if($config['cf_cert_use']) {
+    if($config['cf_cert_ipin']) {
+        $cert_button_id = 'win_ipin_cert';
+        $cert_button_text = __('I-PIN');
+    }
+    if($config['cf_cert_hp']) {
+        $cert_button_id = 'win_hp_cert';
+        $cert_button_text = __('Phone');
+    }
+}
+
+if ($config['cf_cert_use'] && $member['mb_certify']) {
+    if($member['mb_certify'] == 'ipin') {
+        $mb_cert = __('I-PIN');
+    } else {
+        $mb_cert = __('Phone');
+    }
+}
+
+if ($config['cf_use_email_certify']) {
+    $email_cert_info = ($w == 'u') ? __('You must authenticate again if you change your e-mail address.') : __('Sign up for membership only after checking the contents sent through e-mail.');
+}
+
+if( $w == 'u' && function_exists('social_member_provider_manage') ){
+    $show_social_account = social_member_provider_manage();
+}
+
+$submit_btn_text = ($w=='') ? __('Sign up') : __('Edit profile');
+
+// add_stylesheet('css file path', Output order); Smaller numbers printed first
+add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 0);
+?>
+
+<!-- Start enter / modify member info { -->
+<div class="register">
+    <script src="<?php echo GML_JS_URL ?>/jquery.register_form.js"></script>
+
+    <form name="fregisterform" id="fregisterform" action="<?php echo $register_action_url ?>" onsubmit="return fregisterform_submit(this);" method="post" enctype="multipart/form-data" autocomplete="off">
+    <input type="hidden" name="w" value="<?php echo $w ?>">
+    <input type="hidden" name="url" value="<?php echo $urlencode ?>">
+    <input type="hidden" name="agree" value="<?php echo $agree ?>">
+    <input type="hidden" name="agree2" value="<?php echo $agree2 ?>">
+    <input type="hidden" name="cert_type" value="<?php echo $member['mb_certify']; ?>">
+    <input type="hidden" name="cert_no" value="">
+    <?php if (isset($member['mb_sex'])) { ?><input type="hidden" name="mb_sex" value="<?php echo $member['mb_sex'] ?>"><?php } ?>
+    <?php if ($have_to_keep_nickname) { // If the date of nickname modification is not over ?>
+    <input type="hidden" name="mb_nick_default" value="<?php echo get_text($member['mb_nick']) ?>">
+    <input type="hidden" name="mb_nick" value="<?php echo get_text($member['mb_nick']) ?>">
+    <?php } ?>
+
+    <div class="form_01">
+        <h2><?php e__('Enter ID and Password'); ?></h2>
+        <li>
+            <label for="reg_mb_id" class="sound_only"><?php e__('ID'); ?><strong><?php e__('Required'); ?></strong></label>
+            <input type="text" name="mb_id" value="<?php echo $member['mb_id'] ?>" id="reg_mb_id" class="frm_input full_input <?php echo $required ?> <?php echo $readonly ?>" minlength="3" maxlength="20" <?php echo $required ?> <?php echo $readonly ?> placeholder="<?php e__('ID'); ?>">
+            <span id="msg_mb_id"></span>
+            <span class="frm_info">* <?php e__('You can enter only alphabet, numbers, and _. Please enter at least 3 characters.'); ?></span>
+        </li>
+        <li>
+            <label for="reg_mb_password" class="sound_only"><?php e__('Password'); ?><strong><?php e__('Required'); ?></strong></label>
+            <input type="password" name="mb_password" id="reg_mb_password" class="frm_input full_input <?php echo $required ?>" minlength="3" maxlength="20" <?php echo $required ?> placeholder="<?php e__('Password'); ?>">
+        </li>
+        <li>
+            <label for="reg_mb_password_re" class="sound_only"><?php e__('Confirm Password'); ?><strong><?php e__('Required'); ?></strong></label>
+            <input type="password" name="mb_password_re" id="reg_mb_password_re" class="frm_input full_input <?php echo $required ?>" minlength="3" maxlength="20" <?php echo $required ?>  placeholder="<?php e__('Confirm Password'); ?>">
+        </li>
+    </div>
+
+    <div class="form_01 personal_date">
+
+        <h2><?php e__('Enter member profile'); ?></h2>
+        <ul>
+	        <li class="rgs_name_li">
+	            <label for="reg_mb_name" class="sound_only"><?php e__('Name'); ?><strong><?php e__('Required'); ?></strong></label>
+	            <input type="text" id="reg_mb_name" name="mb_name" value="<?php echo get_text($member['mb_name']) ?>" <?php echo $required ?> <?php echo $readonly; ?> class="frm_input full_input <?php echo $required ?> <?php echo $readonly ?>" placeholder="<?php e__('Name'); ?>">
+	            <?php if($config['cf_cert_use']) { ?>
+	            <button type="button" id="<?php echo $cert_button_id ?>" class="btn_frmline btn"><?php echo $cert_button_text ?> <?php e__('Identity verification'); ?></button>
+	            <noscript><?php e__('JavaScript must be enabled for identification.'); ?></noscript>
+	            <?php } ?>
+	            
+	            <?php if ($config['cf_cert_use']) { ?>
+	            <span class="frm_info"><?php e__('The name will be automatically entered after confirmation of the I-PIN, and the name and phone number will be automatically entered after confirmation of the mobile phone.'); ?></span>
+	            <?php } ?>
+	            
+	            <?php if ($config['cf_cert_use'] && $member['mb_certify']) { ?>
+	            <div id="msg_certify">
+	                <strong><?php echo $mb_cert; ?> <?php e__('Identity verification'); ?></strong><?php if ($member['mb_adult']) { ?> , <strong><?php e__('Adult verification'); ?></strong><?php } ?> <?php e__('done'); ?>
+	            </div>
+	            <?php } ?>
+	        </li>
+	        <?php if ($req_nick) { ?>
+	        <li>
+	            <label for="reg_mb_nick" class="sound_only"><?php e__('Nickname'); ?><strong><?php e__('Required'); ?></strong></label>
+	            <input type="hidden" name="mb_nick_default" value="<?php echo isset_variable($member['mb_nick']) ?>">
+	            <input type="text" name="mb_nick" value="<?php echo isset_variable($member['mb_nick']); ?>" id="reg_mb_nick" required class="frm_input full_input required nospace" maxlength="20" placeholder="<?php e__('Nickname'); ?>">
+	            <span id="msg_mb_nick"></span>
+	            <span class="frm_info">
+	                * <?php e__('Enter only letters and numbers without spaces'); ?> <?php echo sprintf(__('If you change your nickname, you can not change it within the next %s days.'), $config['cf_nick_modify']); ?>
+	            </span>
+	        </li>
+	        <?php } ?>
+	
+	        <li>
+	            <label for="reg_mb_email" class="sound_only">E-<?php e__('E-mail'); ?><strong><?php e__('Required'); ?></strong></label>
+	            <?php if ($config['cf_use_email_certify']) {  ?>
+	            <span class="frm_info"><?php echo $email_cert_info ?></span>
+	            <?php }  ?>
+	            <input type="hidden" name="old_email" value="<?php echo $member['mb_email'] ?>">
+	            <input type="email" name="mb_email" value="<?php echo isset_variable($member['mb_email']) ?>" id="reg_mb_email" required class="frm_input email required" size="50" maxlength="100" placeholder="E-mail">
+	        </li>
+	
+	        <?php if ($config['cf_use_homepage']) { ?>
+	        <li>
+	            <label for="reg_mb_homepage" class="sound_only"><?php e__('Homepage'); ?><?php if ($config['cf_req_homepage']){ ?><strong><?php e__('Required'); ?></strong><?php } ?></label>
+	            <input type="url" name="mb_homepage" value="<?php echo get_text($member['mb_homepage']) ?>" id="reg_mb_homepage" class="frm_input full_input <?php echo element_required($config['cf_req_homepage']) ?>" maxlength="255" <?php echo element_required($config['cf_req_homepage']) ?> placeholder="<?php e__('Homepage'); ?>">
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($config['cf_use_tel']) { ?>
+	        <li>
+	            <label for="reg_mb_tel" class="sound_only"><?php e__('Phone Number'); ?><?php if ($config['cf_req_tel']) { ?><strong><?php e__('Required'); ?></strong><?php } ?></label>
+	            <input type="text" name="mb_tel" value="<?php echo get_text($member['mb_tel']) ?>" id="reg_mb_tel" class="frm_input full_input <?php echo element_required($config['cf_req_tel']) ?>" maxlength="20" <?php echo element_required($config['cf_req_tel']) ?> placeholder="<?php e__('Phone Number'); ?>">
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($config['cf_use_hp'] || $config['cf_cert_hp']) {  ?>
+	        <li>
+	            <label for="reg_mb_hp" class="sound_only"><?php e__('Mobile Number'); ?><?php if ($config['cf_req_hp']) { ?><strong><?php e__('Required'); ?></strong><?php } ?></label>
+	            <input type="text" name="mb_hp" value="<?php echo get_text($member['mb_hp']) ?>" id="reg_mb_hp" <?php echo ($config['cf_req_hp'])?"required":""; ?> class="frm_input full_input <?php echo element_required($config['cf_req_hp']) ?>" maxlength="20" placeholder="<?php e__('Mobile Number'); ?>">
+	            <?php if ($config['cf_cert_use'] && $config['cf_cert_hp']) { ?>
+	            <input type="hidden" name="old_mb_hp" value="<?php echo element_required($config['cf_req_hp']) ?>">
+	            <?php } ?>
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($config['cf_use_addr']) { ?>
+	        <li>
+	            <span class="frm_label"><?php e__('Street address 1'); ?><?php if ($config['cf_req_addr']) { ?><strong class="sound_only"><?php e__('Required'); ?></strong><?php } ?></span>
+	            <?php echo get_form_address($member, array(
+	            'mb_country'=>'class="frm_input"',
+	            'mb_zip'=>'class="frm_input half_input2 '.element_required($config['cf_req_addr']).'" '.element_required($config['cf_req_addr']).' size="5" maxlength="6"',
+	            'mb_addr1'=>'class="frm_input frm_address '.element_required($config['cf_req_addr']).'" '.element_required($config['cf_req_addr']).' size="50"',
+	            'mb_addr2'=>'class="frm_input frm_address" size="50"',
+	            'mb_addr3'=>'class="frm_input frm_address" size="50"'
+	            ),
+	            array(
+	            'mb_country'=>'reg_mb_country',
+	            'mb_zip'=>'reg_mb_zip',
+	            'mb_addr1'=>'reg_mb_addr1',
+	            'mb_addr2'=>'reg_mb_addr2',
+	            'mb_addr3'=>'reg_mb_addr3'
+	            ),
+	            $config['cf_req_addr']); ?>
+	        </li>
+	        <?php } ?>
+        </ul>
+    </div>
+
+    <div class="form_01 personal_setting">
+        <h2><?php e__('Etc profile'); ?></h2>
+        <ul>
+	        <?php if ($config['cf_use_signature']) { ?>
+	        <li>
+	            <label for="reg_mb_signature" class="sound_only"><?php e__('Signature'); ?><?php if ($config['cf_req_signature']){ ?><strong><?php e__('Required'); ?></strong><?php } ?></label>
+	            <textarea name="mb_signature" id="reg_mb_signature" class="<?php echo element_required($config['cf_req_signature']) ?>" <?php echo element_required($config['cf_req_signature']) ?> placeholder="<?php e__('Signature'); ?>"><?php echo $member['mb_signature'] ?></textarea>
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($config['cf_use_profile']) { ?>
+	        <li>
+	            <label for="reg_mb_profile" class="sound_only"><?php e__('Introduce Myself'); ?></label>
+	            <textarea name="mb_profile" id="reg_mb_profile" class="<?php echo element_required($config['cf_req_profile']) ?>" <?php echo element_required($config['cf_req_profile']) ?> placeholder="<?php e__('Introduce Myself'); ?>"><?php echo $member['mb_profile'] ?></textarea>
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($member_icon_usable) { ?>
+	        <li class="mem_pic">
+	        	<div>
+	            	<label for="reg_mb_icon" class="frm_label"><?php e__('Member icon'); ?></label>
+	            	<input type="file" name="mb_icon" id="reg_mb_icon">
+	            </div>
+	            <span class="frm_info">
+	                <?php echo sprintf(__('Image size should be %s pixels width and %s pixels height.'), $config['cf_member_icon_width'], $config['cf_member_icon_height']); ?><br>
+	                <?php echo sprintf(__('Only gif, jpg, png files are allowed. Only %s bytes or less are registered.'), number_format($config['cf_member_icon_size'])); ?>
+	            </span>
+	            <?php if ($exist_member_icon_path) { ?>
+	            <img src="<?php echo $mb_icon_url ?>" alt="<?php e__('Member icon'); ?>">
+	            <input type="checkbox" name="del_mb_icon" value="1" id="del_mb_icon">
+	            <label for="del_mb_icon"><?php e__('Delete'); ?></label>
+	            <?php } ?>
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($member_image_usable) {  ?>
+	        <li class="mem_pic">
+	        	<div>
+	            	<label for="reg_mb_img" class="frm_label"><?php e__('Member image'); ?></label>
+	            	<input type="file" name="mb_img" id="reg_mb_img" >
+	            </div>
+	            
+	            <span class="frm_info">
+	                <?php echo sprintf(__('Image size should be %s pixels width and %s pixels height.'), $config['cf_member_img_width'], $config['cf_member_img_height']); ?><br>
+	                <?php echo sprintf(__('Only gif, jpg, png files are allowed. Only %s bytes or less are registered.'), number_format($config['cf_member_img_size'])); ?>
+	            </span>
+	            
+	            <?php if ($exist_member_image_path) {  ?>
+	            <img src="<?php echo $mb_img_url ?>" alt="<?php e__('Member image'); ?>">
+	            <input type="checkbox" name="del_mb_img" value="1" id="del_mb_img">
+	            <label for="del_mb_img"><?php e__('Delete'); ?></label>
+	            <?php }  ?>
+	        </li>
+	        <?php } ?>
+	
+	        <li class="frm_bar">
+	            <label for="reg_mb_mailling" class="frm_label mailling"><span class="sound_only"><?php e__('Mailing service'); ?></span><span class="sound_only">메일링서비스</span><span class="frm_check frm_check1"></span></label>
+	            <input type="checkbox" name="mb_mailling" value="1" id="reg_mb_mailling" <?php echo ($w=='' || $member['mb_mailling'])?'checked':''; ?>><?php e__("I'll get an information mail."); ?>
+	        </li>
+	
+	        <?php if ($config['cf_use_hp']) { ?>
+	        <li class="frm_bar">
+	            <label for="reg_mb_sms" class="frm_label frm_sms"><span class="sound_only"><?php e__('SMS receiving status'); ?></span><span class="frm_check frm_check2"></span></label>
+	            <input type="checkbox" name="mb_sms" value="1" id="reg_mb_sms" <?php echo ($w=='' || $member['mb_sms'])?'checked':''; ?>>
+	            <?php e__("I'll get a message on my phone."); ?>
+	        </li>
+	        <?php } ?>
+	
+	        <?php if ($mb_open_date_editable) { // Can be modified if information disclosure is past the date of modification ?>
+	        <li>
+	        	<div class="frm_bar">
+		            <label for="reg_mb_open" class="frm_label info_open"><span class="sound_only"><?php e__('Open Profile'); ?></span><span class="frm_check frm_check3"></span></label>
+		            <input type="hidden" name="mb_open_default" value="<?php echo $member['mb_open'] ?>">
+		            <input type="checkbox" name="mb_open" value="1" id="reg_mb_open" <?php echo ($w=='' || $member['mb_open'])?'checked':''; ?>>
+		            <?php e__('Let others see my information.'); ?>
+	            </div>
+	            <span class="frm_info">
+	                <?php echo sprintf(__('If you change the Open Profile, you will not be able to change it within the next %s days.'), $config['cf_open_modify']); ?>
+	            </span>
+	        </li>
+	        <?php } else { ?>
+	        <li>
+	        	<div class="frm_bar">
+	            	<span class="frm_label"><?php e__('Open Profile'); ?></span>
+	            	<input type="hidden" name="mb_open" value="<?php echo $member['mb_open'] ?>">
+				</div>
+	            <span class="frm_info"> 
+	                <?php echo sprintf(__('Open Profile must not changed until %s, within %s days after modification.'), $mb_open_date_fix_deadline, $config['cf_open_modify']); ?><br>
+	                <?php e__('This is to prevent you from receiving a note after you send it due to frequent information disclosure corrections.'); ?>
+	            </span>
+	        </li>
+	        <?php } ?>
+	
+	        <?php echo $show_social_account // Display social_login account ?>
+	
+	        <?php if ($w == "" && $config['cf_use_recommend']) { ?>
+	        <li>
+	            <label for="reg_mb_recommend" class="sound_only"><?php e__('Recommendation ID'); ?></label>
+	            <input type="text" name="mb_recommend" id="reg_mb_recommend" class="frm_input full_input" placeholder="<?php e__('Recommendation ID'); ?>">
+	        </li>
+	        <?php } ?>
+	
+	        <li class="is_captcha_use">
+	            <span class="frm_label sound_only"><?php e__('Captcha'); ?></span>
+	            <?php echo captcha_html(); ?>
+	        </li>
+        </ul>
+        <script>
+        // checkbox
+		$(document).ready(function(){
+		    $(".mailling").click(function(){
+		        $(".frm_check1").toggleClass("click_off");
+		    });
+		    $(".frm_sms").click(function(){
+		        $(".frm_check2").toggleClass("click_off");
+		    });
+		    $(".info_open").click(function(){
+		        $(".frm_check3").toggleClass("click_off");
+		    });
+		});
+        </script>
+    </div>
+
+    <div class="btn_confirm">
+        <a href="<?php echo GML_URL; ?>/" class="btn_cancel"><?php e__('Cancel'); ?></a>
+        <button type="submit" value="<?php echo $submit_btn_text ?>" id="btn_submit" class="btn_submit" accesskey="s"><?php echo $submit_btn_text ?></button>
+    </div>	
+    </form>
+
+<?php
+get_localize_script('register_form_skin',
+array(
+'phone_cert_msg'=>__('Please set the mobile phone identification settings in the basic configuration.'),  // 기본환경설정에서 휴대폰 본인확인 설정을 해주십시오
+'password_check_msg'=>__('Please enter at least 3 characters in your password.'),    // 비밀번호를 3글자 이상 입력하십시오.
+'password_not_same_msg' => __('The password is not the same.'),  // 비밀번호가 같지 않습니다.
+'enter_name_msg' => __('Please enter a name.'),  // 이름을 입력하십시오.
+'confirm_cert_msg' => __('You need to confirm your identity to sign up for membership.'),  // 회원가입을 위해서는 본인확인을 해주셔야 합니다.
+'member_icon_msg' => __('Member icon is not an image file.'),  // 회원아이콘이 이미지 파일이 아닙니다.
+'member_image_msg' => __('Member image is not an image file.'),  // 회원이미지가 이미지 파일이 아닙니다.
+'recommend_not_msg' => __('You can not recommend yourself.'),  // 본인을 추천할 수 없습니다.
+),
+true);
+?>
+
+    <script>
+    $(function() {
+        $("#reg_zip_find").css("display", "inline-block");
+    });
+
+    // submit form check
+    function fregisterform_submit(f)
+    {
+        // Member ID check
+        if (f.w.value == "") {
+            var msg = reg_mb_id_check();
+            if (msg) {
+                alert(msg);
+                f.mb_id.select();
+                return false;
+            }
+        }
+
+        if (f.w.value == '') {
+            if (f.mb_password.value.length < 3) {
+                alert( register_form_skin.password_check_msg );
+                f.mb_password.focus();
+                return false;
+            }
+        }
+
+        if (f.mb_password.value != f.mb_password_re.value) {
+            alert( register_form_skin.password_not_same_msg );
+            f.mb_password_re.focus();
+            return false;
+        }
+
+        if (f.mb_password.value.length > 0) {
+            if (f.mb_password_re.value.length < 3) {
+                alert( register_form_skin.password_check_msg );
+                f.mb_password_re.focus();
+                return false;
+            }
+        }
+
+        // check name
+        if (f.w.value=='') {
+            if (f.mb_name.value.length < 1) {
+                alert( register_form_skin.enter_name_msg );
+                f.mb_name.focus();
+                return false;
+            }
+        }
+
+        <?php if($w == '' && $config['cf_cert_use'] && $config['cf_cert_req']) { ?>
+        // check authentication
+        if(f.cert_no.value=="") {
+            alert( register_form_skin.confirm_cert_msg );
+            return false;
+        }
+        <?php } ?>
+
+        // check nickname
+        if ((f.w.value == "") || (f.w.value == "u" && f.mb_nick.defaultValue != f.mb_nick.value)) {
+            var msg = reg_mb_nick_check();
+            if (msg) {
+                alert(msg);
+                f.reg_mb_nick.select();
+                return false;
+            }
+        }
+
+        // check E-mail
+        if ((f.w.value == "") || (f.w.value == "u" && f.mb_email.defaultValue != f.mb_email.value)) {
+            var msg = reg_mb_email_check();
+            if (msg) {
+                alert(msg);
+                f.reg_mb_email.select();
+                return false;
+            }
+        }
+
+        <?php if (($config['cf_use_hp'] || $config['cf_cert_hp']) && $config['cf_req_hp']) {  ?>
+        /// Check phone number
+        var msg = reg_mb_hp_check();
+        if (msg) {
+            alert(msg);
+            f.reg_mb_hp.select();
+            return false;
+        }
+        <?php } ?>
+
+        if (typeof f.mb_icon != "undefined") {
+            if (f.mb_icon.value) {
+                if (!f.mb_icon.value.toLowerCase().match(/.(gif|jpe?g|png)$/i)) {
+                    alert( register_form_skin.member_icon_msg );
+                    f.mb_icon.focus();
+                    return false;
+                }
+            }
+        }
+
+        if (typeof f.mb_img != "undefined") {
+            if (f.mb_img.value) {
+                if (!f.mb_img.value.toLowerCase().match(/.(gif|jpe?g|png)$/i)) {
+                    alert( register_form_skin.member_image_msg );
+                    f.mb_img.focus();
+                    return false;
+                }
+            }
+        }
+
+        if (typeof(f.mb_recommend) != 'undefined' && f.mb_recommend.value) {
+            if (f.mb_id.value == f.mb_recommend.value) {
+                alert( register_form_skin.recommend_not_msg );
+                f.mb_recommend.focus();
+                return false;
+            }
+
+            var msg = reg_mb_recommend_check();
+            if (msg) {
+                alert(msg);
+                f.mb_recommend.select();
+                return false;
+            }
+        }
+
+        <?php echo chk_captcha_js(); ?>
+
+        document.getElementById("btn_submit").disabled = "disabled";
+
+        return true;
+    }
+    </script>
+</div>
+<!-- } End enter / modify member info -->

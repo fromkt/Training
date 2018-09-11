@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-13 11:59+0900\n"
+"PO-Revision-Date: 2018-07-13 12:25+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: error.php:9 includes/loading.php:9 register_member.php:39
+msgid "Social login"
+msgstr "소셜 로그인"
+
+#: error.php:39
+msgid "Please try again later."
+msgstr "잠시후에 다시 시도해 주세요."
+
+#: error.php:41
+msgid "Go to Home"
+msgstr "홈으로"
+
+#: error.php:42
+msgid "Close this page"
+msgstr "이 페이지 닫기"
+
+#: includes/functions.php:140
+#, php-format
+msgid ""
+"Can not rejoin because there is a history of being connected or subscribed "
+"to the corresponding %s ID. If you are a member, please connect the account "
+"in Edit Profile after logging in."
+msgstr ""
+"해당 %s ID 로 연결 또는 가입된 내역이 있기 때문에 다시 가입할수 없습니다. 회"
+"원이시면 로그인 후 정보 수정에서 계정 연결을 해 주세요."
+
+#: includes/functions.php:418
+msgid "An unspecified error."
+msgstr "지정되지 않은 오류입니다."
+
+#: includes/functions.php:419
+msgid "Social_Config error."
+msgstr "설정 오류입니다."
+
+#: includes/functions.php:420
+msgid "Error setting corresponding provider."
+msgstr "해당 provider 설정 오류입니다."
+
+#: includes/functions.php:421
+msgid "Unknown or disabled provider."
+msgstr "알수 없거나 비활성화 된 provider 입니다."
+
+#: includes/functions.php:422
+msgid "You do not have permission to access the service."
+msgstr "해당 서비스에 접근할수 있는 권한이 없습니다."
+
+#: includes/functions.php:423
+msgid ""
+"Authentication failed. Either you canceled authentication or the provider "
+"refused to connect."
+msgstr ""
+"인증이 실패되었습니다. 사용자가 인증을 취소했거나, 공급자가 연결을 거부했습니"
+"다."
+
+#: includes/functions.php:424
+msgid ""
+"User profile request failed. You may not be connected to the service. In "
+"this case, you must request a second authentication."
+msgstr ""
+"사용자 프로필 요청이 실패했습니다.사용자가 해당 서비스에 연결되어 있지 않을 "
+"경우도 있습니다. 이 경우 다시 인증 요청을 해야 합니다."
+
+#: includes/functions.php:425
+msgid "User is not connected to the service."
+msgstr "사용자가 해당 서비스에 연결되어 있지 않습니다."
+
+#: includes/functions.php:426
+msgid "The service does not support the feature."
+msgstr "해당 서비스가 기능을 지원하지 않습니다."
+
+#: includes/functions.php:518
+msgid "You are already logged in or you are making an invalid request."
+msgstr "이미 로그인 하셨거나 잘못된 요청입니다."
+
+#: includes/functions.php:521
+msgid "ID already linked or invalid request."
+msgstr "이미 연결된 아이디가 있거나, 잘못된 요청입니다."
+
+#: includes/functions.php:596
+msgid "Social Request Errors"
+msgstr "소셜 요청 오류"
+
+#: includes/functions.php:748
+msgid "SNS user authentication failed."
+msgstr "SNS 사용자 인증에 실패하였습니다."
+
+#: includes/functions.php:768
+msgid "Invalid request."
+msgstr "잘못된 요청입니다."
+
+#: includes/functions.php:785
+#, php-format
+msgid ""
+"The account already has an ID of %s associated with it. Please disconnect "
+"and try again."
+msgstr ""
+"해당 계정에 이미 %s ID 가 연결되어 있습니다. 연결을 해제 후 다시 시도해 주세"
+"요."
+
+#: includes/functions.php:889
+msgid "Fackbook"
+msgstr "페이스북"
+
+#: includes/functions.php:890
+msgid "Google"
+msgstr "구글"
+
+#: includes/functions.php:891
+msgid "Twitter"
+msgstr "트위터"
+
+#: includes/functions.php:892
+msgid "Github"
+msgstr "깃허브"
+
+#: includes/functions.php:893
+msgid "Naver"
+msgstr "네이버"
+
+#: includes/functions.php:894
+msgid "Kakao"
+msgstr "카카오"
+
+#: includes/functions.php:895
+msgid "Daum"
+msgstr "다음"
+
+#: includes/functions.php:896
+msgid "Payco"
+msgstr "페이코"
+
+#: includes/loading.php:20
+#, php-format
+msgid "Connecting to %s. Please wait a moment."
+msgstr "%s 에 연결중입니다. 잠시만 기다려주세요."
+
+#: index.php:15
+msgid "Disable social login."
+msgstr "소셜로그인이 비활성화 되어 있습니다."
+
+#: popup.php:5 register_member.php:9 register_member_update.php:7
+msgid "Social login settings are disabled."
+msgstr "소셜 로그인 설정이 비활성화 되어 있습니다."
+
+#: popup.php:10
+msgid "New window options are disabled."
+msgstr "새창 옵션이 비활성화 되어 있습니다."
+
+#: popup.php:17
+msgid "Service name is not imported."
+msgstr "서비스 이름이 넘어오지 않았습니다."
+
+#: register_member.php:13 register_member_update.php:11
+msgid "Already registered as a member."
+msgstr "이미 회원가입 하였습니다."
+
+#: register_member.php:19 register_member_update.php:17
+msgid "Only social login users can access it."
+msgstr "소셜로그인을 하신 분만 접근할 수 있습니다."
+
+#: register_member_update.php:114
+msgid "Congratulations on Register"
+msgstr "회원가입 축하"
+
+#: register_member_update.php:118
+#, php-format
+msgid "%s has been registered as a member."
+msgstr "%s 님께서 회원으로 가입하셨습니다."
+
+#: register_member_update.php:164
+#, php-format
+msgid "This is the %s authentication email."
+msgstr "%s 님 인증확인 메일입니다."
+
+#: register_member_update.php:188
+msgid "Registration error!"
+msgstr "회원 가입 오류!"
+
+#~ msgid "Notice"
+#~ msgstr "공지"
+
+#~ msgid "Reading"
+#~ msgstr "열람중"
+
+#~ msgid "No posts found."
+#~ msgstr "게시물이 없습니다."
+
+#~ msgid "%s total"
+#~ msgid_plural "%s totals"
+#~ msgstr[0] "총 %s 건"
+
+#~ msgid "%s page"
+#~ msgid_plural "%s pages"
+#~ msgstr[0] "%s 페이지"
+
+#~ msgid "Category"
+#~ msgstr "카테고리"
+
+#~ msgid "Search for posts"
+#~ msgstr "게시물 검색"
+
+#~ msgid "Search target"
+#~ msgstr "검색대상"
+
+#~ msgid "Subject"
+#~ msgstr "제목"
+
+#~ msgid "Content"
+#~ msgstr "내용"
+
+#~ msgid "Subject+Content"
+#~ msgstr "제목+내용"
+
+#~ msgid "Writer"
+#~ msgstr "글쓴이"
+
+#~ msgid "Commenter"
+#~ msgstr "댓글이"
+
+#~ msgid "Search term"
+#~ msgstr "검색어"
+
+#~ msgid "Required"
+#~ msgstr "필수"
+
+#~ msgid "Enter search term"
+#~ msgstr "검색어를 입력해주세요"
+
+#~ msgid "Search"
+#~ msgstr "검색"
+
+#~ msgid "Admin"
+#~ msgstr "관리자"
+
+#~ msgid "Write"
+#~ msgstr "글쓰기"
+
+#~ msgid "List"
+#~ msgstr "목록"
+
+#~ msgid "All current page posts"
+#~ msgstr "현재 페이지 게시물 전체"
+
+#~ msgctxt "Number"
+#~ msgid "Num"
+#~ msgstr "번호"
+
+#~ msgid "hits"
+#~ msgstr "조회"
+
+#~ msgid "Good"
+#~ msgstr "좋아요"
+
+#~ msgid "Bad"
+#~ msgstr "싫어요"
+
+#~ msgid "Date"
+#~ msgstr "날짜"
+
+#~ msgid "Comments"
+#~ msgstr "댓글"
+
+#~ msgid "Count"
+#~ msgstr "건"
+
+#~ msgid "Delete Selection"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy Selection"
+#~ msgstr "선택복사"
+
+#~ msgid "Move Selection"
+#~ msgstr "선택이동"
+
+#~ msgid ""
+#~ "If you are not using JavaScript, please be careful because you can delete "
+#~ "the selection immediately without a separate verification process."
+#~ msgstr ""
+#~ "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 "
+#~ "처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Page Info"
+#~ msgstr "페이지정보"
+
+#~ msgid "Hit"
+#~ msgstr "조회"
+
+#~ msgid "%s Hit"
+#~ msgid_plural "%s Hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Comment"
+#~ msgstr "댓글"
+
+#~ msgid "%s Comment"
+#~ msgid_plural "%s Comments"
+#~ msgstr[0] "%s 댓글"
+
+#~ msgid "Scrap"
+#~ msgstr "스크랩"
+
+#~ msgid "Write Option Button"
+#~ msgstr "글쓰기 옵션 버튼"
+
+#~ msgid "Edit"
+#~ msgstr "수정"
+
+#~ msgid "Delete"
+#~ msgstr "삭제"
+
+#~ msgid "Copy"
+#~ msgstr "복사"
+
+#~ msgid "Move"
+#~ msgstr "이동"
+
+#~ msgid "Attached file"
+#~ msgstr "첨부파일"
+
+#~ msgid "%s download"
+#~ msgid_plural "%s downloads"
+#~ msgstr[0] "%s 다운로드"
+
+#~ msgid "Related Links"
+#~ msgstr "관련링크"
+
+#~ msgid "%s hit"
+#~ msgid_plural "%s hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Reply"
+#~ msgstr "답변"
+
+#~ msgid "Prev"
+#~ msgstr "이전"
+
+#~ msgid "Next"
+#~ msgstr "다음"
+
+#~ msgid "List of comments"
+#~ msgstr "댓글목록"
+
+#~ msgid "Comment on comments by %s"
+#~ msgstr "%s 의 댓글의 댓글"
+
+#~ msgid "Comment by %s"
+#~ msgstr "%s 의 댓글"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Secret"
+#~ msgstr "비밀"
+
+#~ msgid "Comment Option Button"
+#~ msgstr "댓글쓰기 옵션 버튼"
+
+#~ msgid "Writing comments"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "length"
+#~ msgstr "길이"
+
+#~ msgid "Enter comments"
+#~ msgstr "댓글을 입력하세요"
+
+#~ msgid "Name"
+#~ msgstr "이름"
+
+#~ msgid "Password"
+#~ msgstr "패스워드"
+
+#~ msgid "Write SNS at the same"
+#~ msgstr "SNS 동시쓰기"
+
+#~ msgid "Use Secret"
+#~ msgstr "비밀글사용"
+
+#~ msgid "Add comment"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "Select a Category"
+#~ msgstr "카테고리 선택"
+
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgid "Homepage"
+#~ msgstr "홈페이지"
+
+#~ msgid "Option"
+#~ msgstr "옵션"
+
+#~ msgid "Temporary stored posts"
+#~ msgstr "임시저장된 글"
+
+#~ msgid "Temporary list of saved posts"
+#~ msgstr "임시저장된 글 목록"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid ""
+#~ "This bulletin board can be written at least <strong>%s</strong> "
+#~ "characters or up to <strong>%s</strong> characters."
+#~ msgstr ""
+#~ "이 게시판은 최소 <strong>%s</strong>글자 이상, 최대 <strong>%s</strong>글"
+#~ "자 이하까지 글을 쓰실 수 있습니다."
+
+#~ msgid "Length"
+#~ msgstr "길이"
+
+#~ msgid "Link #"
+#~ msgstr "링크 #"
+
+#~ msgid "Please enter a link."
+#~ msgstr "링크를 입력해 주세요."
+
+#~ msgid "File #"
+#~ msgstr "파일 #"
+
+#~ msgid "File Attachment %s : Upload capacity less than %s"
+#~ msgstr "파일첨부 %s : 용량 %s 이하만 업로드 가능"
+
+#~ msgid "Enter file description."
+#~ msgstr "파일 설명을 입력하세요."
+
+#~ msgid "Delete File"
+#~ msgstr "파일 삭제"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Save"
+#~ msgstr "저장"
+
+#~ msgid "Closed"
+#~ msgstr "닫기"
+
+#~ msgid "Go to Body"
+#~ msgstr "본문 바로가기"
+
+#~ msgctxt "Edit My Profile"
+#~ msgid "Profile"
+#~ msgstr "프로필"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Register"
+#~ msgstr "회원가입"
+
+#~ msgid "Login"
+#~ msgstr "로그인"
+
+#~ msgid "Full Search in Site"
+#~ msgstr "사이트 내 전체검색"
+
+#~ msgid "Search term required"
+#~ msgstr "검색어 필수"
+
+#~ msgid "Please enter at least two characters for search term."
+#~ msgstr "검색어는 두글자 이상 입력하십시오."
+
+#~ msgid ""
+#~ "For quick searching, you can only enter one space in the search term."
+#~ msgstr "빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다."
+
+#~ msgctxt "1:1 inquiry"
+#~ msgid "1:1"
+#~ msgstr "1:1 문의"
+
+#~ msgid "Visitor"
+#~ msgstr "방문자"
+
+#~ msgctxt "New article"
+#~ msgid "New"
+#~ msgstr "새글"
+
+#~ msgid "Main menu"
+#~ msgstr "메인메뉴"
+
+#~ msgid "Open the full menu"
+#~ msgstr "전체메뉴열기"
+
+#~ msgid "Preparing menu."
+#~ msgstr "메뉴 준비 중입니다."
+
+#~ msgid "You can set it in %s"
+#~ msgstr "%s 에서 설정하실 수 있습니다."
+
+#~ msgid "Admin mode &gt; Configuration &gt; Menu settings"
+#~ msgstr "관리자모드 &gt; 환경설정 &gt; 메뉴설정"
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Latest articles"
+#~ msgstr "최신글"
+
+#~ msgid "Page"
+#~ msgstr "페이지"
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "Hits"
+#~ msgstr "조회수"
+
+#~ msgid "No Contents."
+#~ msgstr "컨텐츠가 없습니다."
+
+#~ msgid "Delete_selected"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy_selected"
+#~ msgstr "선택복사"
+
+#~ msgid "Move_selected"
+#~ msgstr "선택이동"
+
+#~ msgid "Search posts"
+#~ msgstr "글 검색"
+
+#~ msgid "Title + Content"
+#~ msgstr "제목+내용"
+
+#~ msgid ""
+#~ "If you do not use JavaScript,<br>please be careful not to check it "
+#~ "immediately."
+#~ msgstr ""
+#~ "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 "
+#~ "처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Receive response mail"
+#~ msgstr "답변메일받기"
+
+#~ msgid "First"
+#~ msgstr "처음"
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "Last"
+#~ msgstr "맨끝"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "Please specify %s and %s"
+#~ msgstr "%s 과 %s 를 지정해 주세요"
+
+#~ msgid "English"
+#~ msgstr "영어"
+
+#~ msgid "Korean"
+#~ msgstr "한국어"
+
+#~ msgid "Japanese"
+#~ msgstr "일본어"
+
+#~ msgid "Chinese"
+#~ msgstr "중국어"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

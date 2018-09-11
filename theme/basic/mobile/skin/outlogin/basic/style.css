@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 아웃로그인 스킨 */
+.ol {position:relative;background:#f1f3f6;text-align:center}
+.ol h2 {width:0;height:0;overflow:hidden}
+
+#ol_before {padding:15px}
+#ol_before input[type=text], #ol_before input[type=password] {width:100%;height:40px;padding:5px;border:0;border-radius:0;background:#fff}
+#ol_id {border-bottom:1px solid #e8eaee !important}
+#ol_submit {width:100%;height:40px;font-weight:bold;font-size:1.083em}
+#ol_svc {position:relative;text-align:left;float:left;display:inline-block;margin:10px 0;text-align:left;color:#999;font-size:1em}
+
+#ol_svc label {display:inline-block;float:right;width:100%;height:19px;line-height:19px;padding-left:25px;background:url('img/input_chk.png') no-repeat 0 -19px;vertical-align:top}
+#ol_svc label.click_on {background:url('img/input_chk.png') no-repeat 0 0}
+#ol_svc input {position:absolute;top:0;left:0;width:1px;height:1px;opacity:0;outline:0;z-index:9}*/
+
+.ol_login_input {margin-bottom:10px;border:1px solid #d0d4df}
+.ol_before_btn {float:right;margin:11px 0;color:#aaa;line-height:1em}
+.ol_before_btn a {float:left;display:inline-block;padding:0 5px;color:#999}
+
+#ol_after {background:#3598dc}
+#ol_after_hd {padding:10px}
+#ol_after_hd:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_hd strong {font-size:1.2em;color:#fff}
+
+.ol_after_nick {float:left;line-height:28px}
+.ol_after_nick .profile_img {display:inline-block}
+.ol_after_nick .profile_img img {width:20px;border-radius:50%}
+
+.ol_after_btn {float:right}
+.ol_after_btn .btn_log {display:inline-block;text-align:center;border:1px solid #7bc8fd;color:#fff;padding:6px 8px;border-radius:2px;vertical-align:top}
+.ol_after_btn .btn_arm {position:relative}
+.ol_after_btn .btn_arm .arm_cnt {position:absolute;top:-5px;right:-2px;display:inline-block;padding:0 3px;font-size:10px;background:#ff4a79;color:#fff;text-align:left;line-height:14px;border-radius:10px}
+.ol_after_btn a {color:#fff}
+
+.my_service {position:relative}
+.my_service i {display:inline-block;width:25px;height:25px;font-size:18px;text-align:center;color:#2b2f46}
+.my_service strong {display:inline-block;position:absolute;padding:0 3px;font-size:10px;line-height:14px;border-radius:10px;text-align:left;color:#fff}
+.ms_memo strong {top:8px;left:50px;background:#54d0c8}
+.ms_scrap strong {top:8px;left:50px;background:#1ec679}
+.ms_point strong {line-height:25px}
+
+#ol_after_btn {display:inline-block;float:left}
+#ol_after_btn:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_btn a {display:inline-block;padding:0 10px;line-height:25px;border-radius:15px;font-weight:bold}
+
+#ol_after_private {margin-bottom:10px;padding:0;list-style:none;border-bottom:1px solid #dcdcdc}
+#ol_after_private:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li {float:left;width:33.333%;padding:15px 0;background:#fff}
+#ol_after_memo a {border-right:1px solid #dcdcdc}
+#ol_after_pt a {border-right:1px solid #dcdcdc}
+#ol_after_pt strong {color:#030f5b;font-size:1.4em}
+#ol_after_scrap a {}
+#ol_after_private a {display:block;background:#fff}

@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 19:12+0900\n"
+"PO-Revision-Date: 2018-06-25 19:12+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: list.skin.php:17
+msgid "Notice"
+msgstr ""
+
+#: list.skin.php:20
+msgid "Reading"
+msgstr ""
+
+#: list.skin.php:30
+msgid "No posts found."
+msgstr "投稿は見つかりませんでした。"
+
+#: list.skin.php:43
+#, php-format
+msgid "%s total"
+msgid_plural "%s totals"
+msgstr[0] ""
+
+#: list.skin.php:44
+#, php-format
+msgid "%s page"
+msgid_plural "%s pages"
+msgstr[0] ""
+
+#: list.skin.php:50
+msgid "Admin"
+msgstr ""
+
+#: list.skin.php:51 list.skin.php:158 view.skin.php:148
+msgid "Write"
+msgstr ""
+
+#: list.skin.php:60 write.skin.php:28
+msgid "Category"
+msgstr ""
+
+#: list.skin.php:81 list.skin.php:157 view.skin.php:146
+msgid "List"
+msgstr ""
+
+#: list.skin.php:86
+msgid "All current page posts"
+msgstr ""
+
+#: list.skin.php:90
+msgctxt "Number"
+msgid "Num"
+msgstr ""
+
+#: list.skin.php:91 list.skin.php:176 write.skin.php:68 write.skin.php:71
+msgid "Subject"
+msgstr ""
+
+#: list.skin.php:92 list.skin.php:179 view.skin.php:24
+msgid "Writer"
+msgstr ""
+
+#: list.skin.php:93
+msgid "hits"
+msgstr ""
+
+#: list.skin.php:94 view.skin.php:56 view.skin.php:72
+msgid "Good"
+msgstr ""
+
+#: list.skin.php:95 view.skin.php:62 view.skin.php:73
+msgid "Bad"
+msgstr ""
+
+#: list.skin.php:96 view.skin.php:27 view_comment.skin.php:19
+msgid "Date"
+msgstr ""
+
+#: list.skin.php:131 view_comment.skin.php:70 view_comment.skin.php:72
+msgid "Comments"
+msgstr ""
+
+#: list.skin.php:131
+msgid "Count"
+msgstr ""
+
+#: list.skin.php:153
+msgid "Delete Selection"
+msgstr ""
+
+#: list.skin.php:154
+msgid "Copy Selection"
+msgstr ""
+
+#: list.skin.php:155
+msgid "Move Selection"
+msgstr ""
+
+#: list.skin.php:168
+msgid "Search for posts"
+msgstr ""
+
+#: list.skin.php:174
+msgid "Search target"
+msgstr ""
+
+#: list.skin.php:177 view.skin.php:32 write.skin.php:87
+msgid "Content"
+msgstr ""
+
+#: list.skin.php:178
+msgid "Subject+Content"
+msgstr ""
+
+#: list.skin.php:180
+msgid "Commenter"
+msgstr ""
+
+#: list.skin.php:182
+msgid "Search term"
+msgstr ""
+
+#: list.skin.php:182 view_comment.skin.php:77 view_comment.skin.php:79
+#: write.skin.php:28 write.skin.php:38 write.skin.php:43 write.skin.php:68
+#: write.skin.php:87
+msgid "Required"
+msgstr ""
+
+#: list.skin.php:183
+msgid "Enter search term"
+msgstr ""
+
+#: list.skin.php:184 view.skin.php:142
+msgid "Search"
+msgstr ""
+
+#: list.skin.php:192
+msgid ""
+"If you are not using JavaScript, please be careful because you can delete "
+"the selection immediately without a separate verification process."
+msgstr ""
+
+#: view.skin.php:23
+msgid "Page Info"
+msgstr ""
+
+#: view.skin.php:25
+msgid "Comment"
+msgstr ""
+
+#: view.skin.php:25
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+
+#: view.skin.php:26
+msgid "Hit"
+msgstr ""
+
+#: view.skin.php:26
+#, php-format
+msgid "%s Hit"
+msgid_plural "%s Hits"
+msgstr[0] ""
+
+#: view.skin.php:83
+msgid "Scrap"
+msgstr ""
+
+#: view.skin.php:91
+msgid "Attached file"
+msgstr ""
+
+#: view.skin.php:103
+#, php-format
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] ""
+
+#: view.skin.php:117
+msgid "Related Links"
+msgstr ""
+
+#: view.skin.php:125
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] ""
+
+#: view.skin.php:138 view_comment.skin.php:37
+msgid "Edit"
+msgstr ""
+
+#: view.skin.php:139 view_comment.skin.php:38
+msgid "Delete"
+msgstr ""
+
+#: view.skin.php:140
+msgid "Copy"
+msgstr ""
+
+#: view.skin.php:141
+msgid "Move"
+msgstr ""
+
+#: view.skin.php:147 view_comment.skin.php:36
+msgid "Reply"
+msgstr ""
+
+#: view.skin.php:153
+msgid "Prev"
+msgstr ""
+
+#: view.skin.php:154
+msgid "Next"
+msgstr ""
+
+#: view_comment.skin.php:5 view_comment.skin.php:8
+msgid "List of comments"
+msgstr ""
+
+#: view_comment.skin.php:13
+#, php-format
+msgid "Comment on comments by %s"
+msgstr ""
+
+#: view_comment.skin.php:13
+#, php-format
+msgid "Comment by %s"
+msgstr ""
+
+#: view_comment.skin.php:16
+msgid "IP"
+msgstr ""
+
+#: view_comment.skin.php:30
+msgid "Secret"
+msgstr ""
+
+#: view_comment.skin.php:57
+msgid "Writing comments"
+msgstr ""
+
+#: view_comment.skin.php:71
+msgid "length"
+msgstr ""
+
+#: view_comment.skin.php:72
+msgid "Enter comments"
+msgstr ""
+
+#: view_comment.skin.php:77 view_comment.skin.php:78 write.skin.php:38
+#: write.skin.php:39
+msgid "Name"
+msgstr ""
+
+#: view_comment.skin.php:79 view_comment.skin.php:80 write.skin.php:43
+#: write.skin.php:44
+msgid "Password"
+msgstr ""
+
+#: view_comment.skin.php:87
+msgid "Write SNS at the same"
+msgstr ""
+
+#: view_comment.skin.php:96
+msgid "Use Secret"
+msgstr ""
+
+#: view_comment.skin.php:97
+msgid "Add comment"
+msgstr ""
+
+#: write.skin.php:30
+msgid "Select a Category"
+msgstr ""
+
+#: write.skin.php:48 write.skin.php:49
+msgid "Email"
+msgstr ""
+
+#: write.skin.php:55 write.skin.php:56
+msgid "Homepage"
+msgstr ""
+
+#: write.skin.php:62
+msgid "Option"
+msgstr ""
+
+#: write.skin.php:75
+msgid "Temporary stored posts"
+msgstr ""
+
+#: write.skin.php:77
+msgid "Temporary list of saved posts"
+msgstr ""
+
+#: write.skin.php:79
+msgid "Close"
+msgstr ""
+
+#: write.skin.php:91
+#, php-format
+msgid ""
+"This bulletin board can be written at least <strong>%s</strong> characters "
+"or up to <strong>%s</strong> characters."
+msgstr ""
+
+#: write.skin.php:95
+msgid "Length"
+msgstr ""
+
+#: write.skin.php:103
+msgid "Link #"
+msgstr ""
+
+#: write.skin.php:111
+msgid "File #"
+msgstr ""
+
+#: write.skin.php:112
+#, php-format
+msgid "File Attachment %s : Upload capacity less than %s"
+msgstr ""
+
+#: write.skin.php:115
+msgid "Enter file description."
+msgstr ""
+
+#: write.skin.php:120
+msgid "Delete File"
+msgstr ""
+
+#: write.skin.php:133
+msgid "Cancel"
+msgstr ""
+
+#: write.skin.php:134
+msgid "Save"
+msgstr ""

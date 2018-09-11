@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.lt {position:relative;width:100%;margin-bottom:20px;border:1px solid #d9dee9;background:#fff;min-height:310px}
+.lt .lat_title {display:block;padding:0 15px;line-height:45px;font-size:1.2em;border-bottom:1px solid #e2e2e2;color:#253dbe}
+.lt .lat_title a {display:inline-block;position:relative}
+.lt ul {padding:0 15px}
+.lt .lt_ul>li {position:relative;line-height:18px;padding:10px 0;border-bottom:1px dotted #d6d7d6}
+.lt .lt_ul>li a {line-height:20px;}
+.lt li .lt_tit {font-size:1.2em}
+.lt li:last-child {border-bottom:0}
+.lt li:after {display:block;visibility:hidden;clear:both;content:""}
+.lt li .lt_img {display:block;float:left;width:70px;height:45px;margin-right:10px}
+.lt li a:hover {color:#3598dc}
+.lt li .fa-heart {color:#ff0000}
+.lt li .fa-lock {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#262b88;text-align:center;border-radius:2px;margin-right:3px;font-size:12px;border:1px solid #262b88}
+.lt li .new_icon {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#3fd49e;border:1px solid #32c791;text-align:center;border-radius:2px;margin-left:3px}
+.lt li .hot_icon {display:inline-block;width:16px;line-height:14px;font-size:0.833em;color:#fff;background:#ff7261;border:1px solid #e75341;text-align:center;border-radius:2px}
+.lt li .fa-caret-right {color:#bbb}
+.lt .lt_ul li.empty_li {line-height:225px;text-align:center}
+
+.lt .lct_info {margin:5px 0 0;padding:0 !important;display:block;font-size:1em;text-align:left;line-height:18px}
+.lt .lct_info:after {display:block;visibility:hidden;clear:both;content:""}
+.lt .lct_info li {display:inline-block;float:left}
+.lt .lct_info .lt_nick {color:#999}
+.lt .lct_info .lt_date {color:#999;display:inline-block;margin-left:5px}
+.lt .lct_info .lt_comnt {color:#396dbb;margin:2px 5px}
+.lt .lct_info .lt_comnt i {color:#197bff}
+.lt .sv_member {color:#999}
+
+.lt .lt_more {position:absolute;top:10px;right:15px}

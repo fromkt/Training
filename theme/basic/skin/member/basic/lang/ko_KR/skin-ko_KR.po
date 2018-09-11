@@ -1,0 +1,1203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-09 10:07+0900\n"
+"PO-Revision-Date: 2018-08-30 10:24+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: formmail.skin.php:10
+#, php-format
+msgid "Send an email to %s"
+msgstr "%s 님께 메일보내기"
+
+#: formmail.skin.php:21
+msgid "Writing mail"
+msgstr "메일쓰기"
+
+#: formmail.skin.php:25 formmail.skin.php:26 register_form.skin.php:117
+#: register_form.skin.php:118
+msgid "Name"
+msgstr "이름"
+
+#: formmail.skin.php:25 formmail.skin.php:29 formmail.skin.php:34
+#: formmail.skin.php:44 login.skin.php:18 login.skin.php:20
+#: member_confirm.skin.php:28 memo_form.skin.php:23 password.skin.php:36
+#: password_lost.skin.php:18 register_form.skin.php:98
+#: register_form.skin.php:104 register_form.skin.php:107
+#: register_form.skin.php:117 register_form.skin.php:135
+#: register_form.skin.php:147 register_form.skin.php:157
+#: register_form.skin.php:165 register_form.skin.php:170
+#: register_form.skin.php:182 register_form.skin.php:208
+msgid "Required"
+msgstr "필수"
+
+#: formmail.skin.php:29 formmail.skin.php:30 register_form.skin.php:147
+msgid "E-mail"
+msgstr "이메일"
+
+#: formmail.skin.php:34 formmail.skin.php:35 scrap_popin.skin.php:20
+msgid "Subject"
+msgstr "제목"
+
+#: formmail.skin.php:38
+msgid "Type"
+msgstr "형식"
+
+#: formmail.skin.php:44 memo_form.skin.php:33
+msgid "Content"
+msgstr "내용"
+
+#: formmail.skin.php:49 formmail.skin.php:57
+msgid "The attached file"
+msgstr "첨부 파일"
+
+#: formmail.skin.php:52
+msgid "Please check if the file is attached after you send it."
+msgstr ""
+"첨부 파일은 누락될 수 있으므로 메일을 보낸 후 파일이 첨부 되었는지 반드시 확"
+"인해 주시기 바랍니다."
+
+#: formmail.skin.php:62 memo_form.skin.php:37 register_form.skin.php:310
+msgid "Captcha"
+msgstr "Captcha"
+
+#: formmail.skin.php:67
+msgid "Send Mail"
+msgstr "메일발송"
+
+#: formmail.skin.php:68 memo_view.skin.php:62
+msgid "Close window"
+msgstr "창닫기"
+
+#: formmail.skin.php:79
+msgid "The attachment takes a long time to transfer."
+msgstr "첨부파일의 용량이 큰경우 전송시간이 오래 걸립니다."
+
+#: formmail.skin.php:80
+msgid "Do not close or refresh the window before sending mail is complete."
+msgstr "메일보내기가 완료되기 전에 창을 닫거나 새로고침 하지 마십시오."
+
+#: login.skin.php:16 login.skin.php:18 login.skin.php:31
+msgid "Member Login"
+msgstr "회원로그인"
+
+#: login.skin.php:19 register_form.skin.php:98 register_form.skin.php:99
+#: register_result.skin.php:45
+msgid "ID"
+msgstr "아이디"
+
+#: login.skin.php:20 login.skin.php:21 member_confirm.skin.php:28
+#: member_confirm.skin.php:29 password.skin.php:36 password.skin.php:37
+#: register_form.skin.php:104 register_form.skin.php:105
+msgid "Password"
+msgstr "패스워드"
+
+#: login.skin.php:24
+msgid "Autologin"
+msgstr "자동로그인"
+
+#: login.skin.php:27
+msgid "Login"
+msgstr "로그인"
+
+#: login.skin.php:33
+msgid "Register"
+msgstr "회원가입"
+
+#: login.skin.php:34
+msgid "Find ID and Password"
+msgstr "아이디 패스워드 찾기"
+
+#: login.skin.php:49
+msgid ""
+"If you use auto login, you will not have to enter your member ID and "
+"password from now on."
+msgstr ""
+"자동로그인을 사용하시면 다음부터 회원아이디와 패스워드를 입력하실 필요가 없습"
+"니다."
+
+#: login.skin.php:50
+msgid "Please refrain from using personal information in public places."
+msgstr "공공장소에서는 개인정보가 유출될 수 있으니 사용을 자제하여 주십시오."
+
+#: login.skin.php:51
+msgid "Do you want to use auto login?"
+msgstr "자동로그인을 사용하시겠습니까?"
+
+#: member_confirm.skin.php:13
+msgid "Please enter your password again."
+msgstr "패스워드를 한번 더 입력해주세요."
+
+#: member_confirm.skin.php:15
+msgid "Enter your password and your membership withdrawal will be completed."
+msgstr "패스워드를 입력하시면 회원탈퇴가 완료됩니다."
+
+#: member_confirm.skin.php:17
+msgid ""
+"To ensure your information is secure, we confirm your password once more."
+msgstr "회원님의 정보를 안전하게 보호하기 위해 패스워드를 한번 더 확인합니다."
+
+#: member_confirm.skin.php:26
+msgid "Member ID"
+msgstr "회원아이디"
+
+#: member_confirm.skin.php:30 password.skin.php:38 password_lost.skin.php:22
+msgid "Confirm"
+msgstr "확인"
+
+#: memo.skin.php:13 memo_form.skin.php:13 memo_view.skin.php:23
+msgid "Received Memo"
+msgstr "받은쪽지"
+
+#: memo.skin.php:14 memo_form.skin.php:14 memo_view.skin.php:24
+msgid "Sent Memo"
+msgstr "보낸쪽지"
+
+#: memo.skin.php:15 memo_form.skin.php:15 memo_form.skin.php:20
+#: memo_view.skin.php:25
+msgid "Write Memo"
+msgstr "쪽지쓰기"
+
+#: memo.skin.php:19
+#, php-format
+msgid "%s total memo received"
+msgid_plural "%s totals memo received"
+msgstr[0] "전체 받은 쪽지 %s"
+
+#: memo.skin.php:19
+#, php-format
+msgid "%s total memo sent"
+msgid_plural "%s totals memo sent"
+msgstr[0] "전체 보낸 쪽지 %s"
+
+#: memo.skin.php:27
+msgid "Unreaded Memo"
+msgstr "안읽은 쪽지"
+
+#: memo.skin.php:29
+msgid "Readed Memo"
+msgstr "읽은 쪽지"
+
+#: memo.skin.php:32 notice.skin.php:43 register_form.skin.php:233
+#: register_form.skin.php:253 scrap.skin.php:19
+msgid "Delete"
+msgstr "삭제"
+
+#: memo.skin.php:35
+msgid "No Memos."
+msgstr "쪽지가 없습니다."
+
+#: memo.skin.php:43
+#, php-format
+msgid "The maximum number of days to keep Memos is <strong>%s</strong> days."
+msgstr "쪽지 보관일수는 최장 <strong>%s</strong>일 입니다."
+
+#: memo.skin.php:47 memo_form.skin.php:44 password_lost.skin.php:25
+#: point.skin.php:44 profile.skin.php:54 scrap.skin.php:30
+msgid "Close Window"
+msgstr "창닫기"
+
+#: memo_form.skin.php:10
+msgid "Send Memo"
+msgstr "쪽지 보내기"
+
+#: memo_form.skin.php:23
+msgid "Receiving Member ID"
+msgstr "받는 회원아이디"
+
+#: memo_form.skin.php:25
+msgid "Enter Member Nickname"
+msgstr "회원 별명을 입력하세요"
+
+#: memo_form.skin.php:26
+msgid "Separate multiple members by comma (,)."
+msgstr "여러 회원에게 보낼때는 컴마(,)로 구분하세요."
+
+#: memo_form.skin.php:29
+#, php-format
+msgid "When sending a note, deduct %s points per member."
+msgstr "쪽지 보낼때 회원당 %s 점의 포인트를 차감합니다."
+
+#: memo_form.skin.php:45
+msgid "Send"
+msgstr "보내기"
+
+#: memo_view.skin.php:5 memo_view.skin.php:10
+msgid "Sent"
+msgstr "보낸"
+
+#: memo_view.skin.php:6 memo_view.skin.php:9
+msgid "Received"
+msgstr "받은"
+
+#: memo_view.skin.php:31
+msgid "Memo Content"
+msgstr "쪽지 내용"
+
+#: memo_view.skin.php:35
+msgid "User"
+msgstr "사용자"
+
+#: memo_view.skin.php:39
+msgid "Date"
+msgstr "날짜"
+
+#: memo_view.skin.php:51
+msgid "Prev"
+msgstr "이전"
+
+#: memo_view.skin.php:54
+msgid "Next"
+msgstr "다음"
+
+#: memo_view.skin.php:57
+msgid "List"
+msgstr "목록"
+
+#: memo_view.skin.php:58
+msgid "Reply"
+msgstr "답변"
+
+#: notice.skin.php:6
+msgid "No notices found"
+msgstr "알림이 없습니다"
+
+#: notice.skin.php:14
+msgid "Remove notifications"
+msgstr "알림보관기간"
+
+#: notice.skin.php:14
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s 일"
+
+#: notice.skin.php:17
+msgid "Notice list"
+msgstr "알림목록"
+
+#: notice.skin.php:18
+msgid "Total"
+msgstr "전체"
+
+#: notice.skin.php:18
+msgid "Cases"
+msgstr "건"
+
+#: notice.skin.php:22 notice.skin.php:49 register.skin.php:83
+msgid "Select All"
+msgstr "전체선택"
+
+#: notice.skin.php:23 notice.skin.php:50 notice.skin.php:81 notice.skin.php:145
+msgid "Delete Selection"
+msgstr "선택삭제"
+
+#: notice.skin.php:24 notice.skin.php:51 notice.skin.php:83
+msgid "Mark as read"
+msgstr "읽음표시"
+
+#: notice.skin.php:25
+msgid "Delete all notice"
+msgstr "모든알림삭제"
+
+#: notice.skin.php:28
+msgid "View all"
+msgstr "전체 보기"
+
+#: notice.skin.php:29
+msgid "Readed"
+msgstr "읽은알림"
+
+#: notice.skin.php:30
+msgid "Unreaded"
+msgstr "안읽은알림"
+
+#: notice.skin.php:37
+msgid "Select notice"
+msgstr "알림선택"
+
+#: notice.skin.php:62
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr "%s할 알림을 하나 이상 선택하세요."
+
+#: notice.skin.php:63
+msgid "Are you sure you want to delete it?"
+msgstr "선택한 알림을 정말 삭제하시겠습니까?"
+
+#: notice.skin.php:64
+msgid "Once deleted, the data can not be recovered."
+msgstr "한번 삭제한 자료는 복구할 수 없습니다."
+
+#: password.skin.php:3
+msgid "Delete Comment"
+msgstr "댓글 삭제"
+
+#: password.skin.php:3
+msgid "Delete Post"
+msgstr "글 삭제"
+
+#: password.skin.php:15 password.skin.php:18
+msgid "Only the author can modify the post."
+msgstr "작성자만 글을 수정할 수 있습니다."
+
+#: password.skin.php:16
+msgid ""
+"If you are the author, you can modify the text by entering the password you "
+"entered at the time of writing."
+msgstr ""
+"작성자 본인이라면, 글 작성시 입력한 패스워드를 입력하여 글을 수정할 수 있습니"
+"다."
+
+#: password.skin.php:19
+msgid ""
+"If you are the author, you can delete the post by entering the password you "
+"entered at the time of writing."
+msgstr ""
+"작성자 본인이라면, 글 작성시 입력한 패스워드를 입력하여 글을 삭제할 수 있습니"
+"다."
+
+#: password.skin.php:21
+msgid "This is a secret post."
+msgstr "비밀글입니다."
+
+#: password.skin.php:22
+msgid "Only authors and administrators can access it."
+msgstr "작성자와 관리자만 열람하실 수 있습니다."
+
+#: password.skin.php:22
+msgid "If you are, please enter your password."
+msgstr "본인이라면 패스워드를 입력하세요."
+
+#: password_lost.skin.php:10
+msgid "Find member info"
+msgstr "회원정보 찾기"
+
+#: password_lost.skin.php:15
+msgid "Please enter the registered email address when signing up."
+msgstr "회원가입 시 등록하신 이메일 주소를 입력해 주세요."
+
+#: password_lost.skin.php:16
+msgid "We will send you ID and password information by email."
+msgstr "해당 이메일로 아이디와 패스워드 정보를 보내드립니다."
+
+#: password_lost.skin.php:18 password_lost.skin.php:19
+#: register_result.skin.php:47
+msgid "E-mail address"
+msgstr "E-mail 주소"
+
+#: point.skin.php:13
+msgid "MY Point"
+msgstr "내 포인트"
+
+#: point.skin.php:35
+msgid "Subtotal"
+msgstr "소계"
+
+#: profile.skin.php:6
+msgid "Days"
+msgstr "일"
+
+#: profile.skin.php:6 profile.skin.php:7
+msgid "Unknown"
+msgstr "알수없음"
+
+#: profile.skin.php:15
+#, php-format
+msgid "%s's profile"
+msgstr "%s 님 프로필"
+
+#: profile.skin.php:26
+msgid "Member Level"
+msgstr "회원 레벨"
+
+#: profile.skin.php:28
+msgid "Point"
+msgstr "포인트"
+
+#: profile.skin.php:32
+msgid "Register Date"
+msgstr "회원가입일"
+
+#: profile.skin.php:34
+msgid "Last login date"
+msgstr "최종접속일"
+
+#: profile.skin.php:39 register_form.skin.php:157 register_form.skin.php:158
+msgid "Homepage"
+msgstr "홈페이지"
+
+#: profile.skin.php:49
+msgid "Profile"
+msgstr "프로필"
+
+#: register.skin.php:17 register.skin.php:41 register_form.skin.php:60
+msgid "Terms of Membership"
+msgstr "회원가입약관"
+
+#: register.skin.php:21 register.skin.php:88 register_form.skin.php:64
+msgid "Sign Up"
+msgstr "회원가입"
+
+#: register.skin.php:25 register_form.skin.php:68
+msgctxt "Sign Up Complete"
+msgid "Complete"
+msgstr "회원가입완료"
+
+#: register.skin.php:33
+msgid ""
+"You must agree to the terms and conditions of membership and the information "
+"processing policy guidelines before you can sign up."
+msgstr ""
+"회원가입약관 및 개인정보처리방침안내의 내용에 동의하셔야 회원가입 하실 수 있"
+"습니다."
+
+#: register.skin.php:44
+msgid "I agree to the terms and conditions of membership."
+msgstr "회원가입약관의 내용에 동의합니다."
+
+#: register.skin.php:50 register.skin.php:53
+msgid "Privacy Policy Guide"
+msgstr "개인정보처리방침안내"
+
+#: register.skin.php:56
+msgid "Purpose"
+msgstr "목적"
+
+#: register.skin.php:57
+msgid "Article"
+msgstr "항목"
+
+#: register.skin.php:58
+msgid "Retention period"
+msgstr "보유기간"
+
+#: register.skin.php:63
+msgid "Identify user and verify identity"
+msgstr "이용자 식별 및 본인여부 확인"
+
+#: register.skin.php:64
+msgid "ID, name and password"
+msgstr "아이디, 이름, 패스워드"
+
+#: register.skin.php:65 register.skin.php:70
+msgid "Until member withdrawal"
+msgstr "회원 탈퇴 시까지"
+
+#: register.skin.php:68
+msgid "Notice of use of customer service"
+msgstr "고객서비스 이용에 관한 통지"
+
+#: register.skin.php:68
+msgid "Identify users to respond to CS"
+msgstr "CS대응을 위한 이용자 식별"
+
+#: register.skin.php:69
+msgid "Contacts (e-mail, mobile phone number)"
+msgstr "연락처 (이메일, 휴대전화번호)"
+
+#: register.skin.php:77
+msgid "I agree with the information handling policy guidelines."
+msgstr "개인정보처리방침안내의 내용에 동의합니다."
+
+#: register.skin.php:96
+msgid ""
+"You must agree to the terms and conditions of your membership before you can "
+"sign up."
+msgstr "회원가입약관의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#: register.skin.php:97
+msgid ""
+"You must agree to the information handling policy guidelines before you can "
+"sign up."
+msgstr "개인정보처리방침안내의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#: register_form.skin.php:25 register_form.skin.php:35
+msgid "I-PIN"
+msgstr "I-PIN"
+
+#: register_form.skin.php:29 register_form.skin.php:37
+msgid "Phone"
+msgstr "휴대폰"
+
+#: register_form.skin.php:42
+msgid "You must authenticate again if you change your e-mail address."
+msgstr "E-mail 주소를 변경하시면 다시 인증하셔야 합니다."
+
+#: register_form.skin.php:42
+msgid ""
+"Sign up for membership only after checking the contents sent through e-mail."
+msgstr "E-mail 로 발송된 내용을 확인한 후 인증하셔야 회원가입이 완료됩니다."
+
+#: register_form.skin.php:45
+msgid "Sign up"
+msgstr "회원가입"
+
+#: register_form.skin.php:45
+msgid "Edit profile"
+msgstr "프로필수정"
+
+#: register_form.skin.php:95
+msgid "Enter ID and Password"
+msgstr "아이디 패스워드 입력"
+
+#: register_form.skin.php:101
+msgid ""
+"You can enter only alphabet, numbers, and _. Please enter at least 3 "
+"characters."
+msgstr "영문자, 숫자, _ 만 입력 가능. 최소 3자이상 입력하세요."
+
+#: register_form.skin.php:107 register_form.skin.php:108
+msgid "Confirm Password"
+msgstr "패스워드 확인"
+
+#: register_form.skin.php:114
+msgid "Enter member profile"
+msgstr "프로필 입력"
+
+#: register_form.skin.php:121 register_form.skin.php:126
+msgid "Identity verification"
+msgstr "본인확인"
+
+#: register_form.skin.php:122
+msgid "JavaScript must be enabled for identification."
+msgstr "본인확인을 위해서는 자바스크립트 사용이 가능해야합니다."
+
+#: register_form.skin.php:126
+msgid "Adult verification"
+msgstr "성인인증"
+
+#: register_form.skin.php:126
+msgid "done"
+msgstr "완료"
+
+#: register_form.skin.php:130
+msgid ""
+"The name will be automatically entered after confirmation of the I-PIN, and "
+"the name and phone number will be automatically entered after confirmation "
+"of the mobile phone."
+msgstr ""
+"아이핀 본인확인 후에는 이름이 자동 입력되고 휴대폰 본인확인 후에는 이름과 휴"
+"대폰번호가 자동 입력되어 수동으로 입력할수 없게 됩니다."
+
+#: register_form.skin.php:135 register_form.skin.php:137
+msgid "Nickname"
+msgstr "닉네임"
+
+#: register_form.skin.php:140
+msgid "Enter only letters and numbers without spaces"
+msgstr "공백없이 문자,숫자만 입력 가능"
+
+#: register_form.skin.php:141
+#, php-format
+msgid ""
+"If you change your nickname, you can not change it within the next %s days."
+msgstr "닉네임을 바꾸시면 앞으로 %s 일 이내에는 변경이 안됩니다."
+
+#: register_form.skin.php:165 register_form.skin.php:166
+msgid "Phone Number"
+msgstr "전화번호"
+
+#: register_form.skin.php:170 register_form.skin.php:172
+msgid "Mobile Number"
+msgstr "휴대폰번호"
+
+#: register_form.skin.php:204
+msgid "Etc profile"
+msgstr "기타 프로필"
+
+#: register_form.skin.php:208 register_form.skin.php:209
+msgid "Signature"
+msgstr "서명"
+
+#: register_form.skin.php:215 register_form.skin.php:216
+msgid "Introduce Myself"
+msgstr "자기소개"
+
+#: register_form.skin.php:222 register_form.skin.php:231
+msgid "Member icon"
+msgstr "회원아이콘"
+
+#: register_form.skin.php:226 register_form.skin.php:246
+#, php-format
+msgid "Image size should be %s pixels width and %s pixels height."
+msgstr "이미지 크기는 가로 %s 픽셀, 세로 %s 픽셀 이하로 해주세요."
+
+#: register_form.skin.php:227 register_form.skin.php:247
+#, php-format
+msgid ""
+"Only gif, jpg, png files are allowed. Only %s bytes or less are registered."
+msgstr "오직 gif, jpg, png 파일만 가능하며 용량 %s바이트 이하만 등록됩니다."
+
+#: register_form.skin.php:241 register_form.skin.php:251
+msgid "Member image"
+msgstr "회원이미지"
+
+#: register_form.skin.php:259
+msgid "Mailing service"
+msgstr "메일링서비스"
+
+#: register_form.skin.php:261
+msgid "I'll get an information mail."
+msgstr "정보 메일을 받겠습니다."
+
+#: register_form.skin.php:266
+msgid "SMS receiving status"
+msgstr "SMS 수신여부"
+
+#: register_form.skin.php:268
+msgid "I'll get a message on my phone."
+msgstr "휴대폰 문자메세지를 받겠습니다."
+
+#: register_form.skin.php:275 register_form.skin.php:287
+msgid "Open Profile"
+msgstr "프로필공개"
+
+#: register_form.skin.php:278
+msgid "Let others see my information."
+msgstr "다른분들이 나의 정보를 볼 수 있도록 합니다."
+
+#: register_form.skin.php:281
+#, php-format
+msgid ""
+"If you change the Open Profile, you will not be able to change it within the "
+"next %s days."
+msgstr "정보공개를 바꾸시면 앞으로 %s 일 이내에는 변경이 안됩니다."
+
+#: register_form.skin.php:290
+#, php-format
+msgid ""
+"Open Profile must not changed until %s, within %s days after modification."
+msgstr "정보공개는 수정후 %s 까지, %s 일 이내는 변경이 안됩니다."
+
+#: register_form.skin.php:291
+msgid ""
+"This is to prevent you from receiving a note after you send it due to "
+"frequent information disclosure corrections."
+msgstr ""
+"이렇게 하는 이유는 잦은 정보공개 수정으로 인하여 쪽지를 보낸 후 받지 않는 경"
+"우를 막기 위해서 입니다."
+
+#: register_form.skin.php:304 register_form.skin.php:305
+msgid "Recommendation ID"
+msgstr "추천인아이디"
+
+#: register_form.skin.php:332
+msgid "Cancel"
+msgstr "취소"
+
+#: register_form.skin.php:341
+msgid ""
+"Please set the mobile phone identification settings in the basic "
+"configuration."
+msgstr "기본환경설정에서 휴대폰 본인확인 설정을 해주십시오."
+
+#: register_form.skin.php:342
+msgid "Please enter at least 3 characters in your password."
+msgstr "패스워드를 3글자 이상 입력하십시오."
+
+#: register_form.skin.php:343
+msgid "The password is not the same."
+msgstr "패스워드가 같지 않습니다."
+
+#: register_form.skin.php:344
+msgid "Please enter a name."
+msgstr "이름을 입력하십시오."
+
+#: register_form.skin.php:345
+msgid "You need to confirm your identity to sign up for membership."
+msgstr "회원가입을 위해서는 본인확인을 해주셔야 합니다."
+
+#: register_form.skin.php:346
+msgid "Member icon is not an image file."
+msgstr "회원아이콘이 이미지 파일이 아닙니다."
+
+#: register_form.skin.php:347
+msgid "Member image is not an image file."
+msgstr "회원이미지가 이미지 파일이 아닙니다."
+
+#: register_form.skin.php:348
+msgid "You can not recommend yourself."
+msgstr "본인을 추천할 수 없습니다."
+
+#: register_result.skin.php:12
+msgid "<strong>Sign up</strong> is complete."
+msgstr "<strong>회원가입</strong>이 완료되었습니다."
+
+#: register_result.skin.php:35
+#, php-format
+msgid "Congratulations on %s's Sign up."
+msgstr "%s 님의 회원가입을 진심으로 축하합니다."
+
+#: register_result.skin.php:40
+msgid ""
+"A verification email has been sent to the email address entered at the time "
+"of membership registration."
+msgstr "회원 가입 시 입력하신 이메일 주소로 인증메일이 발송되었습니다."
+
+#: register_result.skin.php:41
+msgid ""
+"After checking the sent authentication mail, you can use the site smoothly."
+msgstr ""
+"발송된 인증메일을 확인하신 후 인증처리를 하시면 사이트를 원활하게 이용하실 "
+"수 있습니다."
+
+#: register_result.skin.php:51
+msgid ""
+"If you have entered an e-mail address incorrectly, please contact your site "
+"administrator."
+msgstr ""
+"이메일 주소를 잘못 입력하셨다면, 사이트 관리자에게 문의해주시기 바랍니다."
+
+#: register_result.skin.php:56
+msgid ""
+"Please be assured that your password is stored in an encryption code that no "
+"one knows about."
+msgstr ""
+"회원님의 패스워드는 아무도 알 수 없는 암호화 코드로 저장되므로 안심하셔도 좋"
+"습니다."
+
+#: register_result.skin.php:57
+msgid ""
+"If you lose your ID and password, you can find them using the email address "
+"you entered when Sign up."
+msgstr ""
+"아이디, 패스워드 분실시에는 회원가입시 입력하신 이메일 주소를 이용하여 찾을 "
+"수 있습니다."
+
+#: register_result.skin.php:61
+msgid ""
+"You can leave membership at any time and your information is deleted after a "
+"certain period of time."
+msgstr ""
+"회원 탈퇴는 언제든지 가능하며 일정기간이 지난 후, 회원님의 정보는 삭제하고 있"
+"습니다."
+
+#: register_result.skin.php:62
+msgid "Thank you."
+msgstr "감사합니다."
+
+#: register_result.skin.php:65
+msgid "Go to Main"
+msgstr "메인으로"
+
+#: scrap.skin.php:23
+msgid "No Data"
+msgstr "자료가 없습니다"
+
+#: scrap_popin.skin.php:10
+msgid "Scrap"
+msgstr "스크랩"
+
+#: scrap_popin.skin.php:17
+msgid "Check Subject and Write Comment"
+msgstr "제목 확인 및 댓글 쓰기"
+
+#: scrap_popin.skin.php:24
+msgid "Write comments"
+msgstr "댓글작성"
+
+#: scrap_popin.skin.php:31
+msgid "You can clip and leave a comment of appreciation or encouragement."
+msgstr "스크랩을 하시면서 감사 혹은 격려의 댓글을 남기실 수 있습니다."
+
+#: scrap_popin.skin.php:35
+msgid "Confirm scrap"
+msgstr "스크랩 확인"
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "우편번호"
+
+#~ msgid "Zip code"
+#~ msgstr "우편번호"
+
+#~ msgid "Search addresses"
+#~ msgstr "주소 검색"
+
+#~ msgid "Street address 1"
+#~ msgstr "주소 1"
+
+#~ msgid "Street address 2"
+#~ msgstr "주소 2"
+
+#~ msgid "Other list"
+#~ msgstr "참고 항목"
+
+#~ msgid "%s total"
+#~ msgid_plural "%s totals"
+#~ msgstr[0] "총 %s 건"
+
+#~ msgid "%s page"
+#~ msgid_plural "%s pages"
+#~ msgstr[0] "%s 페이지"
+
+#~ msgid "Admin"
+#~ msgstr "관리자"
+
+#~ msgid "Write"
+#~ msgstr "글쓰기"
+
+#~ msgid "Category"
+#~ msgstr "카테고리"
+
+#~ msgid "All current page posts"
+#~ msgstr "현재 페이지 게시물 전체"
+
+#~ msgctxt "Number"
+#~ msgid "Num"
+#~ msgstr "번호"
+
+#~ msgid "Writer"
+#~ msgstr "글쓴이"
+
+#~ msgid "hits"
+#~ msgstr "조회"
+
+#~ msgid "Good"
+#~ msgstr "좋아요"
+
+#~ msgid "Bad"
+#~ msgstr "싫어용"
+
+#~ msgid "Comments"
+#~ msgstr "댓글"
+
+#~ msgid "Count"
+#~ msgstr "건"
+
+#~ msgid "Copy Selection"
+#~ msgstr "선택복사"
+
+#~ msgid "Move Selection"
+#~ msgstr "선택이동"
+
+#~ msgid "Search for posts"
+#~ msgstr "게시물 검색"
+
+#~ msgid "Search target"
+#~ msgstr "검색대상"
+
+#~ msgid "Subject+Content"
+#~ msgstr "제목+내용"
+
+#~ msgid "Commenter"
+#~ msgstr "댓글이"
+
+#~ msgid "Search term"
+#~ msgstr "검색어"
+
+#~ msgid "Enter search term"
+#~ msgstr "검색어를 입력해주세요"
+
+#~ msgid "Search"
+#~ msgstr "검색"
+
+#~ msgid ""
+#~ "If you are not using JavaScript, please be careful because you can delete "
+#~ "the selection immediately without a separate verification process."
+#~ msgstr ""
+#~ "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 "
+#~ "처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Page Info"
+#~ msgstr "페이지정보"
+
+#~ msgid "Comment"
+#~ msgstr "댓글"
+
+#~ msgid "%s Comment"
+#~ msgid_plural "%s Comments"
+#~ msgstr[0] "%s 댓글"
+
+#~ msgid "Hit"
+#~ msgstr "조회"
+
+#~ msgid "%s Hit"
+#~ msgid_plural "%s Hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Attached file"
+#~ msgstr "첨부파일"
+
+#~ msgid "%s download"
+#~ msgid_plural "%s downloads"
+#~ msgstr[0] "%s 다운로드"
+
+#~ msgid "Related Links"
+#~ msgstr "관련링크"
+
+#~ msgid "%s hit"
+#~ msgid_plural "%s hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Edit"
+#~ msgstr "수정"
+
+#~ msgid "Copy"
+#~ msgstr "복사"
+
+#~ msgid "Move"
+#~ msgstr "이동"
+
+#~ msgid "List of comments"
+#~ msgstr "댓글목록"
+
+#~ msgid "Comment on comments by %s"
+#~ msgstr "%s 의 댓글의 댓글"
+
+#~ msgid "Comment by %s"
+#~ msgstr "%s 의 댓글"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Secret"
+#~ msgstr "비밀"
+
+#~ msgid "Writing comments"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "length"
+#~ msgstr "길이"
+
+#~ msgid "Enter comments"
+#~ msgstr "댓글을 입력하세요"
+
+#~ msgid "Write SNS at the same"
+#~ msgstr "SNS 동시쓰기"
+
+#~ msgid "Use Secret"
+#~ msgstr "비밀글사용"
+
+#~ msgid "Add comment"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "Select a Category"
+#~ msgstr "카테고리 선택"
+
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgid "Option"
+#~ msgstr "옵션"
+
+#~ msgid "Temporary stored posts"
+#~ msgstr "임시저장된 글"
+
+#~ msgid "Temporary list of saved posts"
+#~ msgstr "임시저장된 글 목록"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid ""
+#~ "This bulletin board can be written at least <strong>%s</strong> "
+#~ "characters or up to <strong>%s</strong> characters."
+#~ msgstr ""
+#~ "이 게시판은 최소 <strong>%s</strong>글자 이상, 최대 <strong>%s</strong>글"
+#~ "자 이하까지 글을 쓰실 수 있습니다."
+
+#~ msgid "Length"
+#~ msgstr "길이"
+
+#~ msgid "Link #"
+#~ msgstr "링크 #"
+
+#~ msgid "File #"
+#~ msgstr "파일 #"
+
+#~ msgid "File Attachment %s : Upload capacity less than %s"
+#~ msgstr "파일첨부 %s : 용량 %s 이하만 업로드 가능"
+
+#~ msgid "Enter file description."
+#~ msgstr "파일 설명을 입력하세요."
+
+#~ msgid "Delete File"
+#~ msgstr "파일 삭제"
+
+#~ msgid "Save"
+#~ msgstr "저장"
+
+#~ msgid "Closed"
+#~ msgstr "닫기"
+
+#~ msgid "Go to Body"
+#~ msgstr "본문 바로가기"
+
+#~ msgctxt "Edit My Profile"
+#~ msgid "Profile"
+#~ msgstr "프로필"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Full Search in Site"
+#~ msgstr "사이트 내 전체검색"
+
+#~ msgid "Search term required"
+#~ msgstr "검색어 필수"
+
+#~ msgid ""
+#~ "For quick searching, you can only enter one space in the search term."
+#~ msgstr "빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다."
+
+#~ msgctxt "1:1 inquiry"
+#~ msgid "1:1"
+#~ msgstr "1:1 문의"
+
+#~ msgid "Visitor"
+#~ msgstr "방문자"
+
+#~ msgctxt "New article"
+#~ msgid "New"
+#~ msgstr "새글"
+
+#~ msgid "Main menu"
+#~ msgstr "메인메뉴"
+
+#~ msgid "Open the full menu"
+#~ msgstr "전체메뉴열기"
+
+#~ msgid "Preparing menu."
+#~ msgstr "메뉴 준비 중입니다."
+
+#~ msgid "You can set it in %s"
+#~ msgstr "%s 에서 설정하실 수 있습니다."
+
+#~ msgid "Admin mode &gt; Configuration &gt; Menu settings"
+#~ msgstr "관리자모드 &gt; 환경설정 &gt; 메뉴설정"
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Latest articles"
+#~ msgstr "최신글"
+
+#~ msgid "Page"
+#~ msgstr "페이지"
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "Hits"
+#~ msgstr "조회수"
+
+#~ msgid "No Contents."
+#~ msgstr "컨텐츠가 없습니다."
+
+#~ msgid "Delete_selected"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy_selected"
+#~ msgstr "선택복사"
+
+#~ msgid "Move_selected"
+#~ msgstr "선택이동"
+
+#~ msgid "Search posts"
+#~ msgstr "글 검색"
+
+#~ msgid "Title + Content"
+#~ msgstr "제목+내용"
+
+#~ msgid ""
+#~ "If you do not use JavaScript,<br>please be careful not to check it "
+#~ "immediately."
+#~ msgstr ""
+#~ "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 "
+#~ "처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Receive response mail"
+#~ msgstr "답변메일받기"
+
+#~ msgid "First"
+#~ msgstr "처음"
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "Last"
+#~ msgstr "맨끝"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "Please specify %s and %s"
+#~ msgstr "%s 과 %s 를 지정해 주세요"
+
+#~ msgid "English"
+#~ msgstr "영어"
+
+#~ msgid "Korean"
+#~ msgstr "한국어"
+
+#~ msgid "Japanese"
+#~ msgstr "일본어"
+
+#~ msgid "Chinese"
+#~ msgstr "중국어"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

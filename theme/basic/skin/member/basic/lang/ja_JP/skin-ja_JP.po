@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 19:59+0900\n"
+"PO-Revision-Date: 2018-06-25 19:59+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: formmail.skin.php:10
+#, php-format
+msgid "Send an email to %s"
+msgstr ""
+
+#: formmail.skin.php:21
+msgid "Writing mail"
+msgstr ""
+
+#: formmail.skin.php:25 formmail.skin.php:26 register_form.skin.php:93
+#: register_form.skin.php:94
+msgid "Name"
+msgstr ""
+
+#: formmail.skin.php:25 formmail.skin.php:29 formmail.skin.php:34
+#: formmail.skin.php:44 login.skin.php:17 login.skin.php:19
+#: member_confirm.skin.php:28 memo_form.skin.php:23 password.skin.php:36
+#: password_lost.skin.php:18 register_form.skin.php:73
+#: register_form.skin.php:79 register_form.skin.php:82
+#: register_form.skin.php:93 register_form.skin.php:110
+#: register_form.skin.php:122 register_form.skin.php:132
+#: register_form.skin.php:140 register_form.skin.php:145
+#: register_form.skin.php:157 register_form.skin.php:158
+#: register_form.skin.php:162 register_form.skin.php:179
+msgid "Required"
+msgstr ""
+
+#: formmail.skin.php:29 formmail.skin.php:30 register_form.skin.php:122
+msgid "E-mail"
+msgstr ""
+
+#: formmail.skin.php:34 formmail.skin.php:35 scrap_popin.skin.php:20
+msgid "Subject"
+msgstr ""
+
+#: formmail.skin.php:38
+msgid "Type"
+msgstr ""
+
+#: formmail.skin.php:44 memo_form.skin.php:33
+msgid "Content"
+msgstr ""
+
+#: formmail.skin.php:49 formmail.skin.php:57
+msgid "The attached file"
+msgstr ""
+
+#: formmail.skin.php:52
+msgid "Please check if the file is attached after you send it."
+msgstr ""
+
+#: formmail.skin.php:62 memo_form.skin.php:37 register_form.skin.php:272
+msgid "Captcha"
+msgstr ""
+
+#: formmail.skin.php:67
+msgid "Send Mail"
+msgstr ""
+
+#: formmail.skin.php:68 memo_view.skin.php:58
+msgid "Close window"
+msgstr ""
+
+#: formmail.skin.php:79
+msgid "The attachment takes a long time to transfer."
+msgstr ""
+
+#: formmail.skin.php:80
+msgid "Do not close or refresh the window before sending mail is complete."
+msgstr ""
+
+#: login.skin.php:16 login.skin.php:17 login.skin.php:32
+msgid "Member Login"
+msgstr ""
+
+#: login.skin.php:18 register_form.skin.php:73 register_form.skin.php:74
+#: register_result.skin.php:21
+msgid "ID"
+msgstr ""
+
+#: login.skin.php:19 login.skin.php:20 member_confirm.skin.php:28
+#: member_confirm.skin.php:29 password.skin.php:36 password.skin.php:37
+#: register_form.skin.php:79 register_form.skin.php:80
+msgid "Password"
+msgstr ""
+
+#: login.skin.php:21
+msgid "Login"
+msgstr ""
+
+#: login.skin.php:23
+msgid "Autologin"
+msgstr ""
+
+#: login.skin.php:34
+msgid "Find ID and Password"
+msgstr ""
+
+#: login.skin.php:35
+msgid "Register"
+msgstr ""
+
+#: login.skin.php:47
+msgid ""
+"If you use auto login, you will not have to enter your member ID and "
+"password from now on."
+msgstr ""
+
+#: login.skin.php:48
+msgid "Please refrain from using personal information in public places."
+msgstr ""
+
+#: login.skin.php:49
+msgid "Do you want to use auto login?"
+msgstr ""
+
+#: member_confirm.skin.php:13
+msgid "Please enter your password again."
+msgstr ""
+
+#: member_confirm.skin.php:15
+msgid "Enter your password and your membership withdrawal will be completed."
+msgstr ""
+
+#: member_confirm.skin.php:17
+msgid ""
+"To ensure your information is secure, we confirm your password once more."
+msgstr ""
+
+#: member_confirm.skin.php:26
+msgid "Member ID"
+msgstr ""
+
+#: member_confirm.skin.php:30 password.skin.php:38 password_lost.skin.php:22
+msgid "Confirm"
+msgstr ""
+
+#: memo.skin.php:13 memo_form.skin.php:13 memo_view.skin.php:23
+msgid "Received Memo"
+msgstr ""
+
+#: memo.skin.php:14 memo_form.skin.php:14 memo_view.skin.php:24
+msgid "Sent Memo"
+msgstr ""
+
+#: memo.skin.php:15 memo_form.skin.php:15 memo_form.skin.php:20
+#: memo_view.skin.php:25
+msgid "Write Memo"
+msgstr ""
+
+#: memo.skin.php:19
+#, php-format
+msgid "%s total memo received"
+msgid_plural "%s totals memo received"
+msgstr[0] ""
+
+#: memo.skin.php:19
+#, php-format
+msgid "%s total memo sent"
+msgid_plural "%s totals memo sent"
+msgstr[0] ""
+
+#: memo.skin.php:28 register_form.skin.php:204 register_form.skin.php:222
+#: scrap.skin.php:19
+msgid "Delete"
+msgstr ""
+
+#: memo.skin.php:31
+msgid "No Memos."
+msgstr ""
+
+#: memo.skin.php:39
+#, php-format
+msgid "The maximum number of days to keep Memos is <strong>%s</strong> days."
+msgstr ""
+
+#: memo.skin.php:43 memo_form.skin.php:47 password_lost.skin.php:25
+#: point.skin.php:41 profile.skin.php:54 scrap.skin.php:30
+msgid "Close Window"
+msgstr ""
+
+#: memo_form.skin.php:10
+msgid "Send Memo"
+msgstr ""
+
+#: memo_form.skin.php:23 memo_form.skin.php:25
+msgid "Receiving Member ID"
+msgstr ""
+
+#: memo_form.skin.php:26
+msgid "Separate multiple members by comma (,)."
+msgstr ""
+
+#: memo_form.skin.php:29
+#, php-format
+msgid "When sending a note, deduct %s points per member."
+msgstr ""
+
+#: memo_form.skin.php:46
+msgid "Send"
+msgstr ""
+
+#: memo_view.skin.php:5 memo_view.skin.php:10
+msgid "Sent"
+msgstr ""
+
+#: memo_view.skin.php:6 memo_view.skin.php:9
+msgid "Received"
+msgstr ""
+
+#: memo_view.skin.php:31
+msgid "Memo Content"
+msgstr ""
+
+#: memo_view.skin.php:35
+msgid "User"
+msgstr ""
+
+#: memo_view.skin.php:39
+msgid "Date"
+msgstr ""
+
+#: memo_view.skin.php:51
+msgid "Prev"
+msgstr ""
+
+#: memo_view.skin.php:54
+msgid "Next"
+msgstr ""
+
+#: memo_view.skin.php:57
+msgid "List"
+msgstr ""
+
+#: memo_view.skin.php:59
+msgid "Reply"
+msgstr ""
+
+#: password.skin.php:3
+msgid "Delete Comment"
+msgstr ""
+
+#: password.skin.php:3
+msgid "Delete Post"
+msgstr ""
+
+#: password.skin.php:15 password.skin.php:18
+msgid "Only the author can modify the post."
+msgstr ""
+
+#: password.skin.php:16
+msgid ""
+"If you are the author, you can modify the text by entering the password you "
+"entered at the time of writing."
+msgstr ""
+
+#: password.skin.php:19
+msgid ""
+"If you are the author, you can delete the post by entering the password you "
+"entered at the time of writing."
+msgstr ""
+
+#: password.skin.php:21
+msgid "This is a secret post."
+msgstr ""
+
+#: password.skin.php:22
+msgid "Only authors and administrators can access it."
+msgstr ""
+
+#: password.skin.php:22
+msgid "If you are, please enter your password."
+msgstr ""
+
+#: password_lost.skin.php:10
+msgid "Find member info"
+msgstr ""
+
+#: password_lost.skin.php:15
+msgid "Please enter the registered email address when signing up."
+msgstr ""
+
+#: password_lost.skin.php:16
+msgid "We will send you ID and password information by email."
+msgstr ""
+
+#: password_lost.skin.php:18 password_lost.skin.php:19
+#: register_result.skin.php:23
+msgid "E-mail address"
+msgstr ""
+
+#: point.skin.php:15
+msgid "MY Point"
+msgstr ""
+
+#: point.skin.php:31
+msgid "Subtotal"
+msgstr ""
+
+#: profile.skin.php:6
+msgid "Days"
+msgstr ""
+
+#: profile.skin.php:6 profile.skin.php:7
+msgid "Unknown"
+msgstr ""
+
+#: profile.skin.php:15
+#, php-format
+msgid "%s's profile"
+msgstr ""
+
+#: profile.skin.php:26
+msgid "Member Level"
+msgstr ""
+
+#: profile.skin.php:28
+msgid "Point"
+msgstr ""
+
+#: profile.skin.php:32
+msgid "Register Date"
+msgstr ""
+
+#: profile.skin.php:34
+msgid "Last login date"
+msgstr ""
+
+#: profile.skin.php:39 register_form.skin.php:132 register_form.skin.php:133
+msgid "Homepage"
+msgstr ""
+
+#: profile.skin.php:49
+msgid "Profile"
+msgstr ""
+
+#: register.skin.php:18
+msgid ""
+"You must agree to the terms and conditions of membership and the information "
+"processing policy guidelines before you can sign up."
+msgstr ""
+
+#: register.skin.php:20
+msgid "Select All"
+msgstr ""
+
+#: register.skin.php:25
+msgid "Terms of Membership"
+msgstr ""
+
+#: register.skin.php:28
+msgid "I agree to the terms and conditions of membership."
+msgstr ""
+
+#: register.skin.php:34 register.skin.php:37
+msgid "Privacy Policy Guide"
+msgstr ""
+
+#: register.skin.php:40
+msgid "Purpose"
+msgstr ""
+
+#: register.skin.php:41
+msgid "Article"
+msgstr ""
+
+#: register.skin.php:42
+msgid "Retention period"
+msgstr ""
+
+#: register.skin.php:47
+msgid "Identify user and verify identity"
+msgstr ""
+
+#: register.skin.php:48
+msgid "ID, name and password"
+msgstr ""
+
+#: register.skin.php:49 register.skin.php:54
+msgid "Until member withdrawal"
+msgstr ""
+
+#: register.skin.php:52
+msgid "Notice of use of customer service"
+msgstr ""
+
+#: register.skin.php:52
+msgid "Identify users to respond to CS"
+msgstr ""
+
+#: register.skin.php:53
+msgid "Contacts (e-mail, mobile phone number)"
+msgstr ""
+
+#: register.skin.php:61
+msgid "I agree with the information handling policy guidelines."
+msgstr ""
+
+#: register.skin.php:67
+msgid "Sign Up"
+msgstr ""
+
+#: register.skin.php:75
+msgid ""
+"You must agree to the terms and conditions of your membership before you can "
+"sign up."
+msgstr ""
+
+#: register.skin.php:76
+msgid ""
+"You must agree to the information handling policy guidelines before you can "
+"sign up."
+msgstr ""
+
+#: register_form.skin.php:19
+msgid "I-PIN"
+msgstr ""
+
+#: register_form.skin.php:23 register_form.skin.php:31
+msgid "Phone"
+msgstr ""
+
+#: register_form.skin.php:29
+msgid "I-fin"
+msgstr ""
+
+#: register_form.skin.php:36
+msgid "You must authenticate again if you change your e-mail address."
+msgstr ""
+
+#: register_form.skin.php:36
+msgid ""
+"Sign up for membership only after checking the contents sent through e-mail."
+msgstr ""
+
+#: register_form.skin.php:43
+msgid "Sign up"
+msgstr ""
+
+#: register_form.skin.php:43
+msgid "Edit profile"
+msgstr ""
+
+#: register_form.skin.php:70
+msgid "Enter ID and Password"
+msgstr ""
+
+#: register_form.skin.php:76
+msgid ""
+"You can enter only alphabet, numbers, and _. Please enter at least 3 "
+"characters."
+msgstr ""
+
+#: register_form.skin.php:82 register_form.skin.php:83
+msgid "Confirm Password"
+msgstr ""
+
+#: register_form.skin.php:89
+msgid "Enter member profile"
+msgstr ""
+
+#: register_form.skin.php:96 register_form.skin.php:101
+msgid "Identity verification"
+msgstr ""
+
+#: register_form.skin.php:97
+msgid "JavaScript must be enabled for identification."
+msgstr ""
+
+#: register_form.skin.php:101
+msgid "Adult verification"
+msgstr ""
+
+#: register_form.skin.php:101
+msgid "done"
+msgstr ""
+
+#: register_form.skin.php:105
+msgid ""
+"The name will be automatically entered after confirmation of the I-PIN, and "
+"the name and phone number will be automatically entered after confirmation "
+"of the mobile phone."
+msgstr ""
+
+#: register_form.skin.php:110 register_form.skin.php:112
+msgid "Nickname"
+msgstr ""
+
+#: register_form.skin.php:115
+msgid "Enter only letters and numbers without spaces"
+msgstr ""
+
+#: register_form.skin.php:116
+msgid ""
+"If you change your nickname, you can not change it within the next 30 days."
+msgstr ""
+
+#: register_form.skin.php:140 register_form.skin.php:141
+msgid "Phone Number"
+msgstr ""
+
+#: register_form.skin.php:145 register_form.skin.php:147
+msgid "Mobile Number"
+msgstr ""
+
+#: register_form.skin.php:158
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: register_form.skin.php:159
+msgid "Zip code"
+msgstr ""
+
+#: register_form.skin.php:160
+msgid "Search addresses"
+msgstr ""
+
+#: register_form.skin.php:161 register_form.skin.php:162
+msgid "Street address 1"
+msgstr ""
+
+#: register_form.skin.php:164
+msgid "Street address 2"
+msgstr ""
+
+#: register_form.skin.php:175
+msgid "Etc profile"
+msgstr ""
+
+#: register_form.skin.php:179 register_form.skin.php:180
+msgid "Signature"
+msgstr ""
+
+#: register_form.skin.php:186 register_form.skin.php:187
+msgid "Introduce Myself"
+msgstr ""
+
+#: register_form.skin.php:193 register_form.skin.php:202
+msgid "Member icon"
+msgstr ""
+
+#: register_form.skin.php:197 register_form.skin.php:215
+#, php-format
+msgid "Image size should be %s pixels width and %s pixels height."
+msgstr ""
+
+#: register_form.skin.php:198 register_form.skin.php:216
+#, php-format
+msgid ""
+"Only gif, jpg, png files are allowed. Only %s bytes or less are registered."
+msgstr ""
+
+#: register_form.skin.php:211 register_form.skin.php:220
+msgid "Member image"
+msgstr ""
+
+#: register_form.skin.php:228
+msgid "Mailing service"
+msgstr ""
+
+#: register_form.skin.php:230
+msgid "I'll get an information mail."
+msgstr ""
+
+#: register_form.skin.php:235
+msgid "SMS receiving status"
+msgstr ""
+
+#: register_form.skin.php:237
+msgid "I'll get a message on my phone."
+msgstr ""
+
+#: register_form.skin.php:243 register_form.skin.php:253
+msgid "Open Profile"
+msgstr ""
+
+#: register_form.skin.php:246
+msgid "Let others see my information."
+msgstr ""
+
+#: register_form.skin.php:248
+#, php-format
+msgid ""
+"If you change the Open Profile, you will not be able to change it within the "
+"next %s days."
+msgstr ""
+
+#: register_form.skin.php:256
+#, php-format
+msgid ""
+"Open Profile must not changed until %s, within %s days after modification."
+msgstr ""
+
+#: register_form.skin.php:257
+msgid ""
+"This is to prevent you from receiving a note after you send it due to "
+"frequent information disclosure corrections."
+msgstr ""
+
+#: register_form.skin.php:266 register_form.skin.php:267
+msgid "Recommendation ID"
+msgstr ""
+
+#: register_form.skin.php:280
+msgid "Cancel"
+msgstr ""
+
+#: register_form.skin.php:288
+msgid ""
+"Please set the mobile phone identification settings in the basic "
+"configuration."
+msgstr ""
+
+#: register_form.skin.php:289
+msgid "Please enter at least 3 characters in your password."
+msgstr ""
+
+#: register_form.skin.php:290
+msgid "The password is not the same."
+msgstr ""
+
+#: register_form.skin.php:291
+msgid "Please enter a name."
+msgstr ""
+
+#: register_form.skin.php:292
+msgid "You need to confirm your identity to sign up for membership."
+msgstr ""
+
+#: register_form.skin.php:293
+msgid "Member icon is not an image file."
+msgstr ""
+
+#: register_form.skin.php:294
+msgid "Member image is not an image file."
+msgstr ""
+
+#: register_form.skin.php:295
+msgid "You can not recommend yourself."
+msgstr ""
+
+#: register_result.skin.php:10
+msgid "<strong>Sign up</strong> is complete."
+msgstr ""
+
+#: register_result.skin.php:12
+#, php-format
+msgid "Congratulations on %s's Sign up."
+msgstr ""
+
+#: register_result.skin.php:17
+msgid ""
+"A verification email has been sent to the email address entered at the time "
+"of membership registration."
+msgstr ""
+
+#: register_result.skin.php:18
+msgid ""
+"After checking the sent authentication mail, you can use the site smoothly."
+msgstr ""
+
+#: register_result.skin.php:27
+msgid ""
+"If you have entered an e-mail address incorrectly, please contact your site "
+"administrator."
+msgstr ""
+
+#: register_result.skin.php:32
+msgid ""
+"Please be assured that your password is stored in an encryption code that no "
+"one knows about."
+msgstr ""
+
+#: register_result.skin.php:33
+msgid ""
+"If you lose your ID and password, you can find them using the email address "
+"you entered when Sign up."
+msgstr ""
+
+#: register_result.skin.php:37
+msgid ""
+"You can leave membership at any time and your information is deleted after a "
+"certain period of time."
+msgstr ""
+
+#: register_result.skin.php:38
+msgid "Thank you."
+msgstr ""
+
+#: register_result.skin.php:41
+msgid "Go to Main"
+msgstr ""
+
+#: scrap.skin.php:23
+msgid "No Data"
+msgstr ""
+
+#: scrap_popin.skin.php:10
+msgid "Scrap"
+msgstr ""
+
+#: scrap_popin.skin.php:17
+msgid "Check Subject and Write Comment"
+msgstr ""
+
+#: scrap_popin.skin.php:24
+msgid "Write comments"
+msgstr ""
+
+#: scrap_popin.skin.php:31
+msgid "You can clip and leave a comment of appreciation or encouragement."
+msgstr ""
+
+#: scrap_popin.skin.php:35
+msgid "Confirm scrap"
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "投稿は見つかりませんでした。"

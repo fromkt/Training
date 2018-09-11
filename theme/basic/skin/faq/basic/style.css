@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#bo_cate {margin:15px 0}
+#bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_cate li {display:inline-block;margin-left:-5px}
+#bo_cate li:first-child {margin-left:0}
+#bo_cate li:first-child a {border-radius:3px 0 0 3px}
+#bo_cate li:last-child a {border-radius:0 3px 3px 0}
+#bo_cate a {display:block;line-height:38px;padding:0 15px;border:1px solid #eceff2;border-bottom-color:#e1e5e8;background:#fff;color:#667287}
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active {text-decoration:none;background:#d2d6dc}
+#bo_cate #bo_cate_on {z-index:2;background:#22cbab;color:#fff;font-weight:bold;border-bottom-color:#1eb79c}
+
+#faq_wrap {margin:10px 0 30px}
+#faq_wrap h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+.faq_admin {text-align:right}
+#faq_wrap ol {margin:0;padding:0;list-style:none}
+#faq_wrap li {margin:5px 0;border:1px solid #ddd;background:#fff}
+#faq_wrap li h3 {position:relative;min-height:50px;line-height:25px;padding:10px;padding-left:50px}
+#faq_wrap li h3 button {border:0;background:#fff}
+#faq_wrap li h3 .tit_bg {display:inline-block;position:absolute;top:10px;left:10px;width:30px;height:30px;line-height:28px;font-size:16px;background:#fff;color:#667287;text-align:center;border:1px solid #e0e6ee;border-radius:50%}
+#faq_con .con_inner {display:none;position:relative;border-top:1px solid #ddd;padding:15px;padding-left:50px}
+#faq_con .con_inner .tit_bg {display:inline-block;position:absolute;top:10px;left:10px;text-align:center;background:#5bbad6;color:#fff;border-radius:50%;width:30px;height:30px;line-height:28px;font-size:14px;font-weight:bold}
+
+#faq_sch {padding:20px;margin:10px 0;text-align:center;border:1px solid #d9dee9;background:#fff}
+#faq_sch form {display:inline-block;position:relative}
+#faq_sch .frm_input {width:310px;height:45px;margin-top:-1px;border-color:#3698dc;border-radius:0}
+#faq_sch .btn_submit {width:90px;height:45px;padding:0 10px;color:#000;font-size:1.083em;border-radius:0;font-weight:bold;color:#fff;background:#3698dc}

@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 20:01+0900\n"
+"PO-Revision-Date: 2018-06-25 20:01+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: new.skin.php:16
+msgid "No posts found."
+msgstr "投稿は見つかりませんでした。"
+
+#: new.skin.php:24
+msgid "Search Details"
+msgstr ""
+
+#: new.skin.php:27
+msgid "Search target"
+msgstr ""
+
+#: new.skin.php:29
+msgid "All posts"
+msgstr ""
+
+#: new.skin.php:30
+msgid "post"
+msgstr ""
+
+#: new.skin.php:31
+msgid "Comment"
+msgstr ""
+
+#: new.skin.php:33
+msgid "search terms"
+msgstr ""
+
+#: new.skin.php:33
+msgid "Required"
+msgstr ""
+
+#: new.skin.php:35
+msgid "Search"
+msgstr ""
+
+#: new.skin.php:36
+msgid "Only member ID can be retrieved"
+msgstr ""
+
+#: new.skin.php:67
+msgid "List All"
+msgstr ""
+
+#: new.skin.php:71
+msgid "Group"
+msgstr ""
+
+#: new.skin.php:72
+msgid "Board"
+msgstr ""
+
+#: new.skin.php:73
+msgid "Subject"
+msgstr ""
+
+#: new.skin.php:74
+msgid "Name"
+msgstr ""
+
+#: new.skin.php:75
+msgid "Date"
+msgstr ""
+
+#: new.skin.php:104 new.skin.php:132
+msgid "Delete Selection"
+msgstr ""
+
+#: new.skin.php:113
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr ""
+
+#: new.skin.php:114
+#, php-format
+msgid "Are you sure you want to %s it?"
+msgstr ""
+
+#: new.skin.php:115
+msgid "Once deleted, data can not be recovered."
+msgstr ""

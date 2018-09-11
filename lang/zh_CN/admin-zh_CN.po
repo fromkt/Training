@@ -1,0 +1,4624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-06 09:49+0900\n"
+"PO-Revision-Date: 2018-08-06 09:49+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../../adm\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.head.php:86
+msgid "Go to Body"
+msgstr ""
+
+#: admin.head.php:93
+msgid "Toggle Menu"
+msgstr ""
+
+#: admin.head.php:94
+#, php-format
+msgid "%s Admin"
+msgstr ""
+
+#: admin.head.php:98
+msgid "Go to Community"
+msgstr ""
+
+#: admin.head.php:99
+msgid "Admin"
+msgstr ""
+
+#: admin.head.php:99
+msgid "Open Menu"
+msgstr ""
+
+#: admin.head.php:101
+msgid "Edit Profile"
+msgstr ""
+
+#: admin.head.php:102
+msgid "Logout"
+msgstr ""
+
+#: admin.head.php:109
+msgid "Admin Main Menu"
+msgstr ""
+
+#: admin.lib.php:21 admin.lib.php:38 auth_list.php:190
+#: boardgroupmember_form.php:39 menu_form_search.php:47 menu_form_search.php:80
+msgid "Select"
+msgstr ""
+
+#: admin.lib.php:193 admin.lib.php:211 admin.lib.php:229
+msgid "Unselected"
+msgstr ""
+
+#: admin.lib.php:248
+msgid "You do not have access to this menu."
+msgstr ""
+
+#: admin.lib.php:248
+msgid "Access can only be granted by the Super Admin."
+msgstr ""
+
+#: admin.lib.php:259
+msgid "You do not have permission to read."
+msgstr ""
+
+#: admin.lib.php:265
+msgid "You do not have the permissions to enter, add, create, or modify."
+msgstr ""
+
+#: admin.lib.php:271
+msgid "You do not have permission to delete."
+msgstr ""
+
+#: admin.lib.php:277
+msgid "Invalid property."
+msgstr ""
+
+#: admin.lib.php:390 admin.lib.php:529 admin.lib.php:533
+#: theme_config_load.php:27 visit_delete_update.php:41
+msgid "Please use the correct method."
+msgstr ""
+
+#: admin.lib.php:402
+#, php-format
+msgid "Do you want to apply the %s theme?"
+msgstr ""
+
+#: admin.lib.php:403
+msgid "Default preference, 1:1 contact skin change from theme to skin set?"
+msgstr ""
+
+#: admin.lib.php:404
+msgid "Select Change to change member skin from theme to skin specified."
+msgstr ""
+
+#: admin.lib.php:405
+#, php-format
+msgid "Are you sure you want to disable the %s theme?"
+msgstr ""
+
+#: admin.lib.php:406
+msgid ""
+"Turning off a theme does not change the skin, such as a bulletin board, and "
+"requires individual changes."
+msgstr ""
+
+#: admin.lib.php:515
+msgid "Invalid information."
+msgstr ""
+
+#: admin.lib.php:548
+msgid "Please login."
+msgstr ""
+
+#: admin.lib.php:562
+msgid ""
+"Only super admin or members with administrative privileges are allowed to "
+"access."
+msgstr ""
+
+#: admin.lib.php:574
+msgid "XSS Attack Alert"
+msgstr ""
+
+#: admin.lib.php:574
+#, php-format
+msgid "There was an XSS attack with IP %s."
+msgstr ""
+
+#: admin.lib.php:574
+msgid "This is an approach to take over administrator rights, so be careful."
+msgstr ""
+
+#: admin.lib.php:574
+msgid "Please block this IP and check if there are any suspicious postings."
+msgstr ""
+
+#: admin.lib.php:576
+msgid "Please login and access normally."
+msgstr ""
+
+#: admin.menu100.php:3
+msgid "Configuration"
+msgstr ""
+
+#: admin.menu100.php:4
+msgid "Default Preferences"
+msgstr ""
+
+#: admin.menu100.php:5
+msgctxt "Setting administrative privileges"
+msgid "Administrative"
+msgstr ""
+
+#: admin.menu100.php:6 theme.php:18
+msgid "Theme Setup"
+msgstr ""
+
+#: admin.menu100.php:7 menu_list.php:11
+msgid "Menu settings"
+msgstr ""
+
+#: admin.menu100.php:8
+msgid "Test Mail"
+msgstr ""
+
+#: admin.menu100.php:9
+msgctxt "Manage pop-up layers"
+msgid "Manage popup"
+msgstr ""
+
+#: admin.menu100.php:10
+msgid "Delete Session Files"
+msgstr ""
+
+#: admin.menu100.php:11
+msgid "Delete Cache"
+msgstr ""
+
+#: admin.menu100.php:12
+msgid "Delete Captcha Files"
+msgstr ""
+
+#: admin.menu100.php:13
+msgid "Delete Thumb Files"
+msgstr ""
+
+#: admin.menu100.php:18
+msgid "Browscap Update"
+msgstr ""
+
+#: admin.menu100.php:19 browscap_convert.php:15
+msgid "Convert Visit Log"
+msgstr ""
+
+#: admin.menu100.php:22 theme_lang.php:5
+msgid "Theme Language File"
+msgstr ""
+
+#: admin.menu200.php:3 admin.menu200.php:4 member_list.php:61
+msgid "Member Manage"
+msgstr ""
+
+#: admin.menu200.php:5 mail_list.php:19 mail_select_form.php:38
+#: mail_select_update.php:7
+msgid "Send Member Email"
+msgstr ""
+
+#: admin.menu200.php:6 visit_list.php:7
+msgid "Visitor report"
+msgstr ""
+
+#: admin.menu200.php:7 visit_search.php:8
+msgid "Visitor search"
+msgstr ""
+
+#: admin.menu200.php:8 visit_delete.php:7
+msgid "Delete visitor Log"
+msgstr ""
+
+#: admin.menu200.php:9 point_list.php:55
+msgid "Point Manage"
+msgstr ""
+
+#: admin.menu200.php:10 poll_list.php:47
+msgid "Poll Manage"
+msgstr ""
+
+#: admin.menu300.php:3 admin.menu300.php:4 board_list.php:51
+msgid "Manage Board"
+msgstr ""
+
+#: admin.menu300.php:5
+msgctxt "Manage board Groups"
+msgid "Manage bbs Groups"
+msgstr ""
+
+#: admin.menu300.php:6 popular_list.php:62
+msgid "Manage top search"
+msgstr ""
+
+#: admin.menu300.php:7 popular_rank.php:31
+msgid "Top search ranking"
+msgstr ""
+
+#: admin.menu300.php:8 qa_config.php:8 qa_config.php:18
+msgid "1:1 Contact Settings"
+msgstr ""
+
+#: admin.menu300.php:9 contentlist.php:7 menu_form.php:32
+msgid "Manage Content"
+msgstr ""
+
+#: admin.menu300.php:10 faqlist.php:42 faqmasterlist.php:7
+msgid "Manage FAQ"
+msgstr ""
+
+#: admin.menu300.php:11 write_count.php:27
+msgid "Status of boards"
+msgstr ""
+
+#: admin.menu300.php:18 editorimglist.php:88
+msgid "Editor Images"
+msgstr ""
+
+#: admin.tail.php:9
+msgid "Your browser is currently set to <strong>Disable JavaScript.</strong>"
+msgstr ""
+
+#: admin.tail.php:10
+msgid ""
+"<strong>If JavaScript is disabled</strong>, there is no separate warning "
+"window when you modify or delete it, so be careful about this."
+msgstr ""
+
+#: ajax.theme_get_translate.php:11 auth_list.php:6 auth_list_delete.php:8
+#: auth_update.php:6 boardgroup_form.php:7 boardgroup_form_update.php:10
+#: browscap.php:9 browscap_convert.php:9 cache_file_delete.php:6
+#: captcha_file_delete.php:6 config_form.php:8 config_form_update.php:10
+#: menu_form.php:6 menu_form_search.php:5 menu_list.php:6
+#: menu_list_update.php:8 session_file_delete.php:6 theme.php:6
+#: theme_detail.php:6 theme_lang.php:8 theme_lang_update.php:13
+#: theme_update.php:6 thumbnail_file_delete.php:6 visit_delete_update.php:10
+msgid "Only the Super administrator can access it."
+msgstr ""
+
+#: ajax.theme_get_translate.php:39 config_form.php:343
+msgid "select"
+msgstr ""
+
+#: ajax.theme_get_translate.php:40
+#, php-format
+msgid "Language files for theme %s"
+msgstr ""
+
+#: ajax.theme_get_translate.php:47
+#, php-format
+msgid "Theme %s, Mobile Skin %s Language Files"
+msgstr ""
+
+#: ajax.theme_get_translate.php:50
+#, php-format
+msgid "Theme %s, Skin %s Language Files"
+msgstr ""
+
+#: ajax.theme_get_translate.php:57
+msgid "Open"
+msgstr ""
+
+#: ajax.theme_get_translate.php:66 ajax.theme_get_translate.php:84
+#: ajax.theme_get_translate.php:108 ajax.theme_get_translate.php:126
+#: auth_list_delete.php:18
+msgid "Invalid request"
+msgstr ""
+
+#: ajax.theme_get_translate.php:141
+msgid "No file selected."
+msgstr ""
+
+#: ajax.theme_get_translate.php:240
+msgid "No translation to retrieve."
+msgstr ""
+
+#: auth_list.php:46 member_list.php:59
+msgid "ALL list"
+msgstr ""
+
+#: auth_list.php:48
+msgid "Set administrative permissions"
+msgstr ""
+
+#: auth_list.php:56
+msgid "Administrative rights set"
+msgstr ""
+
+#: auth_list.php:56
+#, php-format
+msgctxt "%s totals"
+msgid "%s total"
+msgstr ""
+
+#: auth_list.php:62 auth_list.php:85 auth_list.php:183
+#: boardgroupmember_list.php:62 boardgroupmember_list.php:89
+#: editorimglist.php:126 editorimglist.php:157 mail_select_form.php:55
+#: mail_select_list.php:79 point_list.php:89 point_list.php:114
+#: point_list.php:203
+msgid "Member ID"
+msgstr ""
+
+#: auth_list.php:62 auth_list.php:183 auth_list.php:188 boardgroup_form.php:14
+#: config_form.php:148 config_form.php:153 config_form.php:162
+#: config_form.php:167 config_form.php:171 config_form.php:177
+#: config_form.php:187 config_form.php:192 config_form.php:264
+#: config_form.php:269 config_form.php:274 config_form.php:279
+#: config_form.php:284 config_form.php:290 config_form.php:295
+#: config_form.php:300 config_form.php:305 config_form.php:310
+#: config_form.php:328 config_form.php:337 config_form.php:413
+#: config_form.php:428 config_form.php:480 config_form.php:484 mail_form.php:37
+#: mail_form.php:41 member_form.php:12 member_form.php:109 member_form.php:113
+#: member_form.php:121 poll_form.php:36 poll_form.php:45
+msgid "required"
+msgstr ""
+
+#: auth_list.php:64 board_list.php:72 boardgroup_list.php:75
+#: boardgroupmember_list.php:66 editorimglist.php:122 editorimglist.php:130
+#: editorimglist.php:132 member_list.php:95 point_list.php:94 poll_list.php:66
+#: popular_list.php:88 popular_rank.php:57 visit.sub.php:25 visit_search.php:29
+msgid "Search"
+msgstr ""
+
+#: auth_list.php:78 board_list.php:87 boardgroup_form.php:122
+#: boardgroup_list.php:89 boardgroupmember_form.php:55
+#: boardgroupmember_list.php:81 contentform.php:148 contentlist.php:37
+#: editorimglist.php:146 faqform.php:70 faqlist.php:48 faqmasterform.php:136
+#: faqmasterlist.php:46 mail_list.php:37 mail_select_form.php:117
+#: mail_select_list.php:75 member_form.php:327 member_list.php:115
+#: menu_list.php:26 newwinlist.php:30 point_list.php:107 poll_form.php:99
+#: poll_list.php:81 popular_list.php:102 popular_rank.php:71
+#: visit_browser.php:32 visit_date.php:30 visit_device.php:32
+#: visit_domain.php:32 visit_hour.php:31 visit_list.php:38 visit_month.php:31
+#: visit_os.php:32 visit_week.php:29 visit_year.php:31
+msgid "List"
+msgstr ""
+
+#: auth_list.php:82
+msgid "All current page members"
+msgstr ""
+
+#: auth_list.php:86 boardgroupmember_form.php:21 boardgroupmember_list.php:91
+#: index.php:105 mail_select_list.php:81 member_form.php:113
+#: member_form_update.php:70 member_form_update.php:76
+#: member_form_update.php:82 member_form_update.php:106
+#: member_form_update.php:112 member_list.php:82 member_list.php:135
+#: point_list.php:121
+msgid "Nickname"
+msgstr ""
+
+#: auth_list.php:87 menu_form.php:45 menu_form_search.php:104 menu_list.php:29
+#: menu_list.php:59
+msgid "Menu"
+msgstr ""
+
+#: auth_list.php:88
+msgid "Permissions"
+msgstr ""
+
+#: auth_list.php:121
+#, php-format
+msgid "Authority of %s"
+msgstr ""
+
+#: auth_list.php:137 board_list.php:214 boardgroup_list.php:167
+#: boardgroupmember_list.php:128 contentlist.php:65 editorimglist.php:206
+#: faqform.php:23 faqlist.php:86 faqmasterform.php:19 faqmasterlist.php:81
+#: index.php:123 index.php:217 index.php:283 menu_list.php:110
+#: menu_list.php:127 newwinform.php:16 newwinlist.php:87 poll_list.php:125
+#: popular_list.php:136 popular_rank.php:99 visit_browser.php:88
+#: visit_date.php:77 visit_device.php:92 visit_domain.php:95 visit_hour.php:73
+#: visit_month.php:80 visit_os.php:92 visit_search.php:116 visit_week.php:72
+#: visit_year.php:77 write_count.php:171
+msgid "No Data"
+msgstr ""
+
+#: auth_list.php:144 auth_list.php:224 board_list.php:240
+#: boardgroup_list.php:196 mail_list.php:82 member_list.php:289
+#: point_list.php:237
+msgid "Delete selected"
+msgstr ""
+
+#: auth_list.php:170
+msgid "You can give the members administrative rights in the following form."
+msgstr ""
+
+#: auth_list.php:172
+msgid ""
+"Permissions <strong> r </ strong> are read permissions, <strong> w </ "
+"strong> are write permissions, and <strong> d </ strong> are delete "
+"permissions."
+msgstr ""
+
+#: auth_list.php:176
+msgid "Add administrative privileges"
+msgstr ""
+
+#: auth_list.php:188
+msgid "Access menu"
+msgstr ""
+
+#: auth_list.php:201
+msgid "Specify Permissions"
+msgstr ""
+
+#: auth_list.php:203
+msgid "Read"
+msgstr ""
+
+#: auth_list.php:205 mail_form.php:19
+msgid "Write"
+msgstr ""
+
+#: auth_list.php:207 contentform.php:105 contentform.php:128 contentlist.php:59
+#: faqlist.php:78 faqmasterform.php:95 faqmasterlist.php:74 member_form.php:163
+#: member_form.php:178 menu_form.php:53 newwinlist.php:74
+msgid "Delete"
+msgstr ""
+
+#: auth_list.php:213 faqmasterform.php:26 member_form.php:17 menu_form.php:52
+#: menu_form_search.php:118 menu_list.php:81 newwinlist.php:25 poll_form.php:11
+msgid "Add"
+msgstr ""
+
+#: auth_list.php:222 board_list.php:238 boardgroup_list.php:194
+#: member_list.php:287 point_list.php:235
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr ""
+
+#: auth_list.php:223 board_list.php:239 boardgroup_list.php:195
+#: member_list.php:288 point_list.php:236
+msgid "Are you sure you want to delete it?"
+msgstr ""
+
+#: auth_list_delete.php:15 board_list_update.php:8 member_list_update.php:8
+#: point_list_delete.php:13
+#, php-format
+msgid "Please check at least one item to be done %s."
+msgstr ""
+
+#: auth_update.php:10 point_update.php:17
+msgid "This member ID does not exist."
+msgstr ""
+
+#: board_copy.php:7 board_form.php:1064
+msgid "Copy Board"
+msgstr ""
+
+#: board_copy.php:25
+msgid "Original table name"
+msgstr ""
+
+#: board_copy.php:29
+msgid "Copy table name"
+msgstr ""
+
+#: board_copy.php:29 board_copy.php:33 board_form.php:23 board_form.php:123
+#: board_form.php:130 board_form.php:308 board_form.php:320 board_form.php:509
+#: board_form.php:521 board_form.php:654 board_form.php:665 board_form.php:752
+#: board_form.php:764 board_form.php:775 board_form.php:787 board_form.php:799
+#: board_form.php:812 board_form.php:825 board_form.php:838 board_form.php:851
+#: board_form.php:864 board_form.php:877 board_form.php:890 board_form.php:903
+#: board_form.php:982 board_form.php:994 board_form.php:1006
+#: board_form.php:1018 board_list.php:70 board_list.php:128
+#: boardgroup_form.php:58 boardgroup_list.php:73 boardgroupmember_list.php:64
+#: config_form.php:491 config_form.php:496 config_form.php:502
+#: config_form.php:508 config_form.php:514 config_form.php:519
+#: contentform.php:63 contentform.php:68 member_list.php:93 menu_form.php:46
+#: menu_form_search.php:104 menu_form_search.php:108 menu_list.php:59
+#: menu_list.php:89 newwinform.php:55 newwinform.php:62 newwinform.php:69
+#: newwinform.php:76 newwinform.php:81 newwinform.php:86 newwinform.php:91
+#: newwinform.php:96 point_list.php:92 point_list.php:203 point_list.php:207
+#: point_list.php:211 poll_list.php:64 popular_list.php:86 qa_config.php:24
+#: qa_config.php:31 qa_config.php:39 qa_config.php:45 qa_config.php:54
+#: qa_config.php:61 qa_config.php:81 qa_config.php:87 qa_config.php:93
+#: qa_config.php:98 qa_config.php:103 qa_config.php:109 sendmail_test.php:61
+#: visit_delete.php:53
+msgid "Required"
+msgstr ""
+
+#: board_copy.php:30
+msgid "Alphabetic, numeric, _ only (no spaces)"
+msgstr ""
+
+#: board_copy.php:33
+msgid "Board Subject"
+msgstr ""
+
+#: board_copy.php:34 board_copy.php:50 board_list.php:116
+msgid "Copy"
+msgstr ""
+
+#: board_copy.php:37
+msgid "Copy Type"
+msgstr ""
+
+#: board_copy.php:40
+msgid "Structure only"
+msgstr ""
+
+#: board_copy.php:42
+msgid "Structure and data"
+msgstr ""
+
+#: board_copy.php:51 menu_form_search.php:95
+msgid "Close Window"
+msgstr ""
+
+#: board_copy.php:61
+msgid "The original table name and the table name to copy must be different."
+msgstr ""
+
+#: board_copy.php:62 board_copy_update.php:20 board_form.php:1079
+#: board_form_update.php:19
+msgid "Board TABLE Name can not be used. Please use a different name."
+msgstr ""
+
+#: board_copy_update.php:15 board_form_update.php:14
+msgid ""
+"Board table available only letters, numbers, _ with no spaces. (20 "
+"characters)"
+msgstr ""
+
+#: board_copy_update.php:25
+#, php-format
+msgid "%s is a board table names that already exist"
+msgstr ""
+
+#: board_copy_update.php:25
+msgid "Can not be used as the name of the table to copy."
+msgstr ""
+
+#: board_copy_update.php:210
+msgid "Copy successful."
+msgstr ""
+
+#: board_form.php:11
+msgid "At least one bulletin Board group must be created."
+msgstr ""
+
+#: board_form.php:13 boardgroup_list.php:99 config_form.php:135
+#: config_form.php:403 config_form.php:405 menu_form.php:31
+msgid "Board"
+msgstr ""
+
+#: board_form.php:19 boardgroup_form.php:16
+msgid "Create"
+msgstr ""
+
+#: board_form.php:58 board_list.php:100 board_list.php:115
+#: boardgroup_form.php:20 boardgroup_list.php:104 boardgroup_list.php:119
+#: contentform.php:13 contentlist.php:42 contentlist.php:57 faqform.php:18
+#: faqlist.php:54 faqlist.php:77 faqmasterform.php:14 faqmasterlist.php:53
+#: faqmasterlist.php:72 mail_form.php:11 member_form.php:30 member_list.php:131
+#: member_list.php:158 newwinform.php:13 newwinlist.php:73 poll_form.php:13
+#: poll_list.php:93 poll_list.php:103
+msgid "Edit"
+msgstr ""
+
+#: board_form.php:61 board_thumbnail_delete.php:8
+msgid "This bulletin board does not exist."
+msgstr ""
+
+#: board_form.php:65
+msgid "Invalid group."
+msgstr ""
+
+#: board_form.php:85 board_form.php:1068 boardgroup_form.php:123
+#: config_form.php:886 contentform.php:149 faqform.php:71 faqmasterform.php:137
+#: mail_form.php:49 mail_select_form.php:116 member_form.php:328
+#: menu_list.php:118 newwinform.php:109 poll_form.php:100 qa_config.php:161
+#: theme_lang.php:66 write_count.php:161
+msgid "Save"
+msgstr ""
+
+#: board_form.php:98 board_form.php:102 board_form.php:105
+msgid "Default Settings"
+msgstr ""
+
+#: board_form.php:98
+msgid "Set Permissions"
+msgstr ""
+
+#: board_form.php:98
+msgid "Set Features"
+msgstr ""
+
+#: board_form.php:98
+msgid "DesignForms"
+msgstr ""
+
+#: board_form.php:98
+msgid "Point Settings"
+msgstr ""
+
+#: board_form.php:98 config_form.php:859
+msgid "Extra field"
+msgstr ""
+
+#: board_form.php:111
+msgid "Alphabetic, numeric, _ only (no more than 20 characters without spaces)"
+msgstr ""
+
+#: board_form.php:115 board_form.php:1065
+msgid "Redirect Board"
+msgstr ""
+
+#: board_form.php:117
+msgid "Are you sure you want to delete the bulletin board thumbnail file?"
+msgstr ""
+
+#: board_form.php:117
+msgid "Delete board thumbnail"
+msgstr ""
+
+#: board_form.php:118
+msgid "Go to List"
+msgstr ""
+
+#: board_form.php:123 board_list.php:103 boardgroup_list.php:127
+#: boardgroupmember_form.php:63 boardgroupmember_form.php:81
+#: boardgroupmember_list.php:88 index.php:107 member_list.php:160
+msgid "Group"
+msgstr ""
+
+#: board_form.php:126
+msgid "List of Boards in the same group"
+msgstr ""
+
+#: board_form.php:130 menu_form_search.php:36
+msgid "Board Title"
+msgstr ""
+
+#: board_form.php:135
+msgid "Mobile Board Title"
+msgstr ""
+
+#: board_form.php:136
+msgid ""
+"Enter a different title for the bulletin board you see in mobile. If no "
+"input is made, the default bulletin board title is output."
+msgstr ""
+
+#: board_form.php:141 board_list.php:109 board_list.php:202
+#: boardgroup_form.php:68 boardgroup_list.php:103 boardgroup_list.php:154
+#: newwinform.php:47 visit_device.php:36
+msgid "Browser_device"
+msgstr ""
+
+#: board_form.php:142 boardgroup_form.php:70
+msgid "Distinguish your PC from your mobile use."
+msgstr ""
+
+#: board_form.php:144 boardgroup_form.php:72
+msgid "Use on both PC and mobile"
+msgstr ""
+
+#: board_form.php:145 boardgroup_form.php:73
+msgid "PC only"
+msgstr ""
+
+#: board_form.php:146 boardgroup_form.php:74
+msgid "MOBILE only"
+msgstr ""
+
+#: board_form.php:151 board_form.php:166 board_form.php:197 board_form.php:210
+#: board_form.php:221 board_form.php:231 board_form.php:241 board_form.php:251
+#: board_form.php:261 board_form.php:271 board_form.php:281 board_form.php:291
+#: board_form.php:314 board_form.php:326 board_form.php:339 board_form.php:356
+#: board_form.php:370 board_form.php:384 board_form.php:396 board_form.php:409
+#: board_form.php:422 board_form.php:436 board_form.php:449 board_form.php:463
+#: board_form.php:477 board_form.php:490 board_form.php:503 board_form.php:515
+#: board_form.php:527 board_form.php:539 board_form.php:551 board_form.php:563
+#: board_form.php:575 board_form.php:587 board_form.php:600 board_form.php:611
+#: board_form.php:623 board_form.php:637 board_form.php:658 board_form.php:669
+#: board_form.php:679 board_form.php:689 board_form.php:699 board_form.php:710
+#: board_form.php:723 board_form.php:735 board_form.php:746 board_form.php:758
+#: board_form.php:769 board_form.php:781 board_form.php:793 board_form.php:806
+#: board_form.php:819 board_form.php:832 board_form.php:845 board_form.php:858
+#: board_form.php:871 board_form.php:884 board_form.php:897 board_form.php:909
+#: board_form.php:924 board_form.php:956 board_form.php:988 board_form.php:1000
+#: board_form.php:1012 board_form.php:1024 board_form.php:1050
+msgid "Apply Group"
+msgstr ""
+
+#: board_form.php:153 board_form.php:168 board_form.php:199 board_form.php:212
+#: board_form.php:223 board_form.php:233 board_form.php:243 board_form.php:253
+#: board_form.php:263 board_form.php:273 board_form.php:283 board_form.php:293
+#: board_form.php:316 board_form.php:328 board_form.php:341 board_form.php:358
+#: board_form.php:372 board_form.php:386 board_form.php:398 board_form.php:411
+#: board_form.php:425 board_form.php:438 board_form.php:451 board_form.php:465
+#: board_form.php:479 board_form.php:492 board_form.php:505 board_form.php:517
+#: board_form.php:529 board_form.php:541 board_form.php:553 board_form.php:565
+#: board_form.php:577 board_form.php:589 board_form.php:602 board_form.php:613
+#: board_form.php:625 board_form.php:639 board_form.php:660 board_form.php:671
+#: board_form.php:681 board_form.php:691 board_form.php:701 board_form.php:712
+#: board_form.php:725 board_form.php:737 board_form.php:748 board_form.php:760
+#: board_form.php:771 board_form.php:783 board_form.php:795 board_form.php:808
+#: board_form.php:821 board_form.php:834 board_form.php:847 board_form.php:860
+#: board_form.php:873 board_form.php:886 board_form.php:899 board_form.php:911
+#: board_form.php:926 board_form.php:958 board_form.php:990 board_form.php:1002
+#: board_form.php:1014 board_form.php:1026 board_form.php:1052
+msgid "Apply All"
+msgstr ""
+
+#: board_form.php:158 qa_config.php:31
+msgid "Category"
+msgstr ""
+
+#: board_form.php:159 qa_config.php:33
+msgid ""
+"Divide the classification by | between the classification. (Example : "
+"Question | answer) Do not enter the first letter #. (Example : # Question | "
+"# Answer [X])"
+msgstr ""
+
+#: board_form.php:162 board_form.php:366 board_form.php:380 board_form.php:392
+#: board_form.php:405 board_form.php:418 board_form.php:432 board_form.php:445
+#: board_form.php:459 board_form.php:473 board_form.php:486 board_form.php:499
+#: board_form.php:535 board_form.php:596 board_form.php:608 board_form.php:634
+#: boardgroup_form.php:94 contentform.php:76 menu_form.php:54 menu_list.php:67
+#: menu_list.php:74 menu_list.php:101 poll_list.php:101 qa_config.php:76
+#: theme.php:49
+msgid "Enable"
+msgstr ""
+
+#: board_form.php:174
+msgid "Adjust Count"
+msgstr ""
+
+#: board_form.php:175
+#, php-format
+msgid "Number of article : %s"
+msgid_plural "Number of articles : %s"
+msgstr[0] ""
+
+#: board_form.php:176
+#, php-format
+msgid "Number of Comment : %s"
+msgid_plural "Number of Comments : %s"
+msgstr[0] ""
+
+#: board_form.php:177
+msgid "Check if the number in the bulletin board list does not match"
+msgstr ""
+
+#: board_form.php:178
+msgid "Adjust"
+msgstr ""
+
+#: board_form.php:185 board_form.php:187
+msgid "Setting Board Permissions"
+msgstr ""
+
+#: board_form.php:192
+msgid "Board Admin"
+msgstr ""
+
+#: board_form.php:204
+msgid "List view permissions"
+msgstr ""
+
+#: board_form.php:205
+msgid ""
+"Permission 1 is a non-members, 2 or more member. The privilege is highest "
+"with 10."
+msgstr ""
+
+#: board_form.php:217
+msgid "Read permission"
+msgstr ""
+
+#: board_form.php:227
+msgid "Write permission"
+msgstr ""
+
+#: board_form.php:237
+msgid "Reply permission"
+msgstr ""
+
+#: board_form.php:247
+msgid "Comments permission"
+msgstr ""
+
+#: board_form.php:257
+msgctxt "Writing Link permission"
+msgid "Link permission"
+msgstr ""
+
+#: board_form.php:267
+msgid "Upload Permission"
+msgstr ""
+
+#: board_form.php:277
+msgid "Download Permission"
+msgstr ""
+
+#: board_form.php:287
+msgid "HTML Write Permission"
+msgstr ""
+
+#: board_form.php:301 board_form.php:303
+msgid "Setting board features"
+msgstr ""
+
+#: board_form.php:308
+msgid "Unable to modify original text"
+msgstr ""
+
+#: board_form.php:309
+msgid ""
+"If the number of comments is greater than the number of settings, the "
+"original text can not be modified. Set to 0 to modify regardless of the "
+"number of comments."
+msgstr ""
+
+#: board_form.php:310
+msgid ""
+"If the comments run more than the entered number, they can not be modified."
+msgstr ""
+
+#: board_form.php:320
+msgid "Unable to delete original text"
+msgstr ""
+
+#: board_form.php:322
+msgid ""
+"If the comments run more than the entered number, they can not be deleted."
+msgstr ""
+
+#: board_form.php:332
+msgid "Author sideview"
+msgstr ""
+
+#: board_form.php:335
+msgid "Enable (Layer menu when the author clicks)"
+msgstr ""
+
+#: board_form.php:345
+msgid "Use secret"
+msgstr ""
+
+#: board_form.php:362 qa_config.php:72
+msgid "Enable DHTML Editor"
+msgstr ""
+
+#: board_form.php:364 qa_config.php:73
+msgid ""
+"Set whether content is used as DHTML Editor function when writing. Depending "
+"on the skin, it may not apply."
+msgstr ""
+
+#: board_form.php:376
+msgid "Enable RSS Display"
+msgstr ""
+
+#: board_form.php:378
+msgid "You must be able to read non-members and check to use RSS Show."
+msgstr ""
+
+#: board_form.php:390
+msgid "Using Good"
+msgstr ""
+
+#: board_form.php:402
+msgid "Using Bad"
+msgstr ""
+
+#: board_form.php:415
+msgid "Use name"
+msgstr ""
+
+#: board_form.php:429
+msgid "Enable signature display"
+msgstr ""
+
+#: board_form.php:442
+msgid "Enable IP View"
+msgstr ""
+
+#: board_form.php:455
+msgid "Load Content in List"
+msgstr ""
+
+#: board_form.php:457
+msgid ""
+"This option is set if you need to retrieve content from the list in addition "
+"to the bulletin board title. Default is disabled."
+msgstr ""
+
+#: board_form.php:469
+msgid "Use file in list"
+msgstr ""
+
+#: board_form.php:471
+msgid ""
+"This option is set when you need to retrieve bulletin board attachments from "
+"the list. Default is disabled."
+msgstr ""
+
+#: board_form.php:483
+msgid "Show list in view"
+msgstr ""
+
+#: board_form.php:496 config_form.php:612
+msgid "Enable mail sending"
+msgstr ""
+
+#: board_form.php:509
+msgid "File Upload Count"
+msgstr ""
+
+#: board_form.php:510
+msgid ""
+"Maximum number of files that can be uploaded per post (0 does not use file "
+"attachments)"
+msgstr ""
+
+#: board_form.php:521
+msgid "File Upload Size"
+msgstr ""
+
+#: board_form.php:522 qa_config.php:110
+#, php-format
+msgid "Up to %s uploadable"
+msgstr ""
+
+#: board_form.php:523 qa_config.php:111
+msgid "Per upload file"
+msgstr ""
+
+#: board_form.php:523
+msgid "Below"
+msgstr ""
+
+#: board_form.php:533
+msgid "Enable File Description"
+msgstr ""
+
+#: board_form.php:545
+msgid "Limit the minimum number of posts"
+msgstr ""
+
+#: board_form.php:546
+msgid ""
+"Set minimum number of characters when writing. Do not check when entering 0 "
+"or when using DHTML Editor"
+msgstr ""
+
+#: board_form.php:557
+msgid "Limit Maximum Number of posts"
+msgstr ""
+
+#: board_form.php:558
+msgid ""
+"Set the maximum number of characters when writing. Do not check when "
+"entering 0 or when using DHTML Editor"
+msgstr ""
+
+#: board_form.php:569
+msgid "Limit the length of comments"
+msgstr ""
+
+#: board_form.php:570
+msgid "Set the minimum length of text characters when entering comments."
+msgstr ""
+
+#: board_form.php:581
+msgid "Limit the maximum length of comments"
+msgstr ""
+
+#: board_form.php:582
+msgid "Set the maximum number of text characters when entering comments."
+msgstr ""
+
+#: board_form.php:593
+msgid "Using SNS"
+msgstr ""
+
+#: board_form.php:594
+msgid ""
+"Check Enable to post comments on social network services or register "
+"comments at the same time.<br>You can use it only when you set the basic "
+"configuration SNS settings."
+msgstr ""
+
+#: board_form.php:606
+msgid "Use all search"
+msgstr ""
+
+#: board_form.php:617 faqform.php:47 faqmasterform.php:44
+msgid "Output order"
+msgstr ""
+
+#: board_form.php:618
+msgid "The lower number bulletin is first printed on the menu or search."
+msgstr ""
+
+#: board_form.php:630
+msgid "Use captcha"
+msgstr ""
+
+#: board_form.php:631
+msgid ""
+"When checked, Enable CAPTCHA when writing.(Both members and non-"
+"members)<br>If you do not check, use CAPTCHA only for non-members."
+msgstr ""
+
+#: board_form.php:647 board_form.php:649
+msgid "Board designforms"
+msgstr ""
+
+#: board_form.php:654 contentform.php:63 qa_config.php:39
+msgid "Skin Directory"
+msgstr ""
+
+#: board_form.php:665 contentform.php:68 qa_config.php:45
+msgid "Mobile Skin Directory"
+msgstr ""
+
+#: board_form.php:675 contentform.php:82 qa_config.php:115
+msgid "Header File Path"
+msgstr ""
+
+#: board_form.php:685 contentform.php:88 qa_config.php:119
+msgid "Footer File Path"
+msgstr ""
+
+#: board_form.php:695 faqmasterform.php:107 qa_config.php:123
+msgid "Header Content"
+msgstr ""
+
+#: board_form.php:705 faqmasterform.php:113 qa_config.php:128
+msgid "Footer Content"
+msgstr ""
+
+#: board_form.php:717 qa_config.php:133
+msgid "Header of Mobile File Path"
+msgstr ""
+
+#: board_form.php:729 faqmasterform.php:123 qa_config.php:138
+msgid "Footer of Mobile Content"
+msgstr ""
+
+#: board_form.php:741 qa_config.php:143
+msgid "Writing Basics"
+msgstr ""
+
+#: board_form.php:752
+msgid "Subject length"
+msgstr ""
+
+#: board_form.php:753
+msgid "The number of titles in a list Mark the truncated text as …"
+msgstr ""
+
+#: board_form.php:764
+msgid "Mobile Subject length"
+msgstr ""
+
+#: board_form.php:775 qa_config.php:93
+msgid "List per page"
+msgstr ""
+
+#: board_form.php:787
+msgid "List per mobile page"
+msgstr ""
+
+#: board_form.php:799
+msgid "Gallery Images"
+msgstr ""
+
+#: board_form.php:801
+msgid ""
+"The value that sets the number of images per line in the list of bulletin "
+"boards in gallery format."
+msgstr ""
+
+#: board_form.php:812
+msgid "Gallery Image Width"
+msgstr ""
+
+#: board_form.php:814
+msgid ""
+"The value that sets the width of the thumbnail image in the list of bulletin "
+"boards in gallery format."
+msgstr ""
+
+#: board_form.php:825
+msgid "Gallery Image Height"
+msgstr ""
+
+#: board_form.php:827
+msgid ""
+"The value that sets the height of the thumbnail image in the list of "
+"bulletin boards in gallery format."
+msgstr ""
+
+#: board_form.php:838
+msgid "Mobile<br>Gallery Image Width"
+msgstr ""
+
+#: board_form.php:840
+msgid ""
+"The value that sets the width of the thumbnail image in the list of bulletin "
+"boards in gallery format when connecting via mobile."
+msgstr ""
+
+#: board_form.php:851
+msgid "Mobile<br>Gallery Image Height"
+msgstr ""
+
+#: board_form.php:853
+msgid ""
+"The value that sets the height of the thumbnail image in the list of "
+"bulletin boards in gallery format when connecting via mobile."
+msgstr ""
+
+#: board_form.php:864
+msgid "Board Width"
+msgstr ""
+
+#: board_form.php:866
+msgid "Below 100 is %"
+msgstr ""
+
+#: board_form.php:877
+msgid "IMAGE Width"
+msgstr ""
+
+#: board_form.php:879
+msgid "Width size of the image that is output from the bulletin board"
+msgstr ""
+
+#: board_form.php:880 qa_config.php:105
+msgid "Pixel"
+msgstr ""
+
+#: board_form.php:890
+msgctxt "New text icon"
+msgid "New icon"
+msgstr ""
+
+#: board_form.php:892
+msgid ""
+"The time to print a new image after entering the text. If you enter 0, no "
+"icon will be output."
+msgstr ""
+
+#: board_form.php:903
+msgctxt "Popular icon"
+msgid "Popular text icon"
+msgstr ""
+
+#: board_form.php:904
+msgid ""
+"If the number of queries is greater than the set value, output hot image. "
+"Enter 0 to not print the icon."
+msgstr ""
+
+#: board_form.php:915
+msgid "Reply sort"
+msgstr ""
+
+#: board_form.php:918
+msgid "Below the reply you wrote later (default)"
+msgstr ""
+
+#: board_form.php:919
+msgid "Restate Later Responses"
+msgstr ""
+
+#: board_form.php:930
+msgid "List sort fields"
+msgstr ""
+
+#: board_form.php:931
+msgid ""
+"Select the fields in the list to use for sorting by defaults.If you do not "
+"use them as \"default\", the speed may be slow."
+msgstr ""
+
+#: board_form.php:934
+msgid "default"
+msgstr ""
+
+#: board_form.php:935
+msgid "Before date"
+msgstr ""
+
+#: board_form.php:936
+msgid "From the latest"
+msgstr ""
+
+#: board_form.php:937
+msgid "From low hit of view"
+msgstr ""
+
+#: board_form.php:938
+msgid "From High Hits"
+msgstr ""
+
+#: board_form.php:939
+msgid "From the previous posts"
+msgstr ""
+
+#: board_form.php:940
+msgid "A recent posts"
+msgstr ""
+
+#: board_form.php:941
+msgid "Comments from Low"
+msgstr ""
+
+#: board_form.php:942
+msgid "Comments from High"
+msgstr ""
+
+#: board_form.php:943
+msgid "From the low goods"
+msgstr ""
+
+#: board_form.php:944
+msgid "From the high goods"
+msgstr ""
+
+#: board_form.php:945
+msgid "From the low bads"
+msgstr ""
+
+#: board_form.php:946
+msgid "From the high bads"
+msgstr ""
+
+#: board_form.php:947
+msgid "Subject Ascending"
+msgstr ""
+
+#: board_form.php:948
+msgid "Subject Descending"
+msgstr ""
+
+#: board_form.php:949
+msgid "Author Ascending"
+msgstr ""
+
+#: board_form.php:950
+msgid "Author Descending"
+msgstr ""
+
+#: board_form.php:951
+msgid "Category name Ascending"
+msgstr ""
+
+#: board_form.php:952
+msgid "Category name Descending"
+msgstr ""
+
+#: board_form.php:963
+msgid "Get theme image settings"
+msgstr ""
+
+#: board_form.php:968 board_form.php:970
+msgid "Setting board points"
+msgstr ""
+
+#: board_form.php:976
+msgid "Set as default"
+msgstr ""
+
+#: board_form.php:978
+msgid "Set as point entered in Default Preferences"
+msgstr ""
+
+#: board_form.php:982 board_list.php:139
+msgid "Read Point"
+msgstr ""
+
+#: board_form.php:994
+msgid "Write Point"
+msgstr ""
+
+#: board_form.php:1006
+msgid "Comments Point"
+msgstr ""
+
+#: board_form.php:1018
+msgid "Download Point"
+msgstr ""
+
+#: board_form.php:1033 board_form.php:1035
+msgid "Set Board Extra Fields"
+msgstr ""
+
+#: board_form.php:1042 boardgroup_form.php:110 config_form.php:871
+#: member_form.php:318 qa_config.php:149
+#, php-format
+msgid "Extra field %d"
+msgstr ""
+
+#: board_form.php:1043 boardgroup_form.php:111 config_form.php:872
+#: qa_config.php:150
+#, php-format
+msgid "Extra field %d Title"
+msgstr ""
+
+#: board_form.php:1045 boardgroup_form.php:113 config_form.php:874
+#: qa_config.php:152
+#, php-format
+msgid "Extra field %d Value"
+msgstr ""
+
+#: board_form.php:1066
+msgid "Are you sure you want to delete the board thumbnail file?"
+msgstr ""
+
+#: board_form.php:1066
+msgid "Delete Board thumbnail"
+msgstr ""
+
+#: board_form.php:1076
+msgid ""
+"Do you want to apply bulletin board image settings for the current theme?"
+msgstr ""
+
+#: board_form.php:1077
+msgid "The number of non-modifiable comments must be at least 0."
+msgstr ""
+
+#: board_form.php:1078
+msgid ""
+"You must enter at least 1 for the number of original comments that can not "
+"be deleted."
+msgstr ""
+
+#: board_form_update.php:12
+msgid "You must select a group ID."
+msgstr ""
+
+#: board_form_update.php:13
+msgid "Be sure to enter the bulletin board TABLE name."
+msgstr ""
+
+#: board_form_update.php:15
+msgid "Please enter a bulletin board title."
+msgstr ""
+
+#: board_form_update.php:29 contentformupdate.php:35 qa_config_update.php:19
+msgid "The extension of the header file path only accepts php, htm, html."
+msgstr ""
+
+#: board_form_update.php:37 contentformupdate.php:44 qa_config_update.php:27
+msgid "The extension of the footer file path only accepts php, htm, html."
+msgstr ""
+
+#: board_form_update.php:172
+#, php-format
+msgid "%s is already a TABLE."
+msgstr ""
+
+#: board_list.php:49 point_list.php:49 poll_list.php:45
+msgid "All List"
+msgstr ""
+
+#: board_list.php:59
+msgid "Number of Boards generated"
+msgstr ""
+
+#: board_list.php:59 boardgroup_list.php:63 contentlist.php:28
+#: editorimglist.php:110 faqmasterlist.php:28 newwinlist.php:21
+#: point_list.php:74 poll_list.php:55 popular_list.php:75 popular_rank.php:46
+msgid "Count"
+msgstr ""
+
+#: board_list.php:64 boardgroup_list.php:67 boardgroupmember_list.php:60
+#: editorimglist.php:124 member_list.php:79 point_list.php:87 poll_list.php:60
+#: popular_list.php:81
+msgid "Search target"
+msgstr ""
+
+#: board_list.php:67 boardgroup_list.php:69 faqmasterlist.php:50
+#: mail_list.php:42 newwinlist.php:34 poll_list.php:62 poll_list.php:89
+#: qa_config.php:24
+msgid "Title"
+msgstr ""
+
+#: board_list.php:68 boardgroup_form.php:48 boardgroup_list.php:96
+#: boardgroupmember_form.php:62
+msgid "Group ID"
+msgstr ""
+
+#: board_list.php:70 boardgroup_list.php:73 member_list.php:93
+#: point_list.php:92 poll_list.php:64 popular_list.php:83 popular_list.php:86
+#: popular_list.php:109 popular_rank.php:75
+msgid "Search term"
+msgstr ""
+
+#: board_list.php:91
+msgid "All Boards"
+msgstr ""
+
+#: board_list.php:94 boardgroup_list.php:97 contentform.php:51
+#: contentlist.php:41 faqlist.php:52 faqmasterform.php:50
+#: menu_form_search.php:36
+msgid "Subject"
+msgstr ""
+
+#: board_list.php:95 board_list.php:133
+msgid "Skin"
+msgstr ""
+
+#: board_list.php:96
+msgctxt "Read Point"
+msgid "Read P"
+msgstr ""
+
+#: board_list.php:96 board_list.php:97 board_list.php:106 board_list.php:107
+#: config_form.php:578 member_list.php:88 point_list.php:78 point_list.php:81
+#: point_list.php:116 point_list.php:207 poll_form.php:74 poll_form.php:76
+msgid "Point"
+msgstr ""
+
+#: board_list.php:97
+msgctxt "Comments Point"
+msgid "Comment P"
+msgstr ""
+
+#: board_list.php:98 board_list.php:149
+msgid "Use SNS"
+msgstr ""
+
+#: board_list.php:99 board_list.php:154 boardgroup_list.php:102
+msgid "Output sort"
+msgstr ""
+
+#: board_list.php:105 board_list.php:181
+msgid "Mobile Skin"
+msgstr ""
+
+#: board_list.php:106
+msgctxt "Write Point"
+msgid "Write P"
+msgstr ""
+
+#: board_list.php:107
+msgctxt "Download Point"
+msgid "Down P"
+msgstr ""
+
+#: board_list.php:108 board_list.php:197
+msgid "Use search"
+msgstr ""
+
+#: board_list.php:128
+msgid "Board subject"
+msgstr ""
+
+#: board_list.php:144
+msgid "Comment Point"
+msgstr ""
+
+#: board_list.php:187
+msgid "Point Write"
+msgstr ""
+
+#: board_list.php:192
+msgid "Point Download"
+msgstr ""
+
+#: board_list.php:204 boardgroup_list.php:53 boardgroup_list.php:156
+#: contentlist.php:27 faqmasterlist.php:27 mail_select_form.php:57
+#: mail_select_form.php:75 mail_select_form.php:100 newwinlist.php:21
+#: point_list.php:74
+msgid "All"
+msgstr ""
+
+#: board_list.php:205 boardgroup_list.php:157 newwinform.php:50
+msgid "PC"
+msgstr ""
+
+#: board_list.php:206 boardgroup_list.php:158 newwinform.php:51
+#: newwinlist.php:58
+msgid "MOBILE"
+msgstr ""
+
+#: board_list.php:222 boardgroup_list.php:173 member_list.php:272
+msgid "Modify Selection"
+msgstr ""
+
+#: board_list.php:224 boardgroup_list.php:174 boardgroupmember_form.php:100
+#: boardgroupmember_list.php:136 editorimglist.php:215 member_list.php:273
+#: point_list.php:182 poll_list.php:132 popular_list.php:145
+msgid "Delete Selection"
+msgstr ""
+
+#: board_list.php:227
+msgid "Add Board"
+msgstr ""
+
+#: board_list_update.php:29
+#, php-format
+msgid ""
+"If you are not a top administrator, the bulletin board ( %s ) of the other "
+"administrators can not be modified."
+msgstr ""
+
+#: board_list_update.php:53
+msgid "You can delete bulletin boards only for Super admin."
+msgstr ""
+
+#: board_thumbnail_delete.php:10
+#, php-format
+msgid "Delete thumbnail - board %s"
+msgstr ""
+
+#: board_thumbnail_delete.php:16 cache_file_delete.php:14
+#: captcha_file_delete.php:14 session_file_delete.php:14
+#: thumbnail_file_delete.php:14
+msgid ""
+"Do not stop the program from running until you receive a completion message."
+msgstr ""
+
+#: board_thumbnail_delete.php:41 cache_file_delete.php:44
+#: captcha_file_delete.php:46 session_file_delete.php:26
+#: thumbnail_file_delete.php:66
+msgid "Completed"
+msgstr ""
+
+#: board_thumbnail_delete.php:42
+#, php-format
+msgid "%s thumbnails have been deleted."
+msgstr ""
+
+#: board_thumbnail_delete.php:44
+msgid "Attachment directory does not exist."
+msgstr ""
+
+#: board_thumbnail_delete.php:48
+msgid "Return to Modify Bulletin"
+msgstr ""
+
+#: boardgroup_form.php:9 menu_form.php:30 menu_form_search.php:45
+msgid "Board Group"
+msgstr ""
+
+#: boardgroup_form.php:23
+msgid "The parameters is wrong."
+msgstr ""
+
+#: boardgroup_form.php:31
+msgid "You need at least one board group to create a board."
+msgstr ""
+
+#: boardgroup_form.php:32
+msgid ""
+"Using the bulletin board group will help you manage the bulletin board more "
+"effectively."
+msgstr ""
+
+#: boardgroup_form.php:52
+msgid "Alphabetic, numeric, _ only (without spaces)"
+msgstr ""
+
+#: boardgroup_form.php:54
+msgid "Redirect Board Group"
+msgstr ""
+
+#: boardgroup_form.php:58 boardgroup_list.php:132
+msgid "Group Subject"
+msgstr ""
+
+#: boardgroup_form.php:63
+msgid "Create Board"
+msgstr ""
+
+#: boardgroup_form.php:79 boardgroup_list.php:71 boardgroup_list.php:98
+#: boardgroup_list.php:137
+msgid "Group Admin"
+msgstr ""
+
+#: boardgroup_form.php:90 boardgroup_list.php:145
+msgid "Access Member Usage"
+msgstr ""
+
+#: boardgroup_form.php:92
+msgid ""
+"If you check the use, only accessible members can access the bulletin boards "
+"belonging to this group."
+msgstr ""
+
+#: boardgroup_form.php:98 boardgroup_list.php:101
+msgid "Access members"
+msgstr ""
+
+#: boardgroup_form_update.php:15
+msgid ""
+"Group ID available only letters, numbers, _ with no spaces. (10 characters)"
+msgstr ""
+
+#: boardgroup_form_update.php:17
+msgid "Please enter a group title."
+msgstr ""
+
+#: boardgroup_form_update.php:52
+msgid "Group ID already exists."
+msgstr ""
+
+#: boardgroup_form_update.php:67
+msgid "Invalid values."
+msgstr ""
+
+#: boardgroup_list.php:55
+msgid "Manage bbs Groups"
+msgstr ""
+
+#: boardgroup_list.php:63
+msgid "Total group"
+msgstr ""
+
+#: boardgroup_list.php:93
+msgid "Group All"
+msgstr ""
+
+#: boardgroup_list.php:100
+msgctxt "Only permitted members are allowed to use."
+msgid "Access Usage"
+msgstr ""
+
+#: boardgroup_list.php:150
+msgid "Main Menu Output Order"
+msgstr ""
+
+#: boardgroup_list.php:175
+msgid "Add Group"
+msgstr ""
+
+#: boardgroup_list.php:181
+msgid ""
+"If you set the option to use access, only members designated by the "
+"administrator can access the group."
+msgstr ""
+
+#: boardgroup_list.php:182
+msgid "The Enable Access option applies to all bulletins in the group."
+msgstr ""
+
+#: boardgroup_list_update.php:16
+#, php-format
+msgid "Please select at least one bulletin board group to %s."
+msgstr ""
+
+#: boardgroup_list_update.php:37
+msgid "A bulletin board belonging to this group exists and can not be deleted."
+msgstr ""
+
+#: boardgroup_list_update.php:37
+msgid "Please delete the bulletin boards that belong to this group first."
+msgstr ""
+
+#: boardgroupmember_form.php:9 boardgroupmember_update.php:13
+msgid "This member does not exist."
+msgstr ""
+
+#: boardgroupmember_form.php:11
+msgid "Accessible groups"
+msgstr ""
+
+#: boardgroupmember_form.php:21 member_form.php:97 member_list.php:122
+msgid "ID"
+msgstr ""
+
+#: boardgroupmember_form.php:21 boardgroupmember_list.php:90 index.php:104
+#: index.php:207 mail_select_list.php:80 member_form_update.php:70
+#: member_form_update.php:76 member_form_update.php:82
+#: member_form_update.php:106 member_form_update.php:112 member_list.php:83
+#: member_list.php:134 point_list.php:115
+msgid "Name"
+msgstr ""
+
+#: boardgroupmember_form.php:22
+msgid "Assign Group"
+msgstr ""
+
+#: boardgroupmember_form.php:24 boardgroupmember_form.php:108
+msgid "Please select an accessible group."
+msgstr ""
+
+#: boardgroupmember_form.php:59
+msgid "All accessible groups"
+msgstr ""
+
+#: boardgroupmember_form.php:64 boardgroupmember_list.php:93
+msgid "Processing date"
+msgstr ""
+
+#: boardgroupmember_form.php:92
+msgid "No groups are accessible."
+msgstr ""
+
+#: boardgroupmember_form.php:107 boardgroupmember_list.php:145
+#: editorimglist.php:227 mail_list.php:91 poll_list.php:143
+#: popular_list.php:157
+msgid "Select at least one item to delete."
+msgstr ""
+
+#: boardgroupmember_list.php:9 boardgroupmember_update.php:18
+msgid "This group does not exist."
+msgstr ""
+
+#: boardgroupmember_list.php:52
+#, php-format
+msgid "%s group accessible members (group ID : %s)"
+msgstr ""
+
+#: boardgroupmember_list.php:64
+msgid "Search terms"
+msgstr ""
+
+#: boardgroupmember_list.php:85
+msgid "All accessible members"
+msgstr ""
+
+#: boardgroupmember_list.php:92
+msgctxt "Last Login Date"
+msgid "Last login"
+msgstr ""
+
+#: boardgroupmember_list.php:113 config_form.php:135 member_form.php:81
+msgid "Member"
+msgstr ""
+
+#: boardgroupmember_update.php:27
+msgid "This data is already registered."
+msgstr ""
+
+#: boardgroupmember_update.php:46
+msgid "Please select at least one list to delete."
+msgstr ""
+
+#: boardgroupmember_update.php:56
+msgid "This data does not exist."
+msgstr ""
+
+#: browscap.php:6 browscap_convert.php:6
+msgid "PHP Version is low and not available."
+msgstr ""
+
+#: browscap.php:16
+msgid ""
+"To update your Browscap information, please click the update button below."
+msgstr ""
+
+#: browscap.php:17 browscap_convert.php:21 browscap_converter.php:74
+msgid "Update"
+msgstr ""
+
+#: browscap.php:23
+msgid "Browscap Information is being updated"
+msgstr ""
+
+#: browscap.php:24
+msgid "Successfully updated Browscap information."
+msgstr ""
+
+#: browscap_convert.php:20
+msgid ""
+"To convert your connection log information to Browscap information, click "
+"the update button below."
+msgstr ""
+
+#: browscap_convert.php:27
+msgid "Converting to Browscap information."
+msgstr ""
+
+#: browscap_converter.php:9 browscap_update.php:11
+msgid "Function unavailable."
+msgstr ""
+
+#: browscap_converter.php:12
+msgid "Log in as a Super admin and run."
+msgstr ""
+
+#: browscap_converter.php:16
+msgid ""
+"Browscap information is missing. Please update your information and browscap "
+"to the link below."
+msgstr ""
+
+#: browscap_converter.php:72
+msgid "Conversion complete"
+msgstr ""
+
+#: browscap_converter.php:74
+#, php-format
+msgid "%s conversion complete ( %s totals )"
+msgstr ""
+
+#: browscap_converter.php:74
+msgid "Click the update button below to convert more connection logs."
+msgstr ""
+
+#: browscap_update.php:14
+msgid "Only the Super Admin can access it."
+msgstr ""
+
+#: cache_file_delete.php:8
+msgid "Delete Cache File Batch"
+msgstr ""
+
+#: cache_file_delete.php:22
+msgid "Failed to open Cache directory."
+msgstr ""
+
+#: cache_file_delete.php:45
+#, php-format
+msgid "%s cachefile data has been deleted."
+msgstr ""
+
+#: cache_file_delete.php:45 captcha_file_delete.php:47
+#: session_file_delete.php:56 thumbnail_file_delete.php:67
+msgid "You may complete the program."
+msgstr ""
+
+#: captcha_file_delete.php:8
+msgid "Delete Captcha File Batch"
+msgstr ""
+
+#: captcha_file_delete.php:22
+msgid "Failed to open Captcha directory."
+msgstr ""
+
+#: captcha_file_delete.php:47
+#, php-format
+msgid "%s captchafile data has been deleted."
+msgstr ""
+
+#: config_form.php:41
+msgid "Basic settings"
+msgstr ""
+
+#: config_form.php:135 config_form.php:142 config_form.php:144
+msgid "Basic environment"
+msgstr ""
+
+#: config_form.php:135 config_form.php:603 mail_list.php:61
+msgid "Mail"
+msgstr ""
+
+#: config_form.php:135
+msgid "SNS"
+msgstr ""
+
+#: config_form.php:135
+msgctxt "Add html head css, script"
+msgid "Add Code"
+msgstr ""
+
+#: config_form.php:135
+msgid "DB EXTRA FIELD"
+msgstr ""
+
+#: config_form.php:148
+msgid "Site Language"
+msgstr ""
+
+#: config_form.php:153
+msgctxt "Board use rewrite"
+msgid "Board Short URL"
+msgstr ""
+
+#: config_form.php:153
+msgid "Use short URLs for Boards, content pages, and FAQ pages."
+msgstr ""
+
+#: config_form.php:154 config_form.php:158 config_form.php:720
+msgid "Enable on check"
+msgstr ""
+
+#: config_form.php:157
+msgid "Use Multi Language Data"
+msgstr ""
+
+#: config_form.php:157
+msgid ""
+"When enabled, content management and FAQ management pages can be entered and "
+"printed by language. When disabled, it integrates as one and inputs and "
+"outputs."
+msgstr ""
+
+#: config_form.php:162
+msgid "Site Title"
+msgstr ""
+
+#: config_form.php:167 config_form.php:641
+msgid "Super administrator"
+msgstr ""
+
+#: config_form.php:171
+msgid "Admin email address"
+msgstr ""
+
+#: config_form.php:172
+msgid ""
+"Enter the email address used by the administrator for sending and receiving. "
+"(Used in sign-up, certified mail, testing, sending member mails, etc."
+msgstr ""
+
+#: config_form.php:177
+msgid "Admin mailing name"
+msgstr ""
+
+#: config_form.php:178
+msgid ""
+"Type the shipping name of the mail that the administrator uses for sending "
+"and receiving purposes. (Used in sign-up, certified mail, testing, sending "
+"member mails, etc.)"
+msgstr ""
+
+#: config_form.php:183
+msgid "Using Points"
+msgstr ""
+
+#: config_form.php:184
+msgid "used"
+msgstr ""
+
+#: config_form.php:187
+msgid "Login point"
+msgstr ""
+
+#: config_form.php:188
+msgid "Set up only once a day when a member logs in"
+msgstr ""
+
+#: config_form.php:189 config_form.php:194 config_form.php:429
+#: config_form.php:433 config_form.php:437 config_form.php:441
+#: config_form.php:528
+msgid "point"
+msgstr ""
+
+#: config_form.php:192
+msgid "Deduction point when sending memo"
+msgstr ""
+
+#: config_form.php:193
+msgid ""
+"Please enter a positive number. 0 points do not deduct points when sending a "
+"note."
+msgstr ""
+
+#: config_form.php:198
+msgid "Display Name"
+msgstr ""
+
+#: config_form.php:199
+msgid "Display Cut string"
+msgstr ""
+
+#: config_form.php:202
+msgid "Edit nickname"
+msgstr ""
+
+#: config_form.php:203 config_form.php:207
+msgid "Could not edit for input days"
+msgstr ""
+
+#: config_form.php:206
+msgid "Edit information disclosure"
+msgstr ""
+
+#: config_form.php:210
+msgid "Remove latest posts"
+msgstr ""
+
+#: config_form.php:211
+msgid "Automatically delete new posts past the set date"
+msgstr ""
+
+#: config_form.php:212 config_form.php:218 config_form.php:224
+#: config_form.php:230 config_form.php:236
+msgid "days"
+msgstr ""
+
+#: config_form.php:216
+msgid "Remove memo"
+msgstr ""
+
+#: config_form.php:217
+msgid "Automatically delete memos past the set date"
+msgstr ""
+
+#: config_form.php:222
+msgid "Remove visitor log"
+msgstr ""
+
+#: config_form.php:223
+msgid "Automatically delete visiter logs older than the set date"
+msgstr ""
+
+#: config_form.php:228
+msgid "Remove notifications"
+msgstr ""
+
+#: config_form.php:229
+msgid "Automatically delete notification past the set date"
+msgstr ""
+
+#: config_form.php:234
+msgid "Remove Top Searches"
+msgstr ""
+
+#: config_form.php:235
+msgid ""
+"Automatically delete popular search terms that are older than the set date"
+msgstr ""
+
+#: config_form.php:240
+msgid "Connected visitor"
+msgstr ""
+
+#: config_form.php:241
+msgid "User within set value is recognized as current user"
+msgstr ""
+
+#: config_form.php:242
+msgid "headcount"
+msgstr ""
+
+#: config_form.php:246
+msgid "latest Post lines"
+msgstr ""
+
+#: config_form.php:247
+msgid "Lines per page in the list"
+msgstr ""
+
+#: config_form.php:248 config_form.php:254 config_form.php:260
+msgid "line"
+msgstr ""
+
+#: config_form.php:252
+msgid "Lines per page"
+msgstr ""
+
+#: config_form.php:253
+msgid "List (list) lines per page"
+msgstr ""
+
+#: config_form.php:258
+msgid "Lines per page for mobile"
+msgstr ""
+
+#: config_form.php:259
+msgid "Line Count per Mobile List Page"
+msgstr ""
+
+#: config_form.php:264
+msgid "Display setting for page number"
+msgstr ""
+
+#: config_form.php:265 config_form.php:270
+msgid "Show per page"
+msgstr ""
+
+#: config_form.php:269
+msgid "Display setting for page number ( MOBILE )"
+msgstr ""
+
+#: config_form.php:274
+msgid "Latest Posts Skin"
+msgstr ""
+
+#: config_form.php:279
+msgid "Latest Posts skin ( MOBILE )"
+msgstr ""
+
+#: config_form.php:284
+msgid "Search skin"
+msgstr ""
+
+#: config_form.php:290
+msgid "Search skin ( MOBILE )"
+msgstr ""
+
+#: config_form.php:295
+msgid "Connector skin"
+msgstr ""
+
+#: config_form.php:300
+msgid "Connector skin ( MOBILE )"
+msgstr ""
+
+#: config_form.php:305
+msgid "FAQ skin"
+msgstr ""
+
+#: config_form.php:310
+msgid "FAQ skin ( MOBILE )"
+msgstr ""
+
+#: config_form.php:314
+msgid "Select editor"
+msgstr ""
+
+#: config_form.php:315
+#, php-format
+msgid "Select the DHTML Editor folder under %s."
+msgstr ""
+
+#: config_form.php:320
+msgid "not use"
+msgstr ""
+
+#: config_form.php:328
+msgid "Select captcha"
+msgstr ""
+
+#: config_form.php:337
+msgid "Select captcha sound"
+msgstr ""
+
+#: config_form.php:338
+#, php-format
+msgid "When using kcaptcha, select the voice folder under %s."
+msgstr ""
+
+#: config_form.php:351
+msgid "Google reCAPTCHA Site key"
+msgstr ""
+
+#: config_form.php:352
+msgid ""
+"The sitekey and secret keys of the re-caPTCHA V2 and the Invisible reCAPTCHA "
+"CAPTCHA CAPTCHA are not the same; they have different keys issued."
+msgstr ""
+
+#: config_form.php:354
+msgid "Register reCAPTCHA"
+msgstr ""
+
+#: config_form.php:357
+msgid "Google reCAPTCHA Secret key"
+msgstr ""
+
+#: config_form.php:362
+msgid "Copy, move log"
+msgstr ""
+
+#: config_form.php:364
+msgid "Copy from whom, marked moved under post"
+msgstr ""
+
+#: config_form.php:365
+msgid "record"
+msgstr ""
+
+#: config_form.php:369
+msgid "Point expiry date"
+msgstr ""
+
+#: config_form.php:370
+msgid ""
+"The point validity period does not take effect when the period is set to 0."
+msgstr ""
+
+#: config_form.php:372
+msgid "day"
+msgstr ""
+
+#: config_form.php:376
+msgid "Access IP"
+msgstr ""
+
+#: config_form.php:377
+msgid "Only computers with the entered IP can be accessed."
+msgstr ""
+
+#: config_form.php:377 config_form.php:383
+msgid "123.123. + can be entered. (Separate by enter)"
+msgstr ""
+
+#: config_form.php:382
+msgid "BLOCK IP"
+msgstr ""
+
+#: config_form.php:383
+msgid "Computers with the IP entered are inaccessible."
+msgstr ""
+
+#: config_form.php:388
+msgid "Visitor Analysis Script"
+msgstr ""
+
+#: config_form.php:389
+msgid "Enter the visitor analysis script code. E.g.) Google Analytics"
+msgstr ""
+
+#: config_form.php:394
+msgid "Add Meta tag"
+msgstr ""
+
+#: config_form.php:395
+msgid "Enter additional meta tag to use."
+msgstr ""
+
+#: config_form.php:400
+msgid "Import theme skin settings"
+msgstr ""
+
+#: config_form.php:407
+msgid "Can be set individually in each bulletin board management"
+msgstr ""
+
+#: config_form.php:413
+msgid "Intervals during for writing"
+msgstr ""
+
+#: config_form.php:414
+msgid "Intervals after"
+msgstr ""
+
+#: config_form.php:417
+msgid "Link for target"
+msgstr ""
+
+#: config_form.php:418
+msgid "Specifies the target of the link is automatically posts content."
+msgstr ""
+
+#: config_form.php:428
+msgid "Read points"
+msgstr ""
+
+#: config_form.php:432
+msgid "Write points"
+msgstr ""
+
+#: config_form.php:436
+msgid "Comment points"
+msgstr ""
+
+#: config_form.php:440
+msgid "Download points"
+msgstr ""
+
+#: config_form.php:444
+msgid "Search Units"
+msgstr ""
+
+#: config_form.php:445
+msgid "Units use Search"
+msgstr ""
+
+#: config_form.php:448
+msgid "Allowed image extensions"
+msgstr ""
+
+#: config_form.php:449
+msgid "Allowed image extensions separated by( period or vertical bar )"
+msgstr ""
+
+#: config_form.php:455
+msgid "Allowed movie extensions"
+msgstr ""
+
+#: config_form.php:456
+msgid "Allowed movie extensions separated by( period or vertical bar )"
+msgstr ""
+
+#: config_form.php:461
+msgid "Filter words"
+msgstr ""
+
+#: config_form.php:462
+msgid ""
+"The Contents contained is entered word can not published. The words between "
+"words, separated by commas."
+msgstr ""
+
+#: config_form.php:470
+msgid "Member Page"
+msgstr ""
+
+#: config_form.php:472
+msgid "Membership Settings"
+msgstr ""
+
+#: config_form.php:474
+msgid ""
+"You can set the skin to use and the information to receive when signing up."
+msgstr ""
+
+#: config_form.php:480
+msgid "Member Skin"
+msgstr ""
+
+#: config_form.php:484
+msgid "Member Skin ( MOBILE )"
+msgstr ""
+
+#: config_form.php:489
+msgid "Enter homepage"
+msgstr ""
+
+#: config_form.php:490 config_form.php:495 config_form.php:501
+#: config_form.php:507 config_form.php:513 config_form.php:518 qa_config.php:53
+#: qa_config.php:60
+msgid "Show"
+msgstr ""
+
+#: config_form.php:494
+msgid "Enter address"
+msgstr ""
+
+#: config_form.php:500
+msgid "Enter Phone Number"
+msgstr ""
+
+#: config_form.php:506
+msgid "Enter Mobile Number"
+msgstr ""
+
+#: config_form.php:512
+msgid "Enter signature"
+msgstr ""
+
+#: config_form.php:517
+msgid "Enter Self Introduction"
+msgstr ""
+
+#: config_form.php:523
+msgid "Permission at Register"
+msgstr ""
+
+#: config_form.php:527
+msgid "Points in Register"
+msgstr ""
+
+#: config_form.php:531
+msgid "Deletion date after member withdrawal"
+msgstr ""
+
+#: config_form.php:532
+msgid "Automatically delete after days"
+msgstr ""
+
+#: config_form.php:535
+msgid "Enable Member Icon"
+msgstr ""
+
+#: config_form.php:536
+msgid "Use icon instead of publisher's nickname for posts"
+msgstr ""
+
+#: config_form.php:538
+msgid "Unused"
+msgstr ""
+
+#: config_form.php:539
+msgid "Show Icons Only"
+msgstr ""
+
+#: config_form.php:540
+msgid "Show Icon + Display Name"
+msgstr ""
+
+#: config_form.php:544
+msgid "Member icon, image upload Level"
+msgstr ""
+
+#: config_form.php:545
+msgid "More than"
+msgstr ""
+
+#: config_form.php:548
+msgid "Member icon capacity"
+msgstr ""
+
+#: config_form.php:549 config_form.php:561
+msgid "Bytes or less"
+msgstr ""
+
+#: config_form.php:552
+msgid "Member icon size"
+msgstr ""
+
+#: config_form.php:553 config_form.php:565
+msgid "width"
+msgstr ""
+
+#: config_form.php:555 config_form.php:567
+msgid "height"
+msgstr ""
+
+#: config_form.php:557 config_form.php:569
+msgid "Pixel or less"
+msgstr ""
+
+#: config_form.php:560
+msgid "Member image capacity"
+msgstr ""
+
+#: config_form.php:564
+msgid "Member image size"
+msgstr ""
+
+#: config_form.php:573
+msgid "Use of recommender system"
+msgstr ""
+
+#: config_form.php:574 config_form.php:615 config_form.php:622
+#: config_form.php:643 config_form.php:649 config_form.php:655
+#: config_form.php:661 config_form.php:667 config_form.php:681
+#: config_form.php:688 config_form.php:702
+msgid "Used"
+msgstr ""
+
+#: config_form.php:577
+msgid "Recommendation point"
+msgstr ""
+
+#: config_form.php:581
+msgid "Id, nickname forbidden word"
+msgstr ""
+
+#: config_form.php:582
+msgid ""
+"Select a member ID and a word that can not be used as a nickname. Comma (,) "
+"separated"
+msgstr ""
+
+#: config_form.php:586
+msgid "Input prohibited mail"
+msgstr ""
+
+#: config_form.php:591
+msgid "Terms and conditions of Register"
+msgstr ""
+
+#: config_form.php:595
+msgid "Privacy Policy"
+msgstr ""
+
+#: config_form.php:600
+msgid "Get theme member skin settings"
+msgstr ""
+
+#: config_form.php:606
+msgid "Default Mail Environment"
+msgstr ""
+
+#: config_form.php:614
+msgid ""
+"If you don't check, don't use Mail Sending at all. You can not test your "
+"mail."
+msgstr ""
+
+#: config_form.php:619
+msgid "Enable Mail Authentication"
+msgstr ""
+
+#: config_form.php:620
+msgid ""
+"Social login members using SNS do not authenticate member mail. For general "
+"members only."
+msgstr ""
+
+#: config_form.php:621
+msgid ""
+"Do must click the authentication address delivered in member's mail to "
+"accept it as a member."
+msgstr ""
+
+#: config_form.php:626
+msgid "Formmail use status"
+msgstr ""
+
+#: config_form.php:628
+msgid "If not checked, non-members can also be used."
+msgstr ""
+
+#: config_form.php:629
+msgid "Use for members only"
+msgstr ""
+
+#: config_form.php:635
+msgid "Mail settings when writing bulletin boards"
+msgstr ""
+
+#: config_form.php:642 config_form.php:680 config_form.php:701
+msgid "Send mail to Super Admin."
+msgstr ""
+
+#: config_form.php:647
+msgid "Group administrator"
+msgstr ""
+
+#: config_form.php:648
+msgid "Send mail to Group Admin."
+msgstr ""
+
+#: config_form.php:653
+msgid "Board administrator"
+msgstr ""
+
+#: config_form.php:654
+msgid "Sends a mail to the board admin."
+msgstr ""
+
+#: config_form.php:659
+msgid "A writer"
+msgstr ""
+
+#: config_form.php:660
+msgid "Send a mail to the original post writer."
+msgstr ""
+
+#: config_form.php:665
+msgid "Comment writer"
+msgstr ""
+
+#: config_form.php:666
+msgid ""
+"If a comment is posted on the original post, it will be sent to everyone who "
+"wrote the comment."
+msgstr ""
+
+#: config_form.php:673
+msgid "Mail setting when joining a membership"
+msgstr ""
+
+#: config_form.php:678 config_form.php:699
+msgid "Send Super Administrator Mail"
+msgstr ""
+
+#: config_form.php:685
+msgid "Send mail to members"
+msgstr ""
+
+#: config_form.php:687
+msgid "Send an email to a member who has joined."
+msgstr ""
+
+#: config_form.php:694
+msgid "Set up mail when writing a poll or comments"
+msgstr ""
+
+#: config_form.php:712
+msgid "Social Network Service"
+msgstr ""
+
+#: config_form.php:716 config_form.php:723
+msgid "Social Login Settings"
+msgstr ""
+
+#: config_form.php:717
+msgid "Use social login."
+msgstr ""
+
+#: config_form.php:718
+msgid "View manual related to settings"
+msgstr ""
+
+#: config_form.php:726
+msgid "Use Facebook login"
+msgstr ""
+
+#: config_form.php:727
+msgid "Facebook Valid OAuth Redirect URI"
+msgstr ""
+
+#: config_form.php:732
+msgid "Use Google login"
+msgstr ""
+
+#: config_form.php:733
+msgid "Google Authorized Redirect URI"
+msgstr ""
+
+#: config_form.php:738
+msgid "Use Twitter login"
+msgstr ""
+
+#: config_form.php:739
+msgid "Twitter CallbackURL"
+msgstr ""
+
+#: config_form.php:744
+msgid "Use Github login"
+msgstr ""
+
+#: config_form.php:745
+msgid "Github Authorization callback URL"
+msgstr ""
+
+#: config_form.php:750
+msgid "Use Naver login"
+msgstr ""
+
+#: config_form.php:751
+msgid "Naver CallbackURL"
+msgstr ""
+
+#: config_form.php:756
+msgid "Use Kakao login"
+msgstr ""
+
+#: config_form.php:757
+msgid "Kakao Web Redirect Path"
+msgstr ""
+
+#: config_form.php:762
+msgid "Use Payco login"
+msgstr ""
+
+#: config_form.php:764
+msgid "Payco CallbackURL"
+msgstr ""
+
+#: config_form.php:770
+msgid "Facebook APP ID"
+msgstr ""
+
+#: config_form.php:771 config_form.php:779 config_form.php:791
+#: config_form.php:799 config_form.php:807 config_form.php:815
+#: config_form.php:827
+msgid "Register app"
+msgstr ""
+
+#: config_form.php:774
+msgid "Facebook APP Secret"
+msgstr ""
+
+#: config_form.php:778
+msgid "Google Client ID"
+msgstr ""
+
+#: config_form.php:782
+msgid "Google Client Secret"
+msgstr ""
+
+#: config_form.php:786
+msgid "Google Short URL API Key"
+msgstr ""
+
+#: config_form.php:787
+msgid "Register API KEY"
+msgstr ""
+
+#: config_form.php:790
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: config_form.php:794
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: config_form.php:798
+msgid "Github Client ID"
+msgstr ""
+
+#: config_form.php:802
+msgid "Github Client Secret"
+msgstr ""
+
+#: config_form.php:806
+msgid "Naver Client ID"
+msgstr ""
+
+#: config_form.php:810
+msgid "Naver Client Secret"
+msgstr ""
+
+#: config_form.php:814
+msgid "Kakao Rest Api Key"
+msgstr ""
+
+#: config_form.php:818
+msgid "Kakao Client Secret"
+msgstr ""
+
+#: config_form.php:822
+msgid "Kakao Javascript Key"
+msgstr ""
+
+#: config_form.php:826
+msgid "Payco Client ID"
+msgstr ""
+
+#: config_form.php:830
+msgid "Payco Client Secret"
+msgstr ""
+
+#: config_form.php:838
+msgid "Add Layout Code"
+msgstr ""
+
+#: config_form.php:840
+msgid "Add Layout Settings"
+msgstr ""
+
+#: config_form.php:842
+msgid "Add or change the default file paths and scripts, css"
+msgstr ""
+
+#: config_form.php:849
+msgid "Add script, css"
+msgstr ""
+
+#: config_form.php:850
+msgid ""
+"Set the JavaScript and the css code to be added above the &lt;/HEAD&gt; tag "
+"of HTML."
+msgstr ""
+
+#: config_form.php:850
+msgid "This code is not used on the Administrators page."
+msgstr ""
+
+#: config_form.php:861
+msgid "Extra field Settings"
+msgstr ""
+
+#: config_form.php:863
+msgid "Set it individually in Manage Each Bulletin Board"
+msgstr ""
+
+#: config_form.php:894
+msgid "Default Environment Skin Settings"
+msgstr ""
+
+#: config_form.php:895
+msgid "Basic environment member skin setting"
+msgstr ""
+
+#: config_form.php:896
+#, php-format
+msgid "Do you want to apply %s of the current theme?"
+msgstr ""
+
+#: config_form_update.php:14
+msgid "The super administrator member ID does not exist."
+msgstr ""
+
+#: config_form_update.php:20
+msgid ""
+"Please select at least one I-PIN or mobile phone Authentication service for "
+"identification"
+msgstr ""
+
+#: contentform.php:8 contentform.php:55 newwinform.php:101 point_list.php:90
+msgid "Content"
+msgstr ""
+
+#: contentform.php:9 faqform.php:31 faqmasterform.php:29
+#, php-format
+msgid "Manage %s"
+msgstr ""
+
+#: contentform.php:25 menu_form.php:29 newwinform.php:20
+msgid "Enter"
+msgstr ""
+
+#: contentform.php:45
+msgid "ID available only letters, numbers, _ with no spaces. (20 characters)"
+msgstr ""
+
+#: contentform.php:47
+msgid "View content"
+msgstr ""
+
+#: contentform.php:59
+msgid "Mobile Content"
+msgstr ""
+
+#: contentform.php:73
+msgid "Enable Tag Filtering"
+msgstr ""
+
+#: contentform.php:74
+msgid ""
+"If you want to use a tag in the content, for example, IFrame, select Disable."
+msgstr ""
+
+#: contentform.php:77 menu_form.php:55
+msgid "Disabled"
+msgstr ""
+
+#: contentform.php:83
+msgid "If no set value exists, use the default Header File."
+msgstr ""
+
+#: contentform.php:89
+msgid "If no set value exists, use the default Footer File."
+msgstr ""
+
+#: contentform.php:94
+msgid "Header images"
+msgstr ""
+
+#: contentform.php:117
+msgid "Footer images"
+msgstr ""
+
+#: contentform.php:157
+msgid "Please enter your ID."
+msgstr ""
+
+#: contentform.php:158 faqform.php:79 newwinform.php:116
+msgid "Please enter a title."
+msgstr ""
+
+#: contentform.php:159 faqform.php:80 mail_form.php:57
+msgid "Enter contents."
+msgstr ""
+
+#: contentformupdate.php:17
+msgid "ID can only be alphabetic, numeric, and _."
+msgstr ""
+
+#: contentformupdate.php:50 qa_config_update.php:33
+msgid "Header file path contains a string that can not be included."
+msgstr ""
+
+#: contentformupdate.php:55 qa_config_update.php:38
+msgid "Footer file path contains a string that can not be included."
+msgstr ""
+
+#: contentformupdate.php:72
+msgid "Is already a content registered with the same ID."
+msgstr ""
+
+#: contentlist.php:28
+msgid "All contents"
+msgstr ""
+
+#: contentlist.php:32
+msgid "Add Content"
+msgstr ""
+
+#: contentlist.php:58 faqmasterform.php:53 faqmasterlist.php:73
+msgid "View"
+msgstr ""
+
+#: editorimglist.php:86 popular_list.php:60
+msgid "All list"
+msgstr ""
+
+#: editorimglist.php:97
+msgid "1:1 Contact"
+msgstr ""
+
+#: editorimglist.php:110 popular_list.php:75 popular_rank.php:46
+msgid "Totals"
+msgstr ""
+
+#: editorimglist.php:116 popular_rank.php:51 visit.sub.php:19
+msgid "Search by Period"
+msgstr ""
+
+#: editorimglist.php:118 newwinform.php:62 popular_rank.php:53
+msgid "Start Date"
+msgstr ""
+
+#: editorimglist.php:121 popular_rank.php:56 visit.sub.php:24
+msgid "End Date"
+msgstr ""
+
+#: editorimglist.php:127 editorimglist.php:155
+msgid "Original name"
+msgstr ""
+
+#: editorimglist.php:128 editorimglist.php:158 popular_list.php:111
+msgid "IP"
+msgstr ""
+
+#: editorimglist.php:150 popular_list.php:106
+msgid "All current page popular search keywords"
+msgstr ""
+
+#: editorimglist.php:153 mail_list.php:46 mail_list.php:52 theme.php:98
+#: theme_detail.php:57
+msgid "Preview"
+msgstr ""
+
+#: editorimglist.php:154
+msgid "File size"
+msgstr ""
+
+#: editorimglist.php:156
+msgid "Upload info"
+msgstr ""
+
+#: editorimglist.php:159 index.php:209 mail_list.php:43 point_list.php:117
+#: popular_list.php:84 popular_list.php:110 visit_list.php:46
+#: visit_search.php:25 visit_search.php:42
+msgid "Date"
+msgstr ""
+
+#: editorimglist.php:226 mail_list.php:90 poll_list.php:142
+#: popular_list.php:156
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: faqform.php:29
+msgid "Enter FAQ"
+msgstr ""
+
+#: faqform.php:48
+msgid "Smaller numbers will be printed first from the FAQ page."
+msgstr ""
+
+#: faqform.php:50
+msgid "View Content"
+msgstr ""
+
+#: faqform.php:54
+msgid "Question"
+msgstr ""
+
+#: faqform.php:58
+msgid "Answer"
+msgstr ""
+
+#: faqlist.php:7
+msgid "Manage FAQ details"
+msgstr ""
+
+#: faqlist.php:30
+msgid "Registered FAQ details"
+msgstr ""
+
+#: faqlist.php:30 index.php:240
+#, php-format
+msgid "%s total"
+msgid_plural "%s totals"
+msgstr[0] ""
+
+#: faqlist.php:36 faqmasterlist.php:34
+msgid "You can register FAQs without restriction."
+msgstr ""
+
+#: faqlist.php:37
+msgid ""
+"Click <strong>Add FAQ Details</strong> to enter frequently asked questions "
+"and answers."
+msgstr ""
+
+#: faqlist.php:43
+msgid "Add FAQ details"
+msgstr ""
+
+#: faqlist.php:51 mail_list.php:41 mail_select_list.php:78 poll_list.php:88
+msgctxt "Number"
+msgid "Num"
+msgstr ""
+
+#: faqlist.php:53 menu_form.php:49
+msgid "Order"
+msgstr ""
+
+#: faqmasterform.php:45
+msgid "Smaller numbers will be printed first in FAQ category."
+msgstr ""
+
+#: faqmasterform.php:54
+msgid "View Details"
+msgstr ""
+
+#: faqmasterform.php:59
+msgid "Header IMAGE"
+msgstr ""
+
+#: faqmasterform.php:83
+msgid "Footer IMAGE"
+msgstr ""
+
+#: faqmasterform.php:118
+msgid "Header of Mobile Content"
+msgstr ""
+
+#: faqmasterlist.php:28
+msgid "All FAQ"
+msgstr ""
+
+#: faqmasterlist.php:35
+msgid ""
+"Click <strong>Add FAQ</strong> to create the FAQ Master. (Create one FAQ "
+"title : frequently asked questions, information on use, etc.)"
+msgstr ""
+
+#: faqmasterlist.php:36
+msgid ""
+"You can manage the details by clicking the <strong>Title</strong> of the FAQ "
+"Master you created."
+msgstr ""
+
+#: faqmasterlist.php:41
+msgid "Add FAQ"
+msgstr ""
+
+#: faqmasterlist.php:51
+msgid "FAQs"
+msgstr ""
+
+#: faqmasterlist.php:52 menu_list.php:36 menu_list.php:94
+msgid "Sequence"
+msgstr ""
+
+#: index.php:10
+msgid "Admin Main"
+msgstr ""
+
+#: index.php:53
+msgid "Members"
+msgstr ""
+
+#: index.php:55
+msgid "Totals of member"
+msgstr ""
+
+#: index.php:55 index.php:58 index.php:61
+msgid "people"
+msgid_plural "peoples"
+msgstr[0] ""
+
+#: index.php:58 member_list.php:73
+msgid "Block"
+msgstr ""
+
+#: index.php:61 member_list.php:74 member_list.php:172
+msgid "Withdrawal"
+msgstr ""
+
+#: index.php:65
+#, php-format
+msgid "List of %s new members"
+msgstr ""
+
+#: index.php:65
+msgid "View all members"
+msgstr ""
+
+#: index.php:86
+msgid "edit"
+msgstr ""
+
+#: index.php:87 menu_list.php:83
+msgid "delete"
+msgstr ""
+
+#: index.php:89
+msgid "group"
+msgstr ""
+
+#: index.php:101
+msgid "Retention Point"
+msgstr ""
+
+#: index.php:106 mail_select_form.php:80 member_list.php:84 member_list.php:138
+msgid "Level"
+msgstr ""
+
+#: index.php:110
+msgid "reception"
+msgstr ""
+
+#: index.php:111 index.php:113 index.php:115 index.php:117 member_form.php:186
+#: member_form.php:194 member_form.php:203
+msgid "Yes"
+msgstr ""
+
+#: index.php:111 index.php:113 index.php:115 index.php:117 member_form.php:188
+#: member_form.php:196 member_form.php:205
+msgid "No"
+msgstr ""
+
+#: index.php:112
+msgid "Public"
+msgstr ""
+
+#: index.php:114
+msgid "Authentication"
+msgstr ""
+
+#: index.php:116
+msgid "block"
+msgstr ""
+
+#: index.php:155
+msgid "Recent post"
+msgstr ""
+
+#: index.php:155
+msgid "More recent posts"
+msgstr ""
+
+#: index.php:184
+msgid "Comment"
+msgstr ""
+
+#: index.php:239
+msgid "Recent Point History"
+msgstr ""
+
+#: index.php:241
+msgid "View all points history"
+msgstr ""
+
+#: mail_delete.php:14
+msgid "Please select at least one mail list to delete."
+msgstr ""
+
+#: mail_form.php:8
+msgid "Member mail"
+msgstr ""
+
+#: mail_form.php:17 mail_list.php:75 member_list.php:264 point_list.php:175
+msgid "No data"
+msgstr ""
+
+#: mail_form.php:26
+msgid ""
+"If you insert it into the content, such as {name}, {nickname}, {member ID}, "
+"{email}, the mail will be converted to match the content and sent."
+msgstr ""
+
+#: mail_form.php:37
+msgid "Mail Title"
+msgstr ""
+
+#: mail_form.php:41
+msgid "Mail Contents"
+msgstr ""
+
+#: mail_form.php:56
+msgid "Enter a title."
+msgstr ""
+
+#: mail_list.php:27
+msgid ""
+"<b>Testing</b> sends a test email to the registered top administrator's "
+"email."
+msgstr ""
+
+#: mail_list.php:28
+#, php-format
+msgid "Currently, there are %s registered mails."
+msgstr ""
+
+#: mail_list.php:29
+msgid ""
+"Caution) Not suitable for bulk mail shipments that recipients do not agree "
+"to. Please send it by dozens."
+msgstr ""
+
+#: mail_list.php:40
+msgid "Select all of the current page list"
+msgstr ""
+
+#: mail_list.php:44 mail_list.php:67
+msgid "Test"
+msgstr ""
+
+#: mail_list.php:45 mail_list.php:68 sendmail_test.php:63
+msgid "Send"
+msgstr ""
+
+#: mail_list.php:83
+msgid "Add Mail Content"
+msgstr ""
+
+#: mail_preview.php:11 mail_select_update.php:66 mail_test.php:33
+#, php-format
+msgid "If you do not wish to receive further information, please %s."
+msgstr ""
+
+#: mail_preview.php:11 mail_select_update.php:66 mail_test.php:33
+msgid "Unsubscribe"
+msgstr ""
+
+#: mail_preview.php:18
+msgid "Send mail test"
+msgstr ""
+
+#: mail_preview.php:30
+msgid "Attention!"
+msgstr ""
+
+#: mail_preview.php:30
+msgid ""
+"The design shown on this screen may differ from the design when the actual "
+"content is sent."
+msgstr ""
+
+#: mail_select_form.php:6 mail_test.php:6
+msgid "You must check \"Enable mail sending\" in Preferences to send mail."
+msgstr ""
+
+#: mail_select_form.php:13
+msgid "Please select what you want to send."
+msgstr ""
+
+#: mail_select_form.php:43
+msgid "Select mail list"
+msgstr ""
+
+#: mail_select_form.php:44
+#, php-format
+msgid ""
+"All members %s totals, Member awaiting withdrawal %s totals, Normal members "
+"%s totals"
+msgstr ""
+
+#: mail_select_form.php:52 menu_form.php:27
+msgid "Select Target"
+msgstr ""
+
+#: mail_select_form.php:58
+msgid "Section"
+msgstr ""
+
+#: mail_select_form.php:64 mail_select_list.php:82 member_form.php:121
+msgid "E-mail"
+msgstr ""
+
+#: mail_select_form.php:66
+msgid "Include words in mail address"
+msgstr ""
+
+#: mail_select_form.php:66
+msgid "Example :"
+msgstr ""
+
+#: mail_select_form.php:71
+msgid "Mailing"
+msgstr ""
+
+#: mail_select_form.php:74
+msgid "Only members who have agreed to receive"
+msgstr ""
+
+#: mail_select_form.php:82
+msgid "Min Level"
+msgstr ""
+
+#: mail_select_form.php:88
+msgid "Max Level"
+msgstr ""
+
+#: mail_select_form.php:97
+msgid "Bulletin Board Members"
+msgstr ""
+
+#: mail_select_list.php:39
+msgid "There are no bulletin board group members selected."
+msgstr ""
+
+#: mail_select_list.php:51
+msgid "No membership data is applicable for the selected content."
+msgstr ""
+
+#: mail_select_list.php:65
+msgid "Mail destination member"
+msgstr ""
+
+#: mail_select_list.php:113
+msgid "Send Mail"
+msgstr ""
+
+#: mail_select_list.php:114
+msgid "Back"
+msgstr ""
+
+#: mail_select_update.php:21
+msgid "Sending mail"
+msgstr ""
+
+#: mail_select_update.php:21
+#, php-format
+msgid "Don't stop in the middle of the word %s"
+msgstr ""
+
+#: mail_select_update.php:21 mail_select_update.php:91
+msgid "[END]"
+msgstr ""
+
+#: mail_select_update.php:90
+#, php-format
+msgid "Send %s totals"
+msgstr ""
+
+#: mail_test.php:14
+msgid "Test Member's Mail"
+msgstr ""
+
+#: mail_test.php:37
+#, php-format
+msgid "Do Have Sent a test email to %s. Please check."
+msgstr ""
+
+#: member_delete.php:12 member_list_delete.php:20 member_list_update.php:27
+#: member_list_update.php:61
+msgid "Member data do not exist."
+msgstr ""
+
+#: member_delete.php:14
+msgid "You can not delete an administrator who is logging in."
+msgstr ""
+
+#: member_delete.php:16
+msgid "You can not delete a super administrator."
+msgstr ""
+
+#: member_delete.php:18
+msgid ""
+"You can not delete a member who has more authority than you or is equal to "
+"you."
+msgstr ""
+
+#: member_form.php:23 member_form_update.php:90
+msgid "This member data does not exist."
+msgstr ""
+
+#: member_form.php:26 member_form_update.php:93
+msgid ""
+"You can not modify a member who has more authority than you or is equal to "
+"you."
+msgstr ""
+
+#: member_form.php:57
+msgid "The correct value has not been exceeded"
+msgstr ""
+
+#: member_form.php:79 member_list.php:175
+msgid "Blocked"
+msgstr ""
+
+#: member_form.php:99
+msgid "View accessible groups"
+msgstr ""
+
+#: member_form.php:101
+#, php-format
+msgid "Point : %s point"
+msgid_plural "Point : %s points"
+msgstr[0] ""
+
+#: member_form.php:105
+msgid "Password"
+msgstr ""
+
+#: member_form.php:109
+msgid "Name (real name)"
+msgstr ""
+
+#: member_form.php:117
+msgid "Member Level"
+msgstr ""
+
+#: member_form.php:125
+msgid "Homepage"
+msgstr ""
+
+#: member_form.php:129 member_list.php:87 member_list.php:127
+msgid "Mobile number"
+msgstr ""
+
+#: member_form.php:133 member_list.php:86 member_list.php:140
+msgid "Phone number"
+msgstr ""
+
+#: member_form.php:137
+msgid "Address"
+msgstr ""
+
+#: member_form.php:154
+msgid "Member icon"
+msgstr ""
+
+#: member_form.php:155 member_form.php:170
+#, php-format
+msgid "Image size should be %s pixels width and %s pixels height."
+msgstr ""
+
+#: member_form.php:169
+msgid "Member image"
+msgstr ""
+
+#: member_form.php:183 member_list.php:125
+msgid "Receiving mail"
+msgstr ""
+
+#: member_form.php:191
+msgid "Receiving SMS"
+msgstr ""
+
+#: member_form.php:200
+msgid "Open profile"
+msgstr ""
+
+#: member_form.php:209
+msgid "Signature"
+msgstr ""
+
+#: member_form.php:213
+msgid "Introduce Myself"
+msgstr ""
+
+#: member_form.php:217
+msgid "Memo"
+msgstr ""
+
+#: member_form.php:223
+msgid "Registered Date"
+msgstr ""
+
+#: member_form.php:227
+msgid "Last Login Date"
+msgstr ""
+
+#: member_form.php:236
+msgid "Certification date"
+msgstr ""
+
+#: member_form.php:239
+msgid "If other member can not receive mail, you can authenticate directly."
+msgstr ""
+
+#: member_form.php:241
+msgid "Manual authentication"
+msgstr ""
+
+#: member_form.php:250
+msgid "Recommendation"
+msgstr ""
+
+#: member_form.php:251
+msgid "None"
+msgstr ""
+
+#: member_form.php:256
+msgid "Leave_date"
+msgstr ""
+
+#: member_form.php:261
+msgid "Specify withdrawal date as today"
+msgstr ""
+
+#: member_form.php:264
+msgid "Access Block Date"
+msgstr ""
+
+#: member_form.php:270
+msgid "Specify Access Block Date as of today"
+msgstr ""
+
+#: member_form.php:281
+msgid "List of social accounts"
+msgstr ""
+
+#: member_form.php:285
+msgid "List of linked social accounts"
+msgstr ""
+
+#: member_form.php:302
+msgid "Disconnect"
+msgstr ""
+
+#: member_form.php:335
+msgid "Are you sure you want to delete this account association?"
+msgstr ""
+
+#: member_form.php:336
+msgid "Invalid request! The mp_no value does not exist."
+msgstr ""
+
+#: member_form.php:337
+msgid "The connection has been disconnected."
+msgstr ""
+
+#: member_form.php:338
+msgid "Icon file can only be a gif file."
+msgstr ""
+
+#: member_form_update.php:70
+msgid "This member ID already exists."
+msgstr ""
+
+#: member_form_update.php:70 member_form_update.php:76
+#: member_form_update.php:82 member_form_update.php:106
+#: member_form_update.php:112
+msgid "Email"
+msgstr ""
+
+#: member_form_update.php:76 member_form_update.php:106
+msgid "The nickname already exists."
+msgstr ""
+
+#: member_form_update.php:82 member_form_update.php:112
+msgid "The email already exists."
+msgstr ""
+
+#: member_form_update.php:96
+msgid "The password of the super administrator can not be modified."
+msgstr ""
+
+#: member_form_update.php:100
+msgid "You can not modify the administrator level while logging in."
+msgstr ""
+
+#: member_form_update.php:127 member_form_update.php:175
+#, php-format
+msgid "%s is not an image file."
+msgstr ""
+
+#: member_form_update.php:226
+msgid "A valid value has not crossed."
+msgstr ""
+
+#: member_list.php:72
+msgid "Total members"
+msgstr ""
+
+#: member_list.php:81
+msgid "Memeber ID"
+msgstr ""
+
+#: member_list.php:89 member_list.php:141
+msgid "Registration date"
+msgstr ""
+
+#: member_list.php:91
+msgid "Recommender"
+msgstr ""
+
+#: member_list.php:101
+msgid ""
+"In order to prevent other members from using existing member ID when member "
+"data are deleted, member ID, name, and nickname are stored permanently."
+msgstr ""
+
+#: member_list.php:119
+msgid "All Members"
+msgstr ""
+
+#: member_list.php:123
+msgid "Mail authentication"
+msgstr ""
+
+#: member_list.php:124 member_list.php:218
+msgid "Open Profile"
+msgstr ""
+
+#: member_list.php:126
+msgid "State"
+msgstr ""
+
+#: member_list.php:129
+msgid "Last Login"
+msgstr ""
+
+#: member_list.php:130
+msgid "Access Group"
+msgstr ""
+
+#: member_list.php:136 member_list.php:242
+msgid "SMS Received"
+msgstr ""
+
+#: member_list.php:137 member_list.php:248
+msgid "Access Blocking"
+msgstr ""
+
+#: member_list.php:142
+msgctxt "Point column"
+msgid "Point"
+msgstr ""
+
+#: member_list.php:176
+msgid "Unblock"
+msgstr ""
+
+#: member_list.php:179
+msgid "Blocking"
+msgstr ""
+
+#: member_list.php:222
+msgid "Receive mail"
+msgstr ""
+
+#: member_list.php:275
+msgid "Add Member"
+msgstr ""
+
+#: member_list_delete.php:22
+msgid "Can not delete an administrator who is logging in."
+msgstr ""
+
+#: member_list_delete.php:24 member_list_update.php:65
+msgid "Can not delete a Super Admin."
+msgstr ""
+
+#: member_list_delete.php:26 member_list_update.php:67
+msgid ""
+"Can not delete a member who has more authority than you or is equal to you."
+msgstr ""
+
+#: member_list_update.php:29
+msgid ""
+"Can not modify a member who has more authority than you or is equal to you."
+msgstr ""
+
+#: member_list_update.php:31 member_list_update.php:63
+msgid "Can not modify an administrator who is logging in."
+msgstr ""
+
+#: menu_form.php:8 menu_list.php:117
+msgid "Add Menu"
+msgstr ""
+
+#: menu_form.php:47
+msgctxt "link url"
+msgid "link URL"
+msgstr ""
+
+#: menu_form.php:48
+msgid "Window open"
+msgstr ""
+
+#: menu_form.php:50
+msgid "Print PC"
+msgstr ""
+
+#: menu_form.php:51
+msgid "Print Mobile"
+msgstr ""
+
+#: menu_form_search.php:91
+msgid ""
+"The title of the <strong>RED</strong> color appears if you are already "
+"connected to the menu."
+msgstr ""
+
+#: menu_form_search.php:108 menu_list.php:35 menu_list.php:89
+msgid "Link"
+msgstr ""
+
+#: menu_form_search.php:108
+msgid "Please enter a link including http://"
+msgstr ""
+
+#: menu_form_search.php:119
+msgid "Close"
+msgstr ""
+
+#: menu_list.php:18
+msgid ""
+"<strong>Caution!</strong> After setting the menu, press <strong>OK</strong> "
+"to save."
+msgstr ""
+
+#: menu_list.php:30 menu_list.php:64 menu_list.php:117
+msgid "New Window"
+msgstr ""
+
+#: menu_list.php:31 menu_list.php:72
+msgid "Use PC"
+msgstr ""
+
+#: menu_list.php:32
+msgid "Setting"
+msgstr ""
+
+#: menu_list.php:37 menu_list.php:99
+msgid "Use Mobile"
+msgstr ""
+
+#: menu_list.php:66 menu_list.php:75 menu_list.php:102 poll_list.php:101
+#: qa_config.php:75
+msgid "Disable"
+msgstr ""
+
+#: menu_list.php:126
+msgid "Are you sure you want to delete the menu?"
+msgstr ""
+
+#: newwinform.php:10
+msgid "Popup Layer"
+msgstr ""
+
+#: newwinform.php:40
+msgid ""
+"Sets the pop-up layer to open automatically when the main page is connected."
+msgstr ""
+
+#: newwinform.php:47
+msgid "Set up the connector to display the pop-up layer."
+msgstr ""
+
+#: newwinform.php:49
+msgid "PC and mobile"
+msgstr ""
+
+#: newwinform.php:55 newwinform.php:58 newwinlist.php:78 visit.sub.php:29
+#: write_count.php:31 write_count.php:32 write_count.php:79
+msgid "Hours"
+msgstr ""
+
+#: newwinform.php:57
+msgid ""
+"Set how many hours you do not want the pop-up layer to be shown when the "
+"customer chooses never to view again."
+msgstr ""
+
+#: newwinform.php:65
+msgid "Start date to today"
+msgstr ""
+
+#: newwinform.php:69
+msgid "End date"
+msgstr ""
+
+#: newwinform.php:72
+msgid "The end date will be changed to seven days from today."
+msgstr ""
+
+#: newwinform.php:76
+msgid "Popup Layer Left Position"
+msgstr ""
+
+#: newwinform.php:81
+msgid "Popup Layer Top Position"
+msgstr ""
+
+#: newwinform.php:86
+msgid "Popup Layer Width"
+msgstr ""
+
+#: newwinform.php:91
+msgid "Popup Layer Height"
+msgstr ""
+
+#: newwinform.php:96
+msgid "Popup Layer Title"
+msgstr ""
+
+#: newwinform.php:108
+msgctxt "Go to List page"
+msgid "List"
+msgstr ""
+
+#: newwinlist.php:7
+msgid "Manage pop-up layers"
+msgstr ""
+
+#: newwinlist.php:33
+msgid "Number"
+msgstr ""
+
+#: newwinlist.php:35
+msgid "Is_Mobile"
+msgstr ""
+
+#: newwinlist.php:36
+msgid "Start time"
+msgstr ""
+
+#: newwinlist.php:39
+msgid "Manage"
+msgstr ""
+
+#: newwinlist.php:42 visit_hour.php:34
+msgid "Time"
+msgstr ""
+
+#: newwinlist.php:43
+msgid "End time"
+msgstr ""
+
+#: newwinlist.php:61
+msgid "ALL"
+msgstr ""
+
+#: point_list.php:78
+#, php-format
+msgid "Total points of %s"
+msgstr ""
+
+#: point_list.php:81
+msgid "Total points"
+msgstr ""
+
+#: point_list.php:111
+msgid "Total point history"
+msgstr ""
+
+#: point_list.php:120 point_list.php:153
+msgid "History"
+msgstr ""
+
+#: point_list.php:122
+msgid "Point Sum"
+msgstr ""
+
+#: point_list.php:123
+msgid "Expiration date"
+msgstr ""
+
+#: point_list.php:167
+msgid "expired"
+msgstr ""
+
+#: point_list.php:190
+msgid "Set individual member point fluctuation"
+msgstr ""
+
+#: point_list.php:211
+msgid "Point Histoty"
+msgstr ""
+
+#: point_list.php:217
+msgid "Point Expire Term"
+msgstr ""
+
+#: point_list.php:218 visit.sub.php:29
+msgid "Day"
+msgstr ""
+
+#: point_list.php:225 visit_delete.php:55
+msgid "Apply"
+msgstr ""
+
+#: point_update.php:20
+msgid ""
+"If you are cutting points, they must not be less than the current point."
+msgstr ""
+
+#: poll_delete.php:14
+msgid "Please select at least one voting list to delete."
+msgstr ""
+
+#: poll_form.php:9
+msgid "Poll"
+msgstr ""
+
+#: poll_form.php:16
+msgid "Incorrect 'w' value."
+msgstr ""
+
+#: poll_form.php:36
+msgid "Poll Title"
+msgstr ""
+
+#: poll_form.php:52 poll_form.php:54
+msgid "topic"
+msgstr ""
+
+#: poll_form.php:54 poll_list.php:55 poll_list.php:91
+msgid "Number of votes"
+msgstr ""
+
+#: poll_form.php:62 poll_list.php:92
+msgid "Other opinions"
+msgstr ""
+
+#: poll_form.php:63
+msgid "Enter a simple question to allow you to leave other opinions."
+msgstr ""
+
+#: poll_form.php:68
+msgid "Voting membership level"
+msgstr ""
+
+#: poll_form.php:69
+msgid "You can vote by setting the level to 1."
+msgstr ""
+
+#: poll_form.php:70
+msgid "More voting is possible."
+msgstr ""
+
+#: poll_form.php:75
+msgid "Points will be awarded to the members who vote."
+msgstr ""
+
+#: poll_form.php:82
+msgid "Voting registration date"
+msgstr ""
+
+#: poll_form.php:86
+msgid "IP to vote"
+msgstr ""
+
+#: poll_form.php:90
+msgid "A voting member"
+msgstr ""
+
+#: poll_list.php:85
+msgid "All Current List"
+msgstr ""
+
+#: poll_list.php:90
+msgid "Voting authority"
+msgstr ""
+
+#: poll_list.php:110
+msgid "Topic"
+msgstr ""
+
+#: poll_list.php:133
+msgid "Add poll"
+msgstr ""
+
+#: popular_rank.php:74 visit_browser.php:35 visit_device.php:35
+#: visit_domain.php:35 visit_os.php:35
+msgid "Ranking"
+msgstr ""
+
+#: popular_rank.php:76
+msgid "Search count"
+msgstr ""
+
+#: qa_config.php:27
+msgid "Redirect 1:1 Contact"
+msgstr ""
+
+#: qa_config.php:51
+msgid "Enter Email"
+msgstr ""
+
+#: qa_config.php:58
+msgid "Input mobile number"
+msgstr ""
+
+#: qa_config.php:65
+msgid "Administrator Email"
+msgstr ""
+
+#: qa_config.php:66
+msgid ""
+"If you enter an administrator email, the notification will be sent to the "
+"registered email when you register your inquiry."
+msgstr ""
+
+#: qa_config.php:81
+msgid "Title Length"
+msgstr ""
+
+#: qa_config.php:82 qa_config.php:88
+msgid "Number of title letters in the list"
+msgstr ""
+
+#: qa_config.php:87
+msgid "Title Length in Mobile"
+msgstr ""
+
+#: qa_config.php:98
+msgid "List per page in Mobile"
+msgstr ""
+
+#: qa_config.php:103
+msgid "Image Width Size"
+msgstr ""
+
+#: qa_config.php:104
+msgid "Width size of the image that is output from the Board"
+msgstr ""
+
+#: qa_config.php:109
+msgid "File upload Size"
+msgstr ""
+
+#: qa_config.php:111
+msgid "Bytes below"
+msgstr ""
+
+#: sendmail_test.php:8
+msgid ""
+"You must check 'Enable mail sending' in Default Preferences to send mail."
+msgstr ""
+
+#: sendmail_test.php:12
+msgid "Mail Test"
+msgstr ""
+
+#: sendmail_test.php:26
+msgid "[Check Mail] Title"
+msgstr ""
+
+#: sendmail_test.php:26
+msgid "[Check Mail] Contents"
+msgstr ""
+
+#: sendmail_test.php:26
+msgid ""
+"If you see this right, there is nothing wrong with the outgoing mail server."
+msgstr ""
+
+#: sendmail_test.php:26
+msgid "This email address will not be answered."
+msgstr ""
+
+#: sendmail_test.php:31
+msgid "Result Message"
+msgstr ""
+
+#: sendmail_test.php:33
+#, php-format
+msgid "Test mail has been sent to the following %s e-mail addresses."
+msgstr ""
+
+#: sendmail_test.php:41
+msgid "Please confirm that the test email has arrived at the address."
+msgstr ""
+
+#: sendmail_test.php:42
+msgid ""
+"If you do not receive a test email, try sending it to the email address of a "
+"wider range of accounts."
+msgstr ""
+
+#: sendmail_test.php:43
+msgid ""
+"If none of your mail arrives, you are likely to be out of the mail "
+"server(sendmail server), so please contact your web server administrator."
+msgstr ""
+
+#: sendmail_test.php:51 sendmail_test.php:60
+msgid "Send Test Mail"
+msgstr ""
+
+#: sendmail_test.php:54
+msgid "You can verify that the mail server is functioning normally."
+msgstr ""
+
+#: sendmail_test.php:55
+msgid ""
+"Enter the email address you would like to send a test email to at the "
+"address box below, and we will send a test email under the heading [Check "
+"Mail]."
+msgstr ""
+
+#: sendmail_test.php:61
+msgid "Incoming mail address"
+msgstr ""
+
+#: sendmail_test.php:68
+msgid ""
+"If the test mail does not arrive with the content of [Check Mail], there may "
+"be a problem with the outgoing mail server or the incoming mail server."
+msgstr ""
+
+#: sendmail_test.php:69
+msgid ""
+"If you would like a more accurate test, please send a test email to several "
+"places."
+msgstr ""
+
+#: session_file_delete.php:8
+msgid "Delete Session File Batch"
+msgstr ""
+
+#: session_file_delete.php:24
+msgid "Failed to open session directory."
+msgstr ""
+
+#: session_file_delete.php:56
+#, php-format
+msgid "%s session data has been deleted."
+msgstr ""
+
+#: theme.php:26
+msgid "Installed Themes"
+msgstr ""
+
+#: theme.php:57 theme_preview.php:72
+msgid "Apply Theme"
+msgstr ""
+
+#: theme.php:108
+msgid "There are no installed themes."
+msgstr ""
+
+#: theme_config_load.php:14
+msgid "No theme is in use."
+msgstr ""
+
+#: theme_config_load.php:20
+#, php-format
+msgid "The theme %s is not an installed theme."
+msgstr ""
+
+#: theme_config_load.php:44
+msgid "There are no board image settings to apply."
+msgstr ""
+
+#: theme_config_load.php:59
+msgid "There are no default environment skin settings to apply."
+msgstr ""
+
+#: theme_config_load.php:74
+msgid "There are no default environment member skin settings to apply."
+msgstr ""
+
+#: theme_detail.php:12 theme_update.php:20
+msgid "The selected theme is not installed."
+msgstr ""
+
+#: theme_lang.php:49
+msgid "Select Theme"
+msgstr ""
+
+#: theme_lang.php:76
+msgid "Token information is invalid."
+msgstr ""
+
+#: theme_lang.php:77
+msgid "Please retrieve the language file information first."
+msgstr ""
+
+#: theme_lang.php:78
+msgid "No translation to save."
+msgstr ""
+
+#: theme_lang.php:79
+#, php-format
+msgid "Language set : %s"
+msgstr ""
+
+#: theme_lang.php:80
+#, php-format
+msgid "Are you sure you want to save the language file(po, mo files) for %s ?"
+msgstr ""
+
+#: theme_lang_update.php:34
+msgid "File missing or invalid request."
+msgstr ""
+
+#: theme_lang_update.php:196
+msgid "Save translation file succeeded."
+msgstr ""
+
+#: theme_lang_update.php:216
+msgid "Download Translation File"
+msgstr ""
+
+#: theme_lang_update.php:218
+msgid ""
+"If you have downloaded a zip_file, After Uncompress it, Save the file .po "
+"and .mo file to the path below."
+msgstr ""
+
+#: theme_lang_update.php:224 theme_lang_update.php:228
+msgid "Failed to save translation file."
+msgstr ""
+
+#: theme_preview.php:9
+msgid "The theme does not exist or is not valid."
+msgstr ""
+
+#: theme_preview.php:77
+#, php-format
+msgid "Preview of %s theme"
+msgstr ""
+
+#: theme_preview.php:88
+msgid "Index Screen"
+msgstr ""
+
+#: theme_preview.php:89
+msgid "List of postings"
+msgstr ""
+
+#: theme_preview.php:90
+msgid "View postings"
+msgstr ""
+
+#: theme_preview.php:91
+msgid "PC Version"
+msgstr ""
+
+#: theme_preview.php:91
+msgid "Mobile Version"
+msgstr ""
+
+#: thumbnail_file_delete.php:8
+msgid "Delete Thumbnail File Batch"
+msgstr ""
+
+#: thumbnail_file_delete.php:43
+msgid "Failed to open Thumbnail directory."
+msgstr ""
+
+#: thumbnail_file_delete.php:67
+#, php-format
+msgid "%s Thumbnail file data has been deleted."
+msgstr ""
+
+#: visit.sub.php:21
+msgid "Start date"
+msgstr ""
+
+#: visit.sub.php:29
+msgid "Visitor"
+msgstr ""
+
+#: visit.sub.php:29
+msgid "Domain"
+msgstr ""
+
+#: visit.sub.php:29 visit_browser.php:36 visit_list.php:43 visit_search.php:39
+msgid "Browser"
+msgstr ""
+
+#: visit.sub.php:29
+msgid "OS"
+msgstr ""
+
+#: visit.sub.php:29 visit_list.php:45 visit_search.php:41
+msgid "User agent"
+msgstr ""
+
+#: visit.sub.php:29
+msgid "Week"
+msgstr ""
+
+#: visit.sub.php:29 visit_delete.php:45
+msgid "Month"
+msgstr ""
+
+#: visit.sub.php:29 visit_delete.php:34 visit_year.php:34
+msgid "Year"
+msgstr ""
+
+#: visit_browser.php:7
+msgid "Total number of users per browser"
+msgstr ""
+
+#: visit_browser.php:37 visit_date.php:34 visit_device.php:37
+#: visit_domain.php:37 visit_hour.php:35 visit_month.php:35 visit_os.php:37
+#: visit_week.php:33 visit_year.php:35
+msgid "Graph"
+msgstr ""
+
+#: visit_browser.php:38 visit_date.php:35 visit_device.php:38
+#: visit_domain.php:38 visit_hour.php:36 visit_month.php:36 visit_os.php:38
+#: visit_week.php:34 visit_year.php:36
+msgid "Number of users"
+msgstr ""
+
+#: visit_browser.php:39 visit_date.php:36 visit_device.php:39
+#: visit_domain.php:39 visit_hour.php:37 visit_month.php:37 visit_os.php:39
+#: visit_week.php:35 visit_year.php:37
+msgid "Ratio(%)"
+msgstr ""
+
+#: visit_browser.php:44 visit_date.php:41 visit_device.php:44
+#: visit_domain.php:44 visit_hour.php:42 visit_month.php:42 visit_os.php:44
+#: visit_week.php:40 visit_year.php:42
+msgid "Sum"
+msgstr ""
+
+#: visit_date.php:7 visit_week.php:7
+msgid "Daily user count"
+msgstr ""
+
+#: visit_date.php:33
+msgid "Year-Month-Day"
+msgstr ""
+
+#: visit_delete.php:19
+msgid "Select the year and method for deleting the contact log."
+msgstr ""
+
+#: visit_delete.php:24 visit_delete.php:26
+msgid "Select Year"
+msgstr ""
+
+#: visit_delete.php:35 visit_delete.php:37
+msgid "Select Month"
+msgstr ""
+
+#: visit_delete.php:46
+msgid "Select Delete Method"
+msgstr ""
+
+#: visit_delete.php:48
+msgid "Delete selected year / month prior data"
+msgstr ""
+
+#: visit_delete.php:49
+msgid "Delete data for selection year / month"
+msgstr ""
+
+#: visit_delete.php:53
+msgid "Administrator password"
+msgstr ""
+
+#: visit_delete.php:62 visit_delete_update.php:26
+msgid "Please select a year."
+msgstr ""
+
+#: visit_delete.php:63
+msgid "Please select a month."
+msgstr ""
+
+#: visit_delete.php:64 visit_delete_update.php:18
+msgid "Enter admin password."
+msgstr ""
+
+#: visit_delete.php:65
+msgid "Are you sure you want to delete the data?"
+msgstr ""
+
+#: visit_delete_update.php:23
+msgid "Administrator password mismatch."
+msgstr ""
+
+#: visit_delete_update.php:29
+msgid "Please select month."
+msgstr ""
+
+#: visit_delete_update.php:59
+#, php-format
+msgid "%s items have been deleted. ( %s totals )"
+msgstr ""
+
+#: visit_device.php:7
+msgid "Total users by device"
+msgstr ""
+
+#: visit_device.php:20 visit_device.php:68
+msgid "etc"
+msgstr ""
+
+#: visit_domain.php:7
+msgid "Total users by domain"
+msgstr ""
+
+#: visit_domain.php:36
+msgid "Connection domain"
+msgstr ""
+
+#: visit_domain.php:70
+msgid "Directly"
+msgstr ""
+
+#: visit_hour.php:7
+msgid "User count by hour"
+msgstr ""
+
+#: visit_list.php:42 visit_search.php:24 visit_search.php:38
+msgid "Referer url"
+msgstr ""
+
+#: visit_list.php:103
+msgid "No data found or deleted by administrator."
+msgstr ""
+
+#: visit_month.php:7
+msgid "Monthly user count"
+msgstr ""
+
+#: visit_month.php:34
+msgid "Year-Month"
+msgstr ""
+
+#: visit_os.php:7
+msgid "OS specific user count"
+msgstr ""
+
+#: visit_search.php:13
+msgid "All search"
+msgstr ""
+
+#: visit_search.php:21
+msgid "Search classification"
+msgstr ""
+
+#: visit_search.php:27
+msgid "Search Word"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Monday"
+msgid "M"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Tuesday"
+msgid "T"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Wednesday"
+msgid "W"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Thursday"
+msgid "T"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Friday"
+msgid "F"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Saturday"
+msgid "S"
+msgstr ""
+
+#: visit_week.php:11
+msgctxt "Sunday"
+msgid "S"
+msgstr ""
+
+#: visit_week.php:32
+msgctxt "day of the week"
+msgid "Day"
+msgstr ""
+
+#: visit_year.php:7
+msgid "Annual user count"
+msgstr ""
+
+#: write_count.php:31 write_count.php:53 write_count.php:60
+msgid "Today"
+msgstr ""
+
+#: write_count.php:32 write_count.php:63
+msgid "Yesterday"
+msgstr ""
+
+#: write_count.php:33 write_count.php:34 write_count.php:35
+#, php-format
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] ""
+
+#: write_count.php:33 write_count.php:34 write_count.php:35 write_count.php:88
+msgid "Days"
+msgstr ""
+
+#: write_count.php:36 write_count.php:37
+#, php-format
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] ""
+
+#: write_count.php:36 write_count.php:37 write_count.php:97
+msgid "Weeks"
+msgstr ""
+
+#: write_count.php:38 write_count.php:39 write_count.php:40 write_count.php:41
+#: write_count.php:42
+#, php-format
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] ""
+
+#: write_count.php:38 write_count.php:39 write_count.php:40
+msgid "months"
+msgstr ""
+
+#: write_count.php:41 write_count.php:42
+msgid "years"
+msgstr ""
+
+#: write_count.php:66
+msgid "Tomorrow"
+msgstr ""
+
+#: write_count.php:109
+msgid "Months"
+msgstr ""
+
+#: write_count.php:118
+msgid "Years"
+msgstr ""
+
+#: write_count.php:132
+msgid "All board"
+msgstr ""
+
+#: write_count.php:157
+msgid "Line graph"
+msgstr ""
+
+#: write_count.php:158
+msgid "Bar graph"
+msgstr ""
+
+#: write_count.php:164 write_count.php:195
+msgid "Number of Posts"
+msgstr ""
+
+#: write_count.php:165
+msgid "Number of Comments"
+msgstr ""
+
+#~ msgid "DB TABLE UPDATE"
+#~ msgstr "DB 테이블 업데이트"
+
+#~ msgid "Sign Up"
+#~ msgstr "회원가입"
+
+#~ msgid "Default Mail Preferences"
+#~ msgstr "기본 메일 환경 설정"
+
+#~ msgid "Writing mail"
+#~ msgstr "글작성메일"
+
+#~ msgid "Subscription mail"
+#~ msgstr "가입메일"
+
+#~ msgid "Voting Mail"
+#~ msgstr "투표메일"
+
+#~ msgid "Add Layout"
+#~ msgstr "레이아웃추가"
+
+#~ msgid "Administrative"
+#~ msgstr "관리권한설정"
+
+#~ msgid "Manage popup"
+#~ msgstr "팝업관리"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

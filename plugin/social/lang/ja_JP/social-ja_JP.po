@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-13 12:26+0900\n"
+"PO-Revision-Date: 2018-07-13 12:26+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: error.php:9 includes/loading.php:9 register_member.php:39
+msgid "Social login"
+msgstr ""
+
+#: error.php:39
+msgid "Please try again later."
+msgstr ""
+
+#: error.php:41
+msgid "Go to Home"
+msgstr ""
+
+#: error.php:42
+msgid "Close this page"
+msgstr ""
+
+#: includes/functions.php:140
+#, php-format
+msgid ""
+"Can not rejoin because there is a history of being connected or subscribed "
+"to the corresponding %s ID. If you are a member, please connect the account "
+"in Edit Profile after logging in."
+msgstr ""
+
+#: includes/functions.php:418
+msgid "An unspecified error."
+msgstr ""
+
+#: includes/functions.php:419
+msgid "Social_Config error."
+msgstr ""
+
+#: includes/functions.php:420
+msgid "Error setting corresponding provider."
+msgstr ""
+
+#: includes/functions.php:421
+msgid "Unknown or disabled provider."
+msgstr ""
+
+#: includes/functions.php:422
+msgid "You do not have permission to access the service."
+msgstr ""
+
+#: includes/functions.php:423
+msgid ""
+"Authentication failed. Either you canceled authentication or the provider "
+"refused to connect."
+msgstr ""
+
+#: includes/functions.php:424
+msgid ""
+"User profile request failed. You may not be connected to the service. In "
+"this case, you must request a second authentication."
+msgstr ""
+
+#: includes/functions.php:425
+msgid "User is not connected to the service."
+msgstr ""
+
+#: includes/functions.php:426
+msgid "The service does not support the feature."
+msgstr ""
+
+#: includes/functions.php:518
+msgid "You are already logged in or you are making an invalid request."
+msgstr ""
+
+#: includes/functions.php:521
+msgid "ID already linked or invalid request."
+msgstr ""
+
+#: includes/functions.php:596
+msgid "Social Request Errors"
+msgstr ""
+
+#: includes/functions.php:748
+msgid "SNS user authentication failed."
+msgstr ""
+
+#: includes/functions.php:768
+msgid "Invalid request."
+msgstr ""
+
+#: includes/functions.php:785
+#, php-format
+msgid ""
+"The account already has an ID of %s associated with it. Please disconnect "
+"and try again."
+msgstr ""
+
+#: includes/functions.php:889
+msgid "Fackbook"
+msgstr ""
+
+#: includes/functions.php:890
+msgid "Google"
+msgstr ""
+
+#: includes/functions.php:891
+msgid "Twitter"
+msgstr ""
+
+#: includes/functions.php:892
+msgid "Github"
+msgstr ""
+
+#: includes/functions.php:893
+msgid "Naver"
+msgstr ""
+
+#: includes/functions.php:894
+msgid "Kakao"
+msgstr ""
+
+#: includes/functions.php:895
+msgid "Daum"
+msgstr ""
+
+#: includes/functions.php:896
+msgid "Payco"
+msgstr ""
+
+#: includes/loading.php:20
+#, php-format
+msgid "Connecting to %s. Please wait a moment."
+msgstr ""
+
+#: index.php:15
+msgid "Disable social login."
+msgstr ""
+
+#: popup.php:5 register_member.php:9 register_member_update.php:7
+msgid "Social login settings are disabled."
+msgstr ""
+
+#: popup.php:10
+msgid "New window options are disabled."
+msgstr ""
+
+#: popup.php:17
+msgid "Service name is not imported."
+msgstr ""
+
+#: register_member.php:13 register_member_update.php:11
+msgid "Already registered as a member."
+msgstr ""
+
+#: register_member.php:19 register_member_update.php:17
+msgid "Only social login users can access it."
+msgstr ""
+
+#: register_member_update.php:114
+msgid "Congratulations on Register"
+msgstr ""
+
+#: register_member_update.php:118
+#, php-format
+msgid "%s has been registered as a member."
+msgstr ""
+
+#: register_member_update.php:164
+#, php-format
+msgid "This is the %s authentication email."
+msgstr ""
+
+#: register_member_update.php:188
+msgid "Registration error!"
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "投稿は見つかりませんでした。"

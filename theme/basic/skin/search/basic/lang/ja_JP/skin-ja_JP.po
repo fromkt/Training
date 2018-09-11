@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 20:21+0900\n"
+"PO-Revision-Date: 2018-06-25 20:21+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: search.skin.php:26
+msgid "Comment"
+msgstr ""
+
+#: search.skin.php:45
+msgid "Search Details"
+msgstr ""
+
+#: search.skin.php:48
+msgid "Search options"
+msgstr ""
+
+#: search.skin.php:50
+msgid "Subject+Content"
+msgstr ""
+
+#: search.skin.php:51
+msgid "Subject"
+msgstr ""
+
+#: search.skin.php:52
+msgid "Content"
+msgstr ""
+
+#: search.skin.php:53
+msgid "Member ID"
+msgstr ""
+
+#: search.skin.php:54
+msgid "Name"
+msgstr ""
+
+#: search.skin.php:57
+msgid "Search terms"
+msgstr ""
+
+#: search.skin.php:57
+msgid "Required"
+msgstr ""
+
+#: search.skin.php:60
+msgid "Search"
+msgstr ""
+
+#: search.skin.php:76
+msgid "All Search Results"
+msgstr ""
+
+#: search.skin.php:78
+msgid "Boards"
+msgstr ""
+
+#: search.skin.php:79 search.skin.php:81
+#, php-format
+msgid "%s total"
+msgid_plural "%s totals"
+msgstr[0] ""
+
+#: search.skin.php:80
+msgid "Posts"
+msgstr ""
+
+#: search.skin.php:83
+msgid "Reading pages"
+msgstr ""
+
+#: search.skin.php:87
+msgid "All boards"
+msgstr ""
+
+#: search.skin.php:91
+msgid "No search results."
+msgstr ""
+
+#: search.skin.php:103
+msgid "Results within bulletin board"
+msgstr ""
+
+#: search.skin.php:111
+msgid "New window"
+msgstr ""
+
+#: search.skin.php:123
+msgid "more"
+msgstr ""
+
+#: search.skin.php:140
+msgid "Please enter at least two characters for search term."
+msgstr ""
+
+#: search.skin.php:141
+msgid "For quick searching, you can only enter one space in the search term."
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "投稿は見つかりませんでした。"

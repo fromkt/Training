@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 19:23+0900\n"
+"PO-Revision-Date: 2018-06-25 19:24+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: list.skin.php:10 list.skin.php:83
+msgid "Edit FAQ"
+msgstr "FAQ 수정"
+
+#: list.skin.php:21 list.skin.php:24
+msgid "Search FAQ"
+msgstr "FAQ 검색"
+
+#: list.skin.php:26 list.skin.php:28
+msgid "Search"
+msgstr "검색"
+
+#: list.skin.php:26
+msgid "Required"
+msgstr "필수"
+
+#: list.skin.php:36
+msgid "FAQ Category"
+msgstr "FAQ 분류"
+
+#: list.skin.php:50
+msgid "List"
+msgstr "목록"
+
+#: list.skin.php:61
+msgid "Close"
+msgstr "닫기"
+
+#~ msgid "Notice"
+#~ msgstr "공지"
+
+#~ msgid "Reading"
+#~ msgstr "열람중"
+
+#~ msgid "No posts found."
+#~ msgstr "게시물이 없습니다."
+
+#~ msgid "%s total"
+#~ msgid_plural "%s totals"
+#~ msgstr[0] "총 %s 건"
+
+#~ msgid "%s page"
+#~ msgid_plural "%s pages"
+#~ msgstr[0] "%s 페이지"
+
+#~ msgid "Admin"
+#~ msgstr "관리자"
+
+#~ msgid "Write"
+#~ msgstr "글쓰기"
+
+#~ msgid "Category"
+#~ msgstr "카테고리"
+
+#~ msgid "All current page posts"
+#~ msgstr "현재 페이지 게시물 전체"
+
+#~ msgctxt "Number"
+#~ msgid "Num"
+#~ msgstr "번호"
+
+#~ msgid "Subject"
+#~ msgstr "제목"
+
+#~ msgid "Writer"
+#~ msgstr "글쓴이"
+
+#~ msgid "hits"
+#~ msgstr "조회"
+
+#~ msgid "Good"
+#~ msgstr "좋아요"
+
+#~ msgid "Bad"
+#~ msgstr "싫어용"
+
+#~ msgid "Date"
+#~ msgstr "날짜"
+
+#~ msgid "Comments"
+#~ msgstr "댓글"
+
+#~ msgid "Count"
+#~ msgstr "건"
+
+#~ msgid "Delete Selection"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy Selection"
+#~ msgstr "선택복사"
+
+#~ msgid "Move Selection"
+#~ msgstr "선택이동"
+
+#~ msgid "Search for posts"
+#~ msgstr "게시물 검색"
+
+#~ msgid "Search target"
+#~ msgstr "검색대상"
+
+#~ msgid "Content"
+#~ msgstr "내용"
+
+#~ msgid "Subject+Content"
+#~ msgstr "제목+내용"
+
+#~ msgid "Commenter"
+#~ msgstr "댓글이"
+
+#~ msgid "Search term"
+#~ msgstr "검색어"
+
+#~ msgid "Enter search term"
+#~ msgstr "검색어를 입력해주세요"
+
+#~ msgid "If you are not using JavaScript, please be careful because you can delete the selection immediately without a separate verification process."
+#~ msgstr "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Page Info"
+#~ msgstr "페이지정보"
+
+#~ msgid "Comment"
+#~ msgstr "댓글"
+
+#~ msgid "%s Comment"
+#~ msgid_plural "%s Comments"
+#~ msgstr[0] "%s 댓글"
+
+#~ msgid "Hit"
+#~ msgstr "조회"
+
+#~ msgid "%s Hit"
+#~ msgid_plural "%s Hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Scrap"
+#~ msgstr "스크랩"
+
+#~ msgid "Attached file"
+#~ msgstr "첨부파일"
+
+#~ msgid "%s download"
+#~ msgid_plural "%s downloads"
+#~ msgstr[0] "%s 다운로드"
+
+#~ msgid "Related Links"
+#~ msgstr "관련링크"
+
+#~ msgid "%s hit"
+#~ msgid_plural "%s hits"
+#~ msgstr[0] "%s 조회"
+
+#~ msgid "Edit"
+#~ msgstr "수정"
+
+#~ msgid "Delete"
+#~ msgstr "삭제"
+
+#~ msgid "Copy"
+#~ msgstr "복사"
+
+#~ msgid "Move"
+#~ msgstr "이동"
+
+#~ msgid "Reply"
+#~ msgstr "답변"
+
+#~ msgid "Prev"
+#~ msgstr "이전"
+
+#~ msgid "Next"
+#~ msgstr "다음"
+
+#~ msgid "List of comments"
+#~ msgstr "댓글목록"
+
+#~ msgid "Comment on comments by %s"
+#~ msgstr "%s 의 댓글의 댓글"
+
+#~ msgid "Comment by %s"
+#~ msgstr "%s 의 댓글"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Secret"
+#~ msgstr "비밀"
+
+#~ msgid "Writing comments"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "length"
+#~ msgstr "길이"
+
+#~ msgid "Enter comments"
+#~ msgstr "댓글을 입력하세요"
+
+#~ msgid "Name"
+#~ msgstr "이름"
+
+#~ msgid "Password"
+#~ msgstr "패스워드"
+
+#~ msgid "Write SNS at the same"
+#~ msgstr "SNS 동시쓰기"
+
+#~ msgid "Use Secret"
+#~ msgstr "비밀글사용"
+
+#~ msgid "Add comment"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "Select a Category"
+#~ msgstr "카테고리 선택"
+
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgid "Homepage"
+#~ msgstr "홈페이지"
+
+#~ msgid "Option"
+#~ msgstr "옵션"
+
+#~ msgid "Temporary stored posts"
+#~ msgstr "임시저장된 글"
+
+#~ msgid "Temporary list of saved posts"
+#~ msgstr "임시저장된 글 목록"
+
+#~ msgid "This bulletin board can be written at least <strong>%s</strong> characters or up to <strong>%s</strong> characters."
+#~ msgstr "이 게시판은 최소 <strong>%s</strong>글자 이상, 최대 <strong>%s</strong>글자 이하까지 글을 쓰실 수 있습니다."
+
+#~ msgid "Length"
+#~ msgstr "길이"
+
+#~ msgid "Link #"
+#~ msgstr "링크 #"
+
+#~ msgid "File #"
+#~ msgstr "파일 #"
+
+#~ msgid "File Attachment %s : Upload capacity less than %s"
+#~ msgstr "파일첨부 %s : 용량 %s 이하만 업로드 가능"
+
+#~ msgid "Enter file description."
+#~ msgstr "파일 설명을 입력하세요."
+
+#~ msgid "Delete File"
+#~ msgstr "파일 삭제"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Save"
+#~ msgstr "저장"
+
+#~ msgid "Closed"
+#~ msgstr "닫기"
+
+#~ msgid "Go to Body"
+#~ msgstr "본문 바로가기"
+
+#~ msgctxt "Edit My Profile"
+#~ msgid "Profile"
+#~ msgstr "프로필"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Register"
+#~ msgstr "회원가입"
+
+#~ msgid "Login"
+#~ msgstr "로그인"
+
+#~ msgid "Full Search in Site"
+#~ msgstr "사이트 내 전체검색"
+
+#~ msgid "Search term required"
+#~ msgstr "검색어 필수"
+
+#~ msgid "Please enter at least two characters for search term."
+#~ msgstr "검색어는 두글자 이상 입력하십시오."
+
+#~ msgid "For quick searching, you can only enter one space in the search term."
+#~ msgstr "빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다."
+
+#~ msgctxt "1:1 inquiry"
+#~ msgid "1:1"
+#~ msgstr "1:1 문의"
+
+#~ msgid "Visitor"
+#~ msgstr "방문자"
+
+#~ msgctxt "New article"
+#~ msgid "New"
+#~ msgstr "새글"
+
+#~ msgid "Main menu"
+#~ msgstr "메인메뉴"
+
+#~ msgid "Open the full menu"
+#~ msgstr "전체메뉴열기"
+
+#~ msgid "Preparing menu."
+#~ msgstr "메뉴 준비 중입니다."
+
+#~ msgid "You can set it in %s"
+#~ msgstr "%s 에서 설정하실 수 있습니다."
+
+#~ msgid "Admin mode &gt; Configuration &gt; Menu settings"
+#~ msgstr "관리자모드 &gt; 환경설정 &gt; 메뉴설정"
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Latest articles"
+#~ msgstr "최신글"
+
+#~ msgid "Page"
+#~ msgstr "페이지"
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "Hits"
+#~ msgstr "조회수"
+
+#~ msgid "No Contents."
+#~ msgstr "컨텐츠가 없습니다."
+
+#~ msgid "Delete_selected"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy_selected"
+#~ msgstr "선택복사"
+
+#~ msgid "Move_selected"
+#~ msgstr "선택이동"
+
+#~ msgid "Search posts"
+#~ msgstr "글 검색"
+
+#~ msgid "Title + Content"
+#~ msgstr "제목+내용"
+
+#~ msgid "If you do not use JavaScript,<br>please be careful not to check it immediately."
+#~ msgstr "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Receive response mail"
+#~ msgstr "답변메일받기"
+
+#~ msgid "First"
+#~ msgstr "처음"
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "Last"
+#~ msgstr "맨끝"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "Please specify %s and %s"
+#~ msgstr "%s 과 %s 를 지정해 주세요"
+
+#~ msgid "English"
+#~ msgstr "영어"
+
+#~ msgid "Korean"
+#~ msgstr "한국어"
+
+#~ msgid "Japanese"
+#~ msgstr "일본어"
+
+#~ msgid "Chinese"
+#~ msgstr "중국어"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

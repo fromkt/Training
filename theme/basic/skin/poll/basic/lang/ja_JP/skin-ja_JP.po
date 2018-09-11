@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 20:10+0900\n"
+"PO-Revision-Date: 2018-06-25 20:10+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: poll.skin.php:14
+msgid "Poll"
+msgstr ""
+
+#: poll.skin.php:15
+msgid "Manage poll"
+msgstr ""
+
+#: poll.skin.php:25
+msgid "View Results"
+msgstr ""
+
+#: poll.skin.php:26
+msgid "Vote"
+msgstr ""
+
+#: poll.skin.php:35
+#, php-format
+msgid "Only Level %s or higher members are eligible to vote."
+msgstr ""
+
+#: poll.skin.php:36
+msgid "Please select a survey item to vote for."
+msgstr ""
+
+#: poll.skin.php:37
+#, php-format
+msgid "Only members above level %s can view the results."
+msgstr ""
+
+#: poll_result.skin.php:13
+#, php-format
+msgid "A total of %s vote"
+msgid_plural "A total of %s votes"
+msgstr[0] ""
+
+#: poll_result.skin.php:15
+msgid "Result"
+msgstr ""
+
+#: poll_result.skin.php:23
+msgid "vote"
+msgid_plural "votes"
+msgstr[0] ""
+
+#: poll_result.skin.php:34
+msgid "Other opinion on this poll"
+msgstr ""
+
+#: poll_result.skin.php:39
+msgid "'s opinion"
+msgstr ""
+
+#: poll_result.skin.php:41
+msgid "Delete"
+msgstr ""
+
+#: poll_result.skin.php:62 poll_result.skin.php:63
+msgid "Name"
+msgstr ""
+
+#: poll_result.skin.php:62 poll_result.skin.php:70
+msgid "Required"
+msgstr ""
+
+#: poll_result.skin.php:70
+msgid "Opinion"
+msgstr ""
+
+#: poll_result.skin.php:74
+msgid "Enter Opinion"
+msgstr ""
+
+#: poll_result.skin.php:90
+msgid "See other poll results"
+msgstr ""
+
+#: poll_result.skin.php:100
+msgid "Close window"
+msgstr ""
+
+#: poll_result.skin.php:108
+msgid "Are you sure you want to delete the other opinion?"
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "投稿は見つかりませんでした。"

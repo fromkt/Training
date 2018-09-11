@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* 공통 */
+body {margin:0;padding:0;background: #e9eef1;font-size:0.813em;font-family:Arial,tahoma,helvetica,"맑은고딕","Malgun Gothic",sans-serif}
+input, img, select, button {font-size:1em;vertical-align:middle}
+label {vertical-align:middle}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ins_bar {margin:0 0 50px;padding:20px 30px;background:#fff;color:#a1a4a7;box-shadow:1px 1px 8px #d3dde3;zoom:1}
+#ins_bar:after {display:block;visibility:hidden;clear:both;content:""}
+#ins_bar #bar_img {float:left}
+#ins_bar #bar_img img{height:30px;width:auto}
+#ins_bar #bar_txt {float:right;line-height:30px;color:#28a7ff;font-size:1.385em}
+select.install_select_lang{height:26px;padding-left:5px;border:1px solid #c8c8c8}
+
+ h1 {margin:0 0 30px;font-size::1.462em;margin:0 0 20px;text-align:center}
+ .ins_inner h1 {color:#2b3b5a;text-align:left}
+
+.ins_inner {margin:0 auto 50px;width:850px;box-shadow:1px 3px 19px #d3dde3;padding:20px 30px;background:#fff}
+.ins_inner ul {margin:20px 0;padding:0 0 0 13px}
+.ins_inner ol {margin:20px 0;padding:0 0 0 18px}
+.ins_inner ol li {margin:0 0 5px}
+.ins_inner p strong {color:#f93c65}
+.ins_inner .inner_btn {margin:30px 0 0;text-align:right}
+.ins_inner .inner_btn a, .ins_inner .inner_btn input {display:inline-block;padding:0 30px;font-weight:bold;font-size:1.154em;line-height:45px;background:#3598dc;border-radius:5px;color:#fff;text-decoration:none}
+.ins_inner .inner_btn a:hover, .ins_inner .inner_btn input:hover{background:#28a7ff}
+.ins_inner .inner_btn input {border:0;cursor:pointer}
+
+.ins_inner2{padding:0;}
+.ins_inner2:after {display:block;visibility:hidden;clear:both;content:""}
+.ins_left{float:left;padding:40px;width:550px;height:100%;box-shadow:inset -20px 0 20px -20px #eff3f5;min-height:500px;}
+.ins_left:after {display:block;visibility:hidden;clear:both;content:""}
+.ins_right{float:right;padding:60px 30px 40px;width:300px;height:100%;text-align:center;min-height:500px;;}
+.ins_right i{font-size:80px;color:#28a7ff}
+.ins_right h2{font-size::1.462em;margin:5px 0;color:#28a7ff}
+.ins_right p{line-height:1.5em;color:#64769a}
+.ins_right .ins_progress{position:relative}
+.ins_right .ins_progress h3{position:absolute;font-size:0;line-height:0;overflow:hidden}
+.ins_right .ins_progress ol{padding:0;margin:120px 0 0;}
+.ins_right .ins_progress ol:after {display:block;visibility:hidden;clear:both;content:""}
+.ins_right .ins_progress ol:before{position:absolute;top:20px;left:50%;margin-left:-100px;display:block;width:200px;height:1px;background:#dae0ea;content:"";z-index:0}
+.ins_right .ins_progress li{position:relative;z-index:1;float:left;width:33.333%;list-style:none;text-align:center;}
+.ins_right .ins_progress .ins_num {display:inline-block;color:#a2b2cc;background:#dae0ea;border-radius:35px;width:40px;line-height:30px;border:5px solid #fff;margin: 0 0 10px}
+.ins_right .ins_progress .ins_text{display:block;color:#a2b2cc}
+.ins_right .ins_progress .plogress_sl .ins_num{background:#246795;color:#fff}
+.ins_right .ins_progress .plogress_sl .ins_text{color:#246795}
+
+.ins_frm {margin:0 0 30px;}
+.ins_frm h2 {color:#2b3b5a}
+.ins_frm li{list-style:none;margin:0 ;padding:5px 0}
+.ins_frm label{color:#69758b;display:block;margin:0 0 5px}
+.ins_frm li span{display:inline-block;color:#3baeff;font-size:0.92em;margin:5px 0 0}
+.ipt_text {border:1px solid #c9cbd9;border-radius:3px;padding:0;width:100%;padding:0 10px;height:40px;box-shadow:inset 1px 1px 5px #eee;color:#000;font-size:1.154em;background: #f7f8fa;}
+.ipt_text:focus{outline:none;border:1px solid #28a7ff;background:#eff8fe}
+.ins_ta textarea {border:1px solid #c9cbd9;border-radius:3px;padding:0;width:100%;padding:10px;height:300px;box-shadow:inset 1px 1px 5px #eee;color:#69758b;background: #f7f8fa;line-height:1.5em;font-size:13px}
+
+#ins_ft {color:#a1a4a7;font-family:tahoma,helvetica;text-align:center;padding-bottom:30px}
+#ins_ft strong {font-size:1.500em;font-weight:normal}
+
+/* 라이센스 확인 1/3 */
+#license .inner_btn{float:right;margin:10px 0;}
+#ins_agree {margin:10px 0 ;float:left;line-height:45px}

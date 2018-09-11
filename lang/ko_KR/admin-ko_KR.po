@@ -1,0 +1,4827 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-23 14:22+0900\n"
+"PO-Revision-Date: 2018-08-23 14:23+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../../adm\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.head.php:86
+msgid "Go to Body"
+msgstr "본문 바로가기"
+
+#: admin.head.php:93
+msgid "Toggle Menu"
+msgstr "메뉴토글"
+
+#: admin.head.php:94
+#, php-format
+msgid "%s Admin"
+msgstr "%s 관리자"
+
+#: admin.head.php:98
+msgid "Go to Community"
+msgstr "커뮤니티 바로가기"
+
+#: admin.head.php:99
+msgid "Admin"
+msgstr "관리자"
+
+#: admin.head.php:99
+msgid "Open Menu"
+msgstr "메뉴열기"
+
+#: admin.head.php:101
+msgid "Edit Profile"
+msgstr "프로필 수정"
+
+#: admin.head.php:102
+msgid "Logout"
+msgstr "로그아웃"
+
+#: admin.head.php:109
+msgid "Admin Main Menu"
+msgstr "관리자 주메뉴"
+
+#: admin.lib.php:21 admin.lib.php:38 auth_list.php:200
+#: boardgroupmember_form.php:39 menu_form_search.php:47 menu_form_search.php:80
+msgid "Select"
+msgstr "선택"
+
+#: admin.lib.php:193 admin.lib.php:211 admin.lib.php:229
+msgid "Unselected"
+msgstr "선택안함"
+
+#: admin.lib.php:248
+msgid "You do not have access to this menu."
+msgstr "이 메뉴에는 접근 권한이 없습니다."
+
+#: admin.lib.php:248
+msgid "Access can only be granted by the Super Admin."
+msgstr "접근 권한은 최고관리자만 부여할 수 있습니다."
+
+#: admin.lib.php:259
+msgid "You do not have permission to read."
+msgstr "읽을 권한이 없습니다."
+
+#: admin.lib.php:265
+msgid "You do not have the permissions to enter, add, create, or modify."
+msgstr "입력, 추가, 생성, 수정 권한이 없습니다."
+
+#: admin.lib.php:271
+msgid "You do not have permission to delete."
+msgstr "삭제 권한이 없습니다."
+
+#: admin.lib.php:277
+msgid "Invalid property."
+msgstr "속성이 잘못 되었습니다."
+
+#: admin.lib.php:390 admin.lib.php:529 admin.lib.php:533
+#: theme_config_load.php:27 visit_delete_update.php:41
+msgid "Please use the correct method."
+msgstr "올바른 방법으로 이용해 주십시오."
+
+#: admin.lib.php:402
+#, php-format
+msgid "Do you want to apply the %s theme?"
+msgstr "%s 테마를 적용하시겠습니까?"
+
+#: admin.lib.php:403
+msgid "Default preference, 1:1 contact skin change from theme to skin set?"
+msgstr ""
+"기본환경설정, 1:1문의 스킨을 테마에서 설정된 스킨으로 변경하시겠습니까?"
+
+#: admin.lib.php:404
+msgid "Select Change to change member skin from theme to skin specified."
+msgstr "변경을 선택하시면 테마에서 지정된 스킨으로 회원스킨 등이 변경됩니다."
+
+#: admin.lib.php:405
+#, php-format
+msgid "Are you sure you want to disable the %s theme?"
+msgstr "%s 테마 사용설정을 해제하시겠습니까?"
+
+#: admin.lib.php:406
+msgid ""
+"Turning off a theme does not change the skin, such as a bulletin board, and "
+"requires individual changes."
+msgstr ""
+"테마 설정을 해제하셔도 게시판 등의 스킨은 변경되지 않으므로 개별 변경작업이 "
+"필요합니다."
+
+#: admin.lib.php:515
+msgid "Invalid information."
+msgstr "정보가 올바르지 않습니다."
+
+#: admin.lib.php:548
+msgid "Please login."
+msgstr "로그인 하십시오."
+
+#: admin.lib.php:562
+msgid ""
+"Only super admin or members with administrative privileges are allowed to "
+"access."
+msgstr "최고관리자 또는 관리권한이 있는 회원만 접근 가능합니다."
+
+#: admin.lib.php:574
+msgid "XSS Attack Alert"
+msgstr "XSS 공격 알림"
+
+#: admin.lib.php:574
+#, php-format
+msgid "There was an XSS attack with IP %s."
+msgstr "%s IP 로 XSS 공격이 있었습니다."
+
+#: admin.lib.php:574
+msgid "This is an approach to take over administrator rights, so be careful."
+msgstr "관리자 권한을 탈취하려는 접근이므로 주의하시기 바랍니다."
+
+#: admin.lib.php:574
+msgid "Please block this IP and check if there are any suspicious postings."
+msgstr "해당 아이피는 차단하시고 의심되는 게시물이 있는지 확인하시기 바랍니다."
+
+#: admin.lib.php:576
+msgid "Please login and access normally."
+msgstr "정상적으로 로그인하여 접근하시기 바랍니다."
+
+#: admin.menu100.php:3
+msgid "Configuration"
+msgstr "기본환경"
+
+#: admin.menu100.php:4
+msgid "Default Preferences"
+msgstr "기본환경설정"
+
+#: admin.menu100.php:5
+msgctxt "Setting administrative privileges"
+msgid "Administrative"
+msgstr "관리권한설정"
+
+#: admin.menu100.php:6 theme.php:18
+msgid "Theme Setup"
+msgstr "테마 설정"
+
+#: admin.menu100.php:7 menu_list.php:11
+msgid "Menu settings"
+msgstr "메뉴 설정"
+
+#: admin.menu100.php:8
+msgid "Test Mail"
+msgstr "메일 테스트"
+
+#: admin.menu100.php:9
+msgctxt "Manage pop-up layers"
+msgid "Manage popup"
+msgstr "팝업 관리"
+
+#: admin.menu100.php:10
+msgid "Delete Session Files"
+msgstr "세션파일 삭제"
+
+#: admin.menu100.php:11
+msgid "Delete Cache"
+msgstr "캐시 삭제"
+
+#: admin.menu100.php:12
+msgid "Delete Captcha Files"
+msgstr "캡챠파일 삭제"
+
+#: admin.menu100.php:13
+msgid "Delete Thumb Files"
+msgstr "썸네일파일 삭제"
+
+#: admin.menu100.php:18
+msgid "Browscap Update"
+msgstr "Browscap 업데이트"
+
+#: admin.menu100.php:19 browscap_convert.php:15
+msgid "Convert Visit Log"
+msgstr "접속로그 변환"
+
+#: admin.menu100.php:22 theme_lang.php:5
+msgid "Theme Language File"
+msgstr "테마 언어 파일"
+
+#: admin.menu200.php:3 admin.menu200.php:4 member_list.php:61
+msgid "Member Manage"
+msgstr "회원관리"
+
+#: admin.menu200.php:5 mail_list.php:19 mail_select_form.php:38
+#: mail_select_update.php:7
+msgid "Send Member Email"
+msgstr "회원메일발송"
+
+#: admin.menu200.php:6 visit_list.php:7
+msgid "Visitor report"
+msgstr "방문자보기"
+
+#: admin.menu200.php:7 visit_search.php:8
+msgid "Visitor search"
+msgstr "방문자 검색"
+
+#: admin.menu200.php:8 visit_delete.php:7
+msgid "Delete visitor Log"
+msgstr "방문자 로그 삭제"
+
+#: admin.menu200.php:9 point_list.php:55
+msgid "Point Manage"
+msgstr "포인트 관리"
+
+#: admin.menu200.php:10 poll_list.php:47
+msgid "Poll Manage"
+msgstr "설문 관리"
+
+#: admin.menu300.php:3 admin.menu300.php:4 board_list.php:51
+msgid "Manage Board"
+msgstr "게시판 관리"
+
+#: admin.menu300.php:5
+msgctxt "Manage board Groups"
+msgid "Manage bbs Groups"
+msgstr "게시판그룹관리"
+
+#: admin.menu300.php:6 popular_list.php:62
+msgid "Manage top search"
+msgstr "인기검색어관리"
+
+#: admin.menu300.php:7 popular_rank.php:31
+msgid "Top search ranking"
+msgstr "인기검색어순위"
+
+#: admin.menu300.php:8 qa_config.php:8 qa_config.php:18
+msgid "1:1 Contact Settings"
+msgstr "1:1문의설정"
+
+#: admin.menu300.php:9 contentlist.php:7 menu_form.php:32
+msgid "Manage Content"
+msgstr "내용관리"
+
+#: admin.menu300.php:10 faqlist.php:42 faqmasterlist.php:7
+msgid "Manage FAQ"
+msgstr "FAQ관리"
+
+#: admin.menu300.php:11 write_count.php:27
+msgid "Status of boards"
+msgstr "게시판 현황"
+
+#: admin.menu300.php:18 editorimglist.php:88
+msgid "Editor Images"
+msgstr "에디터이미지"
+
+#: admin.tail.php:9
+msgid "Your browser is currently set to <strong>Disable JavaScript.</strong>"
+msgstr ""
+"귀하께서 사용하시는 브라우저는 현재 <strong>자바스크립트를 사용하지 않음</"
+"strong>으로 설정되어 있습니다"
+
+#: admin.tail.php:10
+msgid ""
+"<strong>If JavaScript is disabled</strong>, there is no separate warning "
+"window when you modify or delete it, so be careful about this."
+msgstr ""
+"<strong>자바스크립트를 사용하지 않음</strong>으로 설정하신 경우는 수정이나 삭"
+"제시 별도의 경고창이 나오지 않으므로 이점 주의하시기 바랍니다."
+
+#: ajax.theme_get_translate.php:11 auth_list.php:6 auth_list_delete.php:8
+#: auth_update.php:6 boardgroup_form.php:7 boardgroup_form_update.php:10
+#: browscap.php:9 browscap_convert.php:9 cache_file_delete.php:6
+#: captcha_file_delete.php:6 config_form.php:8 config_form_update.php:10
+#: menu_form.php:6 menu_form_search.php:5 menu_list.php:6
+#: menu_list_update.php:8 session_file_delete.php:6 theme.php:6
+#: theme_detail.php:6 theme_lang.php:8 theme_lang_update.php:13
+#: theme_update.php:6 thumbnail_file_delete.php:6 visit_delete_update.php:10
+msgid "Only the Super administrator can access it."
+msgstr "오직 최고관리자만 접근할수 있습니다."
+
+#: ajax.theme_get_translate.php:39 config_form.php:356
+msgid "select"
+msgstr "선택"
+
+#: ajax.theme_get_translate.php:40
+#, php-format
+msgid "Language files for theme %s"
+msgstr "테마 %s 의 언어 파일"
+
+#: ajax.theme_get_translate.php:47
+#, php-format
+msgid "Theme %s, Mobile Skin %s Language Files"
+msgstr "테마 %s, 모바일 스킨 %s 언어 파일"
+
+#: ajax.theme_get_translate.php:50
+#, php-format
+msgid "Theme %s, Skin %s Language Files"
+msgstr "테마 %s, 스킨 %s 언어 파일"
+
+#: ajax.theme_get_translate.php:57
+msgid "Open"
+msgstr "열기"
+
+#: ajax.theme_get_translate.php:66 ajax.theme_get_translate.php:84
+#: ajax.theme_get_translate.php:108 ajax.theme_get_translate.php:126
+#: auth_list_delete.php:18
+msgid "Invalid request"
+msgstr "잘못된 요청입니다"
+
+#: ajax.theme_get_translate.php:141
+msgid "No file selected."
+msgstr "선택된 파일이 없습니다."
+
+#: ajax.theme_get_translate.php:240
+msgid "No translation to retrieve."
+msgstr "검색된 번역이 없습니다."
+
+#: auth_list.php:46 member_list.php:59
+msgid "ALL list"
+msgstr "전체목록"
+
+#: auth_list.php:48
+msgid "Set administrative permissions"
+msgstr "관리권한설정"
+
+#: auth_list.php:58 auth_list.php:62 auth_list.php:65
+msgid "Administrative rights set"
+msgstr "설정된 관리권한"
+
+#: auth_list.php:59
+#, php-format
+msgctxt "%s totals"
+msgid "%s total"
+msgstr "%s 건"
+
+#: auth_list.php:62 auth_list.php:65
+#, php-format
+msgid "Total %s"
+msgstr "전체 %s"
+
+#: auth_list.php:72 auth_list.php:95 auth_list.php:193
+#: boardgroupmember_list.php:62 boardgroupmember_list.php:89
+#: editorimglist.php:126 editorimglist.php:157 mail_select_form.php:55
+#: mail_select_list.php:79 point_list.php:89 point_list.php:114
+#: point_list.php:203
+msgid "Member ID"
+msgstr "회원아이디"
+
+#: auth_list.php:72 auth_list.php:193 auth_list.php:198 boardgroup_form.php:14
+#: config_form.php:155 config_form.php:161 config_form.php:166
+#: config_form.php:175 config_form.php:180 config_form.php:184
+#: config_form.php:190 config_form.php:200 config_form.php:205
+#: config_form.php:277 config_form.php:282 config_form.php:287
+#: config_form.php:292 config_form.php:297 config_form.php:303
+#: config_form.php:308 config_form.php:313 config_form.php:318
+#: config_form.php:323 config_form.php:341 config_form.php:350
+#: config_form.php:426 config_form.php:441 config_form.php:493
+#: config_form.php:497 mail_form.php:37 mail_form.php:41 member_form.php:12
+#: member_form.php:109 member_form.php:113 member_form.php:121 poll_form.php:36
+#: poll_form.php:45
+msgid "required"
+msgstr "필수"
+
+#: auth_list.php:74 board_list.php:72 boardgroup_list.php:75
+#: boardgroupmember_list.php:66 editorimglist.php:122 editorimglist.php:130
+#: editorimglist.php:132 member_list.php:95 point_list.php:94 poll_list.php:66
+#: popular_list.php:88 popular_rank.php:57 visit.sub.php:25 visit_search.php:29
+msgid "Search"
+msgstr "검색"
+
+#: auth_list.php:88 board_list.php:87 boardgroup_form.php:122
+#: boardgroup_list.php:89 boardgroupmember_form.php:55
+#: boardgroupmember_list.php:81 contentform.php:150 contentlist.php:37
+#: editorimglist.php:146 faqform.php:70 faqlist.php:48 faqmasterform.php:137
+#: faqmasterlist.php:46 mail_list.php:37 mail_select_form.php:117
+#: mail_select_list.php:75 member_form.php:327 member_list.php:115
+#: menu_list.php:26 newwinlist.php:30 point_list.php:107 poll_form.php:99
+#: poll_list.php:81 popular_list.php:102 popular_rank.php:71
+#: visit_browser.php:32 visit_date.php:30 visit_device.php:32
+#: visit_domain.php:32 visit_hour.php:31 visit_list.php:38 visit_month.php:31
+#: visit_os.php:32 visit_week.php:29 visit_year.php:31
+msgid "List"
+msgstr "목록"
+
+#: auth_list.php:92
+msgid "All current page members"
+msgstr "현재 페이지 회원 전체"
+
+#: auth_list.php:96 boardgroupmember_form.php:21 boardgroupmember_list.php:91
+#: index.php:105 mail_select_list.php:81 member_form.php:113
+#: member_form_update.php:70 member_form_update.php:76
+#: member_form_update.php:82 member_form_update.php:106
+#: member_form_update.php:112 member_list.php:82 member_list.php:135
+#: point_list.php:121
+msgid "Nickname"
+msgstr "별명"
+
+#: auth_list.php:97 menu_form.php:45 menu_form_search.php:104 menu_list.php:29
+#: menu_list.php:60
+msgid "Menu"
+msgstr "메뉴"
+
+#: auth_list.php:98
+msgid "Permissions"
+msgstr "권한"
+
+#: auth_list.php:131
+#, php-format
+msgid "Authority of %s"
+msgstr "%s 님 권한"
+
+#: auth_list.php:147 board_list.php:222 boardgroup_list.php:167
+#: boardgroupmember_list.php:128 contentlist.php:65 editorimglist.php:206
+#: faqform.php:23 faqlist.php:86 faqmasterform.php:19 faqmasterlist.php:81
+#: index.php:123 index.php:217 index.php:283 menu_list.php:112
+#: menu_list.php:129 newwinform.php:16 newwinlist.php:87 poll_list.php:125
+#: popular_list.php:136 popular_rank.php:99 visit_browser.php:88
+#: visit_date.php:77 visit_device.php:92 visit_domain.php:95 visit_hour.php:73
+#: visit_month.php:80 visit_os.php:92 visit_search.php:116 visit_week.php:72
+#: visit_year.php:77 write_count.php:171
+msgid "No Data"
+msgstr "자료가 없습니다"
+
+#: auth_list.php:154 auth_list.php:234 board_list.php:248
+#: boardgroup_list.php:196 mail_list.php:82 member_list.php:289
+#: point_list.php:237
+msgid "Delete selected"
+msgstr "선택삭제"
+
+#: auth_list.php:180
+msgid "You can give the members administrative rights in the following form."
+msgstr "다음 양식에서 회원에게 관리권한을 부여하실 수 있습니다."
+
+#: auth_list.php:182
+msgid ""
+"Permissions <strong> r </ strong> are read permissions, <strong> w </ "
+"strong> are write permissions, and <strong> d </ strong> are delete "
+"permissions."
+msgstr ""
+"권한 <strong>r</strong>은 읽기권한, <strong>w</strong>는 쓰기권한, "
+"<strong>d</strong>는 삭제권한입니다."
+
+#: auth_list.php:186
+msgid "Add administrative privileges"
+msgstr "관리권한 추가"
+
+#: auth_list.php:198
+msgid "Access menu"
+msgstr "접근가능메뉴"
+
+#: auth_list.php:211
+msgid "Specify Permissions"
+msgstr "권한지정"
+
+#: auth_list.php:213
+msgid "Read"
+msgstr "읽기"
+
+#: auth_list.php:215 mail_form.php:19
+msgid "Write"
+msgstr "쓰기"
+
+#: auth_list.php:217 contentform.php:107 contentform.php:130 contentlist.php:59
+#: faqlist.php:78 faqmasterform.php:96 faqmasterlist.php:74 member_form.php:163
+#: member_form.php:178 menu_form.php:53 newwinlist.php:74
+msgid "Delete"
+msgstr "삭제"
+
+#: auth_list.php:223 faqmasterform.php:26 member_form.php:17 menu_form.php:52
+#: menu_form_search.php:118 menu_list.php:71 newwinlist.php:25 poll_form.php:11
+msgid "Add"
+msgstr "추가"
+
+#: auth_list.php:232 board_list.php:246 boardgroup_list.php:194
+#: member_list.php:287 point_list.php:235
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr "%s 하실 항목을 하나 이상 선택하세요."
+
+#: auth_list.php:233 board_list.php:247 boardgroup_list.php:195
+#: member_list.php:288 point_list.php:236
+msgid "Are you sure you want to delete it?"
+msgstr "정말 삭제하시겠습니까?"
+
+#: auth_list_delete.php:15 board_list_update.php:8 member_list_update.php:8
+#: point_list_delete.php:13
+#, php-format
+msgid "Please check at least one item to be done %s."
+msgstr "%s 하실 항목을 하나 이상 체크하세요."
+
+#: auth_update.php:10 point_update.php:17
+msgid "This member ID does not exist."
+msgstr "존재하는 회원아이디가 아닙니다."
+
+#: board_copy.php:7 board_form.php:1064
+msgid "Copy Board"
+msgstr "게시판복사"
+
+#: board_copy.php:25
+msgid "Original table name"
+msgstr "원본 테이블명"
+
+#: board_copy.php:29
+msgid "Copy table name"
+msgstr "복사 테이블명"
+
+#: board_copy.php:29 board_copy.php:33 board_form.php:23 board_form.php:123
+#: board_form.php:130 board_form.php:308 board_form.php:320 board_form.php:509
+#: board_form.php:521 board_form.php:654 board_form.php:665 board_form.php:752
+#: board_form.php:764 board_form.php:775 board_form.php:787 board_form.php:799
+#: board_form.php:812 board_form.php:825 board_form.php:838 board_form.php:851
+#: board_form.php:864 board_form.php:877 board_form.php:890 board_form.php:903
+#: board_form.php:982 board_form.php:994 board_form.php:1006
+#: board_form.php:1018 board_list.php:70 board_list.php:136
+#: boardgroup_form.php:58 boardgroup_list.php:73 boardgroupmember_list.php:64
+#: config_form.php:504 config_form.php:509 config_form.php:515
+#: config_form.php:521 config_form.php:527 config_form.php:532
+#: contentform.php:65 contentform.php:70 member_list.php:93 menu_form.php:46
+#: menu_form_search.php:104 menu_form_search.php:108 menu_list.php:60
+#: menu_list.php:65 newwinform.php:55 newwinform.php:62 newwinform.php:69
+#: newwinform.php:76 newwinform.php:81 newwinform.php:86 newwinform.php:91
+#: newwinform.php:96 point_list.php:92 point_list.php:203 point_list.php:207
+#: point_list.php:211 poll_list.php:64 popular_list.php:86 qa_config.php:24
+#: qa_config.php:31 qa_config.php:39 qa_config.php:45 qa_config.php:54
+#: qa_config.php:61 qa_config.php:81 qa_config.php:87 qa_config.php:93
+#: qa_config.php:98 qa_config.php:103 qa_config.php:109 sendmail_test.php:61
+#: visit_delete.php:53
+msgid "Required"
+msgstr "필수"
+
+#: board_copy.php:30
+msgid "Alphabetic, numeric, _ only (no spaces)"
+msgstr "영문자, 숫자, _ 만 가능 (공백없이)"
+
+#: board_copy.php:33
+msgid "Board Subject"
+msgstr "게시판 제목"
+
+#: board_copy.php:34 board_copy.php:50 board_list.php:124
+msgid "Copy"
+msgstr "복사"
+
+#: board_copy.php:37
+msgid "Copy Type"
+msgstr "복사 유형"
+
+#: board_copy.php:40
+msgid "Structure only"
+msgstr "구조만"
+
+#: board_copy.php:42
+msgid "Structure and data"
+msgstr "구조와 데이터"
+
+#: board_copy.php:51 menu_form_search.php:95
+msgid "Close Window"
+msgstr "창닫기"
+
+#: board_copy.php:61
+msgid "The original table name and the table name to copy must be different."
+msgstr "원본 테이블명과 복사할 테이블명이 달라야 합니다."
+
+#: board_copy.php:62 board_copy_update.php:20 board_form.php:1079
+#: board_form_update.php:19
+msgid "Board TABLE Name can not be used. Please use a different name."
+msgstr "게시판 테이블 이름을 사용할수 없습니다. 다른 이름을 입력해 주세요."
+
+#: board_copy_update.php:15 board_form_update.php:14
+msgid ""
+"Board table available only letters, numbers, _ with no spaces. (20 "
+"characters)"
+msgstr ""
+"게시판 TABLE명은 공백없이 영문자, 숫자, _ 만 사용 가능합니다. (20자 이내)"
+
+#: board_copy_update.php:25
+#, php-format
+msgid "%s is a board table names that already exist"
+msgstr "%s 은(는) 이미 존재하는 게시판 테이블명 입니다"
+
+#: board_copy_update.php:25
+msgid "Can not be used as the name of the table to copy."
+msgstr "복사할 테이블명으로 사용할 수 없습니다."
+
+#: board_copy_update.php:210
+msgid "Copy successful."
+msgstr "복사에 성공 했습니다."
+
+#: board_form.php:11
+msgid "At least one bulletin Board group must be created."
+msgstr "게시판그룹이 한개 이상 생성되어야 합니다."
+
+#: board_form.php:13 boardgroup_list.php:99 config_form.php:142
+#: config_form.php:416 config_form.php:418 menu_form.php:31
+msgid "Board"
+msgstr "게시판"
+
+#: board_form.php:19 boardgroup_form.php:16
+msgid "Create"
+msgstr "생성"
+
+#: board_form.php:58 board_list.php:100 board_list.php:123
+#: boardgroup_form.php:20 boardgroup_list.php:104 boardgroup_list.php:119
+#: contentform.php:13 contentlist.php:42 contentlist.php:57 faqform.php:18
+#: faqlist.php:54 faqlist.php:77 faqmasterform.php:14 faqmasterlist.php:53
+#: faqmasterlist.php:72 mail_form.php:11 member_form.php:30 member_list.php:131
+#: member_list.php:158 newwinform.php:13 newwinlist.php:73 poll_form.php:13
+#: poll_list.php:93 poll_list.php:103
+msgid "Edit"
+msgstr "수정"
+
+#: board_form.php:61 board_thumbnail_delete.php:8
+msgid "This bulletin board does not exist."
+msgstr "존재하지 않은 게시판 입니다."
+
+#: board_form.php:65
+msgid "Invalid group."
+msgstr "그룹이 틀립니다."
+
+#: board_form.php:85 board_form.php:1068 boardgroup_form.php:123
+#: config_form.php:883 contentform.php:151 faqform.php:71 faqmasterform.php:138
+#: mail_form.php:49 mail_select_form.php:116 member_form.php:328
+#: menu_list.php:120 newwinform.php:109 poll_form.php:100 qa_config.php:161
+#: theme_lang.php:66 write_count.php:161
+msgid "Save"
+msgstr "저장"
+
+#: board_form.php:98 board_form.php:102 board_form.php:105
+msgid "Default Settings"
+msgstr "기본 설정"
+
+#: board_form.php:98
+msgid "Set Permissions"
+msgstr "권한 설정"
+
+#: board_form.php:98
+msgid "Set Features"
+msgstr "기능 설정"
+
+#: board_form.php:98
+msgid "DesignForms"
+msgstr "디자인/양식"
+
+#: board_form.php:98
+msgid "Point Settings"
+msgstr "포인트 설정"
+
+#: board_form.php:98 config_form.php:856
+msgid "Extra field"
+msgstr "여분 필드"
+
+#: board_form.php:111
+msgid "Alphabetic, numeric, _ only (no more than 20 characters without spaces)"
+msgstr "영문자, 숫자, _ 만 가능 (공백없이 20자 이내)"
+
+#: board_form.php:115 board_form.php:1065
+msgid "Redirect Board"
+msgstr "게시판 바로가기"
+
+#: board_form.php:117
+msgid "Are you sure you want to delete the bulletin board thumbnail file?"
+msgstr "게시판 썸네일 파일을 삭제하시겠습니까?"
+
+#: board_form.php:117
+msgid "Delete board thumbnail"
+msgstr "게시판 썸네일 삭제"
+
+#: board_form.php:118
+msgid "Go to List"
+msgstr "목록으로"
+
+#: board_form.php:123 board_list.php:103 boardgroup_list.php:127
+#: boardgroupmember_form.php:63 boardgroupmember_form.php:81
+#: boardgroupmember_list.php:88 index.php:107 member_list.php:160
+msgid "Group"
+msgstr "그룹"
+
+#: board_form.php:126
+msgid "List of Boards in the same group"
+msgstr "동일그룹 게시판목록"
+
+#: board_form.php:130 menu_form_search.php:36
+msgid "Board Title"
+msgstr "게시판 제목"
+
+#: board_form.php:135
+msgid "Mobile Board Title"
+msgstr "모바일 게시판 제목"
+
+#: board_form.php:136
+msgid ""
+"Enter a different title for the bulletin board you see in mobile. If no "
+"input is made, the default bulletin board title is output."
+msgstr ""
+"모바일에서 보여지는 게시판 제목이 다른 경우에 입력합니다. 입력이 없으면 기본 "
+"게시판 제목이 출력됩니다."
+
+#: board_form.php:141 board_list.php:109 board_list.php:210
+#: boardgroup_form.php:68 boardgroup_list.php:103 boardgroup_list.php:154
+#: newwinform.php:47 visit_device.php:36
+msgid "Browser_device"
+msgstr "브라우저 기기"
+
+#: board_form.php:142 boardgroup_form.php:70
+msgid "Distinguish your PC from your mobile use."
+msgstr "PC 와 모바일 사용을 구분합니다."
+
+#: board_form.php:144 boardgroup_form.php:72
+msgid "Use on both PC and mobile"
+msgstr "PC와 모바일에서 모두 사용"
+
+#: board_form.php:145 boardgroup_form.php:73
+msgid "PC only"
+msgstr "PC 전용"
+
+#: board_form.php:146 boardgroup_form.php:74
+msgid "MOBILE only"
+msgstr "모바일 전용"
+
+#: board_form.php:151 board_form.php:166 board_form.php:197 board_form.php:210
+#: board_form.php:221 board_form.php:231 board_form.php:241 board_form.php:251
+#: board_form.php:261 board_form.php:271 board_form.php:281 board_form.php:291
+#: board_form.php:314 board_form.php:326 board_form.php:339 board_form.php:356
+#: board_form.php:370 board_form.php:384 board_form.php:396 board_form.php:409
+#: board_form.php:422 board_form.php:436 board_form.php:449 board_form.php:463
+#: board_form.php:477 board_form.php:490 board_form.php:503 board_form.php:515
+#: board_form.php:527 board_form.php:539 board_form.php:551 board_form.php:563
+#: board_form.php:575 board_form.php:587 board_form.php:600 board_form.php:611
+#: board_form.php:623 board_form.php:637 board_form.php:658 board_form.php:669
+#: board_form.php:679 board_form.php:689 board_form.php:699 board_form.php:710
+#: board_form.php:723 board_form.php:735 board_form.php:746 board_form.php:758
+#: board_form.php:769 board_form.php:781 board_form.php:793 board_form.php:806
+#: board_form.php:819 board_form.php:832 board_form.php:845 board_form.php:858
+#: board_form.php:871 board_form.php:884 board_form.php:897 board_form.php:909
+#: board_form.php:924 board_form.php:956 board_form.php:988 board_form.php:1000
+#: board_form.php:1012 board_form.php:1024 board_form.php:1050
+msgid "Apply Group"
+msgstr "그룹적용"
+
+#: board_form.php:153 board_form.php:168 board_form.php:199 board_form.php:212
+#: board_form.php:223 board_form.php:233 board_form.php:243 board_form.php:253
+#: board_form.php:263 board_form.php:273 board_form.php:283 board_form.php:293
+#: board_form.php:316 board_form.php:328 board_form.php:341 board_form.php:358
+#: board_form.php:372 board_form.php:386 board_form.php:398 board_form.php:411
+#: board_form.php:425 board_form.php:438 board_form.php:451 board_form.php:465
+#: board_form.php:479 board_form.php:492 board_form.php:505 board_form.php:517
+#: board_form.php:529 board_form.php:541 board_form.php:553 board_form.php:565
+#: board_form.php:577 board_form.php:589 board_form.php:602 board_form.php:613
+#: board_form.php:625 board_form.php:639 board_form.php:660 board_form.php:671
+#: board_form.php:681 board_form.php:691 board_form.php:701 board_form.php:712
+#: board_form.php:725 board_form.php:737 board_form.php:748 board_form.php:760
+#: board_form.php:771 board_form.php:783 board_form.php:795 board_form.php:808
+#: board_form.php:821 board_form.php:834 board_form.php:847 board_form.php:860
+#: board_form.php:873 board_form.php:886 board_form.php:899 board_form.php:911
+#: board_form.php:926 board_form.php:958 board_form.php:990 board_form.php:1002
+#: board_form.php:1014 board_form.php:1026 board_form.php:1052
+msgid "Apply All"
+msgstr "전체적용"
+
+#: board_form.php:158 qa_config.php:31
+msgid "Category"
+msgstr "분류"
+
+#: board_form.php:159 qa_config.php:33
+msgid ""
+"Divide the classification by | between the classification. (Example : "
+"Question | answer) Do not enter the first letter #. (Example : # Question | "
+"# Answer [X])"
+msgstr ""
+"분류와 분류 사이는 | 로 구분하세요. (예: 질문|답변) 첫자로 #은 입력하지 마세"
+"요. (예: #질문|#답변 [X])"
+
+#: board_form.php:162 board_form.php:366 board_form.php:380 board_form.php:392
+#: board_form.php:405 board_form.php:418 board_form.php:432 board_form.php:445
+#: board_form.php:459 board_form.php:473 board_form.php:486 board_form.php:499
+#: board_form.php:535 board_form.php:596 board_form.php:608 board_form.php:634
+#: boardgroup_form.php:94 contentform.php:78 menu_form.php:54 menu_list.php:83
+#: menu_list.php:95 menu_list.php:103 poll_list.php:101 qa_config.php:76
+#: theme.php:49
+msgid "Enable"
+msgstr "활성화"
+
+#: board_form.php:174
+msgid "Adjust Count"
+msgstr "카운트 조정"
+
+#: board_form.php:175
+#, php-format
+msgid "Number of article : %s"
+msgid_plural "Number of articles : %s"
+msgstr[0] "글 수 : %s"
+
+#: board_form.php:176
+#, php-format
+msgid "Number of Comment : %s"
+msgid_plural "Number of Comments : %s"
+msgstr[0] "댓글 수 : %s"
+
+#: board_form.php:177
+msgid "Check if the number in the bulletin board list does not match"
+msgstr "게시판 목록에서 글의 번호가 맞지 않을 경우에 체크하십시오"
+
+#: board_form.php:178
+msgid "Adjust"
+msgstr "조정"
+
+#: board_form.php:185 board_form.php:187
+msgid "Setting Board Permissions"
+msgstr "게시판 권한 설정"
+
+#: board_form.php:192
+msgid "Board Admin"
+msgstr "게시판 관리자"
+
+#: board_form.php:204
+msgid "List view permissions"
+msgstr "목록보기 권한"
+
+#: board_form.php:205
+msgid ""
+"Permission 1 is a non-members, 2 or more member. The privilege is highest "
+"with 10."
+msgstr "권한 1은 비회원, 2 이상 회원입니다. 권한은 10 이 가장 높습니다."
+
+#: board_form.php:217
+msgid "Read permission"
+msgstr "읽기 권한"
+
+#: board_form.php:227
+msgid "Write permission"
+msgstr "글쓰기 권한"
+
+#: board_form.php:237
+msgid "Reply permission"
+msgstr "답변글 권한"
+
+#: board_form.php:247
+msgid "Comments permission"
+msgstr "댓글 권한"
+
+#: board_form.php:257
+msgctxt "Writing Link permission"
+msgid "Link permission"
+msgstr "링크 권한"
+
+#: board_form.php:267
+msgid "Upload Permission"
+msgstr "업로드 권한"
+
+#: board_form.php:277
+msgid "Download Permission"
+msgstr "다운로드 권한"
+
+#: board_form.php:287
+msgid "HTML Write Permission"
+msgstr "HTML 쓰기 권한"
+
+#: board_form.php:301 board_form.php:303
+msgid "Setting board features"
+msgstr "게시판 기능 설정"
+
+#: board_form.php:308
+msgid "Unable to modify original text"
+msgstr "원글 수정 불가"
+
+#: board_form.php:309
+msgid ""
+"If the number of comments is greater than the number of settings, the "
+"original text can not be modified. Set to 0 to modify regardless of the "
+"number of comments."
+msgstr ""
+"댓글의 수가 설정 수 이상이면 원글을 수정할 수 없습니다. 0으로 설정하시면 댓"
+"글 수에 관계없이 수정할 수있습니다."
+
+#: board_form.php:310
+msgid ""
+"If the comments run more than the entered number, they can not be modified."
+msgstr "댓글이 입력된 숫자 이상 등록되면 수정불가 합니다."
+
+#: board_form.php:320
+msgid "Unable to delete original text"
+msgstr "원글 삭제 불가"
+
+#: board_form.php:322
+msgid ""
+"If the comments run more than the entered number, they can not be deleted."
+msgstr "댓글이 입력된 숫자 이상 등록되면 삭제 할수 없습니다."
+
+#: board_form.php:332
+msgid "Author sideview"
+msgstr "글쓴이 사이드뷰"
+
+#: board_form.php:335
+msgid "Enable (Layer menu when the author clicks)"
+msgstr "활성화 (글쓴이 클릭시 나오는 레이어 메뉴)"
+
+#: board_form.php:345
+msgid "Use secret"
+msgstr "비밀 사용"
+
+#: board_form.php:349 contentform.php:79 menu_form.php:55
+msgid "Disabled"
+msgstr "비활성화"
+
+#: board_form.php:350
+msgid "Checkbox"
+msgstr "체크박스"
+
+#: board_form.php:351
+msgid "Unconditional"
+msgstr "무조건"
+
+#: board_form.php:362 qa_config.php:72
+msgid "Enable DHTML Editor"
+msgstr "DHTML 에디터 사용"
+
+#: board_form.php:364 qa_config.php:73
+msgid ""
+"Set whether content is used as DHTML Editor function when writing. Depending "
+"on the skin, it may not apply."
+msgstr ""
+"글작성시 내용을 DHTML 에디터 기능으로 사용할 것인지 설정합니다. 스킨에 따라 "
+"적용되지 않을 수 있습니다."
+
+#: board_form.php:376
+msgid "Enable RSS Display"
+msgstr "RSS 출력 사용"
+
+#: board_form.php:378
+msgid "You must be able to read non-members and check to use RSS Show."
+msgstr ""
+"비회원 글읽기가 가능하고 RSS 보이기 사용에 체크가 되어야만 RSS 지원을 합니다."
+
+#: board_form.php:390
+msgid "Using Good"
+msgstr "좋아요 사용"
+
+#: board_form.php:402
+msgid "Using Bad"
+msgstr "싫어요 사용"
+
+#: board_form.php:415
+msgid "Use name"
+msgstr "이름 사용"
+
+#: board_form.php:429
+msgid "Enable signature display"
+msgstr "서명보이기 사용"
+
+#: board_form.php:442
+msgid "Enable IP View"
+msgstr "IP 보이기 사용"
+
+#: board_form.php:455
+msgid "Load Content in List"
+msgstr "목록에서 내용 불러오기"
+
+#: board_form.php:457
+msgid ""
+"This option is set if you need to retrieve content from the list in addition "
+"to the bulletin board title. Default is disabled."
+msgstr ""
+"목록에서 게시판 제목외에 내용도 읽어와야 할 경우에 설정하는 옵션입니다. 기본"
+"은 사용하지 않습니다."
+
+#: board_form.php:469
+msgid "Use file in list"
+msgstr "목록에서 파일 사용"
+
+#: board_form.php:471
+msgid ""
+"This option is set when you need to retrieve bulletin board attachments from "
+"the list. Default is disabled."
+msgstr ""
+"목록에서 게시판 첨부파일을 읽어와야 할 경우에 설정하는 옵션입니다. 기본은 사"
+"용하지 않습니다."
+
+#: board_form.php:483
+msgid "Show list in view"
+msgstr "전체목록보이기 사용"
+
+#: board_form.php:496 config_form.php:625
+msgid "Enable mail sending"
+msgstr "메일발송 사용"
+
+#: board_form.php:509
+msgid "File Upload Count"
+msgstr "파일 업로드 개수"
+
+#: board_form.php:510
+msgid ""
+"Maximum number of files that can be uploaded per post (0 does not use file "
+"attachments)"
+msgstr ""
+"게시물 한건당 업로드 할 수 있는 파일의 최대 개수 (0 은 파일첨부 사용하지 않"
+"음)"
+
+#: board_form.php:521
+msgid "File Upload Size"
+msgstr "파일 업로드 용량"
+
+#: board_form.php:522 qa_config.php:110
+#, php-format
+msgid "Up to %s uploadable"
+msgstr "최대 %s 이하 업로드 가능"
+
+#: board_form.php:523 qa_config.php:111
+msgid "Per upload file"
+msgstr "업로드 파일 한개당"
+
+#: board_form.php:523
+msgid "Below"
+msgstr "이하"
+
+#: board_form.php:533
+msgid "Enable File Description"
+msgstr "파일 설명 사용"
+
+#: board_form.php:545
+msgid "Limit the minimum number of posts"
+msgstr "최소 글수 제한"
+
+#: board_form.php:546
+msgid ""
+"Set minimum number of characters when writing. Do not check when entering 0 "
+"or when using DHTML Editor"
+msgstr ""
+"글 입력시 최소 글자수를 설정. 0을 입력하거나 최고관리자, DHTML 에디터 사용시"
+"에는 검사하지 않음"
+
+#: board_form.php:557
+msgid "Limit Maximum Number of posts"
+msgstr "최대 글수 제한"
+
+#: board_form.php:558
+msgid ""
+"Set the maximum number of characters when writing. Do not check when "
+"entering 0 or when using DHTML Editor"
+msgstr ""
+"글 입력시 최대 글자수를 설정. 0을 입력하거나 최고관리자, DHTML 에디터 사용시"
+"에는 검사하지 않음"
+
+#: board_form.php:569
+msgid "Limit the length of comments"
+msgstr "최소 댓글수 제한"
+
+#: board_form.php:570
+msgid "Set the minimum length of text characters when entering comments."
+msgstr "댓글 입력시 최소 글자수를 설정. 0을 입력하면 검사하지 않음."
+
+#: board_form.php:581
+msgid "Limit the maximum length of comments"
+msgstr "최대 댓글수 제한"
+
+#: board_form.php:582
+msgid "Set the maximum number of text characters when entering comments."
+msgstr "댓글 입력시 최대 글자수를 설정. 0을 입력하면 검사하지 않음."
+
+#: board_form.php:593
+msgid "Using SNS"
+msgstr "SNS 사용"
+
+#: board_form.php:594
+msgid ""
+"Check Enable to post comments on social network services or register "
+"comments at the same time.<br>You can use it only when you set the basic "
+"configuration SNS settings."
+msgstr ""
+"사용에 체크하시면 소셜네트워크서비스(SNS)에 글을 퍼가거나 댓글을 동시에 등록"
+"할수 있습니다.<br>기본환경설정의 SNS 설정을 하셔야 사용이 가능합니다."
+
+#: board_form.php:606
+msgid "Use all search"
+msgstr "전체 검색 사용"
+
+#: board_form.php:617 faqform.php:47 faqmasterform.php:45
+msgid "Output order"
+msgstr "출력 순서"
+
+#: board_form.php:618
+msgid "The lower number bulletin is first printed on the menu or search."
+msgstr "숫자가 낮은 게시판 부터 메뉴나 검색시 우선 출력합니다."
+
+#: board_form.php:630
+msgid "Use captcha"
+msgstr "캡챠 사용"
+
+#: board_form.php:631
+msgid ""
+"When checked, Enable CAPTCHA when writing.(Both members and non-"
+"members)<br>If you do not check, use CAPTCHA only for non-members."
+msgstr ""
+"체크하면 글 작성시 캡챠를 무조건 사용합니다.( 회원 + 비회원 모두 )<br>미 체크"
+"하면 비회원에게만 캡챠를 사용합니다."
+
+#: board_form.php:647 board_form.php:649
+msgid "Board designforms"
+msgstr "게시판 디자인/양식"
+
+#: board_form.php:654 contentform.php:65 qa_config.php:39
+msgid "Skin Directory"
+msgstr "스킨 디렉토리"
+
+#: board_form.php:665 contentform.php:70 qa_config.php:45
+msgid "Mobile Skin Directory"
+msgstr "모바일 스킨 디렉토리"
+
+#: board_form.php:675 contentform.php:84 qa_config.php:115
+msgid "Header File Path"
+msgstr "상단 파일 경로"
+
+#: board_form.php:685 contentform.php:90 qa_config.php:119
+msgid "Footer File Path"
+msgstr "하단 파일 경로"
+
+#: board_form.php:695 faqmasterform.php:108 qa_config.php:123
+msgid "Header Content"
+msgstr "상단 내용"
+
+#: board_form.php:705 faqmasterform.php:114 qa_config.php:128
+msgid "Footer Content"
+msgstr "하단 내용"
+
+#: board_form.php:717 qa_config.php:133
+msgid "Header of Mobile File Path"
+msgstr "모바일 상단 파일 경로"
+
+#: board_form.php:729 faqmasterform.php:124 qa_config.php:138
+msgid "Footer of Mobile Content"
+msgstr "모바일 상단 내용"
+
+#: board_form.php:741 qa_config.php:143
+msgid "Writing Basics"
+msgstr "글쓰기 기본 내용"
+
+#: board_form.php:752
+msgid "Subject length"
+msgstr "제목 길이"
+
+#: board_form.php:753
+msgid "The number of titles in a list Mark the truncated text as …"
+msgstr "목록에서의 제목 글자수. 잘리는 글은 … 로 표시"
+
+#: board_form.php:764
+msgid "Mobile Subject length"
+msgstr "모바일 제목 길이"
+
+#: board_form.php:775 qa_config.php:93
+msgid "List per page"
+msgstr "페이지당 목록 수"
+
+#: board_form.php:787
+msgid "List per mobile page"
+msgstr "모바일 페이지당 목록 수"
+
+#: board_form.php:799
+msgid "Gallery Images"
+msgstr "갤러리 이미지 수"
+
+#: board_form.php:801
+msgid ""
+"The value that sets the number of images per line in the list of bulletin "
+"boards in gallery format."
+msgstr ""
+"갤러리 형식의 게시판 목록에서 이미지를 한줄에 몇장씩 보여 줄 것인지를 설정하"
+"는 값."
+
+#: board_form.php:812
+msgid "Gallery Image Width"
+msgstr "갤러리 이미지 폭"
+
+#: board_form.php:814
+msgid ""
+"The value that sets the width of the thumbnail image in the list of bulletin "
+"boards in gallery format."
+msgstr "갤러리 형식의 게시판 목록에서 썸네일 이미지의 폭을 설정하는 값."
+
+#: board_form.php:825
+msgid "Gallery Image Height"
+msgstr "갤러리 이미지 높이"
+
+#: board_form.php:827
+msgid ""
+"The value that sets the height of the thumbnail image in the list of "
+"bulletin boards in gallery format."
+msgstr "갤러리 형식의 게시판 목록에서 썸네일 이미지의 높이를 설정하는 값."
+
+#: board_form.php:838
+msgid "Mobile<br>Gallery Image Width"
+msgstr "모바일<br>갤러리 이미지 폭"
+
+#: board_form.php:840
+msgid ""
+"The value that sets the width of the thumbnail image in the list of bulletin "
+"boards in gallery format when connecting via mobile."
+msgstr ""
+"모바일로 접속시 갤러리 형식의 게시판 목록에서 썸네일 이미지의 폭을 설정하는 "
+"값."
+
+#: board_form.php:851
+msgid "Mobile<br>Gallery Image Height"
+msgstr "모바일<br>갤러리 이미지 높이"
+
+#: board_form.php:853
+msgid ""
+"The value that sets the height of the thumbnail image in the list of "
+"bulletin boards in gallery format when connecting via mobile."
+msgstr ""
+"모바일로 접속시 갤러리 형식의 게시판 목록에서 썸네일 이미지의 높이를 설정하"
+"는 값."
+
+#: board_form.php:864
+msgid "Board Width"
+msgstr "게시판 폭"
+
+#: board_form.php:866
+msgid "Below 100 is %"
+msgstr "100 이하는 %"
+
+#: board_form.php:877
+msgid "IMAGE Width"
+msgstr "이미지 폭 크기"
+
+#: board_form.php:879
+msgid "Width size of the image that is output from the bulletin board"
+msgstr "게시판에서 출력되는 이미지의 폭 크기"
+
+#: board_form.php:880 qa_config.php:105
+msgid "Pixel"
+msgstr "픽셀"
+
+#: board_form.php:890
+msgctxt "New text icon"
+msgid "New icon"
+msgstr "새글 아이콘"
+
+#: board_form.php:892
+msgid ""
+"The time to print a new image after entering the text. If you enter 0, no "
+"icon will be output."
+msgstr ""
+"글 입력후 new 이미지를 출력하는 시간. 0을 입력하시면 아이콘을 출력하지 않습니"
+"다."
+
+#: board_form.php:903
+msgctxt "Popular icon"
+msgid "Popular text icon"
+msgstr "인기글 아이콘"
+
+#: board_form.php:904
+msgid ""
+"If the number of queries is greater than the set value, output hot image. "
+"Enter 0 to not print the icon."
+msgstr ""
+"조회수가 설정값 이상이면 hot 이미지 출력. 0을 입력하시면 아이콘을 출력하지 않"
+"습니다."
+
+#: board_form.php:915
+msgid "Reply sort"
+msgstr "답변 정렬"
+
+#: board_form.php:918
+msgid "Below the reply you wrote later (default)"
+msgstr "나중에 쓴 답변 아래로 달기 (기본)"
+
+#: board_form.php:919
+msgid "Restate Later Responses"
+msgstr "나중에 쓴 답변 위로 달기"
+
+#: board_form.php:930
+msgid "List sort fields"
+msgstr "리스트 정렬 필드"
+
+#: board_form.php:931
+msgid ""
+"Select the fields in the list to use for sorting by defaults.If you do not "
+"use them as \"default\", the speed may be slow."
+msgstr ""
+"리스트에서 기본으로 정렬에 사용할 필드를 선택합니다. \"기본\"으로 사용하지 않"
+"으시는 경우 속도가 느려질 수 있습니다."
+
+#: board_form.php:934
+msgid "default"
+msgstr "기본"
+
+#: board_form.php:935
+msgid "Before date"
+msgstr "날짜 이전것 부터"
+
+#: board_form.php:936
+msgid "From the latest"
+msgstr "날짜 최근것 부터"
+
+#: board_form.php:937
+msgid "From low hit of view"
+msgstr "조회수 낮은것 부터"
+
+#: board_form.php:938
+msgid "From High Hits"
+msgstr "조회수 높은것 부터"
+
+#: board_form.php:939
+msgid "From the previous posts"
+msgstr "최근글 이전것 부터"
+
+#: board_form.php:940
+msgid "A recent posts"
+msgstr "최근글 최근것 부터"
+
+#: board_form.php:941
+msgid "Comments from Low"
+msgstr "댓글수 낮은것 부터"
+
+#: board_form.php:942
+msgid "Comments from High"
+msgstr "댓글수 높은것 부터"
+
+#: board_form.php:943
+msgid "From the low goods"
+msgstr "좋아요 낮은것 부터"
+
+#: board_form.php:944
+msgid "From the high goods"
+msgstr "좋아요 높은것 부터"
+
+#: board_form.php:945
+msgid "From the low bads"
+msgstr "싫어요 낮은것 부터"
+
+#: board_form.php:946
+msgid "From the high bads"
+msgstr "싫어요 높은것 부터"
+
+#: board_form.php:947
+msgid "Subject Ascending"
+msgstr "제목 오름차순"
+
+#: board_form.php:948
+msgid "Subject Descending"
+msgstr "제목 내림차순"
+
+#: board_form.php:949
+msgid "Author Ascending"
+msgstr "글쓴이 오름차순"
+
+#: board_form.php:950
+msgid "Author Descending"
+msgstr "글쓴이 내림차순"
+
+#: board_form.php:951
+msgid "Category name Ascending"
+msgstr "분류명 오름차순"
+
+#: board_form.php:952
+msgid "Category name Descending"
+msgstr "분류명 내림차순"
+
+#: board_form.php:963
+msgid "Get theme image settings"
+msgstr "테마 이미지설정 가져오기"
+
+#: board_form.php:968 board_form.php:970
+msgid "Setting board points"
+msgstr "게시판 포인트 설정"
+
+#: board_form.php:976
+msgid "Set as default"
+msgstr "기본값으로 설정"
+
+#: board_form.php:978
+msgid "Set as point entered in Default Preferences"
+msgstr "환경설정에 입력된 포인트로 설정"
+
+#: board_form.php:982 board_list.php:147
+msgid "Read Point"
+msgstr "글읽기 포인트"
+
+#: board_form.php:994
+msgid "Write Point"
+msgstr "글쓰기 포인트"
+
+#: board_form.php:1006
+msgid "Comments Point"
+msgstr "댓글쓰기 포인트"
+
+#: board_form.php:1018
+msgid "Download Point"
+msgstr "다운로드 포인트"
+
+#: board_form.php:1033 board_form.php:1035
+msgid "Set Board Extra Fields"
+msgstr "게시판 여분필드 설정"
+
+#: board_form.php:1042 boardgroup_form.php:110 config_form.php:868
+#: member_form.php:318 qa_config.php:149
+#, php-format
+msgid "Extra field %d"
+msgstr "여분필드 %d"
+
+#: board_form.php:1043 boardgroup_form.php:111 config_form.php:869
+#: qa_config.php:150
+#, php-format
+msgid "Extra field %d Title"
+msgstr "여분필드 %d 제목"
+
+#: board_form.php:1045 boardgroup_form.php:113 config_form.php:871
+#: qa_config.php:152
+#, php-format
+msgid "Extra field %d Value"
+msgstr "여분필드 %d 값"
+
+#: board_form.php:1066
+msgid "Are you sure you want to delete the board thumbnail file?"
+msgstr "게시판 썸네일 파일을 삭제하시겠습니까?"
+
+#: board_form.php:1066
+msgid "Delete Board thumbnail"
+msgstr "게시판 썸네일 삭제"
+
+#: board_form.php:1076
+msgid ""
+"Do you want to apply bulletin board image settings for the current theme?"
+msgstr "현재 테마의 게시판 이미지 설정을 적용하시겠습니까?"
+
+#: board_form.php:1077
+msgid "The number of non-modifiable comments must be at least 0."
+msgstr "원글 수정 불가 댓글수는 0 이상 입력하셔야 합니다."
+
+#: board_form.php:1078
+msgid ""
+"You must enter at least 1 for the number of original comments that can not "
+"be deleted."
+msgstr "원글 삭제 불가 댓글수는 1 이상 입력하셔야 합니다."
+
+#: board_form_update.php:12
+msgid "You must select a group ID."
+msgstr "그룹 ID는 반드시 선택하세요."
+
+#: board_form_update.php:13
+msgid "Be sure to enter the bulletin board TABLE name."
+msgstr "게시판 TABLE명은 반드시 입력하세요."
+
+#: board_form_update.php:15
+msgid "Please enter a bulletin board title."
+msgstr "게시판 제목을 입력하세요."
+
+#: board_form_update.php:29 contentformupdate.php:35 qa_config_update.php:19
+msgid "The extension of the header file path only accepts php, htm, html."
+msgstr "상단 파일 경로의 확장자는 php, html 만 허용합니다."
+
+#: board_form_update.php:37 contentformupdate.php:44 qa_config_update.php:27
+msgid "The extension of the footer file path only accepts php, htm, html."
+msgstr "하단 파일 경로의 확장자는 php, html 만 허용합니다."
+
+#: board_form_update.php:172
+#, php-format
+msgid "%s is already a TABLE."
+msgstr "%s 은(는) 이미 존재하는 TABLE 입니다."
+
+#: board_list.php:49 point_list.php:49 poll_list.php:45
+msgid "All List"
+msgstr "전체목록"
+
+#: board_list.php:59
+msgid "Number of Boards generated"
+msgstr "생성된 게시판수"
+
+#: board_list.php:59 boardgroup_list.php:63 contentlist.php:28
+#: editorimglist.php:110 faqmasterlist.php:28 newwinlist.php:21
+#: point_list.php:74 poll_list.php:55 popular_list.php:75 popular_rank.php:46
+msgid "Count"
+msgstr "건"
+
+#: board_list.php:64 boardgroup_list.php:67 boardgroupmember_list.php:60
+#: editorimglist.php:124 member_list.php:79 point_list.php:87 poll_list.php:60
+#: popular_list.php:81
+msgid "Search target"
+msgstr "검색대상"
+
+#: board_list.php:67 boardgroup_list.php:69 faqmasterlist.php:50
+#: mail_list.php:42 newwinlist.php:34 poll_list.php:62 poll_list.php:89
+#: qa_config.php:24
+msgid "Title"
+msgstr "제목"
+
+#: board_list.php:68 boardgroup_form.php:48 boardgroup_list.php:96
+#: boardgroupmember_form.php:62
+msgid "Group ID"
+msgstr "그룹ID"
+
+#: board_list.php:70 boardgroup_list.php:73 member_list.php:93
+#: point_list.php:92 poll_list.php:64 popular_list.php:83 popular_list.php:86
+#: popular_list.php:109 popular_rank.php:75
+msgid "Search term"
+msgstr "검색어"
+
+#: board_list.php:91
+msgid "All Boards"
+msgstr "게시판 전체"
+
+#: board_list.php:94 boardgroup_list.php:97 contentform.php:53
+#: contentlist.php:41 faqlist.php:52 faqmasterform.php:51
+#: menu_form_search.php:36
+msgid "Subject"
+msgstr "제목"
+
+#: board_list.php:95 board_list.php:141
+msgid "Skin"
+msgstr "스킨"
+
+#: board_list.php:96
+msgctxt "Read Point"
+msgid "Read P"
+msgstr "읽기 P"
+
+#: board_list.php:96 board_list.php:97 board_list.php:106 board_list.php:107
+#: config_form.php:591 member_list.php:88 point_list.php:78 point_list.php:81
+#: point_list.php:116 point_list.php:207 poll_form.php:74 poll_form.php:76
+msgid "Point"
+msgstr "점"
+
+#: board_list.php:97
+msgctxt "Comments Point"
+msgid "Comment P"
+msgstr "댓글 P"
+
+#: board_list.php:98 board_list.php:157
+msgid "Use SNS"
+msgstr "SNS 사용"
+
+#: board_list.php:99 board_list.php:162 boardgroup_list.php:102
+msgid "Output sort"
+msgstr "출력 순서"
+
+#: board_list.php:105 board_list.php:189
+msgid "Mobile Skin"
+msgstr "모바일 스킨"
+
+#: board_list.php:106
+msgctxt "Write Point"
+msgid "Write P"
+msgstr "쓰기 P"
+
+#: board_list.php:107
+msgctxt "Download Point"
+msgid "Down P"
+msgstr "다운 P"
+
+#: board_list.php:108 board_list.php:205
+msgid "Use search"
+msgstr "검색 사용"
+
+#: board_list.php:136
+msgid "Board subject"
+msgstr "게시판 제목"
+
+#: board_list.php:152
+msgid "Comment Point"
+msgstr "댓글 포인트"
+
+#: board_list.php:195
+msgid "Point Write"
+msgstr "쓰기 포인트"
+
+#: board_list.php:200
+msgid "Point Download"
+msgstr "다운 포인트"
+
+#: board_list.php:212 boardgroup_list.php:53 boardgroup_list.php:156
+#: contentlist.php:27 faqmasterlist.php:27 mail_select_form.php:57
+#: mail_select_form.php:75 mail_select_form.php:100 newwinlist.php:21
+#: point_list.php:74
+msgid "All"
+msgstr "전체"
+
+#: board_list.php:213 boardgroup_list.php:157 newwinform.php:50
+msgid "PC"
+msgstr "PC"
+
+#: board_list.php:214 boardgroup_list.php:158 newwinform.php:51
+#: newwinlist.php:58
+msgid "MOBILE"
+msgstr "모바일"
+
+#: board_list.php:230 boardgroup_list.php:173 member_list.php:272
+msgid "Modify Selection"
+msgstr "선택수정"
+
+#: board_list.php:232 boardgroup_list.php:174 boardgroupmember_form.php:100
+#: boardgroupmember_list.php:136 editorimglist.php:215 member_list.php:273
+#: point_list.php:182 poll_list.php:132 popular_list.php:145
+msgid "Delete Selection"
+msgstr "선택삭제"
+
+#: board_list.php:235
+msgid "Add Board"
+msgstr "게시판 추가"
+
+#: board_list_update.php:29
+#, php-format
+msgid ""
+"If you are not a top administrator, the bulletin board ( %s ) of the other "
+"administrators can not be modified."
+msgstr "최고관리자가 아닌 경우 다른 관리자의 게시판( %s )은 수정이 불가합니다."
+
+#: board_list_update.php:53
+msgid "You can delete bulletin boards only for Super admin."
+msgstr "게시판 삭제는 최고관리자만 가능합니다."
+
+#: board_thumbnail_delete.php:10
+#, php-format
+msgid "Delete thumbnail - board %s"
+msgstr "%s 게시판 썸네일 삭제"
+
+#: board_thumbnail_delete.php:16 cache_file_delete.php:14
+#: captcha_file_delete.php:14 session_file_delete.php:14
+#: thumbnail_file_delete.php:14
+msgid ""
+"Do not stop the program from running until you receive a completion message."
+msgstr "완료 메세지가 나오기 전에 프로그램의 실행을 중지하지 마십시오."
+
+#: board_thumbnail_delete.php:41 cache_file_delete.php:44
+#: captcha_file_delete.php:46 session_file_delete.php:26
+#: thumbnail_file_delete.php:66
+msgid "Completed"
+msgstr "완료됨"
+
+#: board_thumbnail_delete.php:42
+#, php-format
+msgid "%s thumbnails have been deleted."
+msgstr "썸네일 %s 건의 삭제 완료됐습니다."
+
+#: board_thumbnail_delete.php:44
+msgid "Attachment directory does not exist."
+msgstr "첨부파일 디렉토리가 존재하지 않습니다."
+
+#: board_thumbnail_delete.php:48
+msgid "Return to Modify Bulletin"
+msgstr "게시판 수정으로 돌아가기"
+
+#: boardgroup_form.php:9 menu_form.php:30 menu_form_search.php:45
+msgid "Board Group"
+msgstr "게시판그룹"
+
+#: boardgroup_form.php:23
+msgid "The parameters is wrong."
+msgstr "파라미터가 잘못 되었습니다."
+
+#: boardgroup_form.php:31
+msgid "You need at least one board group to create a board."
+msgstr "게시판을 생성하시려면 1개 이상의 게시판그룹이 필요합니다."
+
+#: boardgroup_form.php:32
+msgid ""
+"Using the bulletin board group will help you manage the bulletin board more "
+"effectively."
+msgstr "게시판그룹을 이용하시면 더 효과적으로 게시판을 관리할 수 있습니다."
+
+#: boardgroup_form.php:52
+msgid "Alphabetic, numeric, _ only (without spaces)"
+msgstr "영문자, 숫자, _ 만 가능 (공백없이)"
+
+#: boardgroup_form.php:54
+msgid "Redirect Board Group"
+msgstr "게시판그룹 바로가기"
+
+#: boardgroup_form.php:58 boardgroup_list.php:132
+msgid "Group Subject"
+msgstr "그룹제목"
+
+#: boardgroup_form.php:63
+msgid "Create Board"
+msgstr "게시판생성"
+
+#: boardgroup_form.php:79 boardgroup_list.php:71 boardgroup_list.php:98
+#: boardgroup_list.php:137
+msgid "Group Admin"
+msgstr "그룹관리자"
+
+#: boardgroup_form.php:90 boardgroup_list.php:145
+msgid "Access Member Usage"
+msgstr "접근회원 사용"
+
+#: boardgroup_form.php:92
+msgid ""
+"If you check the use, only accessible members can access the bulletin boards "
+"belonging to this group."
+msgstr ""
+"사용에 체크하시면 이 그룹에 속한 게시판은 접근가능한 회원만 접근이 가능합니"
+"다."
+
+#: boardgroup_form.php:98 boardgroup_list.php:101
+msgid "Access members"
+msgstr "접근 회원수"
+
+#: boardgroup_form_update.php:15
+msgid ""
+"Group ID available only letters, numbers, _ with no spaces. (10 characters)"
+msgstr "그룹 ID는 공백없이 영문자, 숫자, _ 만 사용 가능합니다. (10자 이내)"
+
+#: boardgroup_form_update.php:17
+msgid "Please enter a group title."
+msgstr "그룹 제목을 입력하세요."
+
+#: boardgroup_form_update.php:54
+msgid "Group ID already exists."
+msgstr "이미 존재하는 그룹 ID 입니다."
+
+#: boardgroup_form_update.php:69
+msgid "Invalid values."
+msgstr "값이 유효하지 않습니다."
+
+#: boardgroup_list.php:55
+msgid "Manage bbs Groups"
+msgstr "게시판그룹설정"
+
+#: boardgroup_list.php:63
+msgid "Total group"
+msgstr "전체그룹"
+
+#: boardgroup_list.php:93
+msgid "Group All"
+msgstr "그룹 전체"
+
+#: boardgroup_list.php:100
+msgctxt "Only permitted members are allowed to use."
+msgid "Access Usage"
+msgstr "접근 사용"
+
+#: boardgroup_list.php:150
+msgid "Main Menu Output Order"
+msgstr "메인메뉴 출력순서"
+
+#: boardgroup_list.php:175
+msgid "Add Group"
+msgstr "그룹 추가"
+
+#: boardgroup_list.php:181
+msgid ""
+"If you set the option to use access, only members designated by the "
+"administrator can access the group."
+msgstr ""
+"접근사용 옵션을 설정하시면 관리자가 지정한 회원만 해당 그룹에 접근할 수 있습"
+"니다."
+
+#: boardgroup_list.php:182
+msgid "The Enable Access option applies to all bulletins in the group."
+msgstr "접근사용 옵션은 해당 그룹에 속한 모든 게시판에 적용됩니다."
+
+#: boardgroup_list_update.php:16
+#, php-format
+msgid "Please select at least one bulletin board group to %s."
+msgstr "%s 할 게시판그룹을 1개이상 선택해 주세요."
+
+#: boardgroup_list_update.php:38
+msgid "A bulletin board belonging to this group exists and can not be deleted."
+msgstr "이 그룹에 속한 게시판이 존재하여 게시판 그룹을 삭제할 수 없습니다."
+
+#: boardgroup_list_update.php:38
+msgid "Please delete the bulletin boards that belong to this group first."
+msgstr "이 그룹에 속한 게시판을 먼저 삭제하여 주십시오."
+
+#: boardgroupmember_form.php:9 boardgroupmember_update.php:13
+msgid "This member does not exist."
+msgstr "존재하지 않는 회원입니다."
+
+#: boardgroupmember_form.php:11
+msgid "Accessible groups"
+msgstr "접근가능그룹"
+
+#: boardgroupmember_form.php:21 member_form.php:97 member_list.php:122
+msgid "ID"
+msgstr "아이디"
+
+#: boardgroupmember_form.php:21 boardgroupmember_list.php:90 index.php:104
+#: index.php:207 mail_select_list.php:80 member_form_update.php:70
+#: member_form_update.php:76 member_form_update.php:82
+#: member_form_update.php:106 member_form_update.php:112 member_list.php:83
+#: member_list.php:134 point_list.php:115
+msgid "Name"
+msgstr "이름"
+
+#: boardgroupmember_form.php:22
+msgid "Assign Group"
+msgstr "그룹지정"
+
+#: boardgroupmember_form.php:24 boardgroupmember_form.php:108
+msgid "Please select an accessible group."
+msgstr "접근가능 그룹을 선택하세요."
+
+#: boardgroupmember_form.php:59
+msgid "All accessible groups"
+msgstr "접근가능그룹 전체"
+
+#: boardgroupmember_form.php:64 boardgroupmember_list.php:93
+msgid "Processing date"
+msgstr "처리일시"
+
+#: boardgroupmember_form.php:92
+msgid "No groups are accessible."
+msgstr "접근가능한 그룹이 없습니다."
+
+#: boardgroupmember_form.php:107 boardgroupmember_list.php:145
+#: editorimglist.php:227 mail_list.php:91 poll_list.php:143
+#: popular_list.php:157
+msgid "Select at least one item to delete."
+msgstr "선택삭제 하실 항목을 하나 이상 선택하세요."
+
+#: boardgroupmember_list.php:9 boardgroupmember_update.php:18
+msgid "This group does not exist."
+msgstr "존재하지 않는 그룹입니다."
+
+#: boardgroupmember_list.php:52
+#, php-format
+msgid "%s group accessible members (group ID : %s)"
+msgstr "%s 그룹 접근가능회원 (그룹아이디: %s)"
+
+#: boardgroupmember_list.php:64
+msgid "Search terms"
+msgstr "검색어"
+
+#: boardgroupmember_list.php:85
+msgid "All accessible members"
+msgstr "접근가능회원 전체"
+
+#: boardgroupmember_list.php:92
+msgctxt "Last Login Date"
+msgid "Last login"
+msgstr "최근접속일"
+
+#: boardgroupmember_list.php:113 config_form.php:142 member_form.php:81
+msgid "Member"
+msgstr "회원"
+
+#: boardgroupmember_update.php:27
+msgid "This data is already registered."
+msgstr "이미 등록되어 있는 자료입니다."
+
+#: boardgroupmember_update.php:46
+msgid "Please select at least one list to delete."
+msgstr "삭제할 목록을 하나이상 선택해 주세요."
+
+#: boardgroupmember_update.php:56
+msgid "This data does not exist."
+msgstr "존재하지 않는 자료입니다."
+
+#: browscap.php:6 browscap_convert.php:6
+msgid "PHP Version is low and not available."
+msgstr "PHP 버전이 낮아 사용할수 없습니다."
+
+#: browscap.php:16
+msgid ""
+"To update your Browscap information, please click the update button below."
+msgstr "Browscap 정보를 업데이트하시려면 아래 업데이트 버튼을 클릭해 주세요."
+
+#: browscap.php:17 browscap_convert.php:21 browscap_converter.php:74
+msgid "Update"
+msgstr "업데이트"
+
+#: browscap.php:23
+msgid "Browscap Information is being updated"
+msgstr "Browscap 정보를 업데이트 중입니다"
+
+#: browscap.php:24
+msgid "Successfully updated Browscap information."
+msgstr "Browscap 정보를 업데이트 했습니다."
+
+#: browscap_convert.php:20
+msgid ""
+"To convert your connection log information to Browscap information, click "
+"the update button below."
+msgstr ""
+"접속로그 정보를 Browscap 정보로 변환하시려면 아래 업데이트 버튼을 클릭해 주세"
+"요."
+
+#: browscap_convert.php:27
+msgid "Converting to Browscap information."
+msgstr "Browscap 정보로 변환 중입니다."
+
+#: browscap_converter.php:9 browscap_update.php:11
+msgid "Function unavailable."
+msgstr "사용할 수 없는 기능입니다."
+
+#: browscap_converter.php:12
+msgid "Log in as a Super admin and run."
+msgstr "최고관리자로 로그인 후 실행해 주세요."
+
+#: browscap_converter.php:16
+msgid ""
+"Browscap information is missing. Please update your information and browscap "
+"to the link below."
+msgstr ""
+"Browscap 정보가 없습니다. 아래 링크로 이동해 Browscap 정보를 업데이트 하세요."
+
+#: browscap_converter.php:72
+msgid "Conversion complete"
+msgstr "변환완료"
+
+#: browscap_converter.php:74
+#, php-format
+msgid "%s conversion complete ( %s totals )"
+msgstr "%s 건 변환완료 ( 총 %s 건 )"
+
+#: browscap_converter.php:74
+msgid "Click the update button below to convert more connection logs."
+msgstr "접속로그를 추가로 변환하시려면 아래 업데이트 버튼을 클릭해 주세요."
+
+#: browscap_update.php:14
+msgid "Only the Super Admin can access it."
+msgstr "최고관리자만 접근 가능합니다."
+
+#: cache_file_delete.php:8
+msgid "Delete Cache File Batch"
+msgstr "캐시 파일 일괄 삭제"
+
+#: cache_file_delete.php:22
+msgid "Failed to open Cache directory."
+msgstr "캐시 폴더를 열지 못했습니다."
+
+#: cache_file_delete.php:45
+#, php-format
+msgid "%s cachefile data has been deleted."
+msgstr "캐시파일 %s 건 삭제 완료됐습니다."
+
+#: cache_file_delete.php:45 captcha_file_delete.php:47
+#: session_file_delete.php:56 thumbnail_file_delete.php:67
+msgid "You may complete the program."
+msgstr "프로그램의 실행을 끝마치셔도 좋습니다."
+
+#: captcha_file_delete.php:8
+msgid "Delete Captcha File Batch"
+msgstr "캡챠 파일 일괄 삭제"
+
+#: captcha_file_delete.php:22
+msgid "Failed to open Captcha directory."
+msgstr "캡챠 폴더를 열지 못했습니다."
+
+#: captcha_file_delete.php:47
+#, php-format
+msgid "%s captchafile data has been deleted."
+msgstr "캡챠파일 %s 건 삭제 완료됐습니다."
+
+#: config_form.php:44
+msgid "Basic settings"
+msgstr "기본설정"
+
+#: config_form.php:142 config_form.php:149 config_form.php:151
+msgid "Basic environment"
+msgstr "기본환경"
+
+#: config_form.php:142 config_form.php:616 mail_list.php:61
+msgid "Mail"
+msgstr "메일"
+
+#: config_form.php:142
+msgid "SNS"
+msgstr "SNS"
+
+#: config_form.php:142
+msgctxt "Add html head css, script"
+msgid "Add Code"
+msgstr "코드 추가"
+
+#: config_form.php:142
+msgid "DB EXTRA FIELD"
+msgstr "여분필드"
+
+#: config_form.php:155
+msgid "Site Language"
+msgstr "사이트 언어"
+
+#: config_form.php:161
+msgid "Site Translator"
+msgstr "사이트 번역가"
+
+#: config_form.php:166
+msgctxt "Board use rewrite"
+msgid "Board Short URL"
+msgstr "게시판 짧은 URL"
+
+#: config_form.php:166
+msgid "Use short URLs for Boards, content pages, and FAQ pages."
+msgstr "게시판, 내용 페이지, FAQ 페이지에 짧은 URL 을 사용합니다."
+
+#: config_form.php:167 config_form.php:171 config_form.php:733
+msgid "Enable on check"
+msgstr "체크시 활성"
+
+#: config_form.php:170
+msgid "Use Multi Language Data"
+msgstr "다국어 데이터 사용(FAQ, 내용관리)"
+
+#: config_form.php:170
+msgid ""
+"When enabled, content management and FAQ management pages can be entered and "
+"printed by language. When disabled, it integrates as one and inputs and "
+"outputs."
+msgstr ""
+"활성화시 내용 관리, FAQ 관리페이지에 언어별로 입력 및 출력 할수 있습니다. 비"
+"활성화시 하나로 통합하여 입출력합니다."
+
+#: config_form.php:175
+msgid "Site Title"
+msgstr "사이트 제목"
+
+#: config_form.php:180 config_form.php:654
+msgid "Super administrator"
+msgstr "최고관리자"
+
+#: config_form.php:184
+msgid "Admin email address"
+msgstr "관리자 메일 주소"
+
+#: config_form.php:185
+msgid ""
+"Enter the email address used by the administrator for sending and receiving. "
+"(Used in sign-up, certified mail, testing, sending member mails, etc."
+msgstr ""
+"관리자가 보내고 받는 용도로 사용하는 메일 주소를 입력합니다. (회원가입, 인증"
+"메일, 테스트, 회원메일발송 등에서 사용)"
+
+#: config_form.php:190
+msgid "Admin mailing name"
+msgstr "관리자 메일 발송이름"
+
+#: config_form.php:191
+msgid ""
+"Type the shipping name of the mail that the administrator uses for sending "
+"and receiving purposes. (Used in sign-up, certified mail, testing, sending "
+"member mails, etc.)"
+msgstr ""
+"관리자가 보내고 받는 용도로 사용하는 메일의 발송이름을 입력합니다. (회원가"
+"입, 인증메일, 테스트, 회원메일발송 등에서 사용)"
+
+#: config_form.php:196
+msgid "Using Points"
+msgstr "포인트 사용"
+
+#: config_form.php:197
+msgid "used"
+msgstr "사용"
+
+#: config_form.php:200
+msgid "Login point"
+msgstr "로그인 포인트"
+
+#: config_form.php:201
+msgid "Set up only once a day when a member logs in"
+msgstr "회원이 로그인시 하루에 한번만 적립"
+
+#: config_form.php:202 config_form.php:207 config_form.php:442
+#: config_form.php:446 config_form.php:450 config_form.php:454
+#: config_form.php:541
+msgid "point"
+msgstr "포인트"
+
+#: config_form.php:205
+msgid "Deduction point when sending memo"
+msgstr "쪽지보낼시 차감 포인트"
+
+#: config_form.php:206
+msgid ""
+"Please enter a positive number. 0 points do not deduct points when sending a "
+"note."
+msgstr "양수로 입력하십시오. 0점은 쪽지 보낼시 포인트를 차감하지 않습니다."
+
+#: config_form.php:211
+msgid "Display Name"
+msgstr "이름(닉네임) 표시"
+
+#: config_form.php:212
+msgid "Display Cut string"
+msgstr "자리만 표시"
+
+#: config_form.php:215
+msgid "Edit nickname"
+msgstr "닉네임 수정"
+
+#: config_form.php:216 config_form.php:220
+msgid "Could not edit for input days"
+msgstr "입력한 일 동안 수정할수 없습니다"
+
+#: config_form.php:219
+msgid "Edit information disclosure"
+msgstr "정보공개 수정"
+
+#: config_form.php:223
+msgid "Remove latest posts"
+msgstr "최근게시물 삭제"
+
+#: config_form.php:224
+msgid "Automatically delete new posts past the set date"
+msgstr "설정일이 지난 최근게시물 자동 삭제"
+
+#: config_form.php:225 config_form.php:231 config_form.php:237
+#: config_form.php:243 config_form.php:249
+msgid "days"
+msgstr "일"
+
+#: config_form.php:229
+msgid "Remove memo"
+msgstr "쪽지 삭제"
+
+#: config_form.php:230
+msgid "Automatically delete memos past the set date"
+msgstr "설정일이 지난 쪽지 자동 삭제"
+
+#: config_form.php:235
+msgid "Remove visitor log"
+msgstr "접속자 로그 삭제"
+
+#: config_form.php:236
+msgid "Automatically delete visiter logs older than the set date"
+msgstr "설정일이 지난 접속자 로그 자동 삭제"
+
+#: config_form.php:241
+msgid "Remove notifications"
+msgstr "알림 삭제"
+
+#: config_form.php:242
+msgid "Automatically delete notification past the set date"
+msgstr "설정일이 지난 알림 자동 삭제"
+
+#: config_form.php:247
+msgid "Remove Top Searches"
+msgstr "인기검색어 삭제"
+
+#: config_form.php:248
+msgid ""
+"Automatically delete popular search terms that are older than the set date"
+msgstr "설정일이 지난 인기검색어 자동 삭제"
+
+#: config_form.php:253
+msgid "Connected visitor"
+msgstr "접속된 방문자"
+
+#: config_form.php:254
+msgid "User within set value is recognized as current user"
+msgstr "설정값 이내의 접속자를 현재 접속자로 인정"
+
+#: config_form.php:255
+msgid "headcount"
+msgstr "인원수"
+
+#: config_form.php:259
+msgid "latest Post lines"
+msgstr "최근게시물 라인수"
+
+#: config_form.php:260
+msgid "Lines per page in the list"
+msgstr "목록 한페이지당 라인수"
+
+#: config_form.php:261 config_form.php:267 config_form.php:273
+msgid "line"
+msgstr "라인"
+
+#: config_form.php:265
+msgid "Lines per page"
+msgstr "한페이지당 라인수"
+
+#: config_form.php:266
+msgid "List (list) lines per page"
+msgstr "목록(리스트) 한페이지당 라인수"
+
+#: config_form.php:271
+msgid "Lines per page for mobile"
+msgstr "모바일 한페이지당 라인수"
+
+#: config_form.php:272
+msgid "Line Count per Mobile List Page"
+msgstr "모바일 목록 한페이지당 라인수"
+
+#: config_form.php:277
+msgid "Display setting for page number"
+msgstr "페이지 표시 수"
+
+#: config_form.php:278 config_form.php:283
+msgid "Show per page"
+msgstr "페이지씩 표시"
+
+#: config_form.php:282
+msgid "Display setting for page number ( MOBILE )"
+msgstr "모바일 페이지 표시 수"
+
+#: config_form.php:287
+msgid "Latest Posts Skin"
+msgstr "최근게시물 스킨"
+
+#: config_form.php:292
+msgid "Latest Posts skin ( MOBILE )"
+msgstr "모바일 최근게시물 스킨"
+
+#: config_form.php:297
+msgid "Search skin"
+msgstr "검색 스킨"
+
+#: config_form.php:303
+msgid "Search skin ( MOBILE )"
+msgstr "모바일 검색 스킨"
+
+#: config_form.php:308
+msgid "Connector skin"
+msgstr "접속자 스킨"
+
+#: config_form.php:313
+msgid "Connector skin ( MOBILE )"
+msgstr "모바일 접속자 스킨"
+
+#: config_form.php:318
+msgid "FAQ skin"
+msgstr "FAQ 스킨"
+
+#: config_form.php:323
+msgid "FAQ skin ( MOBILE )"
+msgstr "모바일 FAQ 스킨"
+
+#: config_form.php:327
+msgid "Select editor"
+msgstr "에디터 선택"
+
+#: config_form.php:328
+#, php-format
+msgid "Select the DHTML Editor folder under %s."
+msgstr "%s 밑의 DHTML 에디터 폴더를 선택합니다."
+
+#: config_form.php:333
+msgid "not use"
+msgstr "사용 안함"
+
+#: config_form.php:341
+msgid "Select captcha"
+msgstr "캡챠 선택"
+
+#: config_form.php:350
+msgid "Select captcha sound"
+msgstr "음성캡챠 선택"
+
+#: config_form.php:351
+#, php-format
+msgid "When using kcaptcha, select the voice folder under %s."
+msgstr "Kcaptcha 사용시 %s 밑의 음성 폴더를 선택합니다."
+
+#: config_form.php:364
+msgid "Google reCAPTCHA Site key"
+msgstr "구글 reCAPTCHA Site key"
+
+#: config_form.php:365
+msgid ""
+"The sitekey and secret keys of the re-caPTCHA V2 and the Invisible reCAPTCHA "
+"CAPTCHA CAPTCHA are not the same; they have different keys issued."
+msgstr ""
+"ReCAPTCHA V2와 Invisible reCAPTCHA 캡챠의 sitekey 와 secret 키는 동일하지 않"
+"고, 서로 발급받는 키가 다릅니다."
+
+#: config_form.php:367
+msgid "Register reCAPTCHA"
+msgstr "리캡차 등록"
+
+#: config_form.php:370
+msgid "Google reCAPTCHA Secret key"
+msgstr "구글 reCAPTCHA Secret key"
+
+#: config_form.php:375
+msgid "Copy, move log"
+msgstr "복사, 이동시 로그"
+
+#: config_form.php:377
+msgid "Copy from whom, marked moved under post"
+msgstr "게시물 아래에 누구로 부터 복사, 이동됨 표시"
+
+#: config_form.php:378
+msgid "record"
+msgstr "기록"
+
+#: config_form.php:382
+msgid "Point expiry date"
+msgstr "포인트 유효기간"
+
+#: config_form.php:383
+msgid ""
+"The point validity period does not take effect when the period is set to 0."
+msgstr "기간을 0으로 설정시 포인트 유효기간이 적용되지 않습니다."
+
+#: config_form.php:385
+msgid "day"
+msgstr "일"
+
+#: config_form.php:389
+msgid "Access IP"
+msgstr "접근가능 IP"
+
+#: config_form.php:390
+msgid "Only computers with the entered IP can be accessed."
+msgstr "입력된 IP의 컴퓨터만 접근할 수 있습니다."
+
+#: config_form.php:390 config_form.php:396
+msgid "123.123. + can be entered. (Separate by enter)"
+msgstr "123.123.+ 도 입력 가능. (엔터로 구분)"
+
+#: config_form.php:395
+msgid "BLOCK IP"
+msgstr "접근차단 IP"
+
+#: config_form.php:396
+msgid "Computers with the IP entered are inaccessible."
+msgstr "입력된 IP의 컴퓨터는 접근할 수 없음."
+
+#: config_form.php:401
+msgid "Visitor Analysis Script"
+msgstr "방문자분석 스크립트"
+
+#: config_form.php:402
+msgid "Enter the visitor analysis script code. E.g.) Google Analytics"
+msgstr "방문자분석 스크립트 코드를 입력합니다. 예) 구글 애널리틱스"
+
+#: config_form.php:407
+msgid "Add Meta tag"
+msgstr "추가 메타태그"
+
+#: config_form.php:408
+msgid "Enter additional meta tag to use."
+msgstr "추가로 사용하실 meta 태그를 입력합니다."
+
+#: config_form.php:413
+msgid "Import theme skin settings"
+msgstr "테마 스킨설정 가져오기"
+
+#: config_form.php:420
+msgid "Can be set individually in each bulletin board management"
+msgstr "각 게시판 관리에서 개별적으로 설정할 수 있습니다"
+
+#: config_form.php:426
+msgid "Intervals during for writing"
+msgstr "글쓰기 간격"
+
+#: config_form.php:427
+msgid "Intervals after"
+msgstr "초 지난후 가능"
+
+#: config_form.php:430
+msgid "Link for target"
+msgstr "링크 타겟"
+
+#: config_form.php:431
+msgid "Specifies the target of the link is automatically posts content."
+msgstr "글내용중 자동 링크되는 타켓을 지정합니다."
+
+#: config_form.php:441
+msgid "Read points"
+msgstr "글읽기 포인트"
+
+#: config_form.php:445
+msgid "Write points"
+msgstr "글쓰기 포인트"
+
+#: config_form.php:449
+msgid "Comment points"
+msgstr "댓글쓰기 포인트"
+
+#: config_form.php:453
+msgid "Download points"
+msgstr "다운로드 포인트"
+
+#: config_form.php:457
+msgid "Search Units"
+msgstr "검색단위"
+
+#: config_form.php:458
+msgid "Units use Search"
+msgstr "건 단위로 검색"
+
+#: config_form.php:461
+msgid "Allowed image extensions"
+msgstr "이미지 업로드 확장자"
+
+#: config_form.php:462
+msgid "Allowed image extensions separated by( period or vertical bar )"
+msgstr "게시판 글작성시 이미지 파일 업로드 가능 확장자. | 로 구분"
+
+#: config_form.php:468
+msgid "Allowed movie extensions"
+msgstr "동영상 업로드 확장자"
+
+#: config_form.php:469
+msgid "Allowed movie extensions separated by( period or vertical bar )"
+msgstr "게시판 글작성시 동영상 파일 업로드 가능 확장자. | 로 구분"
+
+#: config_form.php:474
+msgid "Filter words"
+msgstr "단어 필터링"
+
+#: config_form.php:475
+msgid ""
+"The Contents contained is entered word can not published. The words between "
+"words, separated by commas."
+msgstr ""
+"입력된 단어가 포함된 내용은 게시할 수 없습니다. 단어와 단어 사이는 ,로 구분합"
+"니다."
+
+#: config_form.php:483
+msgid "Member Page"
+msgstr "회원 페이지"
+
+#: config_form.php:485
+msgid "Membership Settings"
+msgstr "원가입 설정"
+
+#: config_form.php:487
+msgid ""
+"You can set the skin to use and the information to receive when signing up."
+msgstr "회원가입 시 사용할 스킨과 입력 받을 정보 등을 설정할 수 있습니다."
+
+#: config_form.php:493
+msgid "Member Skin"
+msgstr "회원 스킨"
+
+#: config_form.php:497
+msgid "Member Skin ( MOBILE )"
+msgstr "모바일 회원 스킨"
+
+#: config_form.php:502
+msgid "Enter homepage"
+msgstr "홈페이지 입력"
+
+#: config_form.php:503 config_form.php:508 config_form.php:514
+#: config_form.php:520 config_form.php:526 config_form.php:531 qa_config.php:53
+#: qa_config.php:60
+msgid "Show"
+msgstr "보이기"
+
+#: config_form.php:507
+msgid "Enter address"
+msgstr "주소 입력"
+
+#: config_form.php:513
+msgid "Enter Phone Number"
+msgstr "전화번호 입력"
+
+#: config_form.php:519
+msgid "Enter Mobile Number"
+msgstr "휴대폰번호 입력"
+
+#: config_form.php:525
+msgid "Enter signature"
+msgstr "서명 입력"
+
+#: config_form.php:530
+msgid "Enter Self Introduction"
+msgstr "자기소개 입력"
+
+#: config_form.php:536
+msgid "Permission at Register"
+msgstr "회원가입시 권한"
+
+#: config_form.php:540
+msgid "Points in Register"
+msgstr "회원가입시 포인트"
+
+#: config_form.php:544
+msgid "Deletion date after member withdrawal"
+msgstr "회원탈퇴후 삭제일"
+
+#: config_form.php:545
+msgid "Automatically delete after days"
+msgstr "일 후 자동 삭제"
+
+#: config_form.php:548
+msgid "Enable Member Icon"
+msgstr "회원아이콘 사용"
+
+#: config_form.php:549
+msgid "Use icon instead of publisher's nickname for posts"
+msgstr "게시물에 게시자 닉네임 대신 아이콘 사용"
+
+#: config_form.php:551
+msgid "Unused"
+msgstr "미사용"
+
+#: config_form.php:552
+msgid "Show Icons Only"
+msgstr "아이콘만 표시"
+
+#: config_form.php:553
+msgid "Show Icon + Display Name"
+msgstr "아이콘+이름 표시"
+
+#: config_form.php:557
+msgid "Member icon, image upload Level"
+msgstr "회원 아이콘, 이미지 업로드 권한"
+
+#: config_form.php:558
+msgid "More than"
+msgstr "이상"
+
+#: config_form.php:561
+msgid "Member icon capacity"
+msgstr "회원아이콘 용량"
+
+#: config_form.php:562 config_form.php:574
+msgid "Bytes or less"
+msgstr "바이트 이하"
+
+#: config_form.php:565
+msgid "Member icon size"
+msgstr "회원아이콘 사이즈"
+
+#: config_form.php:566 config_form.php:578
+msgid "width"
+msgstr "가로"
+
+#: config_form.php:568 config_form.php:580
+msgid "height"
+msgstr "높이"
+
+#: config_form.php:570 config_form.php:582
+msgid "Pixel or less"
+msgstr "픽셀 이하"
+
+#: config_form.php:573
+msgid "Member image capacity"
+msgstr "회원이미지 용량"
+
+#: config_form.php:577
+msgid "Member image size"
+msgstr "회원이미지 사이즈"
+
+#: config_form.php:586
+msgid "Use of recommender system"
+msgstr "추천인제도 사용"
+
+#: config_form.php:587 config_form.php:628 config_form.php:635
+#: config_form.php:656 config_form.php:662 config_form.php:668
+#: config_form.php:674 config_form.php:680 config_form.php:694
+#: config_form.php:701 config_form.php:715
+msgid "Used"
+msgstr "사용"
+
+#: config_form.php:590
+msgid "Recommendation point"
+msgstr "추천인 포인트"
+
+#: config_form.php:594
+msgid "Id, nickname forbidden word"
+msgstr "아이디,닉네임 금지단어"
+
+#: config_form.php:595
+msgid ""
+"Select a member ID and a word that can not be used as a nickname. Comma (,) "
+"separated"
+msgstr ""
+"회원아이디, 닉네임으로 사용할 수 없는 단어를 정합니다. 쉼표 (,) 로 구분"
+
+#: config_form.php:599
+msgid "Input prohibited mail"
+msgstr "입력 금지 메일"
+
+#: config_form.php:604
+msgid "Terms and conditions of Register"
+msgstr "회원가입약관"
+
+#: config_form.php:608
+msgid "Privacy Policy"
+msgstr "개인정보처리방침"
+
+#: config_form.php:613
+msgid "Get theme member skin settings"
+msgstr "테마 회원스킨설정 가져오기"
+
+#: config_form.php:619
+msgid "Default Mail Environment"
+msgstr "기본메일환경"
+
+#: config_form.php:627
+msgid ""
+"If you don't check, don't use Mail Sending at all. You can not test your "
+"mail."
+msgstr ""
+"체크하지 않으면 메일발송을 아예 사용하지 않습니다. 메일 테스트도 불가합니다."
+
+#: config_form.php:632
+msgid "Enable Mail Authentication"
+msgstr "메일인증 사용"
+
+#: config_form.php:633
+msgid ""
+"Social login members using SNS do not authenticate member mail. For general "
+"members only."
+msgstr ""
+"SNS를 이용한 소셜로그인 한 회원은 회원메일인증을 하지 않습니다. 일반회원에게"
+"만 해당됩니다."
+
+#: config_form.php:634
+msgid ""
+"Do must click the authentication address delivered in member's mail to "
+"accept it as a member."
+msgstr "메일에 배달된 인증 주소를 클릭하여야 회원으로 인정합니다."
+
+#: config_form.php:639
+msgid "Formmail use status"
+msgstr "폼메일 사용 여부"
+
+#: config_form.php:641
+msgid "If not checked, non-members can also be used."
+msgstr "체크하지 않으면 비회원도 사용 할 수 있습니다."
+
+#: config_form.php:642
+msgid "Use for members only"
+msgstr "회원만 사용"
+
+#: config_form.php:648
+msgid "Mail settings when writing bulletin boards"
+msgstr "게시판 글 작성 시 메일 설정"
+
+#: config_form.php:655 config_form.php:693 config_form.php:714
+msgid "Send mail to Super Admin."
+msgstr "최고관리자에게 메일을 발송합니다."
+
+#: config_form.php:660
+msgid "Group administrator"
+msgstr "그룹관리자"
+
+#: config_form.php:661
+msgid "Send mail to Group Admin."
+msgstr "그룹관리자에게 메일을 발송합니다."
+
+#: config_form.php:666
+msgid "Board administrator"
+msgstr "게시판관리자"
+
+#: config_form.php:667
+msgid "Sends a mail to the board admin."
+msgstr "게시판관리자에게 메일을 발송합니다."
+
+#: config_form.php:672
+msgid "A writer"
+msgstr "원글작성자"
+
+#: config_form.php:673
+msgid "Send a mail to the original post writer."
+msgstr "게시자님께 메일을 발송합니다."
+
+#: config_form.php:678
+msgid "Comment writer"
+msgstr "댓글작성자"
+
+#: config_form.php:679
+msgid ""
+"If a comment is posted on the original post, it will be sent to everyone who "
+"wrote the comment."
+msgstr "원글에 댓글이 올라오는 경우 댓글 쓴 모든 분들께 메일을 발송합니다."
+
+#: config_form.php:686
+msgid "Mail setting when joining a membership"
+msgstr "회원가입 시 메일 설정"
+
+#: config_form.php:691 config_form.php:712
+msgid "Send Super Administrator Mail"
+msgstr "최고관리자 메일발송"
+
+#: config_form.php:698
+msgid "Send mail to members"
+msgstr "회원님께 메일발송"
+
+#: config_form.php:700
+msgid "Send an email to a member who has joined."
+msgstr "회원가입한 회원님께 메일을 발송합니다."
+
+#: config_form.php:707
+msgid "Set up mail when writing a poll or comments"
+msgstr "투표 기타의견 작성 시 메일 설정"
+
+#: config_form.php:725
+msgid "Social Network Service"
+msgstr "소셜네트워크서비스"
+
+#: config_form.php:729 config_form.php:736
+msgid "Social Login Settings"
+msgstr "소셜로그인설정"
+
+#: config_form.php:730
+msgid "Use social login."
+msgstr "소셜로그인을 사용합니다."
+
+#: config_form.php:731
+msgid "View manual related to settings"
+msgstr "설정 관련 메뉴얼 보기"
+
+#: config_form.php:739
+msgid "Use Facebook login"
+msgstr "페이스북 로그인 사용"
+
+#: config_form.php:740
+msgid "Facebook Valid OAuth Redirect URI"
+msgstr "페이스북 유효한 OAuth 리디렉션 URI"
+
+#: config_form.php:745
+msgid "Use Google login"
+msgstr "구글 로그인 사용"
+
+#: config_form.php:746
+msgid "Google Authorized Redirect URI"
+msgstr "구글 승인된 리디렉션 URI"
+
+#: config_form.php:751
+msgid "Use Twitter login"
+msgstr "트위터 로그인 사용"
+
+#: config_form.php:752
+msgid "Twitter CallbackURL"
+msgstr "트위터 CallbackURL"
+
+#: config_form.php:757
+msgid "Use Github login"
+msgstr "깃허브 로그인 사용"
+
+#: config_form.php:758
+msgid "Github Authorization callback URL"
+msgstr "깃허브 승인된 콜백 URL"
+
+#: config_form.php:763
+msgid "Use Naver login"
+msgstr "네이버 로그인 사용"
+
+#: config_form.php:764
+msgid "Naver CallbackURL"
+msgstr "네이버 콜백 URL"
+
+#: config_form.php:769
+msgid "Use Kakao login"
+msgstr "카카오 로그인 사용"
+
+#: config_form.php:770
+msgid "Kakao Web Redirect Path"
+msgstr "카카오 웹 Redirect Path"
+
+#: config_form.php:775
+msgid "Facebook APP ID"
+msgstr "페이스북 APP ID"
+
+#: config_form.php:776 config_form.php:784 config_form.php:796
+#: config_form.php:804 config_form.php:812 config_form.php:820
+msgid "Register app"
+msgstr "앱 등록하기"
+
+#: config_form.php:779
+msgid "Facebook APP Secret"
+msgstr "페이스북 앱 Secret"
+
+#: config_form.php:783
+msgid "Google Client ID"
+msgstr "구글 Client ID"
+
+#: config_form.php:787
+msgid "Google Client Secret"
+msgstr "구글 Client Secret"
+
+#: config_form.php:791
+msgid "Google Short URL API Key"
+msgstr "구글 짧은주소 API Key"
+
+#: config_form.php:792
+msgid "Register API KEY"
+msgstr "API Key 등록하기"
+
+#: config_form.php:795
+msgid "Twitter Consumer Key"
+msgstr "트위터 Consumer Key"
+
+#: config_form.php:799
+msgid "Twitter Consumer Secret"
+msgstr "트위터 Consumer Secret"
+
+#: config_form.php:803
+msgid "Github Client ID"
+msgstr "깃허브 Client ID"
+
+#: config_form.php:807
+msgid "Github Client Secret"
+msgstr "깃허브 Client Secret"
+
+#: config_form.php:811
+msgid "Naver Client ID"
+msgstr "네이버 Client ID"
+
+#: config_form.php:815
+msgid "Naver Client Secret"
+msgstr "네이버 Client Secret"
+
+#: config_form.php:819
+msgid "Kakao Rest Api Key"
+msgstr "카카오 Rest Api Key"
+
+#: config_form.php:823
+msgid "Kakao Client Secret"
+msgstr "카카오 Client Secret"
+
+#: config_form.php:827
+msgid "Kakao Javascript Key"
+msgstr "카카오 JavaScript 키"
+
+#: config_form.php:835
+msgid "Add Layout Code"
+msgstr "레이아웃 코드 추가"
+
+#: config_form.php:837
+msgid "Add Layout Settings"
+msgstr "레이아웃 추가설정"
+
+#: config_form.php:839
+msgid "Add or change the default file paths and scripts, css"
+msgstr "기본 설정된 파일 경로 및 script, css 를 추가하거나 변경할 수 있습니다"
+
+#: config_form.php:846
+msgid "Add script, css"
+msgstr "스크립트, css 추가"
+
+#: config_form.php:847
+msgid ""
+"Set the JavaScript and the css code to be added above the &lt;/HEAD&gt; tag "
+"of HTML."
+msgstr ""
+"HTML의 &lt;/HEAD&gt; 태그위로 추가될 JavaScript와 css 코드를 설정합니다."
+
+#: config_form.php:847
+msgid "This code is not used on the Administrators page."
+msgstr "관리자 페이지에서는 이 코드를 사용하지 않습니다."
+
+#: config_form.php:858
+msgid "Extra field Settings"
+msgstr "여분 필드 설정"
+
+#: config_form.php:860
+msgid "Set it individually in Manage Each Bulletin Board"
+msgstr "각 게시판 관리에서 개별적으로 설정 가능합니다"
+
+#: config_form.php:891
+msgid "Default Environment Skin Settings"
+msgstr "기본환경 스킨 설정"
+
+#: config_form.php:892
+msgid "Basic environment member skin setting"
+msgstr "기본환경 회원스킨 설정"
+
+#: config_form.php:893
+#, php-format
+msgid "Do you want to apply %s of the current theme?"
+msgstr "현재 테마의 %s 을 적용하시겠습니까?"
+
+#: config_form_update.php:14
+msgid "The super administrator member ID does not exist."
+msgstr "최고관리자 회원아이디가 존재하지 않습니다."
+
+#: config_form_update.php:20
+msgid ""
+"Please select at least one I-PIN or mobile phone Authentication service for "
+"identification"
+msgstr ""
+"본인확인을 위해 아이핀 또는 휴대폰 본인학인 서비스를 하나이상 선택해 주십시오"
+
+#: contentform.php:8 contentform.php:57 newwinform.php:101 point_list.php:90
+msgid "Content"
+msgstr "내용"
+
+#: contentform.php:9 faqform.php:31 faqmasterform.php:30
+#, php-format
+msgid "Manage %s"
+msgstr "%s 관리"
+
+#: contentform.php:25 menu_form.php:29 newwinform.php:20
+msgid "Enter"
+msgstr "입력"
+
+#: contentform.php:47
+msgid "ID available only letters, numbers, _ with no spaces. (20 characters)"
+msgstr "20자 이내의 영문자, 숫자, _ 만 가능합니다."
+
+#: contentform.php:49
+msgid "View content"
+msgstr "내용보기"
+
+#: contentform.php:61
+msgid "Mobile Content"
+msgstr "모바일 내용"
+
+#: contentform.php:75
+msgid "Enable Tag Filtering"
+msgstr "태그 필터링 활성화"
+
+#: contentform.php:76
+msgid ""
+"If you want to use a tag in the content, for example, IFrame, select Disable."
+msgstr "내용에서 iframe 등의 태그를 사용하려면 사용안함으로 선택해 주십시오."
+
+#: contentform.php:85
+msgid "If no set value exists, use the default Header File."
+msgstr "설정값이 없으면 기본 상단 파일을 사용합니다."
+
+#: contentform.php:91
+msgid "If no set value exists, use the default Footer File."
+msgstr "설정값이 없으면 기본 하단 파일을 사용합니다."
+
+#: contentform.php:96
+msgid "Header images"
+msgstr "상단이미지"
+
+#: contentform.php:119
+msgid "Footer images"
+msgstr "하단이미지"
+
+#: contentform.php:159
+msgid "Please enter your ID."
+msgstr "ID를 입력하세요."
+
+#: contentform.php:160 faqform.php:79 newwinform.php:116
+msgid "Please enter a title."
+msgstr "제목을 입력하세요."
+
+#: contentform.php:161 faqform.php:80 mail_form.php:57
+msgid "Enter contents."
+msgstr "내용을 입력하세요."
+
+#: contentformupdate.php:17
+msgid "ID can only be alphabetic, numeric, and _."
+msgstr "ID 는 영문자, 숫자, _ 만 가능합니다."
+
+#: contentformupdate.php:50 qa_config_update.php:33
+msgid "Header file path contains a string that can not be included."
+msgstr "상단 파일 경로에 포함시킬수 없는 문자열이 있습니다."
+
+#: contentformupdate.php:55 qa_config_update.php:38
+msgid "Footer file path contains a string that can not be included."
+msgstr "하단 파일 경로에 포함시킬수 없는 문자열이 있습니다."
+
+#: contentformupdate.php:72
+msgid "Is already a content registered with the same ID."
+msgstr "이미 같은 ID로 등록된 내용이 있습니다."
+
+#: contentlist.php:28
+msgid "All contents"
+msgstr "전체 내용"
+
+#: contentlist.php:32
+msgid "Add Content"
+msgstr "내용 추가"
+
+#: contentlist.php:58 faqmasterform.php:54 faqmasterlist.php:73
+msgid "View"
+msgstr "보기"
+
+#: editorimglist.php:86 popular_list.php:60
+msgid "All list"
+msgstr "전체 목록"
+
+#: editorimglist.php:97
+msgid "1:1 Contact"
+msgstr "1:1 문의"
+
+#: editorimglist.php:110 popular_list.php:75 popular_rank.php:46
+msgid "Totals"
+msgstr "건수"
+
+#: editorimglist.php:116 popular_rank.php:51 visit.sub.php:19
+msgid "Search by Period"
+msgstr "기간별검색"
+
+#: editorimglist.php:118 newwinform.php:62 popular_rank.php:53
+msgid "Start Date"
+msgstr "시작일"
+
+#: editorimglist.php:121 popular_rank.php:56 visit.sub.php:24
+msgid "End Date"
+msgstr "종료일"
+
+#: editorimglist.php:127 editorimglist.php:155
+msgid "Original name"
+msgstr "원본 파일명"
+
+#: editorimglist.php:128 editorimglist.php:158 popular_list.php:111
+msgid "IP"
+msgstr "IP"
+
+#: editorimglist.php:150 popular_list.php:106
+msgid "All current page popular search keywords"
+msgstr "현재 페이지 인기검색어 전체"
+
+#: editorimglist.php:153 mail_list.php:46 mail_list.php:52 theme.php:98
+#: theme_detail.php:57
+msgid "Preview"
+msgstr "미리보기"
+
+#: editorimglist.php:154
+msgid "File size"
+msgstr "파일 용량"
+
+#: editorimglist.php:156
+msgid "Upload info"
+msgstr "업로드 정보"
+
+#: editorimglist.php:159 index.php:209 mail_list.php:43 point_list.php:117
+#: popular_list.php:84 popular_list.php:110 visit_list.php:46
+#: visit_search.php:25 visit_search.php:42
+msgid "Date"
+msgstr "날짜"
+
+#: editorimglist.php:226 mail_list.php:90 poll_list.php:142
+#: popular_list.php:156
+msgid "Are you sure you want to delete?"
+msgstr "정말 삭제하시겠습니까?"
+
+#: faqform.php:29
+msgid "Enter FAQ"
+msgstr "FAQ 입력"
+
+#: faqform.php:48
+msgid "Smaller numbers will be printed first from the FAQ page."
+msgstr "숫자가 작을수록 FAQ 페이지에서 먼저 출력됩니다."
+
+#: faqform.php:50
+msgid "View Content"
+msgstr "내용보기"
+
+#: faqform.php:54
+msgid "Question"
+msgstr "질문"
+
+#: faqform.php:58
+msgid "Answer"
+msgstr "답변"
+
+#: faqlist.php:7
+msgid "Manage FAQ details"
+msgstr "FAQ 상세관리"
+
+#: faqlist.php:30
+msgid "Registered FAQ details"
+msgstr "등록된 FAQ 상세내용"
+
+#: faqlist.php:30 index.php:240
+#, php-format
+msgid "%s total"
+msgid_plural "%s totals"
+msgstr[0] "%s 건"
+
+#: faqlist.php:36 faqmasterlist.php:34
+msgid "You can register FAQs without restriction."
+msgstr "FAQ는 무제한으로 등록할 수 있습니다."
+
+#: faqlist.php:37
+msgid ""
+"Click <strong>Add FAQ Details</strong> to enter frequently asked questions "
+"and answers."
+msgstr ""
+"<strong>FAQ 상세내용 추가</strong>를 눌러 자주하는 질문과 답변을 입력합니다."
+
+#: faqlist.php:43
+msgid "Add FAQ details"
+msgstr "FAQ 상세내용 추가"
+
+#: faqlist.php:51 mail_list.php:41 mail_select_list.php:78 poll_list.php:88
+msgctxt "Number"
+msgid "Num"
+msgstr "번호"
+
+#: faqlist.php:53 menu_form.php:49
+msgid "Order"
+msgstr "순서"
+
+#: faqmasterform.php:46
+msgid "Smaller numbers will be printed first in FAQ category."
+msgstr "숫자가 작을수록 FAQ 분류에서 먼저 출력됩니다."
+
+#: faqmasterform.php:55
+msgid "View Details"
+msgstr "상세보기"
+
+#: faqmasterform.php:60
+msgid "Header IMAGE"
+msgstr "상단이미지"
+
+#: faqmasterform.php:84
+msgid "Footer IMAGE"
+msgstr "하단이미지"
+
+#: faqmasterform.php:119
+msgid "Header of Mobile Content"
+msgstr "모바일 내용"
+
+#: faqmasterlist.php:28
+msgid "All FAQ"
+msgstr "전체 FAQ"
+
+#: faqmasterlist.php:35
+msgid ""
+"Click <strong>Add FAQ</strong> to create the FAQ Master. (Create one FAQ "
+"title : frequently asked questions, information on use, etc.)"
+msgstr ""
+"<strong>FAQ추가</strong>를 눌러 FAQ Master를 생성합니다. (하나의 FAQ 타이틀 "
+"생성 : 자주하시는 질문, 이용안내..등 )"
+
+#: faqmasterlist.php:36
+msgid ""
+"You can manage the details by clicking the <strong>Title</strong> of the FAQ "
+"Master you created."
+msgstr ""
+"생성한 FAQ Master 의 <strong>제목</strong>을 눌러 세부 내용을 관리할 수 있습"
+"니다."
+
+#: faqmasterlist.php:41
+msgid "Add FAQ"
+msgstr "FAQ 추가"
+
+#: faqmasterlist.php:51
+msgid "FAQs"
+msgstr "FAQ수"
+
+#: faqmasterlist.php:52 menu_list.php:35 menu_list.php:88
+msgid "Sequence"
+msgstr "순서"
+
+#: index.php:10
+msgid "Admin Main"
+msgstr "관리자메인"
+
+#: index.php:53
+msgid "Members"
+msgstr "회원수"
+
+#: index.php:55
+msgid "Totals of member"
+msgstr "총회원수"
+
+#: index.php:55 index.php:58 index.php:61
+msgid "people"
+msgid_plural "peoples"
+msgstr[0] "명"
+
+#: index.php:58 member_list.php:73
+msgid "Block"
+msgstr "차단"
+
+#: index.php:61 member_list.php:74 member_list.php:172
+msgid "Withdrawal"
+msgstr "탈퇴"
+
+#: index.php:65
+#, php-format
+msgid "List of %s new members"
+msgstr "신규가입회원 %s 건 목록"
+
+#: index.php:65
+msgid "View all members"
+msgstr "회원 전체보기"
+
+#: index.php:86
+msgid "edit"
+msgstr "수정"
+
+#: index.php:87 menu_list.php:73
+msgid "delete"
+msgstr "삭제"
+
+#: index.php:89
+msgid "group"
+msgstr "그룹"
+
+#: index.php:101
+msgid "Retention Point"
+msgstr "보유포인트"
+
+#: index.php:106 mail_select_form.php:80 member_list.php:84 member_list.php:138
+msgid "Level"
+msgstr "레벨"
+
+#: index.php:110
+msgid "reception"
+msgstr "수신"
+
+#: index.php:111 index.php:113 index.php:115 index.php:117 member_form.php:186
+#: member_form.php:194 member_form.php:203
+msgid "Yes"
+msgstr "예"
+
+#: index.php:111 index.php:113 index.php:115 index.php:117 member_form.php:188
+#: member_form.php:196 member_form.php:205
+msgid "No"
+msgstr "아니오"
+
+#: index.php:112
+msgid "Public"
+msgstr "공개"
+
+#: index.php:114
+msgid "Authentication"
+msgstr "인증"
+
+#: index.php:116
+msgid "block"
+msgstr "차단"
+
+#: index.php:155
+msgid "Recent post"
+msgstr "최신게시물"
+
+#: index.php:155
+msgid "More recent posts"
+msgstr "최근게시물 더보기"
+
+#: index.php:184
+msgid "Comment"
+msgstr "댓글"
+
+#: index.php:239
+msgid "Recent Point History"
+msgstr "최근 포인트 내역"
+
+#: index.php:241
+msgid "View all points history"
+msgstr "포인트내역 전체보기"
+
+#: mail_delete.php:14
+msgid "Please select at least one mail list to delete."
+msgstr "삭제할 메일목록을 1개이상 선택해 주세요."
+
+#: mail_form.php:8
+msgid "Member mail"
+msgstr "회원메일"
+
+#: mail_form.php:17 mail_list.php:75 member_list.php:264 point_list.php:175
+msgid "No data"
+msgstr "데이터가 없습니다"
+
+#: mail_form.php:26
+msgid ""
+"If you insert it into the content, such as {name}, {nickname}, {member ID}, "
+"{email}, the mail will be converted to match the content and sent."
+msgstr ""
+"메일 내용에 {이름} , {닉네임} , {회원아이디} , {이메일} 처럼 내용에 삽입하면 "
+"해당 내용에 맞게 변환하여 메일을 발송합니다."
+
+#: mail_form.php:37
+msgid "Mail Title"
+msgstr "메일 제목"
+
+#: mail_form.php:41
+msgid "Mail Contents"
+msgstr "메일 내용"
+
+#: mail_form.php:56
+msgid "Enter a title."
+msgstr "제목을 입력하세요."
+
+#: mail_list.php:27
+msgid ""
+"<b>Testing</b> sends a test email to the registered top administrator's "
+"email."
+msgstr "<b>테스트</b>는 등록된 최고관리자의 이메일로 테스트 메일을 발송합니다."
+
+#: mail_list.php:28
+#, php-format
+msgid "Currently, there are %s registered mails."
+msgstr "현재 등록된 메일은 총 %s 건입니다."
+
+#: mail_list.php:29
+msgid ""
+"Caution) Not suitable for bulk mail shipments that recipients do not agree "
+"to. Please send it by dozens."
+msgstr ""
+"주의) 수신자가 동의하지 않은 대량 메일 발송에는 적합하지 않습니다. 수십건 단"
+"위로 발송해 주십시오."
+
+#: mail_list.php:40
+msgid "Select all of the current page list"
+msgstr "현재 페이지 목록 전체선택"
+
+#: mail_list.php:44 mail_list.php:67
+msgid "Test"
+msgstr "테스트"
+
+#: mail_list.php:45 mail_list.php:68 sendmail_test.php:63
+msgid "Send"
+msgstr "보내기"
+
+#: mail_list.php:83
+msgid "Add Mail Content"
+msgstr "메일내용추가"
+
+#: mail_preview.php:11 mail_select_update.php:66 mail_test.php:33
+#, php-format
+msgid "If you do not wish to receive further information, please %s."
+msgstr "더 이상 정보 수신을 원치 않으시면 %s 해 주십시오."
+
+#: mail_preview.php:11 mail_select_update.php:66 mail_test.php:33
+msgid "Unsubscribe"
+msgstr "수신거부"
+
+#: mail_preview.php:18
+msgid "Send mail test"
+msgstr "메일발송 테스트"
+
+#: mail_preview.php:30
+msgid "Attention!"
+msgstr "주의!"
+
+#: mail_preview.php:30
+msgid ""
+"The design shown on this screen may differ from the design when the actual "
+"content is sent."
+msgstr ""
+"이 화면에 보여지는 디자인은 실제 내용이 발송되었을 때 디자인과 다를 수 있습니"
+"다."
+
+#: mail_select_form.php:6 mail_test.php:6
+msgid "You must check \"Enable mail sending\" in Preferences to send mail."
+msgstr ""
+"환경설정에서 \"메일발송 사용\" 에 체크하셔야 메일을 발송할 수 있습니다."
+
+#: mail_select_form.php:13
+msgid "Please select what you want to send."
+msgstr "보내실 내용을 선택하여 주십시오."
+
+#: mail_select_form.php:43
+msgid "Select mail list"
+msgstr "메일 목록 선택"
+
+#: mail_select_form.php:44
+#, php-format
+msgid ""
+"All members %s totals, Member awaiting withdrawal %s totals, Normal members "
+"%s totals"
+msgstr "전체회원 %s 명 , 탈퇴대기회원 %s 명, 정상회원 %s 명"
+
+#: mail_select_form.php:52 menu_form.php:27
+msgid "Select Target"
+msgstr "대상선택"
+
+#: mail_select_form.php:58
+msgid "Section"
+msgstr "구간"
+
+#: mail_select_form.php:64 mail_select_list.php:82 member_form.php:121
+msgid "E-mail"
+msgstr "E-mail"
+
+#: mail_select_form.php:66
+msgid "Include words in mail address"
+msgstr "메일 주소에 단어 포함"
+
+#: mail_select_form.php:66
+msgid "Example :"
+msgstr "예 :"
+
+#: mail_select_form.php:71
+msgid "Mailing"
+msgstr "메일링"
+
+#: mail_select_form.php:74
+msgid "Only members who have agreed to receive"
+msgstr "수신동의한 회원만"
+
+#: mail_select_form.php:82
+msgid "Min Level"
+msgstr "최소레벨"
+
+#: mail_select_form.php:88
+msgid "Max Level"
+msgstr "최대레벨"
+
+#: mail_select_form.php:97
+msgid "Bulletin Board Members"
+msgstr "게시판그룹회원"
+
+#: mail_select_list.php:39
+msgid "There are no bulletin board group members selected."
+msgstr "선택하신 게시판 그룹회원이 한명도 없습니다."
+
+#: mail_select_list.php:51
+msgid "No membership data is applicable for the selected content."
+msgstr "선택하신 내용으로는 해당되는 회원자료가 없습니다."
+
+#: mail_select_list.php:65
+msgid "Mail destination member"
+msgstr "일발송 대상 회원"
+
+#: mail_select_list.php:113
+msgid "Send Mail"
+msgstr "메일보내기"
+
+#: mail_select_list.php:114
+msgid "Back"
+msgstr "뒤로"
+
+#: mail_select_update.php:21
+msgid "Sending mail"
+msgstr "메일 발송중"
+
+#: mail_select_update.php:21
+#, php-format
+msgid "Don't stop in the middle of the word %s"
+msgstr "%s 이라는 단어가 나오기 전에는 중간에 중지하지 마세요"
+
+#: mail_select_update.php:21 mail_select_update.php:91
+msgid "[END]"
+msgstr "[끝]"
+
+#: mail_select_update.php:90
+#, php-format
+msgid "Send %s totals"
+msgstr "총 %s 건 발송"
+
+#: mail_test.php:14
+msgid "Test Member's Mail"
+msgstr "회원메일 테스트"
+
+#: mail_test.php:37
+#, php-format
+msgid "Do Have Sent a test email to %s. Please check."
+msgstr "%s 님께 테스트 메일을 발송하였습니다. 확인하여 주십시오."
+
+#: member_delete.php:12 member_list_delete.php:20 member_list_update.php:27
+#: member_list_update.php:61
+msgid "Member data do not exist."
+msgstr "회원자료가 존재하지 않습니다."
+
+#: member_delete.php:14
+msgid "You can not delete an administrator who is logging in."
+msgstr "로그인 중인 관리자는 삭제 할 수 없습니다."
+
+#: member_delete.php:16
+msgid "You can not delete a super administrator."
+msgstr "최고 관리자는 삭제할 수 없습니다."
+
+#: member_delete.php:18
+msgid ""
+"You can not delete a member who has more authority than you or is equal to "
+"you."
+msgstr "자신보다 권한이 높거나 같은 회원은 삭제할 수 없습니다."
+
+#: member_form.php:23 member_form_update.php:90
+msgid "This member data does not exist."
+msgstr "존재하지 않는 회원자료입니다."
+
+#: member_form.php:26 member_form_update.php:93
+msgid ""
+"You can not modify a member who has more authority than you or is equal to "
+"you."
+msgstr "자신보다 권한이 높거나 같은 회원은 수정할 수 없습니다."
+
+#: member_form.php:57
+msgid "The correct value has not been exceeded"
+msgstr "제대로 된 값이 넘어오지 않았습니다"
+
+#: member_form.php:79 member_list.php:175
+msgid "Blocked"
+msgstr "차단"
+
+#: member_form.php:99
+msgid "View accessible groups"
+msgstr "접근가능그룹보기"
+
+#: member_form.php:101
+#, php-format
+msgid "Point : %s point"
+msgid_plural "Point : %s points"
+msgstr[0] "포인트 : %s 점"
+
+#: member_form.php:105
+msgid "Password"
+msgstr "비밀번호"
+
+#: member_form.php:109
+msgid "Name (real name)"
+msgstr "이름(실명)"
+
+#: member_form.php:117
+msgid "Member Level"
+msgstr "회원 레벨"
+
+#: member_form.php:125
+msgid "Homepage"
+msgstr "홈페이지"
+
+#: member_form.php:129 member_list.php:87 member_list.php:127
+msgid "Mobile number"
+msgstr "휴대폰번호"
+
+#: member_form.php:133 member_list.php:86 member_list.php:140
+msgid "Phone number"
+msgstr "전화번호"
+
+#: member_form.php:137
+msgid "Address"
+msgstr "주소"
+
+#: member_form.php:154
+msgid "Member icon"
+msgstr "회원아이콘"
+
+#: member_form.php:155 member_form.php:170
+#, php-format
+msgid "Image size should be %s pixels width and %s pixels height."
+msgstr "이미지 크기는 넓이 %s 픽셀 높이 %s 픽셀 로 해주세요."
+
+#: member_form.php:169
+msgid "Member image"
+msgstr "회원이미지"
+
+#: member_form.php:183 member_list.php:125
+msgid "Receiving mail"
+msgstr "메일수신"
+
+#: member_form.php:191
+msgid "Receiving SMS"
+msgstr "SMS 수신"
+
+#: member_form.php:200
+msgid "Open profile"
+msgstr "프로필 공개"
+
+#: member_form.php:209
+msgid "Signature"
+msgstr "서명"
+
+#: member_form.php:213
+msgid "Introduce Myself"
+msgstr "자기 소개"
+
+#: member_form.php:217
+msgid "Memo"
+msgstr "메모"
+
+#: member_form.php:223
+msgid "Registered Date"
+msgstr "회원가입일"
+
+#: member_form.php:227
+msgid "Last Login Date"
+msgstr "최근접속일"
+
+#: member_form.php:236
+msgid "Certification date"
+msgstr "인증일시"
+
+#: member_form.php:239
+msgid "If other member can not receive mail, you can authenticate directly."
+msgstr ""
+"회원님이 메일을 수신할 수 없는 경우 등에 직접 인증처리를 하실 수 있습니다."
+
+#: member_form.php:241
+msgid "Manual authentication"
+msgstr "수동인증"
+
+#: member_form.php:250
+msgid "Recommendation"
+msgstr "추천인"
+
+#: member_form.php:251
+msgid "None"
+msgstr "없음"
+
+#: member_form.php:256
+msgid "Leave_date"
+msgstr "탈퇴일"
+
+#: member_form.php:261
+msgid "Specify withdrawal date as today"
+msgstr "탈퇴일을 오늘로 지정"
+
+#: member_form.php:264
+msgid "Access Block Date"
+msgstr "접근차단일자"
+
+#: member_form.php:270
+msgid "Specify Access Block Date as of today"
+msgstr "접근차단일을 오늘로 지정"
+
+#: member_form.php:281
+msgid "List of social accounts"
+msgstr "소셜계정목록"
+
+#: member_form.php:285
+msgid "List of linked social accounts"
+msgstr "연결된 소셜 계정 목록"
+
+#: member_form.php:302
+msgid "Disconnect"
+msgstr "연결해제"
+
+#: member_form.php:335
+msgid "Are you sure you want to delete this account association?"
+msgstr "정말 이 계정 연결을 삭제하시겠습니까?"
+
+#: member_form.php:336
+msgid "Invalid request! The mp_no value does not exist."
+msgstr "잘못된 요청! mp_no 값이 없습니다."
+
+#: member_form.php:337
+msgid "The connection has been disconnected."
+msgstr "연결이 해제 되었습니다."
+
+#: member_form.php:338
+msgid "Icon file can only be a gif file."
+msgstr "아이콘은 gif 파일만 가능합니다."
+
+#: member_form_update.php:70
+msgid "This member ID already exists."
+msgstr "이미 존재하는 회원아이디입니다."
+
+#: member_form_update.php:70 member_form_update.php:76
+#: member_form_update.php:82 member_form_update.php:106
+#: member_form_update.php:112
+msgid "Email"
+msgstr "이메일"
+
+#: member_form_update.php:76 member_form_update.php:106
+msgid "The nickname already exists."
+msgstr "이미 존재하는 닉네임입니다."
+
+#: member_form_update.php:82 member_form_update.php:112
+msgid "The email already exists."
+msgstr "이미 존재하는 이메일입니다."
+
+#: member_form_update.php:96
+msgid "The password of the super administrator can not be modified."
+msgstr "최고관리자의 비밀번호를 수정할수 없습니다."
+
+#: member_form_update.php:100
+msgid "You can not modify the administrator level while logging in."
+msgstr "로그인 중인 관리자 레벨은 수정 할 수 없습니다."
+
+#: member_form_update.php:127 member_form_update.php:175
+#, php-format
+msgid "%s is not an image file."
+msgstr "%s 은(는) 이미지 파일이 아닙니다."
+
+#: member_form_update.php:226
+msgid "A valid value has not crossed."
+msgstr "제대로 된 값이 넘어오지 않았습니다."
+
+#: member_list.php:72
+msgid "Total members"
+msgstr "총회원수"
+
+#: member_list.php:81
+msgid "Memeber ID"
+msgstr "회원아이디"
+
+#: member_list.php:89 member_list.php:141
+msgid "Registration date"
+msgstr "가입일시"
+
+#: member_list.php:91
+msgid "Recommender"
+msgstr "추천인"
+
+#: member_list.php:101
+msgid ""
+"In order to prevent other members from using existing member ID when member "
+"data are deleted, member ID, name, and nickname are stored permanently."
+msgstr ""
+"회원자료 삭제 시 다른 회원이 기존 회원아이디를 사용하지 못하도록 회원아이디, "
+"이름, 닉네임은 삭제하지 않고 영구 보관합니다."
+
+#: member_list.php:119
+msgid "All Members"
+msgstr "회원 전체"
+
+#: member_list.php:123
+msgid "Mail authentication"
+msgstr "메일인증"
+
+#: member_list.php:124 member_list.php:218
+msgid "Open Profile"
+msgstr "정보공개"
+
+#: member_list.php:126
+msgid "State"
+msgstr "상태"
+
+#: member_list.php:129
+msgid "Last Login"
+msgstr "최종접속"
+
+#: member_list.php:130
+msgid "Access Group"
+msgstr "접근그룹"
+
+#: member_list.php:136 member_list.php:242
+msgid "SMS Received"
+msgstr "SMS수신"
+
+#: member_list.php:137 member_list.php:248
+msgid "Access Blocking"
+msgstr "접근차단"
+
+#: member_list.php:142
+msgctxt "Point column"
+msgid "Point"
+msgstr "포인트"
+
+#: member_list.php:176
+msgid "Unblock"
+msgstr "차단해제"
+
+#: member_list.php:179
+msgid "Blocking"
+msgstr "차단하기"
+
+#: member_list.php:222
+msgid "Receive mail"
+msgstr "메일수신"
+
+#: member_list.php:275
+msgid "Add Member"
+msgstr "회원추가"
+
+#: member_list_delete.php:22
+msgid "Can not delete an administrator who is logging in."
+msgstr "로그인 중인 관리자는 삭제 할 수 없습니다."
+
+#: member_list_delete.php:24 member_list_update.php:65
+msgid "Can not delete a Super Admin."
+msgstr "최고 관리자는 삭제할 수 없습니다."
+
+#: member_list_delete.php:26 member_list_update.php:67
+msgid ""
+"Can not delete a member who has more authority than you or is equal to you."
+msgstr "자신보다 권한이 높거나 같은 회원은 삭제할 수 없습니다."
+
+#: member_list_update.php:29
+msgid ""
+"Can not modify a member who has more authority than you or is equal to you."
+msgstr "자신보다 권한이 높거나 같은 회원은 수정할 수 없습니다."
+
+#: member_list_update.php:31 member_list_update.php:63
+msgid "Can not modify an administrator who is logging in."
+msgstr "로그인 중인 관리자는 수정 할 수 없습니다."
+
+#: menu_form.php:8 menu_list.php:119
+msgid "Add Menu"
+msgstr "메뉴 추가"
+
+#: menu_form.php:47
+msgctxt "link url"
+msgid "link URL"
+msgstr "링크url"
+
+#: menu_form.php:48
+msgid "Window open"
+msgstr "새창"
+
+#: menu_form.php:50
+msgid "Print PC"
+msgstr "PC 출력"
+
+#: menu_form.php:51
+msgid "Print Mobile"
+msgstr "모바일 출력"
+
+#: menu_form_search.php:91
+msgid ""
+"The title of the <strong>RED</strong> color appears if you are already "
+"connected to the menu."
+msgstr "<strong>빨간색</strong>의 제목은 이미 메뉴에 연결되어 경우 표시됩니다."
+
+#: menu_form_search.php:108 menu_list.php:30 menu_list.php:65
+msgid "Link"
+msgstr "링크"
+
+#: menu_form_search.php:108
+msgid "Please enter a link including http://"
+msgstr "링크는 http://를 포함해서 입력해 주세요"
+
+#: menu_form_search.php:119
+msgid "Close"
+msgstr "닫기"
+
+#: menu_list.php:18
+msgid ""
+"<strong>Caution!</strong> After setting the menu, press <strong>OK</strong> "
+"to save."
+msgstr ""
+"<strong>주의!</strong> 메뉴설정 작업 후 반드시 <strong>확인</strong> 을 누르"
+"셔야 저장됩니다."
+
+#: menu_list.php:31
+msgid "Setting"
+msgstr "설정"
+
+#: menu_list.php:34 menu_list.php:80 menu_list.php:119
+msgid "New Window"
+msgstr "새창"
+
+#: menu_list.php:36 menu_list.php:93
+msgid "Use PC"
+msgstr "PC 사용"
+
+#: menu_list.php:37 menu_list.php:101
+msgid "Use Mobile"
+msgstr "모바일 사용"
+
+#: menu_list.php:82 menu_list.php:96 menu_list.php:104 poll_list.php:101
+#: qa_config.php:75
+msgid "Disable"
+msgstr "비활성화"
+
+#: menu_list.php:128
+msgid "Are you sure you want to delete the menu?"
+msgstr "메뉴를 삭제하시겠습니까?"
+
+#: newwinform.php:10
+msgid "Popup Layer"
+msgstr "팝업레이어"
+
+#: newwinform.php:40
+msgid ""
+"Sets the pop-up layer to open automatically when the main page is connected."
+msgstr "메인 페이지 접속 시 자동으로 뜰 팝업레이어를 설정합니다."
+
+#: newwinform.php:47
+msgid "Set up the connector to display the pop-up layer."
+msgstr "팝업레이어가 표시될 접속기기를 설정합니다."
+
+#: newwinform.php:49
+msgid "PC and mobile"
+msgstr "PC와 모바일"
+
+#: newwinform.php:55 newwinform.php:58 newwinlist.php:78 visit.sub.php:29
+#: write_count.php:31 write_count.php:32 write_count.php:79
+msgid "Hours"
+msgstr "시간"
+
+#: newwinform.php:57
+msgid ""
+"Set how many hours you do not want the pop-up layer to be shown when the "
+"customer chooses never to view again."
+msgstr ""
+"고객이 다시 보지 않음을 선택할 시 몇 시간동안 팝업레이어를 보여주지 않을지 설"
+"정합니다."
+
+#: newwinform.php:65
+msgid "Start date to today"
+msgstr "시작일시를 오늘로"
+
+#: newwinform.php:69
+msgid "End date"
+msgstr "종료일"
+
+#: newwinform.php:72
+msgid "The end date will be changed to seven days from today."
+msgstr "종료일시를 오늘로부터 7일 후로."
+
+#: newwinform.php:76
+msgid "Popup Layer Left Position"
+msgstr "팝업레이어 좌측 위치"
+
+#: newwinform.php:81
+msgid "Popup Layer Top Position"
+msgstr "팝업레이어 상단 위치"
+
+#: newwinform.php:86
+msgid "Popup Layer Width"
+msgstr "팝업레이어 넓이"
+
+#: newwinform.php:91
+msgid "Popup Layer Height"
+msgstr "팝업레이어 높이"
+
+#: newwinform.php:96
+msgid "Popup Layer Title"
+msgstr "팝업 레이어 제목"
+
+#: newwinform.php:108
+msgctxt "Go to List page"
+msgid "List"
+msgstr "목록으로"
+
+#: newwinlist.php:7
+msgid "Manage pop-up layers"
+msgstr "팝업레이어 관리"
+
+#: newwinlist.php:33
+msgid "Number"
+msgstr "숫자"
+
+#: newwinlist.php:35
+msgid "Is_Mobile"
+msgstr "모바일 구분"
+
+#: newwinlist.php:36
+msgid "Start time"
+msgstr "시작시간"
+
+#: newwinlist.php:39
+msgid "Manage"
+msgstr "관리"
+
+#: newwinlist.php:42 visit_hour.php:34
+msgid "Time"
+msgstr "시간"
+
+#: newwinlist.php:43
+msgid "End time"
+msgstr "종료시간"
+
+#: newwinlist.php:61
+msgid "ALL"
+msgstr "전체"
+
+#: point_list.php:78
+#, php-format
+msgid "Total points of %s"
+msgstr "%s 님 포인트 합계"
+
+#: point_list.php:81
+msgid "Total points"
+msgstr "전체 합계"
+
+#: point_list.php:111
+msgid "Total point history"
+msgstr "포인트 내역"
+
+#: point_list.php:120 point_list.php:153
+msgid "History"
+msgstr "내역"
+
+#: point_list.php:122
+msgid "Point Sum"
+msgstr "포인트합"
+
+#: point_list.php:123
+msgid "Expiration date"
+msgstr "만료일"
+
+#: point_list.php:167
+msgid "expired"
+msgstr "만료"
+
+#: point_list.php:190
+msgid "Set individual member point fluctuation"
+msgstr "개별회원 포인트 증감 설정"
+
+#: point_list.php:211
+msgid "Point Histoty"
+msgstr "포인트 내역"
+
+#: point_list.php:217
+msgid "Point Expire Term"
+msgstr "포인트 유효기간"
+
+#: point_list.php:218 visit.sub.php:29
+msgid "Day"
+msgstr "일"
+
+#: point_list.php:225 visit_delete.php:55
+msgid "Apply"
+msgstr "적용"
+
+#: point_update.php:20
+msgid ""
+"If you are cutting points, they must not be less than the current point."
+msgstr "포인트를 깎는 경우 현재 포인트보다 작으면 안됩니다."
+
+#: poll_delete.php:14
+msgid "Please select at least one voting list to delete."
+msgstr "삭제할 투표목록을 1개이상 선택해 주세요."
+
+#: poll_form.php:9
+msgid "Poll"
+msgstr "투표"
+
+#: poll_form.php:16
+msgid "Incorrect 'w' value."
+msgstr "파라미터 w 값이 제대로 넘어오지 않았습니다."
+
+#: poll_form.php:36
+msgid "Poll Title"
+msgstr "투표 제목"
+
+#: poll_form.php:52 poll_form.php:54
+msgid "topic"
+msgstr "주제"
+
+#: poll_form.php:54 poll_list.php:55 poll_list.php:91
+msgid "Number of votes"
+msgstr "투표수"
+
+#: poll_form.php:62 poll_list.php:92
+msgid "Other opinions"
+msgstr "기타의견"
+
+#: poll_form.php:63
+msgid "Enter a simple question to allow you to leave other opinions."
+msgstr "기타 의견을 남길 수 있도록 하려면, 간단한 질문을 입력하세요."
+
+#: poll_form.php:68
+msgid "Voting membership level"
+msgstr "투표가능 회원레벨"
+
+#: poll_form.php:69
+msgid "You can vote by setting the level to 1."
+msgstr "레벨을 1로 설정하면 손님도 투표할 수 있습니다."
+
+#: poll_form.php:70
+msgid "More voting is possible."
+msgstr "이상 투표할 수 있습니다."
+
+#: poll_form.php:75
+msgid "Points will be awarded to the members who vote."
+msgstr "투표에 참여한 회원에게 포인트를 부여합니다."
+
+#: poll_form.php:82
+msgid "Voting registration date"
+msgstr "투표등록일"
+
+#: poll_form.php:86
+msgid "IP to vote"
+msgstr "투표참가 IP"
+
+#: poll_form.php:90
+msgid "A voting member"
+msgstr "투표참가 회원"
+
+#: poll_list.php:85
+msgid "All Current List"
+msgstr "현재 페이지 목록"
+
+#: poll_list.php:90
+msgid "Voting authority"
+msgstr "투표권한"
+
+#: poll_list.php:110
+msgid "Topic"
+msgstr "주제"
+
+#: poll_list.php:133
+msgid "Add poll"
+msgstr "투표 추가"
+
+#: popular_rank.php:74 visit_browser.php:35 visit_device.php:35
+#: visit_domain.php:35 visit_os.php:35
+msgid "Ranking"
+msgstr "순위"
+
+#: popular_rank.php:76
+msgid "Search count"
+msgstr "검색회수"
+
+#: qa_config.php:27
+msgid "Redirect 1:1 Contact"
+msgstr "1:1문의 가로가기"
+
+#: qa_config.php:51
+msgid "Enter Email"
+msgstr "이메일 입력"
+
+#: qa_config.php:58
+msgid "Input mobile number"
+msgstr "휴대폰 입력"
+
+#: qa_config.php:65
+msgid "Administrator Email"
+msgstr "관리자 이메일"
+
+#: qa_config.php:66
+msgid ""
+"If you enter an administrator email, the notification will be sent to the "
+"registered email when you register your inquiry."
+msgstr ""
+"관리자 이메일을 입력하시면 문의글 등록시 등록하신 이메일로 알림이 전송됩니다."
+
+#: qa_config.php:81
+msgid "Title Length"
+msgstr "제목 길이"
+
+#: qa_config.php:82 qa_config.php:88
+msgid "Number of title letters in the list"
+msgstr "목록에서의 제목 글자수"
+
+#: qa_config.php:87
+msgid "Title Length in Mobile"
+msgstr "모바일 제목 길이"
+
+#: qa_config.php:98
+msgid "List per page in Mobile"
+msgstr "페이지당 목록 수"
+
+#: qa_config.php:103
+msgid "Image Width Size"
+msgstr "이미지 폭 크기"
+
+#: qa_config.php:104
+msgid "Width size of the image that is output from the Board"
+msgstr "게시판에서 출력되는 이미지의 폭 크기"
+
+#: qa_config.php:109
+msgid "File upload Size"
+msgstr "업로드 파일 용량"
+
+#: qa_config.php:111
+msgid "Bytes below"
+msgstr "Bytes 이하"
+
+#: sendmail_test.php:8
+msgid ""
+"You must check 'Enable mail sending' in Default Preferences to send mail."
+msgstr "환경설정에서 '메일발송 사용'에 체크하셔야 메일을 발송할 수 있습니다."
+
+#: sendmail_test.php:12
+msgid "Mail Test"
+msgstr "메일 테스트"
+
+#: sendmail_test.php:26
+msgid "[Check Mail] Title"
+msgstr "[메일검사] 제목"
+
+#: sendmail_test.php:26
+msgid "[Check Mail] Contents"
+msgstr "[메일검사] 내용"
+
+#: sendmail_test.php:26
+msgid ""
+"If you see this right, there is nothing wrong with the outgoing mail server."
+msgstr "이 내용이 제대로 보인다면 보내는 메일 서버에는 이상이 없는것입니다."
+
+#: sendmail_test.php:26
+msgid "This email address will not be answered."
+msgstr "이 메일 주소로는 회신되지 않습니다."
+
+#: sendmail_test.php:31
+msgid "Result Message"
+msgstr "결과메세지"
+
+#: sendmail_test.php:33
+#, php-format
+msgid "Test mail has been sent to the following %s e-mail addresses."
+msgstr "다음 %s 개의 메일 주소로 테스트 메일 발송이 완료되었습니다."
+
+#: sendmail_test.php:41
+msgid "Please confirm that the test email has arrived at the address."
+msgstr "해당 주소로 테스트 메일이 도착했는지 확인해 주십시오."
+
+#: sendmail_test.php:42
+msgid ""
+"If you do not receive a test email, try sending it to the email address of a "
+"wider range of accounts."
+msgstr ""
+"만약, 테스트 메일이 오지 않는다면 더 다양한 계정의 메일 주소로 메일을 보내 보"
+"십시오."
+
+#: sendmail_test.php:43
+msgid ""
+"If none of your mail arrives, you are likely to be out of the mail "
+"server(sendmail server), so please contact your web server administrator."
+msgstr ""
+"그래도 메일이 하나도 도착하지 않는다면 메일 서버(sendmail server)의 오류일 가"
+"능성이 높으니, 웹 서버관리자에게 문의하여 주십시오."
+
+#: sendmail_test.php:51 sendmail_test.php:60
+msgid "Send Test Mail"
+msgstr "테스트 메일 발송"
+
+#: sendmail_test.php:54
+msgid "You can verify that the mail server is functioning normally."
+msgstr "메일서버가 정상적으로 동작 중인지 확인할 수 있습니다."
+
+#: sendmail_test.php:55
+msgid ""
+"Enter the email address you would like to send a test email to at the "
+"address box below, and we will send a test email under the heading [Check "
+"Mail]."
+msgstr ""
+"아래 입력칸에 테스트 메일을 발송하실 메일 주소를 입력하시면, [메일검사] 라는 "
+"제목으로 테스트 메일을 발송합니다."
+
+#: sendmail_test.php:61
+msgid "Incoming mail address"
+msgstr "받는 메일주소"
+
+#: sendmail_test.php:68
+msgid ""
+"If the test mail does not arrive with the content of [Check Mail], there may "
+"be a problem with the outgoing mail server or the incoming mail server."
+msgstr ""
+"만약 [메일검사] 라는 내용으로 테스트 메일이 도착하지 않는다면 보내는 메일서"
+"버 혹은 받는 메일서버 중 문제가 발생했을 가능성이 있습니다."
+
+#: sendmail_test.php:69
+msgid ""
+"If you would like a more accurate test, please send a test email to several "
+"places."
+msgstr ""
+"따라서 보다 정확한 테스트를 원하신다면 여러 곳으로 테스트 메일을 발송하시기 "
+"바랍니다."
+
+#: session_file_delete.php:8
+msgid "Delete Session File Batch"
+msgstr "세션파일 일괄삭제"
+
+#: session_file_delete.php:24
+msgid "Failed to open session directory."
+msgstr "세션 디렉토리를 열지 못했습니다."
+
+#: session_file_delete.php:56
+#, php-format
+msgid "%s session data has been deleted."
+msgstr "세션데이터 %s 건 삭제 되었습니다."
+
+#: theme.php:26
+msgid "Installed Themes"
+msgstr "설치된 테마"
+
+#: theme.php:57 theme_preview.php:72
+msgid "Apply Theme"
+msgstr "테마적용"
+
+#: theme.php:108
+msgid "There are no installed themes."
+msgstr "설치된 테마가 없습니다."
+
+#: theme_config_load.php:14
+msgid "No theme is in use."
+msgstr "사용 중인 테마가 없습니다."
+
+#: theme_config_load.php:20
+#, php-format
+msgid "The theme %s is not an installed theme."
+msgstr "%s 테마는 설치된 테마가 아닙니다."
+
+#: theme_config_load.php:44
+msgid "There are no board image settings to apply."
+msgstr "적용할 게시판 이미지 설정이 없습니다."
+
+#: theme_config_load.php:59
+msgid "There are no default environment skin settings to apply."
+msgstr "적용할 기본환경 스킨 설정이 없습니다."
+
+#: theme_config_load.php:74
+msgid "There are no default environment member skin settings to apply."
+msgstr "적용할 기본환경 회원스킨 설정이 없습니다."
+
+#: theme_detail.php:12 theme_update.php:20
+msgid "The selected theme is not installed."
+msgstr "선택하신 테마가 설치되어 있지 않습니다."
+
+#: theme_lang.php:49
+msgid "Select Theme"
+msgstr "테마 선택"
+
+#: theme_lang.php:76
+msgid "Token information is invalid."
+msgstr "토큰정보가 올바르지 않습니다."
+
+#: theme_lang.php:77
+msgid "Please retrieve the language file information first."
+msgstr "언어파일 정보를 먼저 불러와 주세요."
+
+#: theme_lang.php:78
+msgid "No translation to save."
+msgstr "저장할 번역문이 없습니다."
+
+#: theme_lang.php:79
+#, php-format
+msgid "Language set : %s"
+msgstr "언어셋 %s"
+
+#: theme_lang.php:80
+#, php-format
+msgid "Are you sure you want to save the language file(po, mo files) for %s ?"
+msgstr "%s 의 언어파일(po, mo files)을 정말 저장하시겠습니까?"
+
+#: theme_lang_update.php:32
+msgid "File missing or invalid request."
+msgstr "파일이 없거나 잘못된 요청입니다."
+
+#: theme_lang_update.php:196
+msgid "Save translation file succeeded."
+msgstr "번역파일 저장에 성공했습니다."
+
+#: theme_lang_update.php:218
+msgid "Download Translation File"
+msgstr "번역파일 다운로드"
+
+#: theme_lang_update.php:220
+msgid ""
+"If you have downloaded a zip_file, After Uncompress it, Save the file .po "
+"and .mo file to the path below."
+msgstr ""
+"압축파일을 다운로드 받았다면, 압축을 푸신후에, 아래 경로에 .po .mo 파일을 저"
+"장하세요."
+
+#: theme_lang_update.php:226 theme_lang_update.php:230
+msgid "Failed to save translation file."
+msgstr "번역 파일 저장에 실패하였습니다."
+
+#: theme_preview.php:9
+msgid "The theme does not exist or is not valid."
+msgstr "테마가 존재하지 않거나 올바르지 않습니다."
+
+#: theme_preview.php:77
+#, php-format
+msgid "Preview of %s theme"
+msgstr "%s 테마 미리보기"
+
+#: theme_preview.php:88
+msgid "Index Screen"
+msgstr "인덱스 화면"
+
+#: theme_preview.php:89
+msgid "List of postings"
+msgstr "게시글 리스트"
+
+#: theme_preview.php:90
+msgid "View postings"
+msgstr "게시글 보기"
+
+#: theme_preview.php:91
+msgid "PC Version"
+msgstr "PC 버전"
+
+#: theme_preview.php:91
+msgid "Mobile Version"
+msgstr "모바일 버전"
+
+#: thumbnail_file_delete.php:8
+msgid "Delete Thumbnail File Batch"
+msgstr "썸네일 일괄삭제"
+
+#: thumbnail_file_delete.php:43
+msgid "Failed to open Thumbnail directory."
+msgstr "썸네일 디렉토리를 열지 못했습니다."
+
+#: thumbnail_file_delete.php:67
+#, php-format
+msgid "%s Thumbnail file data has been deleted."
+msgstr "썸네일 데이터 %s 건 삭제 되었습니다."
+
+#: visit.sub.php:21
+msgid "Start date"
+msgstr "시작일"
+
+#: visit.sub.php:29
+msgid "Visitor"
+msgstr "방문자"
+
+#: visit.sub.php:29
+msgid "Domain"
+msgstr "도메인"
+
+#: visit.sub.php:29 visit_browser.php:36 visit_list.php:43 visit_search.php:39
+msgid "Browser"
+msgstr "브라우저"
+
+#: visit.sub.php:29
+msgid "OS"
+msgstr "OS"
+
+#: visit.sub.php:29 visit_list.php:45 visit_search.php:41
+msgid "User agent"
+msgstr "접속자환경"
+
+#: visit.sub.php:29
+msgid "Week"
+msgstr "주"
+
+#: visit.sub.php:29 visit_delete.php:45
+msgid "Month"
+msgstr "월"
+
+#: visit.sub.php:29 visit_delete.php:34 visit_year.php:34
+msgid "Year"
+msgstr "년"
+
+#: visit_browser.php:7
+msgid "Total number of users per browser"
+msgstr "브라우저별 접속자집계"
+
+#: visit_browser.php:37 visit_date.php:34 visit_device.php:37
+#: visit_domain.php:37 visit_hour.php:35 visit_month.php:35 visit_os.php:37
+#: visit_week.php:33 visit_year.php:35
+msgid "Graph"
+msgstr "그래프"
+
+#: visit_browser.php:38 visit_date.php:35 visit_device.php:38
+#: visit_domain.php:38 visit_hour.php:36 visit_month.php:36 visit_os.php:38
+#: visit_week.php:34 visit_year.php:36
+msgid "Number of users"
+msgstr "접속자수"
+
+#: visit_browser.php:39 visit_date.php:36 visit_device.php:39
+#: visit_domain.php:39 visit_hour.php:37 visit_month.php:37 visit_os.php:39
+#: visit_week.php:35 visit_year.php:37
+msgid "Ratio(%)"
+msgstr "비율(%)"
+
+#: visit_browser.php:44 visit_date.php:41 visit_device.php:44
+#: visit_domain.php:44 visit_hour.php:42 visit_month.php:42 visit_os.php:44
+#: visit_week.php:40 visit_year.php:42
+msgid "Sum"
+msgstr "합계"
+
+#: visit_date.php:7 visit_week.php:7
+msgid "Daily user count"
+msgstr "일별 접속자집계"
+
+#: visit_date.php:33
+msgid "Year-Month-Day"
+msgstr "년-월-일"
+
+#: visit_delete.php:19
+msgid "Select the year and method for deleting the contact log."
+msgstr "접속자 로그를 삭제할 년도와 방법을 선택해주십시오."
+
+#: visit_delete.php:24 visit_delete.php:26
+msgid "Select Year"
+msgstr "년도선택"
+
+#: visit_delete.php:35 visit_delete.php:37
+msgid "Select Month"
+msgstr "월선택"
+
+#: visit_delete.php:46
+msgid "Select Delete Method"
+msgstr "삭제방법선택"
+
+#: visit_delete.php:48
+msgid "Delete selected year / month prior data"
+msgstr "선택년월 이전 자료삭제"
+
+#: visit_delete.php:49
+msgid "Delete data for selection year / month"
+msgstr "선택년월의 자료삭제"
+
+#: visit_delete.php:53
+msgid "Administrator password"
+msgstr "관리자 비밀번호"
+
+#: visit_delete.php:62 visit_delete_update.php:26
+msgid "Please select a year."
+msgstr "년도를 선택해 주십시오."
+
+#: visit_delete.php:63
+msgid "Please select a month."
+msgstr "월을 선택해 주십시오."
+
+#: visit_delete.php:64 visit_delete_update.php:18
+msgid "Enter admin password."
+msgstr "관리자 비밀번호를 입력해 주십시오."
+
+#: visit_delete.php:65
+msgid "Are you sure you want to delete the data?"
+msgstr "자료를 삭제하시겠습니까?"
+
+#: visit_delete_update.php:23
+msgid "Administrator password mismatch."
+msgstr "관리자 비밀번호가 일치하지 않습니다."
+
+#: visit_delete_update.php:29
+msgid "Please select month."
+msgstr "월을 선택해 주십시오."
+
+#: visit_delete_update.php:59
+#, php-format
+msgid "%s items have been deleted. ( %s totals )"
+msgstr "%s 건 삭제완료. ( 총 %s 건 )"
+
+#: visit_device.php:7
+msgid "Total users by device"
+msgstr "기기별 접속자집계"
+
+#: visit_device.php:20 visit_device.php:68
+msgid "etc"
+msgstr "기타"
+
+#: visit_domain.php:7
+msgid "Total users by domain"
+msgstr "도메인별 접속자집계"
+
+#: visit_domain.php:36
+msgid "Connection domain"
+msgstr "접속 도메인"
+
+#: visit_domain.php:70
+msgid "Directly"
+msgstr "직접"
+
+#: visit_hour.php:7
+msgid "User count by hour"
+msgstr "시간별 접속자집계"
+
+#: visit_list.php:42 visit_search.php:24 visit_search.php:38
+msgid "Referer url"
+msgstr "유입 url"
+
+#: visit_list.php:103
+msgid "No data found or deleted by administrator."
+msgstr "자료가 없거나 관리자에 의해 삭제되었습니다."
+
+#: visit_month.php:7
+msgid "Monthly user count"
+msgstr "월별 접속자집계"
+
+#: visit_month.php:34
+msgid "Year-Month"
+msgstr "년-월"
+
+#: visit_os.php:7
+msgid "OS specific user count"
+msgstr "OS별 접속자집계"
+
+#: visit_search.php:13
+msgid "All search"
+msgstr "모든 검색"
+
+#: visit_search.php:21
+msgid "Search classification"
+msgstr "검색분류"
+
+#: visit_search.php:27
+msgid "Search Word"
+msgstr "검색어"
+
+#: visit_week.php:11
+msgctxt "Monday"
+msgid "M"
+msgstr "월"
+
+#: visit_week.php:11
+msgctxt "Tuesday"
+msgid "T"
+msgstr "화"
+
+#: visit_week.php:11
+msgctxt "Wednesday"
+msgid "W"
+msgstr "수"
+
+#: visit_week.php:11
+msgctxt "Thursday"
+msgid "T"
+msgstr "목"
+
+#: visit_week.php:11
+msgctxt "Friday"
+msgid "F"
+msgstr "금"
+
+#: visit_week.php:11
+msgctxt "Saturday"
+msgid "S"
+msgstr "토"
+
+#: visit_week.php:11
+msgctxt "Sunday"
+msgid "S"
+msgstr "일"
+
+#: visit_week.php:32
+msgctxt "day of the week"
+msgid "Day"
+msgstr "요일"
+
+#: visit_year.php:7
+msgid "Annual user count"
+msgstr "연도별 접속자집계"
+
+#: write_count.php:31 write_count.php:53 write_count.php:60
+msgid "Today"
+msgstr "오늘"
+
+#: write_count.php:32 write_count.php:63
+msgid "Yesterday"
+msgstr "어제"
+
+#: write_count.php:33 write_count.php:34 write_count.php:35
+#, php-format
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] "%s 일전"
+
+#: write_count.php:33 write_count.php:34 write_count.php:35 write_count.php:88
+msgid "Days"
+msgstr "일"
+
+#: write_count.php:36 write_count.php:37
+#, php-format
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] "%s 개월전"
+
+#: write_count.php:36 write_count.php:37 write_count.php:97
+msgid "Weeks"
+msgstr "주"
+
+#: write_count.php:38 write_count.php:39 write_count.php:40 write_count.php:41
+#: write_count.php:42
+#, php-format
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] "%s 년전"
+
+#: write_count.php:38 write_count.php:39 write_count.php:40
+msgid "months"
+msgstr "달"
+
+#: write_count.php:41 write_count.php:42
+msgid "years"
+msgstr "년"
+
+#: write_count.php:66
+msgid "Tomorrow"
+msgstr "내일"
+
+#: write_count.php:109
+msgid "Months"
+msgstr "달"
+
+#: write_count.php:118
+msgid "Years"
+msgstr "년"
+
+#: write_count.php:132
+msgid "All board"
+msgstr "전체게시판"
+
+#: write_count.php:157
+msgid "Line graph"
+msgstr "선그래프"
+
+#: write_count.php:158
+msgid "Bar graph"
+msgstr "막대그래프"
+
+#: write_count.php:164 write_count.php:195
+msgid "Number of Posts"
+msgstr "글수"
+
+#: write_count.php:165
+msgid "Number of Comments"
+msgstr "댓글수"
+
+#~ msgid "total %s"
+#~ msgstr "전체 %s"
+
+#~ msgid "Use Payco login"
+#~ msgstr "페이코 로그인 사용"
+
+#~ msgid "Payco CallbackURL"
+#~ msgstr "페이코 콜백 URL"
+
+#~ msgid "Payco Client ID"
+#~ msgstr "페이코 Client ID"
+
+#~ msgid "Payco Client Secret"
+#~ msgstr "페이코 Client Secret"
+
+#~ msgid "Delete Cache Files"
+#~ msgstr "캐시 파일 삭제"
+
+#~ msgid "Only the top administrator can access it."
+#~ msgstr "최고관리자만 접근 가능합니다."
+
+#~ msgid "Select Site Language"
+#~ msgstr "사이트 언어를 선택하세요"
+
+#~ msgid "Mobile Phone"
+#~ msgstr "휴대폰"
+
+#~ msgid "I-PIN"
+#~ msgstr "아이핀"
+
+#~ msgid "Edit Admin"
+#~ msgstr "관리자 수정"
+
+#~ msgid "Self-Authentication Type"
+#~ msgstr "본인인증 구분"
+
+#~ msgid "Self-Authentication"
+#~ msgstr "본인인증"
+
+#~ msgid "Adult-Authentication"
+#~ msgstr "성인인증"
+
+#~ msgid "modify_selection"
+#~ msgstr "선택수정"
+
+#~ msgid "Authorization"
+#~ msgstr "본인확인"
+
+#~ msgid "Adult certification"
+#~ msgstr "성인인증"
+
+#~ msgid "Phone"
+#~ msgstr "휴대폰"
+
+#~ msgid "I-pin"
+#~ msgstr "아이핀"
+
+#~ msgid "The Captcha certification is invalid."
+#~ msgstr "캡챠 인증이 유효하지 않습니다."
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "우편번호"
+
+#~ msgid "Search addresses"
+#~ msgstr "주소 검색"
+
+#~ msgid "Street address 1"
+#~ msgstr "주소 1"
+
+#~ msgid "Street address 2"
+#~ msgstr "주소 2"
+
+#~ msgid "%s items have been deleted. ( %s totals ) "
+#~ msgstr "%s 건 삭제완료. ( 총 %s 건 )"
+
+#~ msgid "order"
+#~ msgstr "순서"
+
+#~ msgid "Interlock release"
+#~ msgstr "연동해제"
+
+#~ msgid "Mobile phone"
+#~ msgstr "휴대폰"
+
+#~ msgid "Include words in your mail address"
+#~ msgstr "메일 주소에 단어 포함"
+
+#~ msgid "Enter Faq"
+#~ msgstr "Faq 입력"
+
+#~ msgid "This group does not exist "
+#~ msgstr "존재하지 않는 그룹입니다"
+
+#~ msgid "Automatically delete notes past the set date"
+#~ msgstr "설정일이 지난 쪽지 자동 삭제"
+
+#~ msgid "%s is already a table."
+#~ msgstr "%s 은(는) 이미 존재하는 TABLE 입니다."
+
+#~ msgid "Keep notice message"
+#~ msgstr "알림 삭제"
+
+#~ msgid "DB TABLE UPDATE"
+#~ msgstr "DB 테이블 업데이트"
+
+#~ msgid "Sign Up"
+#~ msgstr "회원가입"
+
+#~ msgid "Default Mail Preferences"
+#~ msgstr "기본 메일 환경 설정"
+
+#~ msgid "Writing mail"
+#~ msgstr "글작성메일"
+
+#~ msgid "Subscription mail"
+#~ msgstr "가입메일"
+
+#~ msgid "Voting Mail"
+#~ msgstr "투표메일"
+
+#~ msgid "Add Layout"
+#~ msgstr "레이아웃추가"
+
+#~ msgid "Administrative"
+#~ msgstr "관리권한설정"
+
+#~ msgid "Manage popup"
+#~ msgstr "팝업관리"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

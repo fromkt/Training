@@ -1,0 +1,1982 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-21 15:17+0900\n"
+"PO-Revision-Date: 2018-08-21 15:19+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../../install\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:6
+msgid "Verify Licenses"
+msgstr "라이센스 확인"
+
+#: index.php:29 index.php:45 index.php:52 install_config.php:100
+msgid "License"
+msgstr "라이센스"
+
+#: index.php:36
+msgid "I agree"
+msgstr "동의합니다"
+
+#: index.php:40 install_config.php:87
+msgid "Next"
+msgstr "다음"
+
+#: index.php:47
+msgid "Be sure to check the License details."
+msgstr "라이센스 내용에 동의하셔야 설치가 가능합니다."
+
+#: index.php:50 install_config.php:98
+msgid "Installation order"
+msgstr "설치 순서"
+
+#: index.php:53 install_config.php:92 install_config.php:101
+msgid "Entering Information"
+msgstr "정보입력"
+
+#: index.php:54 install_config.php:102
+msgid "Install"
+msgstr "설치"
+
+#: index.php:65
+msgid "You must accept the license to install it."
+msgstr "라이센스 내용에 동의하셔야 설치가 가능합니다."
+
+#: install.inc.php:5
+#, php-format
+msgid "Install %s"
+msgstr "%s 설치"
+
+#: install.inc.php:28
+#, php-format
+msgid "The program %s is already installed."
+msgstr "%s 프로그램이 이미 설치되어 있습니다."
+
+#: install.inc.php:31
+msgid "The program is already installed."
+msgstr "프로그램이 이미 설치되어 있습니다."
+
+#: install.inc.php:31
+msgid ""
+"To perform a new installation, please delete and refresh the DB config file."
+msgstr "새로 설치하시려면 DB 설정 파일을 삭제 하신 후 새로고침 하십시오."
+
+#: install.inc.php:44
+#, php-format
+msgid "Please check the information below to install %s."
+msgstr "%s 설치를 위해 아래 내용을 확인해 주십시오."
+
+#: install.inc.php:48
+#, php-format
+msgid "Please create the %s directory down in the root directory."
+msgstr "루트 디렉토리에 아래로 %s 디렉토리를 생성하여 주십시오."
+
+#: install.inc.php:49
+msgid "The root directory is where the \"common.php\" file resides."
+msgstr "\"common.php\" 파일이 있는곳이 루트 디렉토리 입니다."
+
+#: install.inc.php:51
+msgid "IF Window OS, please create a \"data\" folder."
+msgstr "윈도우의 경우 \"data\" 폴더를 하나 생성해 주시기 바랍니다."
+
+#: install.inc.php:52 install.inc.php:73 install.inc.php:87
+msgid "Please refresh your browser after executing the above command."
+msgstr "위 명령 실행후 브라우저를 새로고침 하십시오."
+
+#: install.inc.php:71 install.inc.php:85
+#, php-format
+msgid "Please change the %s directory permission to %s."
+msgstr "%s 디렉토리의 퍼미션을 %s로 변경하여 주십시오."
+
+#: install.inc.php:72 install.inc.php:86
+msgid "OR"
+msgstr "또는"
+
+#: install.inc.php:99
+#, php-format
+msgid "Have not write permissions in the %s folder."
+msgstr "폴더 %s 에 쓰기 권한이 없습니다."
+
+#: install.inc.php:101
+#, php-format
+msgid ""
+"Please change the %s directory a write permission, then refresh your browser."
+msgstr "폴더 %s 에 쓰기 권한을 부여한 후에, 브라우저를 새로고침 해 주세요."
+
+#: install.inc2.php:2
+msgid "GNUBOARD M"
+msgstr "그누보드 M"
+
+#: install_config.php:11
+msgid "Initial Preferences"
+msgstr "초기환경설정"
+
+#: install_config.php:18
+#, php-format
+msgid ""
+"Requires php ( %s ) version or higher to install. Can not install the "
+"Current php ( %s ) version because it is low."
+msgstr ""
+"설치하려면 PHP ( %s ) 버전 이상이어야 합니다. 현재 PHP ( %s ) 낮은 버전이기 "
+"때문에 설치할수 없습니다."
+
+#: install_config.php:22
+msgid "You must accept the license to continue with the installation."
+msgstr "라이센스 내용에 동의하셔야 설치를 계속하실 수 있습니다."
+
+#: install_config.php:31 install_db.php:51 install_db.php:65
+msgid "Back"
+msgstr "돌아가기"
+
+#: install_config.php:42
+#, php-format
+msgid "Enter %s information"
+msgstr "%s 정보입력"
+
+#: install_config.php:60 install_config.php:119
+msgid "Table name prefix"
+msgstr "TABLE명 접두사"
+
+#: install_config.php:62
+msgid "Do not make any possible changes."
+msgstr "가능한 변경하지 마십시오."
+
+#: install_config.php:67
+msgid "Enter Super administrator information"
+msgstr "최고관리자 정보입력"
+
+#: install_config.php:69
+msgid "Member ID"
+msgstr "회원아이디"
+
+#: install_config.php:73
+msgid "Password"
+msgstr "패스워드"
+
+#: install_config.php:77
+msgid "Name"
+msgstr "이름"
+
+#: install_config.php:78
+msgid "Super_Admin"
+msgstr "최고관리자"
+
+#: install_config.php:81
+msgid "E-mail"
+msgstr "E-mail"
+
+#: install_config.php:94
+#, php-format
+msgid "WARNING! If %s already exists, DB data will be lost, so be careful."
+msgstr "주의! 이미 %s 가 존재한다면 DB 자료가 망실되므로 주의하십시오."
+
+#: install_config.php:95
+msgid ""
+"You understand the precautions, and click Next to proceed with the "
+"installation of the GNUBOARD."
+msgstr ""
+"주의사항을 이해했으며, 그누보드 설치를 계속 진행하시려면 다음을 누르십시오."
+
+#: install_config.php:113
+#, php-format
+msgid "Enter %s."
+msgstr "%s 를 입력하십시오."
+
+#: install_config.php:114
+msgid "Admin ID"
+msgstr "관리자 아이디"
+
+#: install_config.php:115
+msgid "Admin Password"
+msgstr "관리자 비밀번호"
+
+#: install_config.php:116
+msgid "Admin Name"
+msgstr "관리자 이름"
+
+#: install_config.php:117
+msgid "Admin E-mail"
+msgstr "관리자 E-mail"
+
+#: install_config.php:118
+#, php-format
+msgid ""
+"The %s contains invalid characters. Please replace it with another letter."
+msgstr "%s 에 유효하지 않는 문자가 있습니다. 다른 문자로 대체해 주세요."
+
+#: install_config.php:120
+msgid ""
+"You must create a super administrator member ID with the first character "
+"only in alphabetic and alphabetic and numeric characters."
+msgstr ""
+"최고관리자 회원 아이디는 첫자는 반드시 영문자 그리고 영문자와 숫자로만 만드셔"
+"야 합니다."
+
+#: install_db.php:25
+msgid "The value entered contains unsafe characters. Stop the installation."
+msgstr "입력한 값에 안전하지 않는 문자가 포함되어 있습니다. 설치를 중단합니다."
+
+#: install_db.php:32
+msgid "Installation complete"
+msgstr "설치 완료"
+
+#: install_db.php:50 install_db.php:64
+#, php-format
+msgid "Please check %s."
+msgstr "%s 를 확인해 주십시오."
+
+#: install_db.php:86
+#, php-format
+msgid "Installation of %s has started."
+msgstr "%s 설치가 시작되었습니다."
+
+#: install_db.php:108
+msgid "Complete table creation"
+msgstr "전체 테이블 생성 완료"
+
+#: install_db.php:184
+msgid "Enter the appropriate membership terms and conditions for the website."
+msgstr "해당 홈페이지에 맞는 회원가입약관을 입력합니다."
+
+#: install_db.php:185
+msgid "Enter the privacy policy that corresponds to the website."
+msgstr "해당 홈페이지에 맞는 개인정보처리방침을 입력합니다."
+
+#: install_db.php:193
+msgid "1:1 inquiry"
+msgstr "1:1문의"
+
+#: install_db.php:193
+msgid "Member|Point"
+msgstr "회원|포인트"
+
+#: install_db.php:213
+msgid "About Company"
+msgstr "회사소개"
+
+#: install_db.php:213
+msgid "Please enter the information about your About Company."
+msgstr "회사소개에 대한 내용을 입력하십시오."
+
+#: install_db.php:214
+msgid "Privacy Policy"
+msgstr "개인정보 처리방침"
+
+#: install_db.php:214
+msgid "Please enter your Privacy Policy."
+msgstr "개인정보 처리방침에 대한 내용을 입력하십시오."
+
+#: install_db.php:215
+msgid "Terms of service"
+msgstr "서비스 이용약관"
+
+#: install_db.php:215
+msgid "Please enter the service terms and conditions."
+msgstr "서비스 이용약관에 대한 내용을 입력하십시오."
+
+#: install_db.php:218
+msgid "Frequently Asked Questions"
+msgstr "자주하시는 질문"
+
+#: install_db.php:221
+msgid "Shoppingmall"
+msgstr "쇼핑몰"
+
+#: install_db.php:221
+msgid "Community"
+msgstr "커뮤니티"
+
+#: install_db.php:316
+msgid "DB settings complete"
+msgstr "DB설정 완료"
+
+#: install_db.php:341
+msgid "Data directory creation completed"
+msgstr "데이터 디렉토리 생성 완료"
+
+#: install_db.php:397
+msgid "DB settings file creation complete"
+msgstr "DB설정 파일 생성 완료"
+
+#: install_db.php:414
+#, php-format
+msgid "Congratulations!. Installation of %s is complete."
+msgstr "축하합니다. %s 설치가 완료되었습니다."
+
+#: install_db.php:420
+msgid "Follow these steps to change preferences."
+msgstr "환경설정 변경은 다음의 과정을 따르십시오."
+
+#: install_db.php:423
+msgid "Go to Main Screen"
+msgstr "메인화면으로 이동"
+
+#: install_db.php:424
+msgid "Administrator login"
+msgstr "관리자 로그인"
+
+#: install_db.php:425
+msgid "Go to Administrator Page"
+msgstr "관리자 페이지 접속"
+
+#: install_db.php:426
+msgid "Go to the Preferences page in the Preferences menu"
+msgstr "환경설정 메뉴의 기본환경설정 페이지로 이동"
+
+#: install_db.php:430
+msgid "Go to the new GnuBoard M"
+msgstr "새로운 그누보드 M 로 이동"
+
+#: library.check.php:6
+#, php-format
+msgid "GD library is required for normal use of %s."
+msgstr "%s 의 정상적인 사용을 위해서는 GD 라이브러리가 필요합니다."
+
+#: library.check.php:6
+msgid ""
+"Without the GD library, Captcha and thumbnail functionality will not work."
+msgstr ""
+"GD 라이브러리가 없을 경우 자동등록방지 문자와 썸네일 기능이 작동하지 않습니"
+"다."
+
+#: license.php:4
+msgid ""
+"Software products are protected by copyright laws and international "
+"copyright conventions as well as other intellectual property laws and "
+"conventions."
+msgstr ""
+"소프트웨어 제품은 저작권법 및 국제저작권 협약을 비롯하여, 기타 지적재산권법 "
+"및 협약의 보호를 받습니다."
+
+#: license.php:7
+msgid "Software name : Gnuboard M ( GNU Board Multi Language Version )"
+msgstr "소프트웨어 명칭 : 그누보드 M ( GNU Board 다국어 버전 )"
+
+#: license.php:10
+msgid "Author :"
+msgstr "저작자 :"
+
+#: license.php:12
+msgid "License :"
+msgstr "라이센스 :"
+
+#~ msgid "Notice"
+#~ msgstr "공지"
+
+#~ msgid "Questions Answer"
+#~ msgstr "질문답변"
+
+#~ msgid "Free Board"
+#~ msgstr "자유게시판"
+
+#~ msgid "Gallery"
+#~ msgstr "갤러리"
+
+#~ msgid "Software name : Gnuboard M ( GNU Board Multilingual Version )"
+#~ msgstr "소프트웨어 명칭 : 그누보드 M ( GNU Board 다국어 버전 )"
+
+#~ msgid "Enter top administrator information"
+#~ msgstr "최고관리자 정보입력"
+
+#~ msgid "Top_Admin"
+#~ msgstr "최고관리자"
+
+#~ msgid ""
+#~ "To perform a new installation, please delete and refresh the following "
+#~ "files."
+#~ msgstr "새로 설치하시려면 다음 파일을 삭제 하신 후 새로고침 하십시오."
+
+#~ msgid "Please enter only letters, numbers, and _. for the Recommend-ID"
+#~ msgstr "추천인의 아이디는 영문자, 숫자, _ 만 입력하세요"
+
+#~ msgid "The recommender you entered does not exist."
+#~ msgstr "입력하신 추천인은 존재하지 않는 아이디 입니다."
+
+#~ msgid "Error notification page"
+#~ msgstr "오류안내 페이지"
+
+#~ msgid "Result information page"
+#~ msgstr "결과안내 페이지"
+
+#~ msgid "The following items have errors :"
+#~ msgstr "다음 항목에 오류가 있습니다 :"
+
+#~ msgid "Please check the following information."
+#~ msgstr "다음 내용을 확인해 주세요."
+
+#~ msgid "Please close the new window and retry the previous operation."
+#~ msgstr "새창을 닫으시고 이전 작업을 다시 시도해 주세요."
+
+#~ msgid "This bulletin board does not exist."
+#~ msgstr "존재하지 않는 게시판입니다."
+
+#~ msgid "Parameter bo_table is empty."
+#~ msgstr "파라미터 bo_table 값이 없습니다."
+
+#~ msgid "The post does not exist."
+#~ msgstr "글이 존재하지 않습니다."
+
+#~ msgid "The post has been deleted or moved."
+#~ msgstr "글이 삭제되었거나 이동된 경우입니다."
+
+#~ msgid "No non-members have access to this bulletin board."
+#~ msgstr "비회원은 이 게시판에 접근할 권한이 없습니다."
+
+#~ msgid "If you are a member, log in and try it."
+#~ msgstr "회원이시면 로그인 후 이용해 보십시오."
+
+#~ msgid "You do not have access, so you can not read the post."
+#~ msgstr "접근 권한이 없으므로 글읽기가 불가합니다."
+
+#~ msgid "If you have any questions, please contact the administrator."
+#~ msgstr "궁금하신 사항은 관리자에게 문의 바랍니다."
+
+#~ msgid "You do not have permission to read."
+#~ msgstr "글을 읽을 권한이 없습니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be read by the member who has confirmed self-"
+#~ "Authentication."
+#~ msgstr "이 게시판은 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#~ msgid "Please confirm your Authentication in the member profile edit."
+#~ msgstr "회원정보 수정에서 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be read by a member certified as an adult by "
+#~ "self-Authentication."
+#~ msgstr "이 게시판은 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#~ msgid ""
+#~ "If you are an adult and can not read the post, please confirm your "
+#~ "Authentication in the member profile edit."
+#~ msgstr ""
+#~ "현재 성인인데 글읽기가 안된다면 회원정보 수정에서 본인확인을 다시 해주시"
+#~ "기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be read by a member who has confirmed Phone-"
+#~ "Authentication."
+#~ msgstr "이 게시판은 휴대폰 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#~ msgid ""
+#~ "Please check the identity of the Phone-Authentication in the member "
+#~ "profile edit."
+#~ msgstr "회원정보 수정에서 휴대폰 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be read by a member certified as an adult by "
+#~ "Phone-Authentication."
+#~ msgstr ""
+#~ "이 게시판은 휴대폰 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#~ msgid ""
+#~ "If you are an adult and can not read the post, please confirm your Phone-"
+#~ "Authentication in the member profile edit."
+#~ msgstr ""
+#~ "현재 성인인데 글읽기가 안된다면 회원정보 수정에서 휴대폰 본인확인을 다시 "
+#~ "해주시기 바랍니다."
+
+#~ msgid ""
+#~ "Your point (%s) is missing or enough points, so you can not read (%s)."
+#~ msgstr "보유하신 포인트(%s)가 없거나 모자라서 글읽기(%s)가 불가합니다."
+
+#~ msgid "Collect points and read again."
+#~ msgstr "포인트를 모으신 후 다시 글읽기 해 주십시오."
+
+#~ msgid "Read post"
+#~ msgstr "글읽기"
+
+#~ msgid "You do not have permission to view the list."
+#~ msgstr "목록을 볼 권한이 없습니다."
+
+#~ msgid "Page"
+#~ msgstr "페이지"
+
+#~ msgid "Skin used"
+#~ msgstr "사용스킨"
+
+#~ msgid "Please select at least one item to %s."
+#~ msgstr "%s 하실 항목을 하나 이상 선택하세요."
+
+#~ msgid "Please use the correct method."
+#~ msgstr "올바른 방법으로 이용해 주세요."
+
+#~ msgid "Please confirm the following contents."
+#~ msgstr "아래 내용을 확인해 주세요."
+
+#~ msgid "Confirm"
+#~ msgstr "확인"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "No content registered."
+#~ msgstr "등록된 내용이 없습니다."
+
+#~ msgid "Edit Content"
+#~ msgstr "내용수정"
+
+#~ msgid "File does not exist."
+#~ msgstr "파일이 존재하지 않습니다."
+
+#~ msgid "Current Users"
+#~ msgstr "현재접속자"
+
+#~ msgid "Unable to delete due to token error."
+#~ msgstr "토큰 에러로 삭제 불가합니다."
+
+#~ msgid ""
+#~ "You can not delete it because it is not a bulletin board for the group "
+#~ "you manage."
+#~ msgstr "자신이 관리하는 그룹의 게시판이 아니므로 삭제할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not delete an post written by a member with a privilege higher "
+#~ "than own writer."
+#~ msgstr "자신의 권한보다 높은 권한의 회원이 작성한 글은 삭제할 수 없습니다."
+
+#~ msgid "You can not delete a bulletin because it is not your managed."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 삭제할 수 없습니다."
+
+#~ msgid "Can not delete because it is not your own post."
+#~ msgstr "자신의 글이 아니므로 삭제할 수 없습니다."
+
+#~ msgid "Please login and delete it."
+#~ msgstr "로그인 후 삭제하세요."
+
+#~ msgid "Password is incorrect and can not be deleted."
+#~ msgstr "비밀번호가 틀리므로 삭제할 수 없습니다."
+
+#~ msgid "The answer to this post exists and can not be deleted."
+#~ msgstr "이 글과 관련된 답변글이 존재하므로 삭제 할 수 없습니다."
+
+#~ msgid "Please delete the answer first."
+#~ msgstr "우선 답변글부터 삭제하여 주십시오."
+
+#~ msgid ""
+#~ "You can not delete any comments related to this post because they exist."
+#~ msgstr "이 글과 관련된 코멘트가 존재하므로 삭제 할 수 없습니다."
+
+#~ msgid "You can not delete a post with %s or more comments."
+#~ msgstr "%s 건 이상 달린 원글은 삭제할 수 없습니다."
+
+#~ msgid "Delete Post"
+#~ msgstr "글삭제"
+
+#~ msgid "Delete Comment"
+#~ msgstr "댓글삭제"
+
+#~ msgid "You do not have access."
+#~ msgstr "접근 권한이 없습니다."
+
+#~ msgid "No comments have been registered or this is not a comment."
+#~ msgstr "등록된 코멘트가 없거나 코멘트 글이 아닙니다."
+
+#~ msgid ""
+#~ "Can not delete as this is a comment from the member above the group admin "
+#~ "authority."
+#~ msgstr "그룹관리자의 권한보다 높은 회원의 코멘트이므로 삭제할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not delete a comment because it is not a bulletin board for the "
+#~ "group you manage."
+#~ msgstr ""
+#~ "자신이 관리하는 그룹의 게시판이 아니므로 코멘트를 삭제할 수 없습니다."
+
+#~ msgid ""
+#~ "This is a comment made by a member above the board admin authority and "
+#~ "can not be deleted."
+#~ msgstr ""
+#~ "게시판관리자의 권한보다 높은 회원의 코멘트이므로 삭제할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not delete comments because they are not your own bulletin board."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 코멘트를 삭제할 수 없습니다."
+
+#~ msgid "The password is incorrect."
+#~ msgstr "비밀번호가 틀립니다."
+
+#~ msgid ""
+#~ "You can not delete an answer comment associated with this comment because "
+#~ "it exists."
+#~ msgstr "이 코멘트와 관련된 답변코멘트가 존재하므로 삭제 할 수 없습니다."
+
+#~ msgid "Its a wrong access."
+#~ msgstr "잘못된 접근입니다."
+
+#~ msgid "You do not have download level."
+#~ msgstr "다운로드 권한이 없습니다."
+
+#~ msgid "File information does not exist."
+#~ msgstr "파일 정보가 존재하지 않습니다."
+
+#~ msgid "Download the %s file and the point will be deducted (%s points)."
+#~ msgstr "%s 파일을 다운로드 하시면 포인트가 차감( %s 점)됩니다."
+
+#~ msgid ""
+#~ "Points will be deducted only once per post and will not be deducted from "
+#~ "the next download."
+#~ msgstr ""
+#~ "포인트는 게시물당 한번만 차감되며 다음에 다시 다운로드 하셔도 중복하여 차"
+#~ "감하지 않습니다."
+
+#~ msgid "Do you still want to download?"
+#~ msgstr "그래도 다운로드 하시겠습니까?"
+
+#~ msgid ""
+#~ "You dont have any points (%s) or you dont have enough to download (%s) "
+#~ "them."
+#~ msgstr "보유하신 포인트(%s)가 없거나 모자라서 다운로드(%s)가 불가합니다."
+
+#~ msgid "Please accumulate points and download again."
+#~ msgstr "포인트를 적립하신 후 다시 다운로드 해 주십시오."
+
+#~ msgid "Download File"
+#~ msgstr "파일 다운로드"
+
+#~ msgid "Download"
+#~ msgstr "다운로드"
+
+#~ msgid "This member does not exist."
+#~ msgstr "존재하는 회원이 아닙니다."
+
+#~ msgid "Your mail authentication has been successfully processed."
+#~ msgstr "메일인증 처리를 완료 하였습니다."
+
+#~ msgid "You can log in with an %s ID from now on."
+#~ msgstr "지금부터 %s 아이디로 로그인 할수 있습니다."
+
+#~ msgid "Invalid mail authentication request information."
+#~ msgstr "메일인증 요청 정보가 올바르지 않습니다."
+
+#~ msgid "A valid value has not crossed."
+#~ msgstr "제대로 된 값이 넘어오지 않았습니다."
+
+#~ msgid "You have declined to receive an information mail."
+#~ msgstr "정보메일을 보내지 않도록 수신거부 하였습니다."
+
+#~ msgid "Current Category"
+#~ msgstr "열린 분류"
+
+#~ msgid "No post found."
+#~ msgstr "게시물이 없습니다."
+
+#~ msgid "No FAQ is registered."
+#~ msgstr "등록된 FAQ가 없습니다."
+
+#~ msgid "To register a new FAQ, use the FAQ Admin menu."
+#~ msgstr "FAQ를 새로 등록하시려면 FAQ관리 메뉴를 이용하십시오."
+
+#~ msgid ""
+#~ "Admin must check \"Enable mail sending\" in Preferences to send mail."
+#~ msgstr ""
+#~ "환경설정에서 \"메일발송 사용\"에 체크하셔야 메일을 발송할 수 있습니다."
+
+#~ msgid "Please contact your administrator."
+#~ msgstr "관리자에게 문의하시기 바랍니다."
+
+#~ msgid "Only members can use it."
+#~ msgstr "회원만 이용하실 수 있습니다."
+
+#~ msgid "You cant send an email to someone else unless you open your profile."
+#~ msgstr "자신의 정보를 공개하지 않으면 다른분에게 메일을 보낼 수 없습니다."
+
+#~ msgid "Profile Open settings can be made in Modify Member Edit."
+#~ msgstr "정보공개 설정은 회원정보수정에서 하실 수 있습니다."
+
+#~ msgid "Member information does not exist."
+#~ msgstr "회원정보가 존재하지 않습니다."
+
+#~ msgid "This member may have left."
+#~ msgstr "탈퇴한 회원일 수 있습니다."
+
+#~ msgid "This member has not Open Profile"
+#~ msgstr "정보공개를 하지 않았습니다"
+
+#~ msgid ""
+#~ "You can only send a certain number of emails after a single connection."
+#~ msgstr "한번 접속후 일정수의 메일만 발송할 수 있습니다."
+
+#~ msgid "Please login or log in again to continue sending mail."
+#~ msgstr "계속해서 메일을 보내시려면 다시 로그인 또는 접속하여 주십시오."
+
+#~ msgid "Writing mail"
+#~ msgstr "메일 쓰기"
+
+#~ msgid "The email is not valid."
+#~ msgstr "이메일이 올바르지 않습니다."
+
+#~ msgid "You can mail only one person at a time."
+#~ msgstr "한번에 한사람에게만 메일을 발송할 수 있습니다."
+
+#~ msgid "The Captcha certification is invalid."
+#~ msgstr "캡챠인증이 유효하지 않습니다."
+
+#~ msgid "Send Mail"
+#~ msgstr "메일보내기"
+
+#~ msgid "Sending mail"
+#~ msgstr "메일 발송중"
+
+#~ msgid "Mail has been sent successfully."
+#~ msgstr "메일을 정상적으로 발송하였습니다."
+
+#~ msgid "Only members are allowed."
+#~ msgstr "회원만 가능합니다."
+
+#~ msgid "The parameters is wrong."
+#~ msgstr "파라미터에 문제가 있습니다."
+
+#~ msgid "You can only Good or Bad from the corresponding posts."
+#~ msgstr "해당 게시물에서만 좋아요 또는 싫어요 하실 수 있습니다."
+
+#~ msgid "This Board does not exist."
+#~ msgstr "존재하는 게시판이 아닙니다."
+
+#~ msgid "You can not Good or Bad in your own post."
+#~ msgstr "자신의 글에는 좋아요 또는 싫어요 하실 수 없습니다."
+
+#~ msgid "This Board does not use the Good feature."
+#~ msgstr "이 게시판은 좋아요 기능을 사용하지 않습니다."
+
+#~ msgid "This Board does not use the Bad feature."
+#~ msgstr "이 게시판은 싫어요 기능을 사용하지 않습니다."
+
+#~ msgid "Good"
+#~ msgstr "좋아요"
+
+#~ msgid "Bad"
+#~ msgstr "싫어요"
+
+#~ msgid "This post already %s."
+#~ msgstr "이미 %s 하신 글 입니다."
+
+#~ msgid "This post has %s"
+#~ msgstr "이 글을 %s 하셨습니다"
+
+#~ msgid "Groups are accessible only from Mobile"
+#~ msgstr "그룹은 모바일에서만 접근할 수 있습니다"
+
+#~ msgid "Link"
+#~ msgstr "링크"
+
+#~ msgid "No link found."
+#~ msgstr "링크가 없습니다."
+
+#~ msgid "All"
+#~ msgstr "전체"
+
+#~ msgid "Search Prev"
+#~ msgstr "이전검색"
+
+#~ msgid "Search Next"
+#~ msgstr "다음검색"
+
+#~ msgid "Login"
+#~ msgstr "로그인"
+
+#~ msgid "Check Login"
+#~ msgstr "로그인 검사"
+
+#~ msgid "The member ID or password must not be blank."
+#~ msgstr "회원아이디나 비밀번호가 공백이면 안됩니다."
+
+#~ msgid "The member ID is not registered or the password is incorrect."
+#~ msgstr "가입된 회원아이디가 아니거나 비밀번호가 틀립니다."
+
+#~ msgid "Passwords are case-sensitive."
+#~ msgstr "비밀번호는 대소문자를 구분합니다."
+
+#~ msgid "Your ID is not allowed to access."
+#~ msgstr "회원님의 아이디는 접근이 금지되어 있습니다."
+
+#~ msgid "Processing date :"
+#~ msgstr "처리일 :"
+
+#~ msgid "You can not access this ID because it has leave."
+#~ msgstr "탈퇴한 아이디이므로 접근하실 수 없습니다."
+
+#~ msgid "Date of withdrawal :"
+#~ msgstr "탈퇴일 :"
+
+#~ msgid "You can log in only if you have received %s email verification."
+#~ msgstr "%s 메일로 메일인증을 받으셔야 로그인 가능합니다."
+
+#~ msgid ""
+#~ "Please click Cancel to change to another e-mail address to authenticate."
+#~ msgstr "다른 메일주소로 변경하여 인증하시려면 취소를 클릭하시기 바랍니다."
+
+#~ msgid "Unable to specify domain at url."
+#~ msgstr "URL 에 도메인을 지정할 수 없습니다."
+
+#~ msgid "Once logged in, you can access it."
+#~ msgstr "로그인 한 회원만 접근하실 수 있습니다."
+
+#~ msgid "Confirm member password"
+#~ msgstr "회원 비밀번호 확인"
+
+#~ msgid "Only members can access it."
+#~ msgstr "회원만 접근하실 수 있습니다."
+
+#~ msgid "The Super Admin can not leave"
+#~ msgstr "최고 관리자는 탈퇴할 수 없습니다"
+
+#~ msgid "Incorrect password."
+#~ msgstr "비밀번호가 틀립니다."
+
+#~ msgid "%s has leave membership at %s"
+#~ msgstr "%s 님께서는 %s 에 회원에서 탈퇴 하셨습니다"
+
+#~ msgid "My Memo"
+#~ msgstr "내 쪽지함"
+
+#~ msgid "%s value is wrong"
+#~ msgstr "%s 값이 올바르지 않습니다"
+
+#~ msgid "Received"
+#~ msgstr "받은"
+
+#~ msgid "Sent"
+#~ msgstr "보낸"
+
+#~ msgid "Unknown"
+#~ msgstr "정보없음"
+
+#~ msgid "Not yet read"
+#~ msgstr "아직 읽지 않음"
+
+#~ msgid ""
+#~ "You cant send a note to someone else unless you open your profile. "
+#~ "Profile open settings can be made in Edit Member profile."
+#~ msgstr ""
+#~ "자신의 정보를 공개하지 않으면 다른분에게 쪽지를 보낼 수 없습니다. 정보공"
+#~ "개 설정은 회원정보수정에서 하실 수 있습니다."
+
+#~ msgid "Send Memo"
+#~ msgstr "쪽지 보내기"
+
+#~ msgid ""
+#~ "Member ID \"%s\" is a member ID that does not exist (or is not opened), "
+#~ "is a member ID that has been excluded, or has been blocked from access."
+#~ msgstr ""
+#~ "회원아이디 \"%s\" 은(는) 존재(또는 정보공개)하지 않는 회원아이디 이거나 탈"
+#~ "퇴, 접근차단된 회원아이디 입니다."
+
+#~ msgid "Did not send your Memo."
+#~ msgstr "쪽지를 발송하지 않았습니다."
+
+#~ msgid "Your point ( %s points) is not enough to send a Memo."
+#~ msgstr "보유하신 포인트 ( %s 점)가 모자라서 쪽지를 보낼 수 없습니다."
+
+#~ msgid "Send a memo to %s"
+#~ msgstr "%s 님께 쪽지 발송"
+
+#~ msgid "You have sent a Memo to %s."
+#~ msgstr "%s 님께 쪽지를 전달하였습니다."
+
+#~ msgid "Member ID error."
+#~ msgstr "회원아이디 오류 입니다."
+
+#~ msgid "View Memo"
+#~ msgstr "쪽지 보기"
+
+#~ msgid "Move"
+#~ msgstr "이동"
+
+#~ msgid "Copy"
+#~ msgstr "복사"
+
+#~ msgid "%s parameter is wrong"
+#~ msgstr "파라미터 %s 가 올바르지 않습니다"
+
+#~ msgid "Board admin or higher access is available."
+#~ msgstr "게시판 관리자 이상 접근이 가능합니다."
+
+#~ msgid "Post"
+#~ msgstr "글"
+
+#~ msgid "Please select at least one bulletin board to %s."
+#~ msgstr "%s 할 게시판을 한개 이상 선택하여 주십시오."
+
+#~ msgid "All current page Boards"
+#~ msgstr "현재 페이지 게시판 전체"
+
+#~ msgid "Board"
+#~ msgstr "게시판"
+
+#~ msgid "Current"
+#~ msgstr "현재"
+
+#~ msgid "Close Window"
+#~ msgstr "창 닫기"
+
+#~ msgid "Please select at least one bulletin board for %s."
+#~ msgstr "%s 할 게시판을 한개 이상 선택해 주십시오."
+
+#~ msgid "Board Admin or higher access is available."
+#~ msgstr "게시판 관리자 이상 접근이 가능합니다."
+
+#~ msgid "This post was %s from %s by %s"
+#~ msgstr "이 게시물은 %s 되었습니다, %s by %s"
+
+#~ msgid "copied"
+#~ msgstr "복사"
+
+#~ msgid "moved"
+#~ msgstr "이동"
+
+#~ msgid "Has %s this post to the selected bulletin board."
+#~ msgstr "해당 게시물을 선택한 게시판으로 %s 하였습니다."
+
+#~ msgid "New Post"
+#~ msgstr "새글"
+
+#~ msgid "All Group"
+#~ msgstr "전체그룹"
+
+#~ msgctxt "IS Comment"
+#~ msgid "[C]"
+#~ msgstr "[코]"
+
+#~ msgid "Access is only available to Super Admin"
+#~ msgstr "최고관리자만 접근이 가능합니다"
+
+#~ msgid "Delete to the request of the own User ☆"
+#~ msgstr "본인 요청으로 인한 삭제"
+
+#~ msgid "Delete own User request ☆"
+#~ msgstr "본인요청삭제☆"
+
+#~ msgid "Popup Layer Notification"
+#~ msgstr "팝업레이어 알림"
+
+#~ msgid "Not see it agagin for <strong>%s</strong> hours"
+#~ msgstr "<strong>%s</strong> 시간 동안 다시 열람하지 않습니다"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid "No pop-up layer notifications."
+#~ msgstr "팝업레이어 알림이 없습니다."
+
+#~ msgid "Read"
+#~ msgstr "읽음"
+
+#~ msgid "Unread"
+#~ msgstr "읽지않음"
+
+#~ msgid "Enter Password"
+#~ msgstr "비밀번호 입력"
+
+#~ msgid "You are already logged in."
+#~ msgstr "이미 로그인중입니다."
+
+#~ msgid "Find Account information"
+#~ msgstr "회원정보 찾기"
+
+#~ msgid "Email address is empty."
+#~ msgstr "메일주소가 비어 있습니다."
+
+#~ msgid "More than one identical email address exists."
+#~ msgstr "동일한 메일주소가 2개 이상 존재합니다."
+
+#~ msgid "Please contact your admin."
+#~ msgstr "관리자에게 문의하여 주십시오."
+
+#~ msgid "You can not access administrator ID."
+#~ msgstr "관리자 아이디는 접근 불가합니다."
+
+#~ msgid "This is the information for the requested member."
+#~ msgstr "요청하신 회원정보 찾기 안내 메일입니다."
+
+#~ msgid "Information about members"
+#~ msgstr "회원정보 찾기 안내"
+
+#~ msgid "%s member requested to find member information in %s."
+#~ msgstr "%s 회원님은 %s 에 회원정보 찾기 요청을 하셨습니다."
+
+#~ msgid ""
+#~ "Since our site does not even have an admin knowledge of your password, we "
+#~ "will inform you by creating a new password instead of giving you your "
+#~ "password."
+#~ msgstr ""
+#~ "저희 사이트는 관리자라도 회원님의 비밀번호를 알 수 없기 때문에, 비밀번호"
+#~ "를 알려드리는 대신 새로운 비밀번호를 생성하여 안내 해드리고 있습니다."
+
+#~ msgid ""
+#~ "Please check the password below and <span style=\"color:#ff3061\">click "
+#~ "the <strong>Change Password</strong> link</span>."
+#~ msgstr ""
+#~ "아래에서 변경될 비밀번호를 확인하신 후, <span style=\"color:"
+#~ "#ff3061\"><strong>비밀번호 변경</strong> 링크를 클릭 하십시오."
+
+#~ msgid ""
+#~ "When the authentication message that the password has been changed is "
+#~ "displayed, enter the member ID and changed password on the website and "
+#~ "log in."
+#~ msgstr ""
+#~ "비밀번호가 변경되었다는 인증 메세지가 출력되면, 홈페이지에서 회원아이디와 "
+#~ "변경된 비밀번호를 입력하시고 로그인 하십시오."
+
+#~ msgid ""
+#~ "Please change the password from the Modify Information menu after login."
+#~ msgstr "로그인 후에는 정보수정 메뉴에서 새로운 비밀번호로 변경해 주십시오."
+
+#~ msgid "Password to be changed"
+#~ msgstr "변경될 비밀번호"
+
+#~ msgid "Change Password"
+#~ msgstr "비밀번호 변경"
+
+#~ msgid ""
+#~ "mail address has been sent to authenticate the member ID and password."
+#~ msgstr ""
+#~ "메일로 회원아이디와 비밀번호를 인증할 수 있는 메일이 발송 되었습니다."
+
+#~ msgid "Please check your mail."
+#~ msgstr "메일을 확인하여 주십시오."
+
+#~ msgid "Your password has been changed."
+#~ msgstr "비밀번호가 변경됐습니다."
+
+#~ msgid "Please login with your member ID and changed password."
+#~ msgstr "회원아이디와 변경된 비밀번호로 로그인 하시기 바랍니다."
+
+#~ msgid "Point History for %s"
+#~ msgstr "%s 님의 포인트 내역"
+
+#~ msgid "Expiry"
+#~ msgstr "만료"
+
+#~ msgid "No Data"
+#~ msgstr "자료가 없습니다"
+
+#~ msgid "Other opinions from Poll"
+#~ msgstr "설문조사 기타의견"
+
+#~ msgid "Writer"
+#~ msgstr "작성자"
+
+#~ msgid "No poll found."
+#~ msgstr "설문조사가 없습니다."
+
+#~ msgid "Only members with Level %s or higher can view the result."
+#~ msgstr "권한 %s 이상의 회원만 결과를 보실 수 있습니다."
+
+#~ msgid "Poll Results"
+#~ msgstr "설문조사 결과"
+
+#~ msgid "Please select an item."
+#~ msgstr "항목을 선택하세요."
+
+#~ msgid "You have already voted on %s."
+#~ msgstr "%s 에 이미 투표 하셨습니다."
+
+#~ msgid "Participation in voting"
+#~ msgstr "투표 참여"
+
+#~ msgid ""
+#~ "If you dont open your profile, you cant look up other member profile."
+#~ msgstr "자신의 정보를 공개하지 않으면 다른분의 정보를 조회할 수 없습니다."
+
+#~ msgid "Profile open settings can be made in Edit Member Profile."
+#~ msgstr "정보공개 설정은 회원정보수정에서 하실 수 있습니다."
+
+#~ msgid "Introduction of %s"
+#~ msgstr "%s 님의 자기소개"
+
+#~ msgid "There is no introduction."
+#~ msgstr "소개 내용이 없습니다."
+
+#~ msgid "If you are a member, please Log in and use it."
+#~ msgstr "회원이시라면 로그인 후 이용해 주십시오."
+
+#~ msgid "Please select at least one post to delete."
+#~ msgstr "삭제할 게시글을 하나이상 선택해 주십시오."
+
+#~ msgid "You do not have download privileges."
+#~ msgstr "다운로드 권한이 없습니다."
+
+#~ msgid "Post does not exist."
+#~ msgstr "게시글이 존재하지 않습니다."
+
+#~ msgid "It has been deleted or is not your own"
+#~ msgstr "삭제되었거나 자신의 글이 아닌 경우입니다"
+
+#~ msgid "You can not modify an inquiry with a registered answer."
+#~ msgstr "답변이 등록된 문의글은 수정할 수 없습니다."
+
+#~ msgid "You do not have permission to modify the posts."
+#~ msgstr "게시글을 수정할 권한이 없습니다."
+
+#~ msgid "Please set the Category in 1:1 Inquiry settings"
+#~ msgstr "1:1문의 설정에서 분류를 설정해 주십시오"
+
+#~ msgid "Previous Answers"
+#~ msgstr "이전 답변내용"
+
+#~ msgid "Bytes"
+#~ msgstr "바이트"
+
+#~ msgid "Please specify a valid Category."
+#~ msgstr "분류를 올바르게 지정해 주십시오."
+
+#~ msgid "Please set the Category in 1:1 statement settings"
+#~ msgstr "1:1문의 설정에서 분류를 설정해 주십시오"
+
+#~ msgid "Please enter your email."
+#~ msgstr "이메일을 입력하세요."
+
+#~ msgid "Please enter a <strong>Subject</strong>."
+#~ msgstr "<strong>제목</strong>을 입력하세요."
+
+#~ msgid "Please enter a <strong>Content</strong>."
+#~ msgstr "<strong>내용</strong>을 입력하세요."
+
+#~ msgid "Content contains many invalid codes."
+#~ msgstr "내용에 올바르지 않은 코드가 다수 포함되어 있습니다."
+
+#~ msgid ""
+#~ "An error occurred because the size of the file or post content exceeds "
+#~ "the value set by the server."
+#~ msgstr ""
+#~ "파일 또는 글내용의 크기가 서버에서 설정한 값을 넘어 오류가 발생하였습니다."
+
+#~ msgid "Please contact your Board administrator or server administrator."
+#~ msgstr "게시판관리자 또는 서버관리자에게 문의 바랍니다."
+
+#~ msgid "The answer can only be registered by an administrator."
+#~ msgstr "답변은 관리자만 등록할 수 있습니다."
+
+#~ msgid "This is either deleted or not your own."
+#~ msgstr "삭제되었거나 자신의 글이 아닌 경우입니다."
+
+#~ msgid "The answer can not be registered because it does not exist."
+#~ msgstr "문의글이 존재하지 않아 답변글을 등록할 수 없습니다."
+
+#~ msgid "You can not reregister an answer in an answer article."
+#~ msgstr "답변글에는 다시 답변을 등록할 수 없습니다."
+
+#~ msgid "Please upload no more than 2 attachments."
+#~ msgstr "첨부파일을 2개 이하로 업로드 해주십시오."
+
+#~ msgid ""
+#~ "The file \" %s \" can not be uploaded because its size is greater than "
+#~ "the value set on the server (%s)."
+#~ msgstr ""
+#~ "\" %s \"파일의 용량이 서버에 설정(%s)된 값보다 크므로 업로드 할 수 없습니"
+#~ "다."
+
+#~ msgid "The file \" %s \" has not been successfully uploaded."
+#~ msgstr "\" %s \" 파일이 정상적으로 업로드 되지 않았습니다."
+
+#~ msgid ""
+#~ "The \" %s \" file will not be uploaded because its capacity ( %s bytes) "
+#~ "is greater than the value set ( %s bytes) on the bulletin board."
+#~ msgstr ""
+#~ "\" %s \" 파일의 용량( %s 바이트)이 게시판에 설정( %s 바이트)된 값보다 크므"
+#~ "로 업로드 하지 않습니다."
+
+#~ msgid "Reply notification mail"
+#~ msgstr "답변 알림 메일"
+
+#~ msgid "Question notification mail"
+#~ msgstr "질문 알림 메일"
+
+#~ msgid "Terms and conditions of Register"
+#~ msgstr "회원가입약관"
+
+#~ msgid "Mail authentication mail address change"
+#~ msgstr "메일인증 메일주소 변경"
+
+#~ msgid "This is a member who has already signed up to mail."
+#~ msgstr "이미 메일인증 하신 회원입니다."
+
+#~ msgid ""
+#~ "You can change the mail address of the member information if you do not "
+#~ "have a mail authentication."
+#~ msgstr ""
+#~ "메일인증을 받지 못한 경우 회원정보의 메일주소를 변경 할 수 있습니다."
+
+#~ msgid "Enter site information"
+#~ msgstr "사이트 이용정보 입력"
+
+#~ msgid "Required"
+#~ msgstr "필수"
+
+#~ msgid "Captcha"
+#~ msgstr "Captcha"
+
+#~ msgid "Change authentication mail"
+#~ msgstr "인증메일변경"
+
+#~ msgid "Mail address %s already exists."
+#~ msgstr "%s 메일은 이미 존재하는 메일주소 입니다."
+
+#~ msgid "Please enter other e-mail address."
+#~ msgstr "다른 메일주소를 입력해 주십시오."
+
+#~ msgid "This is the %s authentication email."
+#~ msgstr "%s 인증확인 메일입니다."
+
+#~ msgid "Send you the authentication email again in %s mail."
+#~ msgstr "인증메일을 %s 메일로 다시 보내 드렸습니다."
+
+#~ msgid "Please check the %s mail."
+#~ msgstr "잠시후 %s 메일을 확인하여 주십시오."
+
+#~ msgid ""
+#~ "You must agree to the terms and conditions of your membership before you "
+#~ "can sign up."
+#~ msgstr "회원가입약관의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#~ msgid ""
+#~ "You must agree to the information handling policy guidelines before you "
+#~ "can sign up."
+#~ msgstr "개인정보처리방침안내의 내용에 동의하셔야 회원가입 하실 수 있습니다."
+
+#~ msgid "Register"
+#~ msgstr "회원 가입"
+
+#~ msgid "Please modify admin profile on the admin screen."
+#~ msgstr "관리자의 회원정보는 관리자 화면에서 수정해 주십시오."
+
+#~ msgid "Please log in and use."
+#~ msgstr "로그인 후 이용하여 주십시오."
+
+#~ msgid "The logged in member and the passed in information are different."
+#~ msgstr "로그인된 회원과 넘어온 정보가 서로 다릅니다."
+
+#~ msgid "Edit profile"
+#~ msgstr "프로필 수정"
+
+#~ msgid "You can not do this on the demo screen."
+#~ msgstr "데모 화면에서는 할수 없는 작업입니다."
+
+#~ msgid "Its a wrong approach."
+#~ msgstr "잘못된 접근입니다."
+
+#~ msgid "Please enter a valid name."
+#~ msgstr "이름을 올바르게 입력해 주십시오."
+
+#~ msgid "Please enter a valid nickname."
+#~ msgstr "닉네임을 올바르게 입력해 주십시오."
+
+#~ msgid "Password value is empty."
+#~ msgstr "비밀번호가 비어 있습니다."
+
+#~ msgid "The passwords do not match."
+#~ msgstr "비밀번호가 일치하지 않습니다."
+
+#~ msgid ""
+#~ "You need to confirm your Self-Authentication to sign up for membership."
+#~ msgstr "회원가입을 위해서는 본인확인을 해주셔야 합니다."
+
+#~ msgid "Recommendation does not exist."
+#~ msgstr "추천인이 존재하지 않습니다."
+
+#~ msgid "You can not recommend yourself."
+#~ msgstr "본인을 추천할 수 없습니다."
+
+#~ msgid ""
+#~ "The details registered with the identification information you entered "
+#~ "exist."
+#~ msgstr "입력하신 본인확인 정보로 가입된 내역이 존재합니다."
+
+#~ msgid "Congratulations on Register"
+#~ msgstr "회원가입 축하"
+
+#~ msgid "Recommendation for %s"
+#~ msgstr "%s 의 추천인"
+
+#~ msgid "Congratulations on your membership."
+#~ msgstr "회원가입을 축하드립니다."
+
+#~ msgid "%s has been registered as a member."
+#~ msgstr "%s 님께서 회원으로 가입하셨습니다."
+
+#~ msgid "You are not logged in."
+#~ msgstr "로그인 되어 있지 않습니다."
+
+#~ msgid ""
+#~ "You can not modify the logged in information because the information you "
+#~ "are trying to modify is not correct."
+#~ msgstr "로그인된 정보와 수정하려는 정보가 틀리므로 수정할 수 없습니다."
+
+#~ msgid "Stop immediately if incorrect method is used."
+#~ msgstr "만약 올바르지 않은 방법을 사용하신다면 바로 중지하여 주십시오."
+
+#~ msgid "Upload member icon to %s bytes or less."
+#~ msgstr "회원아이콘을 %s 바이트 이하로 업로드 해주십시오."
+
+#~ msgid "% is not an image file."
+#~ msgstr "%s 은(는) 이미지 파일이 아닙니다."
+
+#~ msgid "Upload member image to %s bytes or less."
+#~ msgstr "회원이미지을 %s 바이트 이하로 업로드 해주십시오."
+
+#~ msgid "%s is not an gif/jpg file."
+#~ msgstr "%s 은(는) gif/jpg 파일이 아닙니다."
+
+#~ msgid "Member profile has been modified."
+#~ msgstr "회원 정보가 수정 되었습니다."
+
+#~ msgid "E-mail address has been changed, so you need to authenticate again."
+#~ msgstr "E-mail 주소가 변경되었으므로 다시 인증하셔야 합니다."
+
+#~ msgid "Edit Member Profile"
+#~ msgstr "회원정보수정"
+
+#~ msgid "Email to congratulate you on Sign up"
+#~ msgstr "회원가입 축하 메일"
+
+#~ msgid "Congratulations on your membership in %s."
+#~ msgstr "%s 님의 회원가입을 진심으로 축하합니다."
+
+#~ msgid "We will do our best to repay your support."
+#~ msgstr "회원님의 성원에 보답하고자 더욱 더 열심히 하겠습니다."
+
+#~ msgid ""
+#~ "Click on the <strong>mail authentication</strong> below to complete your "
+#~ "membership."
+#~ msgstr ""
+#~ "아래의 <strong>메일인증</strong>을 클릭하시면 회원가입이 완료됩니다."
+
+#~ msgid "Thank you."
+#~ msgstr "감사합니다."
+
+#~ msgid "Mail authentication"
+#~ msgstr "메일인증"
+
+#~ msgid "Go to Web site"
+#~ msgstr "사이트바로가기"
+
+#~ msgid "Register Notification Email"
+#~ msgstr "회원가입 알림 메일"
+
+#~ msgid "%s has registered."
+#~ msgstr "%s 님께서 회원가입 하셨습니다."
+
+#~ msgid "Member Name"
+#~ msgstr "회원 이름"
+
+#~ msgid "Member Nickname"
+#~ msgstr "회원 닉네임"
+
+#~ msgid "Recommendation ID"
+#~ msgstr "추천인아이디"
+
+#~ msgid "Confirm membership information in Admin"
+#~ msgstr "관리자에서 회원정보 확인하기"
+
+#~ msgid "Member authentication mail"
+#~ msgstr "회원 인증 메일"
+
+#~ msgid "This is your membership email."
+#~ msgstr "회원 인증 메일입니다."
+
+#~ msgid "The e-mail address of %s has been changed."
+#~ msgstr "%s 님의 E-mail 주소가 변경되었습니다."
+
+#~ msgid "Click on the address below to complete your certification."
+#~ msgstr "아래의 주소를 클릭하시면 인증이 완료됩니다."
+
+#~ msgid "Membership complete"
+#~ msgstr "회원가입 완료"
+
+#~ msgid "Only Boards that can read non-members support RSS."
+#~ msgstr "비회원 읽기가 가능한 게시판만 RSS 지원합니다."
+
+#~ msgid "The RSS view is disable."
+#~ msgstr "RSS 보기가 비활성화 되어 있습니다."
+
+#~ msgid "%s Scrap"
+#~ msgstr "%s 님의 스크랩"
+
+#~ msgid "[No board]"
+#~ msgstr "[게시판 없음]"
+
+#~ msgid "[No post]"
+#~ msgstr "[글 없음]"
+
+#~ msgid "Please use it in the correct way."
+#~ msgstr "올바른 방법으로 사용해 주십시오."
+
+#~ msgid "Comments can not be Scrap."
+#~ msgstr "코멘트는 스크랩 할 수 없습니다."
+
+#~ msgid "You already been Scrap."
+#~ msgstr "이미 스크랩하신 글 입니다."
+
+#~ msgid "Do you want to confirm the scrap now?"
+#~ msgstr "지금 스크랩을 확인하시겠습니까?"
+
+#~ msgid "Confirm Scrap"
+#~ msgstr "스크랩 확인하기"
+
+#~ msgid "The post you are trying to scrap does not exist."
+#~ msgstr "스크랩하시려는 게시글이 존재하지 않습니다."
+
+#~ msgid "The post can not be writed in succession too soon."
+#~ msgstr "너무 빠른 시간내에 게시물을 연속해서 올릴 수 없습니다."
+
+#~ msgid "Comment with Scrap"
+#~ msgstr "댓글쓰기(스크랩)"
+
+#~ msgid "Scraped this post."
+#~ msgstr "이 글을 스크랩 하였습니다."
+
+#~ msgid "All Search Results"
+#~ msgstr "전체검색 결과"
+
+#~ msgid "[This is Secret Post.]"
+#~ msgstr "[비밀글 입니다.]"
+
+#~ msgid "Select Board Group"
+#~ msgstr "게시판 그룹선택"
+
+#~ msgid "All Category"
+#~ msgstr "전체 분류"
+
+#~ msgid "This is a secret Comment."
+#~ msgstr "비밀 댓글 입니다."
+
+#~ msgid "Confirm comments"
+#~ msgstr "댓글 확인"
+
+#~ msgid "No comments"
+#~ msgstr "댓글이 없습니다"
+
+#~ msgid "Large image view"
+#~ msgstr "이미지 크게보기"
+
+#~ msgid "Not an image file."
+#~ msgstr "이미지 파일이 아닙니다."
+
+#~ msgid "Today"
+#~ msgstr "오늘"
+
+#~ msgid "Yesterday"
+#~ msgstr "어제"
+
+#~ msgid "Maximum"
+#~ msgstr "최대"
+
+#~ msgid "wr_id values are not used for writing."
+#~ msgstr "글쓰기에는 wr_id 값을 사용하지 않습니다."
+
+#~ msgid "You do not have permission to write."
+#~ msgstr "글을 쓸 권한이 없습니다."
+
+#~ msgid ""
+#~ "Your point (%s) is missing or enough points, so you can not write (%s)."
+#~ msgstr "보유하신 포인트(%s)가 없거나 모자라서 글쓰기(%s)가 불가합니다."
+
+#~ msgid "Collect points and write again."
+#~ msgstr "포인트를 적립하신 후 다시 글쓰기 해 주십시오."
+
+#~ msgid "Write"
+#~ msgstr "글쓰기"
+
+#~ msgid "The Reply to this post exists and can not be modified."
+#~ msgstr "이 글과 관련된 답변글이 존재하므로 수정 할 수 없습니다."
+
+#~ msgid "You can not modify a post with an Reply."
+#~ msgstr "답변글이 있는 원글은 수정할 수 없습니다."
+
+#~ msgid ""
+#~ "The comment associated with this post exists and can not be modified."
+#~ msgstr "이 글과 관련된 댓글이 존재하므로 수정 할 수 없습니다."
+
+#~ msgid "The original post with %s or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "Edit Post"
+#~ msgstr "글수정"
+
+#~ msgid "You do not have permission to reply."
+#~ msgstr "글을 답변할 권한이 없습니다."
+
+#~ msgid "You do not have permission to create an Reply."
+#~ msgstr "답변글을 작성할 권한이 없습니다."
+
+#~ msgid ""
+#~ "Your point (%s) is missing or enough points, so you can not reply (%s)."
+#~ msgstr "보유하신 포인트(%s)가 없거나 모자라서 글답변(%s)가 불가합니다."
+
+#~ msgid "Collect points and reply again."
+#~ msgstr "포인트를 적립하신 후 다시 글답변 해 주십시오."
+
+#~ msgid "Can not comment to the notice."
+#~ msgstr "공지에는 답변 할 수 없습니다."
+
+#~ msgid "This is not a normal access."
+#~ msgstr "정상적인 접근이 아닙니다."
+
+#~ msgid ""
+#~ "The secret post can only be answered by own member or by an administrator."
+#~ msgstr "비밀글에는 자신 또는 관리자만 답변이 가능합니다."
+
+#~ msgid "Can not comment to secret writings of non-members."
+#~ msgstr "비회원의 비밀글에는 답변이 불가합니다."
+
+#~ msgid "You cant reply any more."
+#~ msgstr "더 이상 답변하실 수 없습니다."
+
+#~ msgid "You can reply only up to 10 steps."
+#~ msgstr "답변은 10단계 까지만 가능합니다."
+
+#~ msgid "Cant reply any more."
+#~ msgstr "더 이상 답변하실 수 없습니다."
+
+#~ msgid "You can reply only up to 26 writes."
+#~ msgstr "답변은 26개 까지만 가능합니다."
+
+#~ msgid "Reply Post"
+#~ msgstr "글답변"
+
+#~ msgid "You don't have access, so can't write."
+#~ msgstr "접근 권한이 없으므로 글쓰기가 불가합니다."
+
+#~ msgid "Please contact your administrator for questions."
+#~ msgstr "궁금하신 사항은 관리자에게 문의 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "Self-Authentication."
+#~ msgstr "이 게시판은 본인확인 하신 회원님만 글쓰기가 가능합니다."
+
+#~ msgid "Please confirm Self-Authentication in the member profile edit."
+#~ msgstr "회원 프로필 수정에서 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "adult-Authentication."
+#~ msgstr "이 게시판은 본인확인으로 성인인증 된 회원님만 글쓰기가 가능합니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "phone-Authentication."
+#~ msgstr "이 게시판은 휴대폰 본인확인 하신 회원님만 글읽기가 가능합니다."
+
+#~ msgid "Please confirm phone-Authentication in the member profile edit."
+#~ msgstr "회원 프로필 수정에서 휴대폰 본인확인을 해주시기 바랍니다."
+
+#~ msgid ""
+#~ "This bulletin board can only be written by a member who has confirmed "
+#~ "adult by phone-Authentication."
+#~ msgstr ""
+#~ "이 게시판은 휴대폰 본인확인으로 성인인증 된 회원님만 글읽기가 가능합니다."
+
+#~ msgid "notice"
+#~ msgstr "공지"
+
+#~ msgid "Secret"
+#~ msgstr "비밀"
+
+#~ msgid "Receive response mail"
+#~ msgstr "답변메일받기"
+
+#~ msgid "You must enter a name."
+#~ msgstr "이름은 필히 입력하셔야 합니다."
+
+#~ msgid "You do not have permission to write comments."
+#~ msgstr "댓글을 쓸 권한이 없습니다."
+
+#~ msgid ""
+#~ "Your point (%s) is missing or enough points, so you can not comment (%s)."
+#~ msgstr "보유하신 포인트(%s)가 없거나 모자라서 댓글쓰기(%s)가 불가합니다."
+
+#~ msgid "Collect points and comment again."
+#~ msgstr "포인트를 적립하신 후 다시 댓글을 써 주십시오."
+
+#~ msgid "There are no comments to answer."
+#~ msgstr "답변할 댓글이 없습니다."
+
+#~ msgid "The comment might have been deleted while replying."
+#~ msgstr "답변하는 동안 댓글이 삭제되었을 수 있습니다."
+
+#~ msgid "Unable to register comments."
+#~ msgstr "댓글을 등록할 수 없습니다."
+
+#~ msgid "You can't answer any more."
+#~ msgstr "더 이상 답변하실 수 없습니다."
+
+#~ msgid "You can answer only in five stages."
+#~ msgstr "답변은 5단계 까지만 가능합니다."
+
+#~ msgid "You can answer only in 26 questions."
+#~ msgstr "답변은 26개 까지만 가능합니다."
+
+#~ msgid "Write Comment"
+#~ msgstr "댓글쓰기"
+
+#~ msgid "Original writing"
+#~ msgstr "원글"
+
+#~ msgid "Comment"
+#~ msgstr "댓글"
+
+#~ msgid "Enter"
+#~ msgstr "입력"
+
+#~ msgid "Edit"
+#~ msgstr "수정"
+
+#~ msgid "Reply"
+#~ msgstr "답변"
+
+#~ msgid "Edit Comment"
+#~ msgstr "댓글수정"
+
+#~ msgid "Board, %s message posts."
+#~ msgstr "게시판에, %s 글이 올라왔습니다."
+
+#~ msgid ""
+#~ "This comment is higher than the group admin authority and can not be "
+#~ "modified."
+#~ msgstr "그룹관리자의 권한보다 높은 회원의 댓글이므로 수정할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not modify the comment because it is not a bulletin board for the "
+#~ "group you manage."
+#~ msgstr "자신이 관리하는 그룹의 게시판이 아니므로 댓글을 수정할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not modify this comment because it is a comment from a member who "
+#~ "is above the board manager's authority."
+#~ msgstr "게시판관리자의 권한보다 높은 회원의 댓글이므로 수정할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not modify the comment because it is not a bulletin you manage."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 댓글을 수정할 수 없습니다."
+
+#~ msgid "Can not modify because it is not your own post."
+#~ msgstr "자신의 글이 아니므로 수정할 수 없습니다."
+
+#~ msgid "You do not have permission to modify comments."
+#~ msgstr "댓글을 수정할 권한이 없습니다."
+
+#~ msgid ""
+#~ "This comment can not be modified because there is an answer comment "
+#~ "associated with it."
+#~ msgstr "이 댓글와 관련된 답변댓글이 존재하므로 수정 할 수 없습니다."
+
+#~ msgid "The bulletin board information is not valid."
+#~ msgstr "게시판 정보가 올바르지 않습니다."
+
+#~ msgid "Save post"
+#~ msgstr "게시글 저장"
+
+#~ msgid "Please select a <strong>Category</strong>."
+#~ msgstr "<strong>분류</strong>를 선택하세요."
+
+#~ msgid "Select Category correctly"
+#~ msgstr "분류를 올바르게 선택하세요"
+
+#~ msgid "The post may have been deleted or moved."
+#~ msgstr "글이 삭제되었거나 이동하였을 수 있습니다."
+
+#~ msgid ""
+#~ "You can not register as a secret message because it is a non-secrete "
+#~ "bulletin board."
+#~ msgstr "비밀글 미사용 게시판 이므로 비밀글로 등록할 수 없습니다."
+
+#~ msgid "Only administrators can publish."
+#~ msgstr "관리자만 공지할 수 있습니다."
+
+#~ msgid "You can not reply to the notice."
+#~ msgstr "공지에는 답변 할 수 없습니다."
+
+#~ msgid "You can answer only up to 10 steps."
+#~ msgstr "답변은 10단계 까지만 가능합니다."
+
+#~ msgid "You can reply only up to 26 questions."
+#~ msgstr "답변은 26개 까지만 가능합니다."
+
+#~ msgid "Please enter a Subject."
+#~ msgstr "제목을 입력하여 주십시오."
+
+#~ msgid ""
+#~ "Can not delete as this is a comment because it is not a bulletin board "
+#~ "for the group you manage."
+#~ msgstr "자신이 관리하는 그룹의 게시판이 아니므로 수정할 수 없습니다."
+
+#~ msgid ""
+#~ "You can not edit an post written by a member with a privilege higher than "
+#~ "own writer."
+#~ msgstr "자신의 권한보다 높은 권한의 회원이 작성한 글은 수정할 수 없습니다."
+
+#~ msgid "You can not edit a bulletin because it is not your managed."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 수정할 수 없습니다."
+
+#~ msgid "Can not edit because it is not your own post."
+#~ msgstr "자신의 글이 아니므로 수정할 수 없습니다."
+
+#~ msgid "Please login and edit it."
+#~ msgstr "로그인 후 수정하세요."
+
+#~ msgid "Please delete existing file and upload %s or fewer attachments."
+#~ msgstr "기존 파일을 삭제하신 후 첨부파일을 %s 개 이하로 업로드 해주십시오."
+
+#~ msgid "Please upload no more than %s attachments."
+#~ msgstr "첨부파일을 %s 개 이하로 업로드 해주십시오."
+
+#~ msgid "Mail"
+#~ msgstr "메일"
+
+#~ msgid "Confirm for post on a site"
+#~ msgstr "사이트에서 게시물 확인하기"
+
+#~ msgid "%s replied to [%s]."
+#~ msgstr "%s 님이 [%s] 글에 답글을 남기셨습니다."
+
+#~ msgid "%s commented on my comment."
+#~ msgstr "%s 님이 내 댓글에 댓글을 남기셨습니다."
+
+#~ msgid "%s commented on [%s]."
+#~ msgstr "%s 님이 [%s] 글에 댓글을 남기셨습니다."
+
+#~ msgid "%s pressed [%s] in [%s]."
+#~ msgstr "%s 님이 [%s] 글을 '%s' 하셨습니다."
+
+#~ msgid "%s asked [%s] question."
+#~ msgstr "%s 님이 [%s] 질문을 남기셨습니다."
+
+#~ msgid "%s has answered [%s] question."
+#~ msgstr "%s 님이 [%s] 질문에 대한 답변을 남기셨습니다."
+
+#~ msgid "%s has sent you a message."
+#~ msgstr "%s 님이 쪽지를 보내셨습니다."
+
+#~ msgid "now"
+#~ msgstr "방금"
+
+#~ msgid "just now"
+#~ msgstr "조금 전"
+
+#~ msgid "1 minute ago"
+#~ msgstr "1분 전"
+
+#~ msgid " minutes ago"
+#~ msgstr "분 전"
+
+#~ msgid "1 hour ago"
+#~ msgstr "1시간 전"
+
+#~ msgid " hours ago"
+#~ msgstr "시간 전"
+
+#, fuzzy
+#~| msgid "Yesterday"
+#~ msgid "yesterday"
+#~ msgstr "어제"
+
+#~ msgid " days ago"
+#~ msgstr "일 전"
+
+#~ msgid " weeks ago"
+#~ msgstr "주 전"
+
+#~ msgid "last month"
+#~ msgstr "저번 달"
+
+#~ msgid " months ago"
+#~ msgstr "달 전"
+
+#~ msgid "First"
+#~ msgstr "처음"
+
+#~ msgid "Prev"
+#~ msgstr "이전"
+
+#~ msgid "Last"
+#~ msgstr "맨끝"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "Please specify %s and %s"
+#~ msgstr "%s 과 %s 를 지정해 주세요"
+
+#~ msgid "Enter contents."
+#~ msgstr "내용을 입력하세요."
+
+#~ msgid "English"
+#~ msgstr "영어"
+
+#~ msgid "Korean"
+#~ msgstr "한국어"
+
+#~ msgid "Japanese"
+#~ msgstr "일본어"
+
+#~ msgid "Chinese"
+#~ msgstr "중국어"
+
+#~ msgid "Enter member ID."
+#~ msgstr "회원아이디를 입력해 주십시오."
+
+#~ msgid "Enter only alphabetic, numeric, and _ for member ID."
+#~ msgstr "회원아이디는 영문자, 숫자, _ 만 입력하세요."
+
+#~ msgid "Please enter at least 3 characters for member ID."
+#~ msgstr "회원아이디는 최소 3글자 이상 입력하세요."
+
+#~ msgid "This member ID is already in use."
+#~ msgstr "이미 사용중인 회원아이디 입니다."
+
+#~ msgid "This member ID can not be used as a word already reserved."
+#~ msgstr "이미 예약된 단어로 사용할 수 없는 회원아이디 입니다."
+
+#~ msgid "Please enter a nickname."
+#~ msgstr "닉네임을 입력해 주십시오."
+
+#~ msgid "You can enter character, and numbers without spaces for nicknames."
+#~ msgstr "닉네임은 공백없이 한글, 영문, 숫자만 입력 가능합니다."
+
+#~ msgid "You can enter your nickname in more than 2 characters."
+#~ msgstr "닉네임을 2 글자 이상 입력해 주세요."
+
+#~ msgid "The nickname already exists."
+#~ msgstr "이미 존재하는 닉네임입니다."
+
+#~ msgid "Nickname can not be used as a word already reserved."
+#~ msgstr "이미 예약된 단어로 사용할 수 없는 닉네임 입니다."
+
+#~ msgid "Please enter your email address."
+#~ msgstr "E-mail 주소를 입력해 주십시오."
+
+#~ msgid "E-mail address is out of format."
+#~ msgstr "E-mail 주소가 형식에 맞지 않습니다."
+
+#~ msgid "Mail %s is not available."
+#~ msgstr "%s 메일은 사용할 수 없습니다."
+
+#~ msgid "This email address is already in use."
+#~ msgstr "이미 사용중인 E-mail 주소입니다."
+
+#~ msgid "Please enter a name."
+#~ msgstr "이름을 입력해 주십시오."
+
+#~ msgid "You can enter Korean characters only without spaces."
+#~ msgstr "이름은 공백없이 한글만 입력 가능합니다."
+
+#~ msgid "Please enter your mobile phone number."
+#~ msgstr "휴대폰번호를 입력해 주십시오."
+
+#~ msgid "Please enter a valid mobile phone number."
+#~ msgstr "휴대폰번호를 올바르게 입력해 주십시오."
+
+#~ msgid "The mobile phone number is already in use."
+#~ msgstr "이미 사용 중인 휴대폰번호입니다."
+
+#~ msgid "etc"
+#~ msgstr "기타"
+
+#~ msgid "Listen to numeric voices"
+#~ msgstr "숫자음성듣기"
+
+#~ msgid "Refresh"
+#~ msgstr "새로고침"
+
+#~ msgid "Please enter captcha numbers in order."
+#~ msgstr "자동등록방지 숫자를 순서대로 입력하세요."
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "You can not edit a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 수정할 수 없습니다."
+
+#~ msgid "The original text with %s or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "The original text with three or more comments can not be modified."
+#~ msgstr "댓글이 %s 건 이상 달린 원글은 수정할 수 없습니다."
+
+#~ msgid "Check comments"
+#~ msgstr "댓글내용 확인"
+
+#~ msgid "% is not an gif/jpg file."
+#~ msgstr "%s 은(는) gif/jpg 파일이 아닙니다."
+
+#~ msgid "You cant do this on the demo screen."
+#~ msgstr "데모 화면에서는 할수 없는 작업입니다."
+
+#~ msgid "Open Category"
+#~ msgstr "열린 분류"
+
+#~ msgid "You can not delete a bulletin because it is not your own."
+#~ msgstr "자신이 관리하는 게시판이 아니므로 삭제할 수 없습니다."
+
+#~ msgid "Super administrator"
+#~ msgstr "최고관리자"
+
+#~ msgid "Group administrator"
+#~ msgstr "그룹관리자"
+
+#~ msgid "Board administrator"
+#~ msgstr "게시판관리자"
+
+#~ msgid "Logging in to %s"
+#~ msgstr "%s 님 로그인 중"
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"

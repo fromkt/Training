@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-13 11:51+0900\n"
+"PO-Revision-Date: 2018-07-13 11:51+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: debugbar.php:19
+msgid "Debug"
+msgstr ""
+
+#: debugbar.php:21
+msgid "PHP RUN TIME :"
+msgstr ""
+
+#: debugbar.php:21
+msgid "MEMORY USAGE :"
+msgstr ""
+
+#: debugbar.php:27
+msgid "Close"
+msgstr ""
+
+#: debugbar.php:30
+msgid "SQL Query"
+msgstr ""
+
+#: debugbar.php:31
+msgid "Language Info"
+msgstr ""
+
+#: debugbar.php:32
+msgid "Hook Info"
+msgstr ""
+
+#: debugbar.php:38
+msgid "Total Queries :"
+msgstr ""
+
+#: debugbar.php:44 debugbar.php:81
+msgid "Query List"
+msgstr ""
+
+#: debugbar.php:48 debugbar.php:63
+msgid "RUN ORDER"
+msgstr ""
+
+#: debugbar.php:49 debugbar.php:64
+msgid "QUERY"
+msgstr ""
+
+#: debugbar.php:50 debugbar.php:65
+msgid "RUN TIME"
+msgstr ""
+
+#: debugbar.php:85 debugbar.php:98
+msgid "DOMAIN"
+msgstr ""
+
+#: debugbar.php:86 debugbar.php:99
+msgid "FILE_PATH"
+msgstr ""
+
+#: debugbar.php:117
+msgid "Language File"
+msgstr ""
+
+#: debugbar.php:121 debugbar.php:136
+msgid "Domain"
+msgstr ""
+
+#: debugbar.php:122 debugbar.php:137
+msgid "Original String"
+msgstr ""
+
+#: debugbar.php:123 debugbar.php:138
+msgid "Translation"
+msgstr ""
+
+#: debugbar.php:170 debugbar.php:246
+msgid "Hook Lists"
+msgstr ""
+
+#: debugbar.php:174
+msgid "event_tag (count)"
+msgstr ""
+
+#: debugbar.php:175 debugbar.php:216 debugbar.php:229
+msgid "event_function"
+msgstr ""
+
+#: debugbar.php:176 debugbar.php:219 debugbar.php:230 debugbar.php:252
+#: debugbar.php:295 debugbar.php:306
+msgid "argument_count"
+msgstr ""
+
+#: debugbar.php:177 debugbar.php:220 debugbar.php:231 debugbar.php:253
+#: debugbar.php:296 debugbar.php:307
+msgid "priority"
+msgstr ""
+
+#: debugbar.php:214 debugbar.php:228
+msgid "event_tag"
+msgstr ""
+
+#: debugbar.php:250
+msgid "replace_tag (count)"
+msgstr ""
+
+#: debugbar.php:251 debugbar.php:292 debugbar.php:305
+msgid "replace_function"
+msgstr ""
+
+#: debugbar.php:290 debugbar.php:304
+msgid "replace_tag"
+msgstr ""
+
+#~ msgid "No posts found."
+#~ msgstr "投稿は見つかりませんでした。"

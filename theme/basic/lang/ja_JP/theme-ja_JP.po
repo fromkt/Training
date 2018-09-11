@@ -1,0 +1,513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-06 09:59+0900\n"
+"PO-Revision-Date: 2018-08-06 09:59+0900\n"
+"Last-Translator: thisgun <thisgun@sir.kr>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: e__;__;p__:1,2c;ep__:1,2c;n__:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: mobile/skin\n"
+"X-Poedit-SearchPathExcluded-1: skin\n"
+
+#: head.php:25 mobile/head.php:16
+msgid "Go to Body"
+msgstr ""
+
+#: head.php:41
+msgctxt "Edit My Profile"
+msgid "Profile"
+msgstr "プロフィール"
+
+#: head.php:42 head.sub.php:110
+msgid "Logout"
+msgstr "ログアウト"
+
+#: head.php:44
+msgid "Register"
+msgstr "登録"
+
+#: head.php:45 mobile/head.php:134
+msgid "Login"
+msgstr "ログイン"
+
+#: head.php:49
+msgid "Admin"
+msgstr ""
+
+#: head.php:56 mobile/head.php:141
+msgid "All Search in Site"
+msgstr ""
+
+#: head.php:60
+msgid "Search term required"
+msgstr ""
+
+#: head.php:61 mobile/head.php:145
+msgid "Enter search term"
+msgstr ""
+
+#: head.php:62 mobile/head.php:146
+msgid "Search"
+msgstr ""
+
+#: head.php:68 mobile/head.php:152
+msgid "Please enter at least two characters for search term."
+msgstr ""
+
+#: head.php:69 mobile/head.php:153
+msgid "For quick searching, you can only enter one space in the search term."
+msgstr ""
+
+#: head.php:104
+msgid "Main menu"
+msgstr ""
+
+#: head.php:107 mobile/head.php:32
+msgid "Open the all menu"
+msgstr ""
+
+#: head.php:147 mobile/head.php:60
+msgid "Subcategory"
+msgstr ""
+
+#: head.php:163 head.php:202 mobile/head.php:74 mobile/head.php:117
+msgid "Preparing menu."
+msgstr ""
+
+#: head.php:165 head.php:204 mobile/head.php:75 mobile/head.php:119
+#, php-format
+msgid "You can set it in %s"
+msgstr ""
+
+#: head.php:165 head.php:204 mobile/head.php:75 mobile/head.php:119
+msgid "Admin mode &gt; Configuration &gt; Menu settings"
+msgstr ""
+
+#: head.php:172
+msgid "All menu"
+msgstr ""
+
+#: head.php:210 mobile/head.php:94 mobile/head.php:147
+msgid "close"
+msgstr ""
+
+#: head.php:239 mobile/head.php:82
+msgctxt "1:1 inquiry"
+msgid "1:1"
+msgstr ""
+
+#: head.php:240 mobile/head.php:83
+msgid "Visitor"
+msgstr ""
+
+#: head.php:241 mobile/head.php:84
+msgctxt "New posts"
+msgid "New"
+msgstr ""
+
+#: head.sub.php:105
+msgid "Super administrator"
+msgstr ""
+
+#: head.sub.php:106
+msgid "Group administrator"
+msgstr ""
+
+#: head.sub.php:107
+msgid "Board administrator"
+msgstr ""
+
+#: head.sub.php:109
+#, php-format
+msgid "Logging in to %s"
+msgstr ""
+
+#: index.php:17
+msgid "Latest articles"
+msgstr ""
+
+#: index.php:80 index.php:81
+msgid "More"
+msgstr ""
+
+#: js/list_js.php:6
+msgid "Copy Selection"
+msgstr ""
+
+#: js/list_js.php:7
+msgid "Move Selection"
+msgstr ""
+
+#: js/list_js.php:8 js/qa_list_js.php:6
+msgid "Delete Selection"
+msgstr ""
+
+#: js/list_js.php:9
+msgid "Copy"
+msgstr ""
+
+#: js/list_js.php:10
+msgid "Move"
+msgstr ""
+
+#: js/list_js.php:11 js/qa_list_js.php:7
+#, php-format
+msgid "Please select at least one item to %s."
+msgstr ""
+
+#: js/list_js.php:12 js/qa_list_js.php:8 js/view_comment_js.php:6
+msgid "Are you sure you want to delete it?"
+msgstr ""
+
+#: js/list_js.php:13
+msgid ""
+"If you selected a post with a reply, you must also select the reply post to "
+"delete the post."
+msgstr ""
+
+#: js/qa_write_js.php:6 js/write_js.php:6
+msgid "Do you want to wrap up the wrap?"
+msgstr ""
+
+#: js/qa_write_js.php:7 js/write_js.php:7
+msgid ""
+"Word wrap is a function to convert a line from a post to a tag called <br>."
+msgstr ""
+
+#: js/qa_write_js.php:8 js/write_js.php:8
+#, php-format
+msgid "The subject contains the forbidden word (%s)"
+msgstr ""
+
+#: js/qa_write_js.php:9 js/view_comment_js.php:7 js/write_js.php:9
+#, php-format
+msgid "The content contains the forbidden word (%s)"
+msgstr ""
+
+#: js/view_comment_js.php:8
+#, php-format
+msgid "Comment must be at least %s characters long."
+msgstr ""
+
+#: js/view_comment_js.php:9
+#, php-format
+msgid "Comment must be written in not more than %s characters."
+msgstr ""
+
+#: js/view_comment_js.php:10
+msgid "Please enter a comment."
+msgstr ""
+
+#: js/view_comment_js.php:11
+msgid "Please enter your name."
+msgstr ""
+
+#: js/view_comment_js.php:12
+msgid "Please enter your password."
+msgstr ""
+
+#: js/view_js.php:6
+msgid "You do not have download privileges."
+msgstr ""
+
+#: js/view_js.php:7
+msgid "If you are a member, please Log in and use it."
+msgstr ""
+
+#: js/view_js.php:8
+#, php-format
+msgid "Download the file and the point will be deducted (%s points)."
+msgstr ""
+
+#: js/view_js.php:9
+msgid ""
+"Points will be deducted only once per post and will not be deducted from the "
+"next download."
+msgstr ""
+
+#: js/view_js.php:10
+msgid "Do you still want to download?"
+msgstr ""
+
+#: js/view_js.php:11
+msgid "This post has Good."
+msgstr ""
+
+#: js/view_js.php:12
+msgid "This post has Bad."
+msgstr ""
+
+#: js/write_js.php:10
+#, php-format
+msgid "content must be at least %s characters long."
+msgstr ""
+
+#: js/write_js.php:11
+#, php-format
+msgid "content must be written in not more than %s characters."
+msgstr ""
+
+#: mobile/head.php:94 mobile/head.php:138 mobile/head.php:147
+msgid "Menu"
+msgstr ""
+
+#: mobile/tail.php:15 tail.php:26
+msgid "About Company"
+msgstr ""
+
+#: mobile/tail.php:16 tail.php:27
+msgid "Privacy Policy"
+msgstr ""
+
+#: mobile/tail.php:17 tail.php:28
+msgid "Terms of service"
+msgstr ""
+
+#: mobile/tail.php:19 tail.php:40
+msgid "Your domain."
+msgstr ""
+
+#: mobile/tail.php:21 tail.php:42
+msgid "Top"
+msgstr ""
+
+#: mobile/tail.php:24
+msgid "View PC"
+msgstr ""
+
+#: tail.php:29
+msgid "View Mobile"
+msgstr ""
+
+#: tail.php:32
+msgid "Select Site Language"
+msgstr ""
+
+#: theme.config.php:38
+msgid "Gnuboard M Basic theme"
+msgstr ""
+
+#: theme.config.php:39
+msgid ""
+"Basic theme is the Grunboard M theme provided by SIR. Basic themes comply "
+"with Web standards and accessibility."
+msgstr ""
+
+#~ msgid "Comment"
+#~ msgstr "댓글"
+
+#~ msgid "Write"
+#~ msgstr "글쓰기"
+
+#~ msgid "Notice"
+#~ msgstr "공지"
+
+#~ msgid "Reading"
+#~ msgstr "열람중"
+
+#~ msgid "Category"
+#~ msgstr "카테고리"
+
+#~ msgid "List"
+#~ msgstr "목록"
+
+#~ msgid "All current page posts"
+#~ msgstr "현재 페이지 게시물 전체"
+
+#~ msgctxt "Number"
+#~ msgid "Num"
+#~ msgstr "번호"
+
+#~ msgid "Subject"
+#~ msgstr "제목"
+
+#~ msgid "Writer"
+#~ msgstr "글쓴이"
+
+#~ msgid "Good"
+#~ msgstr "좋아요"
+
+#~ msgid "Bad"
+#~ msgstr "싫어용"
+
+#~ msgid "Date"
+#~ msgstr "날짜"
+
+#~ msgid "Count"
+#~ msgstr "건"
+
+#~ msgid "Search target"
+#~ msgstr "검색대상"
+
+#~ msgid "Content"
+#~ msgstr "내용"
+
+#~ msgid "Commenter"
+#~ msgstr "댓글이"
+
+#~ msgid "Search term"
+#~ msgstr "검색어"
+
+#~ msgid "Required"
+#~ msgstr "필수"
+
+#~ msgid "Prev"
+#~ msgstr "이전"
+
+#~ msgid "Next"
+#~ msgstr "다음"
+
+#~ msgid "Secret"
+#~ msgstr "비밀"
+
+#~ msgid "Name"
+#~ msgstr "이름"
+
+#~ msgid "Password"
+#~ msgstr "패스워드"
+
+#~ msgid "Select a Category"
+#~ msgstr "카테고리 선택"
+
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgid "Homepage"
+#~ msgstr "홈페이지"
+
+#~ msgid "Option"
+#~ msgstr "옵션"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid "Your domain"
+#~ msgstr "소유하신 도메인"
+
+#~ msgid "Full Search in Site"
+#~ msgstr "사이트 내 전체검색"
+
+#~ msgctxt "New article"
+#~ msgid "New"
+#~ msgstr "새글"
+
+#~ msgid "Open the full menu"
+#~ msgstr "전체메뉴열기"
+
+#~ msgid "Page"
+#~ msgstr "페이지"
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "Hits"
+#~ msgstr "조회수"
+
+#~ msgid "No Contents."
+#~ msgstr "컨텐츠가 없습니다."
+
+#~ msgid "Delete_selected"
+#~ msgstr "선택삭제"
+
+#~ msgid "Copy_selected"
+#~ msgstr "선택복사"
+
+#~ msgid "Move_selected"
+#~ msgstr "선택이동"
+
+#~ msgid "Search posts"
+#~ msgstr "글 검색"
+
+#~ msgid "Title + Content"
+#~ msgstr "제목+내용"
+
+#~ msgid ""
+#~ "If you do not use JavaScript,<br>please be careful not to check it "
+#~ "immediately."
+#~ msgstr ""
+#~ "자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 "
+#~ "처리하므로 주의하시기 바랍니다."
+
+#~ msgid "Receive response mail"
+#~ msgstr "답변메일받기"
+
+#~ msgid "First"
+#~ msgstr "처음"
+
+#~ msgid "Open"
+#~ msgstr "열린"
+
+#~ msgid "Last"
+#~ msgstr "맨끝"
+
+#~ msgid "Please use it in the right way."
+#~ msgstr "올바른 방법으로 이용해 주십시오."
+
+#~ msgid "Please specify %s and %s"
+#~ msgstr "%s 과 %s 를 지정해 주세요"
+
+#~ msgid "English"
+#~ msgstr "영어"
+
+#~ msgid "Korean"
+#~ msgstr "한국어"
+
+#~ msgid "Japanese"
+#~ msgstr "일본어"
+
+#~ msgid "Chinese"
+#~ msgstr "중국어"
+
+#~ msgid "Site Language"
+#~ msgstr "사이트 언어"
+
+#~ msgid "required"
+#~ msgstr "필수"
+
+#~ msgid "Site Title"
+#~ msgstr "사이트 제목"
+
+#~ msgid "관리자"
+#~ msgstr "Administrator"
+
+#~ msgid "회원가입"
+#~ msgstr "Join"
+
+#~ msgid "정보수정"
+#~ msgstr "Modify"
+
+#~ msgid "로그인"
+#~ msgstr "Login"
+
+#~ msgid "로그아웃"
+#~ msgstr "Logout"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQs"
+
+#~ msgid "1:1문의"
+#~ msgstr "1:1 contact us"
+
+#~ msgid "접속자"
+#~ msgstr "Connector"
+
+#~ msgid "새글"
+#~ msgstr "New Posts"
+
+#~ msgid "한국어"
+#~ msgstr "Korean"
+
+#~ msgid "영어"
+#~ msgstr "English"
+
+#~ msgid "일어"
+#~ msgstr "Japanese"
